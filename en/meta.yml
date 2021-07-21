@@ -7,7 +7,11 @@ copyedit: false
 last_tested: "2021-03-26"
 steps:
   - title: Introduction
-  - title: Step title
+  - title: Choose a theme
+  - title: Face shape
+  - title: Add eyes
+  - title: Add a mouth
+  - title: Add more details
   - title: Reflection
     knowledge_quiz:
       path: quiz1
