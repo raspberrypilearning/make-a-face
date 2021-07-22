@@ -13,7 +13,7 @@ You will:
 + Organise your code with functions
  
 
-<mark>Image of many different examples in a strip</mark>
+![Examples of different faces](images/strip.png)
 
 --- no-print ---
 
