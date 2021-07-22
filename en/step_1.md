@@ -27,11 +27,20 @@ You are going to make some design decisions about the kind of face you will make
 
 Look at these examples and think about how they have been made from circles, ellipses, squares, rectangles and triangles.
 </div>
-  <iframe src="https://trinket.io/embed/html/6bad88800b?outputOnly=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<div class="trinket">
+  <iframe src="https://trinket.io/embed/python/6bad88800b?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  </iframe>
 
-  <iframe src="https://trinket.io/embed/html/f90794771c?outputOnly=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+</div>
+<div class="trinket">
+  <iframe src="https://trinket.io/embed/python/f90794771c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  </iframe>
 
-  <iframe src="https://trinket.io/embed/html/b876d500ab?outputOnly=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+</div>
+<div class="trinket">
+  <iframe src="https://trinket.io/embed/python/b876d500ab?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  </iframe>
+</div>
 </div>
 
 <div style="display: flex; flex-wrap: wrap">
