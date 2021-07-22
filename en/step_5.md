@@ -5,7 +5,7 @@
 A mouth is a great way of showing emotion. Will your character have a smile, frown or something else? 
 </div>
 <div>
-![Image showing a robot face as an example of a face with a mouth.](images/robot.png){:width="300px"}
+![Image showing a robot face as an example of a face with a mouth.](images/mask.png){:width="300px"}
 </div>
 </div>
 
@@ -162,15 +162,13 @@ Add two `triangle` shapes to create the fangs. Change the `x-coordinates` for ea
 language: python
 filename: main.py
 ---
-
---- /code ---
-
 # Mouth
   fill(0)
   rect(170, 260, 60, 5) # mouth line
   fill(0)
   triangle(170, 260, 180, 280, 190, 260) # left tooth
   triangle(210, 260, 220, 280, 230, 260) # right tooth
+--- /code ---
 
 --- /collapse ---
 
