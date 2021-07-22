@@ -5,7 +5,7 @@
 Draw and colour a shape for your face or mask.
 </div>
 <div>
-![](images/eyes.png){:width="200px"}
+![](images/face.png){:width="200px"}
 </div>
 </div>
 
