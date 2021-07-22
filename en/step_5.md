@@ -5,7 +5,7 @@
 A mouth is a great way of showing emotion. Will your character have a smile, frown or something else? 
 </div>
 <div>
-![Image showing a robot face as an example of a face with a mouth.](images/mask.png){:width="300px"}
+![Image showing a robot face as an example of a face with a mouth.](images/mask.png){:width="200px"}
 </div>
 </div>
 

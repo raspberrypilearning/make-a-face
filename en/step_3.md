@@ -5,7 +5,7 @@
 Draw and colour a shape for your face or mask.
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+![](images/eyes.png){:width="200px"}
 </div>
 </div>
 

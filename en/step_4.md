@@ -5,7 +5,7 @@
 Eyes make a shape start to look like a face.
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="200px"}
 </div>
 </div>
 

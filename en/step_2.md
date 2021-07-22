@@ -5,7 +5,7 @@
 Have you got an idea about the kind of face or mask you want to make? Use this step to plan your art and set up your canvas.
 </div>
 <div>
-![The output area with a background colour.](images/image.png){:width="300px"}
+![The output area with a background colour.](images/image.png){:width="200px"}
 </div>
 </div>
 
