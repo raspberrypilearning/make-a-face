@@ -65,13 +65,38 @@ filename: main.py
 
 --- /collapse ---
 
+![The output area showing a face with rectangle facemask.](images/rectangle-mask.png)
+
+
 --- collapse ---
 
 ---
 title: Create a mouth using rectangles
 ---
 
+Robots are often shown with `rectangle` shaped mouths. Sometimes `rectangle` and `ellipse` shapes are used together to create a Grimace emoji or to add a face mask. 
 
+Add the code for a `rectangle` then create a smaller `rectangle` within it. Change the `stroke` and `fill` colours to complement your theme. Add `ellipse` shapes if needed. 
+
+**Tip:** remember to put the `ellipse` shapes above the `rectangle` code if you want them to go behind the `rectangle` shapes. 
+
+--- code ---
+---
+language: python
+filename: main.py
+---
+# Face mask
+noFill() 
+stroke(255, 255, 255) 
+ellipse(150, 250, 30, 30) # left ear loop
+ellipse(250, 250, 30, 30) # right ear loop
+fill(255, 255, 255)
+noStroke()
+rect(150, 230, 100, 40) # large white recangle
+fill(108, 200, 206)
+rect(152, 235, 96, 30) # smaller blue rectangle
+
+--- /code ---
 
 --- /collapse ---
 
