@@ -78,6 +78,8 @@ line_highlights: 9
 
 --- /code ---
 
+--- /collapse ---
+
 --- /task ---
 
 --- task ---
