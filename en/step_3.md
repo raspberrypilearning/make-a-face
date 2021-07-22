@@ -25,17 +25,16 @@ line_number_start: 11
 line_highlights: 12
 ---
 def draw():
-    ellipse(width/2, height/2, 200, 200) # circle in the middle
+  ellipse(width/2, height/2, 200, 200) # circle in the middle
 --- /code ---
 
-
-[[processing-ellipse]]
-
-
-[[processing-rect]]
+[[[processing-python-ellipse]]]
 
 
-[[processing-triangle]]
+[[[processing-python-rect]]]
+
+
+[[[processing-python-triangle]]]
 
 --- /task ---
 
@@ -59,9 +58,9 @@ line_number_start: 11
 line_highlights: 13
 ---
 def draw():
-    stroke(0) # you can also use no_stroke() 
-    fill(255, 255, 0) # bright yellow
-    ellipse(width/2, height/2, 200, 200) # circle in the middle
+  stroke(0) # you can also use no_stroke() 
+  fill(255, 255, 0) # bright yellow
+  ellipse(width/2, height/2, 200, 200) # circle in the middle
 --- /code ---
 
 
@@ -73,6 +72,5 @@ def draw():
 **Test:** Run your code and change the colour until you are happy with it.
 
 --- /task ---
-
 
 --- save ---

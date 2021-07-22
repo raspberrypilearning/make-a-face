@@ -5,7 +5,7 @@
 A mouth is a great way of showing emotion. Will your character have a smile, frown or something else? 
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+![Image showing a robot face as an example of a face with a mouth.](images/robot.png){:width="300px"}
 </div>
 </div>
 
@@ -21,13 +21,17 @@ You could add two overlapping circles to create a smile or frown. Triangles or r
 
 Add code to your `draw()` function to add a mouth.
 
+![The output area showing a smiling mouth](images/smile.png)
+
 --- collapse ---
 
 ---
-title: create a mouth from overlapping circles
+title: Create a mouth from overlapping circles
 ---
 
-Set the `fill` colour for your mouth then draw a `ellipse`. Set the `fill` colour to match the face colour then draw a second `ellipse` with a slightly higher `y-coordinate` to make a smile or a slightly lower `y-coordinate` to make a frown. 
+Set the `fill` colour for your mouth then draw a `ellipse`. Set the `fill` colour again, this time to match the face colour, then draw a second `ellipse`.
+
+Change the `y-coordinate` of the second `ellipse` to a slightly higher position for a smile or a slightly lower position for a frown. 
 
 ![The output area showing a smiling mouth](images/smile.png)
 
@@ -77,7 +81,9 @@ title: Create a mouth using rectangles
 
 --- task ---
 
-**Choose:** You could also add teeth to your mouth using shapes that change their `x-coordinate`. 
+**Choose:** You could also add multiple teeth to your mouth using shapes that change their `x-coordinate`. 
+
+![The output area showing a robot face with a row of rectangle teeth in different colours.](images/robot-teeth.png)
 
 --- collapse ---
 
@@ -85,7 +91,11 @@ title: Create a mouth using rectangles
 title: Use a loop to add a row of teeth
 ---
 
-![The output area showing a robot face with a row of rectangle teeth in different colours.](images/robot-teeth.png)
+Add code to create a `for` loop that repeats to create the number of teeth you need. 
+
+Set a `gap` variable to `0` before the loop then change it within the loop to increase by itself `+` the number you want to move the teeth along by. 
+
+Add the teeth shapes within the loop using the `gap` variable in the `x-coordinate`.
 
 --- code ---
 ---
@@ -94,21 +104,23 @@ filename: main.py
 ---
 
 # Mouth
-  fill(90, 110, 184) # starter fill colour
+  fill(90, 110, 184) 
   red = 90 # starting amount of red
   green = 110 # starting amount of green
   blue = 180 # starting amount of blue
   gap = 0 # starting amount of gap
-  for i in range (0,6): # creates a row of teeth 
+  for i in range (0,6):  
     rect(100+gap, 300, 33, 50) # x-coordinate uses gap variable to move it each loop
-    gap = gap+33 # increases each loop
+    gap = gap+33 
     fill(red, green, blue) # uses variables to control colour change each loop
-    red = red+40 # increases each loop
-    blue = blue-30 # increases each loop
+    red = red+40 
+    blue = blue-30 
 
 --- /code ---
 
 --- /collapse ---
+
+![The output area showing a vampire face with a rectangle mouth and two triangle teeth.](images/vampire.png)
 
 --- collapse ---
 
@@ -116,7 +128,24 @@ filename: main.py
 title: Use triangles to add fangs
 ---
 
+Create a `rectangle` to use as the line of the mouth. A
 
+Add two `triangle` shapes to create the fangs. Change the `x-coordinates` for each corner to position the fangs at opposite ends of the mouth line.
+
+--- code ---
+---
+language: python
+filename: main.py
+---
+
+--- /code ---
+
+# Mouth
+  fill(0)
+  rect(170, 260, 60, 5) # mouth line
+  fill(0)
+  triangle(170, 260, 180, 280, 190, 260) # left tooth
+  triangle(210, 260, 220, 280, 230, 260) # right tooth
 
 --- /collapse ---
 

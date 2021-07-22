@@ -37,9 +37,9 @@ filename: main.py
 
 You can change the change the colour and position of the eyes to get the result you want.
 
-[[processing-ellipse]]
+[[[processing-python-ellipse]]]
 
-[[processing-rgb-colours]]
+[[processing-python-rgb-colours]]
 
 --- task ---
 **Test:** Run your project each time you change it so you can see the progress you've made.

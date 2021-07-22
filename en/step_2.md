@@ -92,9 +92,6 @@ To turn the grid off add a `#` in front of the code, to turn it back on remove t
 ---
 language: python
 filename: main.py
-line_numbers: true
-line_number_start: 9
-line_highlights: 9
 ---
     grid() # Shows grid 
 
@@ -104,9 +101,6 @@ line_highlights: 9
 ---
 language: python
 filename: main.py
-line_numbers: true
-line_number_start: 9
-line_highlights: 9
 ---
     # grid() # Hides grid by turning it into a comment 
 
