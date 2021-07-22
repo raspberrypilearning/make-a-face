@@ -29,13 +29,13 @@ def draw():
 --- /code ---
 
 
-[[p5-ellipse]]
+[[processing-ellipse]]
 
 
-[[p5-rect]]
+[[processing-rect]]
 
 
-[[p5-triangle]]
+[[processing-triangle]]
 
 --- /task ---
 
@@ -65,7 +65,7 @@ def draw():
 --- /code ---
 
 
-[[p5-rgb-colours]]
+[[processing-rgb-colours]]
 
 --- /task ---
 

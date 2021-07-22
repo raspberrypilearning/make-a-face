@@ -19,20 +19,22 @@ Open the [starter project](https://trinket.io/library/trinkets/21dc61a9de){:targ
 
 --- task ---
 
-**Choose:** Think about the kind of face or mask you want to make. Do you want to choose something from your heritage or popular culture? Will your art show a human, animal, something mythical or perhaps a machine? You might even want to create a self-portrait!  
+**Choose:** Think about the kind of face you want to make. Do you want to choose something from your heritage or popular culture? Will your art show a human, animal, something mythical or perhaps a machine? You might even want to create a self-portrait!  
 
 --- /task ---
 
 --- task ---
 
-The first thing to do when creating art using the Python Processing library is to define a `setup` function that is run once at the start of your programme.
+The first thing to do when creating art using the Python Processing library is to define a `setup` function that is run once at the beginning of your programme.
 
-Creat your `setup` function and add code to set the `size` of your canvas. 
+The starter project has a `setup` function that sets the `size` of your canvas to `480` width and `400` height. 
+
+**Choose:** Experiment with the numbers and run your code to find a size that you are happy with:  
 
 --- collapse ---
 
 ---
-title: setting the screen size when your programme runs
+title: Setting the screen size when your programme starts
 ---
 
 --- code ---
@@ -40,11 +42,11 @@ title: setting the screen size when your programme runs
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 11
-line_highlights: 12
+line_number_start: 6
+line_highlights: 7
 ---
 def setup():
-    size(400,400) # Try different numbers to find a size that suits you 
+    size(480, 400) # 400, 400 works well for a round face
 
 --- /code ---
 
@@ -54,7 +56,59 @@ def setup():
 
 --- task ---
 
-**Choose:** Think about the colours you will use for your face or mask and add code to set the `background` of your canvas to a complementary colour.
+**Choose:** Think about the colours you will use for your face and change the `background` colour values to set your screen to a complementary colour:
+
+[[[generic-theory-simple-colours]]]
+
+--- collapse ---
+
+---
+title: Setting the background colour when your programme starts
+---
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 9
+line_highlights: 9
+---
+    background(255, 255, 255) # Try different numbers to change the colour 
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Tip:** The `setup` function has `grid()` code. This adds a coordinates grid over your background that helps work out where to position features on your face. 
+
+To turn the grid off add a `#` in front of the code, to turn it back on remove the `#` 
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 9
+line_highlights: 9
+---
+    grid() # Shows grid 
+
+--- /code ---
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 9
+line_highlights: 9
+---
+    # grid() # Hides grid by turning it into a comment 
+
+--- /code ---
 
 --- /task ---
 
@@ -65,10 +119,20 @@ def setup():
 --- collapse ---
 
 ---
-title: Each debug in a collapse or ingredient
+title: I've updated my size and colour but the output area stays the same
 ---
 
-Each debug in a collapse or ingredient
+After changing the code, you will need to `run` your project to see the changes in the output area. 
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: I've tried different numbers but the background color doesn't change 
+---
+
+The maximum amount of red, green or blue is `255`. Make sure all your `background` colour values are between `0` and `255`.  
 
 --- /collapse ---
 
