@@ -17,49 +17,28 @@ You will:
 
 --- no-print ---
 
---- task ---
-
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
-
-### Try it 
-
-Look at these examples and think about how they have been made from circles, ellipses, squares, rectangles and triangles.
-
-</div>
-<div>
-**Gobo watching**: [See inside](https://scratch.mit.edu/projects/495141114/editor){:target="_blank"}
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495141114/?autostart=false" frameborder="0"></iframe>
-</div>
-
-</div>
-
---- /task ---
-
 ### Get inspiration 
 
 You are going to make some design decisions about the kind of face you will make and how you will use code to get the effect you want.
 
 --- task ---
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 175px; flex-grow: 1">  
 
-Explore these example projects to get more ideas:
+Look at these examples and think about how they have been made from circles, ellipses, squares, rectangles and triangles.
+</div>
+  <iframe src="https://trinket.io/embed/html/6bad88800b?outputOnly=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-**Don't eat donut**: [See inside](https://scratch.mit.edu/projects/495865093/editor){:target="_blank"}
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495865093/?autostart=false" frameborder="0"></iframe>
+  <iframe src="https://trinket.io/embed/html/f90794771c?outputOnly=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+  <iframe src="https://trinket.io/embed/html/b876d500ab?outputOnly=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 
-**Under the sea**: [See inside](https://scratch.mit.edu/projects/495866460/editor){:target="_blank"}
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495866460/?autostart=false" frameborder="0"></iframe>
-</div>
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 175px; flex-grow: 1">  
 
-**Sporg**: [See inside](https://scratch.mit.edu/projects/495865892/editor){:target="_blank"}
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495865892/?autostart=false" frameborder="0"></iframe>
-</div>
 --- /task ---
+
 --- /no-print ---
 
 --- print-only ---
@@ -70,7 +49,9 @@ You are going to make some design decisions about the kind of face you will make
 
 See inside example projects in [Python 1: Make a face - Examples](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"} Scratch studio.
 
-<mark>one image file per example</mark>
+![The output area from the Kawaii Fruit project](images/smile.png)
+![The output area from the Totem Pole project](images/totem.png)
+![The output area from the African Mask project](images/african.png)
 
 --- /print-only ---
 
