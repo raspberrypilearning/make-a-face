@@ -15,6 +15,8 @@ You will:
 
 ![Examples of different faces](images/strip.png)
 
+<mark>Updated theatre mask: https://trinket.io/library/trinkets/5c6927e202 - changes between happy/sad depending on mouse_x</mark>
+
 --- no-print ---
 
 ### Get inspiration 
