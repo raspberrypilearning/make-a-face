@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Draw and colour a shape for your face or mask.
+Draw and colour a shape for your face or mask. Don't add the other features just yet, they will come later.
 </div>
 <div>
 ![Image of a square faced robot.](images/robot-teeth.png){:width="200px"}
@@ -14,7 +14,7 @@ Decide on the main shape of the face for your mask. It could be a circle, an ell
 
 Add code to the `draw` function to draw a face or mask. 
 
-This example uses a circle, but it's up to you.
+This example draws a circle in the middle, but it's up to you which shape to use.
 
 --- code ---
 ---
@@ -27,6 +27,8 @@ line_highlights: 12
 def draw():
   ellipse(width/2, height/2, 200, 200) # circle in the middle
 --- /code ---
+
+![The output area showing a black circle in the middle of the grid](images/black-circle.png)
 
 [[[processing-python-ellipse]]]
 

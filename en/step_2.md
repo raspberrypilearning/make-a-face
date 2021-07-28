@@ -19,7 +19,10 @@ Open the [starter project](https://trinket.io/library/trinkets/21dc61a9de){:targ
 
 --- task ---
 
-**Choose:** Think about the kind of face you want to make. Do you want to choose something from your heritage or popular culture? Will your art show a human, animal, something mythical or perhaps a machine? You might even want to create a self-portrait!  
+**Choose:** Think about the kind of face you want to make: 
++ Do you want to choose something from your heritage or popular culture? 
++ Will your art show a human, animal, something mythical or perhaps a machine? 
++ You might even want to create a self-portrait!  
 
 --- /task ---
 
