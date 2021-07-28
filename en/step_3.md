@@ -5,7 +5,7 @@
 Draw and colour a shape for your face or mask.
 </div>
 <div>
-![](images/face.png){:width="200px"}
+![Image of a square faced robot.](images/robot-teeth.png){:width="200px"}
 </div>
 </div>
 

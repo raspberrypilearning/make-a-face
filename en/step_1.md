@@ -15,8 +15,6 @@ You will:
 
 ![Examples of different faces](images/strip.png)
 
-<mark>Updated theatre mask: https://trinket.io/library/trinkets/5c6927e202 - changes between happy/sad depending on mouse_x</mark>
-
 --- no-print ---
 
 ### Get inspiration 
@@ -28,6 +26,7 @@ You are going to make some design decisions about the kind of face you will make
 <div style="flex-basis: 175px; flex-grow: 1">  
 
 Look at these examples and think about how they have been made from circles, ellipses, squares, rectangles and triangles.
+
 </div>
 **Kawaii Fruit**: [See inside](https://trinket.io/python/6bad88800b){:target="_blank"}
 <div class="trinket">

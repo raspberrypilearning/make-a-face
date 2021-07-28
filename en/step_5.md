@@ -21,8 +21,6 @@ You could add two overlapping circles to create a smile or frown. Triangles or r
 
 Add code to your `draw()` function to add a mouth.
 
-![The output area showing a smiling mouth](images/smile.png)
-
 --- collapse ---
 
 ---
@@ -65,9 +63,6 @@ filename: main.py
 
 --- /collapse ---
 
-![The output area showing a face with rectangle facemask.](images/rectangle-mask.png)
-
-
 --- collapse ---
 
 ---
@@ -75,6 +70,8 @@ title: Create a mouth using rectangles
 ---
 
 Robots are often shown with `rectangle` shaped mouths. Sometimes `rectangle` and `ellipse` shapes are used together to create a Grimace emoji or to add a face mask. 
+
+![The output area showing a face with rectangle facemask.](images/rectangle-mask.png)
 
 Add the code for a `rectangle` then create a smaller `rectangle` within it. Change the `stroke` and `fill` colours to complement your theme. Add `ellipse` shapes if needed. 
 
@@ -108,8 +105,6 @@ rect(152, 235, 96, 30) # smaller blue rectangle
 
 **Choose:** You could also add multiple teeth to your mouth using shapes that change their `x-coordinate`. 
 
-![The output area showing a robot face with a row of rectangle teeth in different colours.](images/robot-teeth.png)
-
 --- collapse ---
 
 ---
@@ -117,6 +112,8 @@ title: Use a loop to add a row of teeth
 ---
 
 Add code to create a `for` loop that repeats to create the number of teeth you need. 
+
+![The output area showing a robot face with a row of rectangle teeth in different colours.](images/robot-teeth.png)
 
 Set a `gap` variable to `0` before the loop then change it within the loop to increase by itself `+` the number you want to move the teeth along by. 
 
@@ -145,8 +142,6 @@ filename: main.py
 
 --- /collapse ---
 
-![The output area showing a vampire face with a rectangle mouth and two triangle teeth.](images/vampire.png)
-
 --- collapse ---
 
 ---
@@ -156,6 +151,8 @@ title: Use triangles to add fangs
 Create a `rectangle` to use as the line of the mouth. A
 
 Add two `triangle` shapes to create the fangs. Change the `x-coordinates` for each corner to position the fangs at opposite ends of the mouth line.
+
+![The output area showing a vampire face with a rectangle mouth and two triangle teeth.](images/vampire.png)
 
 --- code ---
 ---

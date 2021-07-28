@@ -5,7 +5,7 @@
 Does your face or mask need more details to make it more interesting? 
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/frida.png){:width="200px"}
+![Image showing a face as an example with a headband accessory.](images/frida.png){:width="200px"}
 </div>
 </div>
 
