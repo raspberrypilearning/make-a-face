@@ -12,7 +12,6 @@ You will:
 + Draw and position your art using geometric shapes and coordinates
 + Organise your code with functions
  
-
 ![Examples of different faces](images/strip.png)
 
 --- no-print ---
@@ -27,28 +26,26 @@ You are going to make some design decisions about the kind of face you will make
 
 Look at these examples and think about how they have been made from circles, ellipses, squares, rectangles and triangles.
 
-</div>
 **Kawaii Fruit**: [See inside](https://trinket.io/python/6bad88800b){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/6bad88800b?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
-
 </div>
+
 **Totem Pole**: [See inside](https://trinket.io/python/f90794771c){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/f90794771c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
-
 </div>
+
 **African Mask**: [See inside](https://trinket.io/python/b876d500ab){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/b876d500ab?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
-</div>
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
+</div>
+</div>
 
 --- /task ---
 
