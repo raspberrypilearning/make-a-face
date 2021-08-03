@@ -9,7 +9,7 @@ The creation of <span style="color: #0faeb0">**Geometric art**</span> dates back
 You will:
 
 + Use code creatively to make a piece of digital art
-+ Draw and position your art using geometric shapes and coordinates
++ Draw and position your art using geometric shapes, coordinates and layers
 + Organise your code with functions
  
 ![Examples of different faces](images/strip.png)
