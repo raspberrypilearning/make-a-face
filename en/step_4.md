@@ -49,11 +49,12 @@ You can change the change the colour and position of the eyes to get the result 
 
 --- /task ---
 
+Experiment with ellipses to create the eyes you want. 
+
 --- task ---
+###Position the eyes
 
-Experiment with ellipses to create the eyes you want. Here are some tips to help:
-
-**Tip:** The first number in `ellipse` is the center of the eye. The eyes should be positioned the same distance from the centre of the drawing. In the example, `160` and `240` are both '40' pixels away from 200 which works for a drawing with a width of 400.  
+The first number in `ellipse` is the center of the eye. The eyes should be positioned the same distance from the centre of the drawing. In the example, `160` and `240` are both '40' pixels away from 200 which works for a drawing with a width of 400.  
 
 --- collapse ---
 
@@ -101,19 +102,52 @@ Change the second number in the `ellipse` function call to move the y (vertical)
 
 --- task ---
 
-The third and fourth numbers in `ellipse` are the width and height of the eyes. 
+**Test:** Keep changing the eyes until you like the way they look.
 
-**Tip:** If you make them the same you will get round eyes.
+Is your drawing starting to look like a face? 
 
 --- /task ---
 
 --- task ---
 
-**Test:** Keep changing the eyes until you like the way they look.
+### Add detail
 
-Is your drawing starting to look like a face? 
+You can use more circles to create:
++ coloured irises
++ black pupils
++ white catchlights
++ or, something else
 
-**Tip:** You can use more circles to create pupils or coloured irises.
+--- /task ---
+
+--- task ---
+
+**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+
+--- collapse ---
+
+---
+title: I can't see the pupil or iris
+---
+
+The eye needs to be drawn first then the iris and finally the pupil. The order in which you draw things is very important.
+
+Computer graphics are made of layers. In your eye, each ellipse is a layer. Objects on higher layers sit in front of objects on lower layers. Imagine cutting all the shapes out of paper. Depending on how you arrange and overlap that paper, the final result could look very different.
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: My eyes are not round
+---
+
+The third and fourth numbers in `ellipse` are the width and height of the eyes. 
+
+**Tip:** If you make them the same you will get round eyes.
+
+--- /collapse ---
+
 
 --- /task ---
 
