@@ -18,9 +18,9 @@ You could add:
 
 + a nose
 + eyebrows
-+ ears
-+ cheeks
-+ highlights
++ ears 
++ cheeks 
++ highlights / catchlights
 + whatever!
 
 Just add the extra details that make sense for your drawing.
@@ -43,7 +43,7 @@ filename: main.py - draw()
   fill(255, 255, 255, 70) # 70 is transparency/opacity here
   ellipse(170, 150, 35, 35)
   ellipse(150, 160, 25, 25)
-  
+
 --- /code ---
 
 ![kawaii fruit image with highlights at different opacities: 30, 70, 150, 255. 30 is more opaque and 255 is less opaqe](images/opacity.png)

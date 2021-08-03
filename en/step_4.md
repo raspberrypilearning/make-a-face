@@ -10,13 +10,15 @@ Eyes make a shape start to look like a face.
 </div>
 
 --- task ---
+
 Think about what kind of eyes your face needs. The simplest eyes are just two circles. 
 
-You could add different coloured irises and pupils. You could add light highlights in a different colour. 
+You could add different coloured irises and pupils. You could add light highlights / catchlights in a different colour. 
 
 --- /task ---
 
 --- task ---
+
 Add code to your `draw` function to add two eyes.
 
 This example will draw two round black eyes:
@@ -42,17 +44,16 @@ You can change the change the colour and position of the eyes to get the result 
 [[[generic-theory-simple-colours]]]
 
 --- task ---
+
 **Test:** Run your project each time you change it so you can see the progress you've made.
+
 --- /task ---
 
 --- task ---
-Position the eyes to suit the face you are drawing. 
 
-The first number in `ellipse` is the center of the eye. The eyes should be the same distance from the center of the drawing. 
+Experiment with ellipses to create the eyes you want. Here are some tips to help:
 
-In the example, `160` and `240` are both '40' pixels away from 200 which works for a drawing with a width of 400. You will need different numbers if your drawing has a different width. 
-
-You can either change the numbers or calculate the values.
+**Tip:** The first number in `ellipse` is the center of the eye. The eyes should be positioned the same distance from the centre of the drawing. In the example, `160` and `240` are both '40' pixels away from 200 which works for a drawing with a width of 400.  
 
 --- collapse ---
 
@@ -90,35 +91,30 @@ filename: main.py - draw()
 
 --- /collapse ---
 
---- /task ---
+Change the second number in the `ellipse` function call to move the y (vertical) position of the eyes. 
 
---- task ---
-You can also change the second number in the `ellipse` function call to change the y (vertical) position of the eyes. 
+**Tip:** You could use `height / 2` to place them in the centre.
 
-You could use `height / 2` to place them in the centre.
-
-If you want the eyes to be aligned then make sure you use the same number in for both eyes.
+**Tip:** If you want the eyes to be aligned then make sure you use the same number in for both eyes.
 
 --- /task ---
 
 --- task ---
 
-The third and fourth numbers in `ellipse` are the width and height of the eyes. If you make them the same you will get round eyes.
+The third and fourth numbers in `ellipse` are the width and height of the eyes. 
 
-Experiment until you are happy with the eyes. 
+**Tip:** If you make them the same you will get round eyes.
 
 --- /task ---
 
 --- task ---
-You can use more circles to create pupils or coloured irises.
 
-You could also add white highlights to create a cute effect like in the Kawaii fruit example.
---- /task ---
-
---- task ---
 **Test:** Keep changing the eyes until you like the way they look.
 
-Is your drawing starting to look like a face?
+Is your drawing starting to look like a face? 
+
+**Tip:** You can use more circles to create pupils or coloured irises.
+
 --- /task ---
 
 --- save ---
