@@ -82,29 +82,6 @@ run()
 
   --- /feedback ---
 
-- ( ) --- code ---
----
-language: python
----
-
-def setup():
-  fill(99, 43, 108)  
-  rect(100, 100, 200, 200)
-
-def draw():
-  size(400, 400) # width and height
-  background(255, 255, 255)
-
-run()
-
---- /code --- 
-
-  --- feedback ---
-
-  No, this would cause an error. Look at the functions again, `setup` is called when the project starts to set up the initial screen. `draw` is called after `setup` to draw the shapes.
-
-  --- /feedback ---
-
 --- /choices ---
 
 --- /question ---
