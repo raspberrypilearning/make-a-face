@@ -17,11 +17,15 @@ You could add different coloured irises and pupils. You could add light highligh
 
 --- /task ---
 
+Experiment with `ellipses` in the `draw` function to create the eyes you want. 
+
 --- task ---
 
-Add code to your `draw` function to add two eyes.
+### Position the eyes
 
-This example will draw two round black eyes:
+The first number in `ellipse` is the center of the eye. The eyes should be positioned the same distance from the centre of the drawing. 
+
+In this example, `160` and `240` are both '40' pixels away from 200 which works for a drawing with a width of 400. 
 
 --- code ---
 ---
@@ -35,26 +39,7 @@ filename: main.py - draw()
 
 --- /code ---
 
---- /task ---
-
-You can change the change the colour and position of the eyes to get the result you want.
-
 [[[processing-python-ellipse]]]
-
-[[[generic-theory-simple-colours]]]
-
---- task ---
-
-**Test:** Run your project each time you change it so you can see the progress you've made.
-
---- /task ---
-
-Experiment with ellipses to create the eyes you want. 
-
---- task ---
-###Position the eyes
-
-The first number in `ellipse` is the center of the eye. The eyes should be positioned the same distance from the centre of the drawing. In the example, `160` and `240` are both '40' pixels away from 200 which works for a drawing with a width of 400.  
 
 --- collapse ---
 
@@ -94,17 +79,11 @@ filename: main.py - draw()
 
 Change the second number in the `ellipse` function call to move the y (vertical) position of the eyes. 
 
-**Tip:** You could use `height / 2` to place them in the centre.
-
-**Tip:** If you want the eyes to be aligned then make sure you use the same number in for both eyes.
-
 --- /task ---
 
 --- task ---
 
-**Test:** Keep changing the eyes until you like the way they look.
-
-Is your drawing starting to look like a face? 
+**Test:** Keep changing the shape and position of the eyes until you like the way they look.
 
 --- /task ---
 
@@ -118,17 +97,43 @@ You can use more circles to create:
 + white catchlights
 + or, something else
 
-For catchlights, change the opacity of ellipses:
+This eye has a coloured iris, black pupil, and white catchlights with changed opacity:
+![The output area showing an eye with catchlights over the pupil and iris.](images/catchlights.png)
+
+[[[generic-theory-simple-colours]]]
 [[[processing-opacity]]]
 
-This eye uses catchlights:
-![The output area showing an eye with catchlights over the pupil and iris.](images/catchlights.png)
+--- /task ---
+
+--- task ---
+
+**Test:** Keep changing the eyes until you like the way they look.
+
+Is your drawing starting to look like a face? 
 
 --- /task ---
 
 --- task ---
 
 **Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+
+--- collapse ---
+---
+title: The eyes aren't centred
+---
+
+You could use `height / 2` to place them in the centre.
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: The eyes aren't aligned with each other
+---
+
+If you want the eyes to be aligned then make sure you use the same number for coordinates for both eyes.
+
+--- /collapse ---
 
 --- collapse ---
 
