@@ -21,9 +21,9 @@ def draw():
   fill(199,107,152)
   rect(150, 250, 100, 30) # Mouth
 
-Which value in your right-eye `ellipse` function would need to be changed to verically aligned both eyes. 
-
 --- /code ---
+
+Which value in your right-eye `ellipse` function would need to be changed to verically aligned both eyes. 
 
 ![Image with a rectangle face and mouth and two ellipse eyes. The eyes are not veritcally aligned as the right eye is lower on the screen than the left.](images/lobsided-eyes.png)
 

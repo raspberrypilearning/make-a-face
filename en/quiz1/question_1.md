@@ -35,9 +35,9 @@ def draw():
 
 - ( ) ![](images/sad-mouth.png)
 
-Not quite, to create a sad mouth the second `ellipse` would need a **y_coordinate** that is lower than the first `ellipse`
-
   --- feedback ---
+
+  Not quite, to create a sad mouth the second `ellipse` would need a **y_coordinate** that is lower than the first `ellipse`.
 
   --- /feedback ---
 
