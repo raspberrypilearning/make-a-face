@@ -66,7 +66,7 @@ def draw():
 --- /code ---
 
 
-[[processing-rgb-colours]]
+[[[generic-theory-simple-colours]]]
 
 --- /task ---
 

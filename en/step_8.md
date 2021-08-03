@@ -2,7 +2,7 @@
 
 If you have time you can upgrade to your project. 
 
-Each example in this project is saved to our [Make a Face Examples library](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"} open the projects in Trinket and look at the code to get ideas and see how they work.
+Each of the examples in the [Introduction](.) is created in Trinket and you can look at the code to get ideas and see how they work.
 
 Here are some other ideas you could try:
 - Add interactivity - try our **Interactive: Theatre Mask**, what happens when you move your mouse across the screen?  
@@ -20,6 +20,6 @@ Here are some other ideas you could try:
   </iframe>
 </div>
 
-Take a look at our [Make a Face Community library](https://trinket.io/library/folder/make-a-face-community){:target="_blank"} to see projects created by community members.
+Take a look at our [Make a Face - Community library](https://wke.lt/w/s/8sVH4f){:target="_blank"} to see projects created by community members.
 
 --- save ---

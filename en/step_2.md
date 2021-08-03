@@ -11,7 +11,7 @@ Have you got an idea about the kind of face or mask you want to make? Use this s
 
 --- task ---
 
-Open the [starter project](https://trinket.io/library/trinkets/21dc61a9de){:target="_blank"}. Trinket will open in another browser tab.
+Open the [starter project](https://trinket.io/library/trinkets/54d15b9cdf){:target="_blank"}. Trinket will open in another browser tab.
 
 [[[python-offline]]]
 
