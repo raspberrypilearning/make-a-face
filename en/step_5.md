@@ -36,7 +36,7 @@ Change the `y-coordinate` of the second `ellipse` to a slightly higher position 
 --- code ---
 ---
 language: python
-filename: main.py
+filename: main.py - draw()
 ---
 
     fill(0, 0, 0) # a black mouth
@@ -51,7 +51,7 @@ filename: main.py
 --- code ---
 ---
 language: python
-filename: main.py
+filename: main.py - draw()
 ---
 
     fill(0, 0, 0) # a black mouth
@@ -80,7 +80,7 @@ Add the code for a `rectangle` then create a smaller `rectangle` within it. Chan
 --- code ---
 ---
 language: python
-filename: main.py
+filename: main.py - draw()
 ---
 # Face mask
 noFill() 
@@ -122,7 +122,7 @@ Add the teeth shapes within the loop using the `gap` variable in the `x-coordina
 --- code ---
 ---
 language: python
-filename: main.py
+filename: main.py - draw()
 ---
 
 # Mouth
@@ -157,7 +157,7 @@ Add two `triangle` shapes to create the fangs. Change the `x-coordinates` for ea
 --- code ---
 ---
 language: python
-filename: main.py
+filename: main.py - draw()
 ---
 # Mouth
   fill(0)

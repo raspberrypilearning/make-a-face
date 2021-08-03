@@ -19,7 +19,7 @@ This example draws a circle in the middle, but it's up to you which shape to use
 --- code ---
 ---
 language: python
-filename: main.py
+filename: main.py - draw()
 line_numbers: true
 line_number_start: 11
 line_highlights: 12
@@ -54,7 +54,7 @@ If you don't want an outline then use `no_stroke()`.
 --- code ---
 ---
 language: python
-filename: main.py
+filename: main.py - draw()
 line_numbers: true
 line_number_start: 11
 line_highlights: 13

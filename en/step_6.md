@@ -36,7 +36,7 @@ This code draws the overlapping highlights in the Kawaii fruit example:
 --- code ---
 ---
 language: python
-filename: main.py
+filename: main.py - draw()
 ---
 
   # Highlights

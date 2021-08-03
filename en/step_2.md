@@ -13,7 +13,7 @@ Have you got an idea about the kind of face or mask you want to make? Use this s
 
 Open the [starter project](https://trinket.io/library/trinkets/21dc61a9de){:target="_blank"}. Trinket will open in another browser tab.
 
-[[[working-offline]]]
+[[[python-offline]]]
 
 --- /task ---
 
@@ -43,7 +43,7 @@ title: Setting the screen size when your programme starts
 --- code ---
 ---
 language: python
-filename: main.py
+filename: main.py - setup()
 line_numbers: true
 line_number_start: 6
 line_highlights: 7
@@ -72,7 +72,7 @@ title: Setting the background colour when your programme starts
 --- code ---
 ---
 language: python
-filename: main.py
+filename: main.py - setup()
 line_numbers: true
 line_number_start: 9
 line_highlights: 9
@@ -94,7 +94,7 @@ To turn the grid off add a `#` in front of the code, to turn it back on remove t
 --- code ---
 ---
 language: python
-filename: main.py
+filename: main.py - setup()
 ---
     grid() # Shows grid 
 
@@ -103,9 +103,9 @@ filename: main.py
 --- code ---
 ---
 language: python
-filename: main.py
+filename: main.py - setup()
 ---
-    # grid() # Hides grid by turning it into a comment 
+    # grid() # Hide grid by turning it into a comment 
 
 --- /code ---
 

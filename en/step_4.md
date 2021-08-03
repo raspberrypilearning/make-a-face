@@ -24,7 +24,7 @@ This example will draw two round black eyes:
 --- code ---
 ---
 language: python
-filename: main.py
+filename: main.py - draw()
 ---
 
   fill(0, 0, 0) # black - change to red, green, blue up to 255
@@ -65,7 +65,7 @@ The centre of a drawing is at position `width / 2` or half the width. You can us
 --- code ---
 ---
 language: python
-filename: main.py
+filename: main.py - draw()
 ---
 
   fill(0, 0, 0) # black - change to red, green, blue up to 255
@@ -79,7 +79,7 @@ You could also calculate the width of the eyes based on width of the drawing.
 --- code ---
 ---
 language: python
-filename: main.py
+filename: main.py - draw()
 ---
 
   fill(0, 0, 0) # black - change to red, green, blue up to 255
