@@ -50,8 +50,6 @@ filename: main.py - draw()
 
 --- /code ---
 
-[[processing-opacity]]
-
 --- /task ---
 
 --- save ---
