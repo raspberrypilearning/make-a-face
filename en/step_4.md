@@ -118,6 +118,12 @@ You can use more circles to create:
 + white catchlights
 + or, something else
 
+For catchlights, change the opacity of ellipses:
+[[[processing-opacity]]]
+
+This eye uses catchlights:
+![The output area showing an eye with catchlights over the pupil and iris.](images/catchlights.png)
+
 --- /task ---
 
 --- task ---
