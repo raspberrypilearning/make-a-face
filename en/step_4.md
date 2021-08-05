@@ -103,6 +103,48 @@ This eye has a coloured iris, black pupil, and white catchlights with changed op
 [[[generic-theory-simple-colours]]]
 [[[processing-opacity]]]
 
+You can also animate the eyes by rotating them.
+
+--- collapse ---
+
+---
+title: Rotation
+---
+
+`Rotate()` moves a shape (or group of shapes) around an axis. Like a wheel, which rotates around the centre axis, you can program any of your shapes or images to move.
+
+First, think about the amount of degrees you want the shape to be rotated. In Processing, rotations happen in **radians** so you want to should convert degrees to radians using the `radians()` function:
+
+--- code ---
+---
+language: python
+---
+
+quarter = radians(90)
+
+--- /code ---
+
+Then you can call the `rotate()` function. In this example, ... rotates by 90 degrees:
+
+--- code ---
+---
+language: python
+---
+
+
+--- /code ---
+
+INCLUDE GIF
+
+--- /collapse ---
+
+--- code ---
+---
+language: python
+---
+
+--- /code ---
+
 --- /task ---
 
 --- task ---
