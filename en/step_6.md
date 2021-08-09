@@ -21,7 +21,7 @@ You could add:
 + ears 
 + cheeks 
 + highlights / catchlights
-+ whatever!
++ whatever you like!
 
 Just add the extra details that make sense for your drawing.
 
