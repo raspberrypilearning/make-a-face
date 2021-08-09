@@ -103,6 +103,10 @@ This eye has a coloured iris, black pupil, and white catchlights with changed op
 [[[generic-theory-simple-colours]]]
 [[[processing-opacity]]]
 
+You can also animate the eyes by rotating them.
+
+[[[processing-rotation]]]
+
 --- /task ---
 
 --- task ---

@@ -103,7 +103,7 @@ rect(152, 235, 96, 30) # smaller blue rectangle
 
 --- task ---
 
-**Choose:** You could also add multiple teeth to your mouth using shapes that change their `x-coordinate`. 
+**Choose:** You could also add multiple teeth to your mouth using `translate` to move the `x-coordinate` of the screen after each tooth is drawn. 
 
 --- collapse ---
 
@@ -115,9 +115,9 @@ Add code to create a `for` loop that repeats to create the number of teeth you n
 
 ![The output area showing a robot face with a row of rectangle teeth in different colours.](images/robot-teeth.png)
 
-Set a `gap` variable to `0` before the loop then change it within the loop to increase by itself `+` the number you want to move the teeth along by. 
+After each tooth has been drawn, add code to `translate()` the screen by the width of the tooth. 
 
-Add the teeth shapes within the loop using the `gap` variable in the `x-coordinate`.
+You can also add code to change the color of each tooth.
 
 --- code ---
 ---
@@ -126,17 +126,17 @@ filename: main.py - draw()
 ---
 
 # Mouth
-  fill(90, 110, 184) 
+fill(90, 110, 184) 
   red = 90 # starting amount of red
   green = 110 # starting amount of green
   blue = 180 # starting amount of blue
-  gap = 0 # starting amount of gap
   for i in range (0,6):  
-    rect(100+gap, 300, 33, 50) # x-coordinate uses gap variable to move it each loop
-    gap = gap+33 
+    rect(100, 300, 33, 50) 
     fill(red, green, blue) # uses variables to control colour change each loop
     red = red+40 
     blue = blue-30 
+    translate(33, 0) # Move the x-coordinate along by the width of a tooth
+
 
 --- /code ---
 
