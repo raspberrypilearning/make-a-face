@@ -13,8 +13,6 @@ Have you got an idea about the kind of face or mask you want to make? Use this s
 
 Open the [starter project](https://trinket.io/library/trinkets/54d15b9cdf){:target="_blank"}. Trinket will open in another browser tab.
 
-[[[python-offline]]]
-
 --- /task ---
 
 --- task ---
@@ -28,7 +26,7 @@ Open the [starter project](https://trinket.io/library/trinkets/54d15b9cdf){:targ
 
 --- task ---
 
-The first thing to do when creating art using the Python Processing library is to define a `setup` function that is run once at the beginning of your programme.
+The first thing to do when creating art using the Python Processing library is to add `def setup():` to define a `setup` function that is run once at the beginning of your programme.
 
 The starter project has a `setup` function that sets the `size` of your canvas to `480` width and `400` height. 
 
@@ -110,6 +108,26 @@ filename: main.py - setup()
 --- /code ---
 
 --- /task ---
+
+If you run your program, you will get an error because there is nothing in `draw()``
+
+--- task ---
+
+**Tip:** Add `pass` to your `draw()` function code so that you do not get an error.
+
+--- code ---
+---
+language: python
+filename: main.py - setup()
+---
+def draw():
+    # put code that will run every frame here
+    pass
+
+--- /code ---
+
+--- /task ---
+
 
 --- task ---
 
