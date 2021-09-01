@@ -10,9 +10,8 @@ If you are following the [Introduction to Python](https://projects.raspberrypi.o
 
 --- no-print ---
 
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/df07d4f46b/?autostart=false" frameborder="0"></iframe>
-</div>
+<iframe src="https://trinket.io/embed/python/df07d4f46b?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+
 
 --- /no-print ---
 
