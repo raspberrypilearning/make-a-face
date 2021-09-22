@@ -20,7 +20,8 @@ Open the [starter project](https://trinket.io/library/trinkets/54d15b9cdf){:targ
 **Choose:** Think about the kind of face you want to make: 
 + Do you want to choose something from your heritage or popular culture? 
 + Will your art show a human, animal, something mythical or perhaps a machine? 
-+ You might even want to create a self-portrait!  
++ You might even want to create a self-portrait!
++ You could try an emoji.  
 
 --- /task ---
 
@@ -28,7 +29,7 @@ Open the [starter project](https://trinket.io/library/trinkets/54d15b9cdf){:targ
 
 The first thing to do when creating art using the Python Processing library is to add `def setup():` to define a `setup` function that is run once at the beginning of your programme.
 
-The starter project has a `setup` function that sets the `size` of your canvas to `480` width and `400` height. 
+The starter project has a `setup` function that sets the `size` of your canvas to `400` width and `400` height. 
 
 **Choose:** Experiment with the numbers and run your code to find a size that you are happy with:  
 
@@ -47,7 +48,7 @@ line_number_start: 6
 line_highlights: 7
 ---
 def setup():
-    size(480, 400) # 400, 400 works well for a round face
+    size(400, 400) # 400, 400 works well for a round face
 
 --- /code ---
 
@@ -70,7 +71,7 @@ title: Setting the background colour when your programme starts
 --- code ---
 ---
 language: python
-filename: main.py - setup()
+filename: main.py - draw()
 line_numbers: true
 line_number_start: 9
 line_highlights: 9
@@ -85,14 +86,14 @@ line_highlights: 9
 
 --- task ---
 
-**Tip:** The `setup` function has `grid()` code. This adds a coordinates grid over your background that helps work out where to position features on your face. 
+**Tip:** The `draw` function has `grid()` code. This adds a coordinates grid over your background that helps work out where to position features on your face. 
 
 To turn the grid off add a `#` in front of the code, to turn it back on remove the `#` 
 
 --- code ---
 ---
 language: python
-filename: main.py - setup()
+filename: main.py - draw()
 ---
     grid() # Shows grid 
 
@@ -101,7 +102,7 @@ filename: main.py - setup()
 --- code ---
 ---
 language: python
-filename: main.py - setup()
+filename: main.py - draw()
 ---
     # grid() # Hide grid by turning it into a comment 
 
@@ -109,22 +110,9 @@ filename: main.py - setup()
 
 --- /task ---
 
-If you run your program, you will get an error because there is nothing in `draw()``
-
 --- task ---
 
-**Tip:** Add `pass` to your `draw()` function code so that you do not get an error.
-
---- code ---
----
-language: python
-filename: main.py - setup()
----
-def draw():
-    # put code that will run every frame here
-    pass
-
---- /code ---
+**Test:** Run your project to see your chosen screen size and background colour. 
 
 --- /task ---
 

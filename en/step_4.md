@@ -32,12 +32,14 @@ In this example, `160` and `240` are both '40' pixels away from 200 which works 
 language: python
 filename: main.py - draw()
 ---
-
   fill(0, 0, 0) # black - change to red, green, blue up to 255
-  ellipse(160, 220, 50, 50) # x, y, width, height
-  ellipse(240, 220, 50, 50)
+  eye_size = 50
+  ellipse(160, 180, eye_size, eye_size) # x, y, width, height
+  ellipse(240, 180, eye_size, eye_size)
 
---- /code ---
+--- /code --- 
+
+**Tip:** If you want round eyes then using an `eye_size` variable makes it easier to change the width and height of both eyes in one place.
 
 [[[processing-python-ellipse]]]
 
@@ -56,8 +58,9 @@ filename: main.py - draw()
 ---
 
   fill(0, 0, 0) # black - change to red, green, blue up to 255
-  ellipse( (width / 2) - 40, 220, 50, 50) # x, y, width, height
-  ellipse( (width / 2) + 40 , 220, 50, 50)
+  eye_size = 50
+  ellipse( (width / 2) - 40, 180, eye_size, eye_size) # x, y, width, height
+  ellipse( (width / 2) + 40 , 180, eye_size, eye_size)
 
 --- /code ---
 
@@ -70,8 +73,8 @@ filename: main.py - draw()
 ---
 
   fill(0, 0, 0) # black - change to red, green, blue up to 255
-  ellipse( (width / 2) - (width / 10) , 220, 50, 50) # x, y, width, height
-  ellipse( (width / 2) + (width / 10) , 220, 50, 50)
+  ellipse( (width / 2) - (width / 10) , 180, eye_size, eye_size) # x, y, width, height
+  ellipse( (width / 2) + (width / 10) , 180, eye_size, eye_size)
 
 --- /code ---
 
@@ -84,6 +87,10 @@ Change the second number in the `ellipse` function call to move the y (vertical)
 --- task ---
 
 **Test:** Keep changing the shape and position of the eyes until you like the way they look.
+
+**Tip:** If you set a stroke for drawing the face and don't want one for the eyes then you will need to call `no_stroke()` before drawing the eyes. 
+
+[[[processing-stroke]]]
 
 --- /task ---
 
@@ -135,7 +142,7 @@ You could use `height / 2` to place them in the centre.
 title: The eyes aren't aligned with each other
 ---
 
-If you want the eyes to be aligned then make sure you use the same number for coordinates for both eyes.
+If you want the eyes to be aligned then make sure you use the same number for coordinates for both eyes. Try using a variable so that the values are always the same. 
 
 --- /collapse ---
 

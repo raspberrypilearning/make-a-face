@@ -5,81 +5,46 @@
 legend: Question 3 of 3
 ---
 
-In your project, you used functions to draw a face.
+Eli was commissioned to design a face to be used on a t-shirt. Eli wrote code using variables for all the different positions, sizes and colours in their design.
 
-Here, you want to code a rectangle face shape. Which code would draw a rectangle? 
+The company loved it! They have asked Eli to create lots more similar designs. 
+
+Why did making the design with code make it quicker for Eli to make lots of new designs?
 
 --- choices ---
 
-- ( ) --- code ---
----
-language: python
----
-
-def setup():
-  size(400, 400) # width and height
-  background(255, 255, 255)
-  fill(99, 43, 108)  
-  rect(100, 100, 200, 200)
-
-def draw():
-
-run()
-
---- /code ---
+- ( ) Coding is fun.
 
   --- feedback ---
 
-  This would not draw a rectangle because there is no code in the `draw` functions so the program would return an error. What would you move to the `draw` function?
+True, but that's not why it made it quicker for Eli to produce lots of new designs.
+ 
+  --- /feedback ---
+
+- (x) It's easy to change the numbers stored in variables to make lots of new designs.
+
+  --- feedback ---
+
+Correct! Eli was able to quickly make lots of slightly different versions of their design by changing the numbers stored in the variables. 
 
   --- /feedback ---
 
-- (x) --- code ---
----
-language: python
----
-
-def setup():
-  size(400, 400) # width and height
-  background(255, 255, 255)
-
-def draw():
-  fill(99, 43, 108)  
-  rect(100, 100, 200, 200)
-
-run()
-
---- /code ---
-
+- ( ) The code runs really quickly.
 
   --- feedback ---
 
-  Yes, the code here is organised into two functions. The first `setup` function sets the size and background and the second `draw` function draws a filled rectangle.
-
+True, but that doesn't help to create lots of different designs.
+  
   --- /feedback ---
 
-- () --- code ---
----
-language: python
----
+--- /choices ---
 
-def setup():
-
-def draw():
-  size(400, 400) # width and height
-  background(255, 255, 255)
-  fill(99, 43, 108)  
-  rect(100, 100, 200, 200)
-
-run()
-
---- /code ---
-
+- ( ) Variables always have different numbers every time you run your program.
 
   --- feedback ---
 
-  This code would not draw a rectangle, because the screen output `size` is not set in the `setup` function and having no code in the 'setup' function would cause the program to return an error. What would you move to the 'setup' function
-
+Not quite. Variables have the value you assign to them. If you assign a number to a variable (such as `eye_radius = 50`) and don't change it then it will be the same every time you run the program.  
+  
   --- /feedback ---
 
 --- /choices ---

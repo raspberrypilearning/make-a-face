@@ -1,65 +1,80 @@
-
 --- question ---
 
 ---
 legend: Question 2 of 3
 ---
 
-In the project you added two eyes and used the **y-coordinate** to veritically align them. The code below draws a face but the eyes are not vertically aligned. 
+In your project you added code to draw a face with many features. The order of your code was extremely important to make the face look like your design. 
+
+If you ran this code, what would the face look like? 
 
 --- code ---
 ---
 language: python
+
 ---
 
 def draw():
-  fill(99, 43, 108)  
-  rect(100, 100, 200, 200) # Face
-  fill(240,159,156)
-  ellipse(150, 150, 60, 80) # Left eye
-  ellipse(250, 200, 60, 80) # Right eye
-  fill(199,107,152)
-  rect(150, 250, 100, 30) # Mouth
+
+  # Face
+  stroke(0) # black
+  fill(255) # white
+  ellipse(200, 200, 200, 190)
+  no_stroke()
+  
+  # Eyes
+  fill(0, 255, 0) # green
+  ellipse(160, 180, 60, 60)
+  ellipse(240, 180, 60, 60)
+  fill(0) # black
+  ellipse(160, 180, 30, 30)
+  ellipse(240, 180, 30, 30)
+  
+run()
 
 --- /code ---
 
-Which value in your right-eye `ellipse` function would need to be changed to verically aligned both eyes. 
-
-![Image with a rectangle face and mouth and two ellipse eyes. The eyes are not veritcally aligned as the right eye is lower on the screen than the left.](images/lobsided-eyes.png)
-
 --- choices ---
 
-- ( ) `60`
+- ( ) 
 
-  --- feedback ---
+![A white face with black outline. There are two solid green eyes with black outline](images/face1.png)
 
-  No, this controls the width of the `ellipse`. Both eyes have the same width. 
+ --- feedback ---
 
-  --- /feedback ---
+ Not quite, look at the order of the ellipse() and the stroke() functions.
 
-- ( ) `80`
+ --- /feedback ---
 
-  --- feedback ---
+- ( ) 
 
-  No, this controls the height of the `ellipse`. Both eyes have the same height. 
+![A white face with black outline. There are two green eyes with black pupils both have a black outline](images/face2.png)
 
-  --- /feedback ---
+ --- feedback ---
 
-- () `250`
+ Not quite, look at the order of the stroke() functions.
 
-  --- feedback ---
+ --- /feedback ---
 
-  Not quite, `250` is the **x-coordinate** in an `ellipse` and controls the horizontal position. If this value was changed the eyes would not be positioned equally along the horizontal axis.
+- (x) 
 
-  --- /feedback ---
+![A white face with black outline. There are two green eyes with black pupils the eyes do not have an outline](images/face3.png)
 
-- (x) `200`
+ --- feedback ---
 
-  --- feedback ---
+ Correct, the code draws a face with black stroke then turns off the stroke before drawing the circles. The green circles are drawn first with the black circles on top of them.
 
-  That's correct! `200` is the **y-coordinate** in an `ellipse`. To make both `ellipse(x-coordinate, y-coordinate, width, height)` vertically align the right-eye ellipse must be `ellipse(250, 150, 60, 80)`   
+ --- /feedback ---
 
-  --- /feedback ---
+- ( ) 
+
+![A white face with black outline. There are two solid green eyes that do not have an outline](images/face4.png)
+
+ --- feedback ---
+
+ Not quite, look at the order of the ellipse() functions.
+
+ --- /feedback ---
 
 --- /choices ---
 
