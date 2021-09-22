@@ -83,12 +83,12 @@ language: python
 filename: main.py - draw()
 ---
 # Face mask
-noFill() 
+no_fill() 
 stroke(255, 255, 255) 
 ellipse(150, 250, 30, 30) # left ear loop
 ellipse(250, 250, 30, 30) # right ear loop
 fill(255, 255, 255)
-noStroke()
+no_stroke()
 rect(150, 230, 100, 40) # large white recangle
 fill(108, 200, 206)
 rect(152, 235, 96, 30) # smaller blue rectangle
@@ -168,6 +168,33 @@ filename: main.py - draw()
   triangle(170, 260, 180, 280, 190, 260) # left tooth
   triangle(210, 260, 220, 280, 230, 260) # right tooth
 --- /code ---
+
+--- /collapse ---
+
+--- /task ---
+
+--- task ---
+
+**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+
+--- collapse ---
+
+---
+title: My overlapping shape goes outside the face
+---
+
+If you use two overlapping shapes to create a mouth then you need to make sure the shape that is the same colour as the face doesn't go outside the face. If it does then change the width or height of the shape so that it's small enough to fit inside the face. 
+
+--- /collapse ---
+
+
+--- collapse ---
+
+---
+title: I have too many teeth
+---
+
+Don't forget that `range()` creates a sequence of numbers starting from 0 not 1. This may make a difference to your code depending on how you have positioned your teeth. 
 
 --- /collapse ---
 

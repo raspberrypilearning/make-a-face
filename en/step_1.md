@@ -32,13 +32,13 @@ Look at these examples and think about how they have been made from circles, ell
   </iframe>
 </div>
 
-**Totem Pole**: [See inside](https://trinket.io/python/f90794771c){:target="_blank"}
+**Stacked faces**: [See inside](https://trinket.io/python/f90794771c){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/f90794771c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-**African Mask**: [See inside](https://trinket.io/python/b876d500ab){:target="_blank"}
+**Tribal Mask**: [See inside](https://trinket.io/python/b876d500ab){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/b876d500ab?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
@@ -59,9 +59,9 @@ You are going to make some design decisions about the kind of face you will make
 
 See inside example projects in [Python 1: Make a face - Examples](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"} Scratch studio.
 
-![The output area from the Kawaii Fruit project](images/smile.png)
-![The output area from the Totem Pole project](images/totem.png)
-![The output area from the African Mask project](images/african.png)
+![The output area from the Kawaii fruit project](images/smile.png)
+![The output area from the Stacked faces project](images/stacked.png)
+![The output area from the Tribal mask project](images/tribal.png)
 
 --- /print-only ---
 

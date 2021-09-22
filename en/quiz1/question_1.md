@@ -24,9 +24,9 @@ language: python
 
 ---
 def draw():
-  fill(0, 0, 0)
+  fill(0, 0, 0) # black
   ellipse(160, 200, 150,150)
-  fill(255, 255, 255)
+  fill(255, 255, 255) # white
   ellipse(160, 150, 150,150)
 
 --- /code ---

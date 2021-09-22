@@ -12,7 +12,7 @@ Draw and colour a shape for your face or mask. Don't add the other features just
 --- task ---
 Decide on the main shape of the face for your mask. It could be a circle, an ellipse, a rectangle, or even a triangle.
 
-Add code to the `draw` function to draw a face or mask. 
+Add code to the `draw()` function to draw a face or mask. Make sure you also remove `pass` from inside the function.
 
 This example draws a circle in the middle, but it's up to you which shape to use.
 
@@ -49,6 +49,8 @@ def draw():
 
 Choose a stroke colour for the outline and a fill colour for the main part of the shape.
 
+[[[processing-stroke]]]
+
 If you don't want an outline then use `no_stroke()`.
 
 --- code ---
@@ -64,7 +66,6 @@ def draw():
   fill(255, 255, 0) # bright yellow
   ellipse(width/2, height/2, 200, 200) # circle in the middle
 --- /code ---
-
 
 [[[generic-theory-simple-colours]]]
 
