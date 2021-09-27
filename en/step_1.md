@@ -3,16 +3,16 @@
 Write Python code to draw a face or mask using geometric shapes. 
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The creation of <span style="color: #0faeb0">**Geometric art**</span> dates back to Ancient Greece where vases would be painted with patterns made up of shapes. Artists began using shapes to draw humans and animals with circles for heads, triangle bodies and lines for legs and arms.
+The creation of <span style="color: #0faeb0">**Geometric art**</span> dates back to Ancient Greece where vases would be painted with patterns made up of shapes. Artists began using shapes to draw humans and animals with circles for heads, triangle bodies, and lines for legs and arms.
 </p>
 
 You will:
 
 + Use code creatively to make a piece of digital art
-+ Draw and position your art using geometric shapes, coordinates and layers
++ Draw and position your art using geometric shapes, coordinates, and layers
 + Organise your code with functions
  
-![Examples of different faces](images/strip.png)
+![Examples of different faces.](images/strip.png)
 
 --- no-print ---
 
@@ -24,9 +24,9 @@ You are going to make some design decisions about the kind of face you will make
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-Look at these examples and think about how they have been made from circles, ellipses, squares, rectangles and triangles.
+Look at these examples and think about how they have been made from circles, ellipses, squares, rectangles, and triangles.
 
-**Kawaii Fruit**: [See inside](https://trinket.io/python/6bad88800b){:target="_blank"}
+**Kawaii fruit**: [See inside](https://trinket.io/python/6bad88800b){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/6bad88800b?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
@@ -38,7 +38,7 @@ Look at these examples and think about how they have been made from circles, ell
   </iframe>
 </div>
 
-**Tribal Mask**: [See inside](https://trinket.io/python/b876d500ab){:target="_blank"}
+**Tribal mask**: [See inside](https://trinket.io/python/b876d500ab){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/b876d500ab?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
@@ -57,11 +57,11 @@ Look at these examples and think about how they have been made from circles, ell
 
 You are going to make some design decisions about the kind of face you will make and how you will use code to get the effect you want.
 
-See inside example projects in [Python 1: Make a face - Examples](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"} Scratch studio.
+See inside example projects in [Python 1: Make a face — Examples](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"} Scratch studio.
 
-![The output area from the Kawaii fruit project](images/smile.png)
-![The output area from the Stacked faces project](images/stacked.png)
-![The output area from the Tribal mask project](images/tribal.png)
+![The output area from the Kawaii fruit project.](images/smile.png)
+![The output area from the Stacked faces project.](images/stacked.png)
+![The output area from the Tribal mask project.](images/tribal.png)
 
 --- /print-only ---
 
