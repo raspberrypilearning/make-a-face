@@ -64,7 +64,7 @@ filename: main.py - draw()
 
 --- /code ---
 
-You could also calculate the width of the eyes based on width of the drawing.
+You could also calculate the width of the eyes based on the width of the drawing.
 
 --- code ---
 ---
@@ -142,7 +142,7 @@ You could use `height / 2` to place them in the centre.
 title: The eyes aren't aligned with each other
 ---
 
-If you want the eyes to be aligned, then make sure you use the same number for coordinates for both eyes. Try using a variable so that the values are always the same. 
+If you want the eyes to be aligned, then make sure you use the same number for the coordinates for both eyes. Try using a variable so that the values are always the same. 
 
 --- /collapse ---
 
