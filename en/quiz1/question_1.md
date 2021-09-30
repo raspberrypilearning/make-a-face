@@ -1,10 +1,10 @@
 ## Reflection
 
-Well done, you have learned a lot! Now it's time to reflect - reflecting is an important part of learning because it helps make new connections in your brain.
+Well done, you have learnt a lot! Now it's time to reflect — reflecting is an important part of learning because it helps make new connections in your brain.
 
-Answer the three questions below to reflect on what you've learned.
+Answer the three questions below to reflect on what you've learnt.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+After each question, press **submit**. You will be guided towards the correct answer. You can do this activity as many times as you want to.
 
 Have fun!
 
@@ -24,10 +24,10 @@ language: python
 
 ---
 def draw():
-  fill(0, 0, 0) # black
-  ellipse(160, 200, 150,150)
-  fill(255, 255, 255) # white
-  ellipse(160, 150, 150,150)
+  fill(0, 0, 0) #Black
+  ellipse(160, 200, 150, 150)
+  fill(255, 255, 255) #White
+  ellipse(160, 150, 150, 150)
 
 --- /code ---
 
@@ -45,7 +45,7 @@ def draw():
 
   --- feedback ---
 
-  That's correct! The second ellipse is drawn with a **y_coordinate** that is higher than the first `ellipse`. 
+  That's correct! The second `ellipse` is drawn with a **y_coordinate** that is higher than the first `ellipse`. 
 
   --- /feedback ---
 
