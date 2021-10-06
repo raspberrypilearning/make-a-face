@@ -2,11 +2,11 @@
 
 If you have time you can upgrade to your project. 
 
-Each of the examples in the [Introduction](.) is created in Trinket and you can look at the code to get ideas and see how they work.
+Each of the examples in the [Introduction](.) was created in Trinket and you can look at the code to get ideas and see how they work.
 
 Here are some other ideas you could try:
-- Add interactivity - try our **Interactive: Theatre Mask**, what happens when you move your mouse across the screen?  
-- Add animation - try our **Animated: Frida** , what happens to Frida's headband when you run the project? 
+- Add interactivity — try our **Interactive: Theatre Mask**, what happens when you move your mouse across the screen?  
+- Add animation — try our **Animated: Frida**, what happens to Frida's headband when you run the project? 
 
 **Interactive: Theatre Mask**: [See inside](https://trinket.io/python/86d89fad13){:target="_blank"}
 <div class="trinket">
@@ -20,6 +20,6 @@ Here are some other ideas you could try:
   </iframe>
 </div>
 
-Take a look at our [Make a Face - Community library](https://wke.lt/w/s/8sVH4f){:target="_blank"} to see projects created by community members.
+Take a look at our [Make a face - Community library](https://wke.lt/w/s/8sVH4f){:target="_blank"} to see projects created by community members.
 
 --- save ---

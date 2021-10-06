@@ -5,7 +5,7 @@
 Draw and colour a shape for your face or mask. Don't add the other features just yet, they will come later.
 </div>
 <div>
-![Image of a square faced robot.](images/robot-teeth.png){:width="200px"}
+![Image of a square-faced robot.](images/robot-teeth.png){:width="200px"}
 </div>
 </div>
 
@@ -24,11 +24,11 @@ line_numbers: true
 line_number_start: 11
 line_highlights: 12
 ---
-def draw():
-  ellipse(width/2, height/2, 200, 200) # circle in the middle
+def draw():   
+  ellipse(width/2, height/2, 200, 200) #Circle in the middle
 --- /code ---
 
-![The output area showing a black circle in the middle of the grid](images/black-circle.png)
+![The output area showing a black circle in the middle of the grid.](images/black-circle.png)
 
 [[[processing-python-ellipse]]]
 
@@ -51,7 +51,7 @@ Choose a stroke colour for the outline and a fill colour for the main part of th
 
 [[[processing-stroke]]]
 
-If you don't want an outline then use `no_stroke()`.
+If you don't want an outline, then use `no_stroke()`.
 
 --- code ---
 ---
@@ -62,9 +62,9 @@ line_number_start: 11
 line_highlights: 13
 ---
 def draw():
-  stroke(0) # you can also use no_stroke() 
-  fill(255, 255, 0) # bright yellow
-  ellipse(width/2, height/2, 200, 200) # circle in the middle
+  stroke(0) #You can also use no_stroke() 
+  fill(255, 255, 0) #Bright yellow
+  ellipse(width/2, height/2, 200, 200) #Circle in the middle
 --- /code ---
 
 [[[generic-theory-simple-colours]]]

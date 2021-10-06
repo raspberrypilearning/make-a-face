@@ -5,7 +5,7 @@
 legend: Question 3 of 3
 ---
 
-Eli was commissioned to design a face to be used on a t-shirt. Eli wrote code using variables for all the different positions, sizes and colours in their design.
+Eli was commissioned to design a face to be used on a t-shirt. Eli wrote code using variables for all the different positions, sizes, and colours in their design.
 
 The company loved it! They have asked Eli to create lots more similar designs. 
 
