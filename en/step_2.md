@@ -27,7 +27,7 @@ Open the [starter project](https://trinket.io/library/trinkets/54d15b9cdf){:targ
 
 --- task ---
 
-The first thing to do when creating art using the Python `Processing library` is to add `def setup():` to define a `setup` function that is run once at the beginning of your programme.
+The first thing to do when creating art using the Python `Processing library` is to add `def setup():` to define a `setup` function that is run once at the beginning of your program.
 
 The starter project has a `setup` function that sets the `size` of your canvas to `400` width and `400` height. 
 
@@ -36,7 +36,7 @@ The starter project has a `setup` function that sets the `size` of your canvas t
 --- collapse ---
 
 ---
-title: Setting the screen size when your programme starts
+title: Setting the screen size when your program starts
 ---
 
 --- code ---
@@ -65,7 +65,7 @@ def setup():
 --- collapse ---
 
 ---
-title: Setting the background colour when your programme starts
+title: Setting the background colour when your program starts
 ---
 
 --- code ---
