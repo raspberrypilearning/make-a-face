@@ -10,6 +10,7 @@ Does your face or mask need more details to make it more interesting?
 </div>
 
 --- task ---
+
 You can use more shapes to add more features to your face or mask.
 
 How can you give the face more personality? 
