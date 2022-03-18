@@ -9,7 +9,9 @@ Draw and colour a shape for your face or mask. Don't add the other features just
 </div>
 </div>
 
---- task --- Decide on the main shape of the face for your mask. It could be a circle, an ellipse, a rectangle, or even a triangle.
+--- task ---
+
+Decide on the main shape of the face for your mask. It could be a circle, an ellipse, a rectangle, or even a triangle.
 
 Add code to the `draw()` function to draw a face or mask. Make sure you also remove `pass` from inside the function.
 
@@ -20,8 +22,11 @@ This example draws a circle in the middle, but it's up to you which shape to use
 language: python filename: main.py - draw() line_numbers: true line_number_start: 11
 line_highlights: 12
 ---
+
 def draw():   
-ellipse(width/2, height/2, 200, 200) #Circle in the middle --- /code ---
+ellipse(width/2, height/2, 200, 200) #Circle in the middle
+
+--- /code ---
 
 ![The output area showing a black circle in the middle of the grid.](images/black-circle.png)
 
@@ -35,7 +40,9 @@ ellipse(width/2, height/2, 200, 200) #Circle in the middle --- /code ---
 
 --- /task ---
 
---- task --- **Test:** Run your code and change it to get the face size and shape that you want.
+--- task ---
+
+**Test:** Run your code and change it to get the face size and shape that you want.
 
 --- /task ---
 
@@ -52,13 +59,18 @@ If you don't want an outline, then use `no_stroke()`.
 language: python filename: main.py - draw() line_numbers: true line_number_start: 11
 line_highlights: 13
 ---
-def draw(): stroke(0) #You can also use no_stroke() fill(255, 255, 0) #Bright yellow ellipse(width/2, height/2, 200, 200) #Circle in the middle --- /code ---
+
+def draw(): stroke(0) #You can also use no_stroke() fill(255, 255, 0) #Bright yellow ellipse(width/2, height/2, 200, 200) #Circle in the middle
+
+--- /code ---
 
 [[[generic-theory-simple-colours]]]
 
 --- /task ---
 
---- task --- **Test:** Run your code and change the colour until you are happy with it.
+--- task ---
+
+**Test:** Run your code and change the colour until you are happy with it.
 
 --- /task ---
 
