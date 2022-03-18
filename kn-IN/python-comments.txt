@@ -10,6 +10,8 @@ Circle in the middle
 
 You can also use no_stroke()
 
+Bright yellow
+
 Black — change to red, green, or blue up to 255
 
 x, y, width, height
