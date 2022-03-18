@@ -10,8 +10,6 @@ orange
 
 brown
 
-green
-
 purple
 
 grey
