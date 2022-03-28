@@ -13,7 +13,7 @@ steps:
   - title: Add eyes
   - title: Add a mouth
   - title: Add more details
-      completion: internal  
+    completion: internal  
   - title: Reflection
     knowledge_quiz:
       path: quiz1
