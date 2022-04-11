@@ -8,7 +8,9 @@ If you are following the [Introduction to Python](https://projects.raspberrypi.o
 
 --- /print-only ---
 
---- no-print --- <iframe src="https://trinket.io/embed/python/974800f4ef?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+--- no-print ---
+
+<iframe src="https://trinket.io/embed/python/974800f4ef?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
 --- /no-print ---
