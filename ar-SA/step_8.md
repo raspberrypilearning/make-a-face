@@ -1,20 +1,20 @@
-## Upgrade your project
+## قم بترقية او تطوير مشروعك
 
-If you have time you can upgrade to your project.
+إذا كان لديك الوقت ، يمكنك تطوير مشروعك.
 
-Each of the examples in the [Introduction](.) was created in Trinket and you can look at the code to get ideas and see how they work.
+تم إنشاء كل من الأمثلة الواردة في [المقدمة](.) في Trinket ويمكنك إلقاء نظرة على الكود للحصول على أفكار ومعرفة كيفية عملها.
 
-Here are some other ideas you could try:
-- Add interactivity — try our **Interactive: Theatre Mask**, what happens when you move your mouse across the screen?
-- Add animation — try our **Animated: Frida**, what happens to Frida's headband when you run the project?
+إليك بعض الأفكار لمساعدتك:
+- إضافة تفاعلية - جرب **Interactive: Theatre Mask**، ماذا يحدث عندما تحرك الماوس عبر الشاشة؟
+- أضف رسومًا متحركة - جرب **Animated: Frida**، ماذا يحدث لعصابة رأس Frida عند تشغيل المشروع؟
 
-**Interactive: Theatre Mask**: [See inside](https://trinket.io/python/86d89fad13){:target="_blank"}
+**مكيوين ترتان**[انظر في الداخل](https://trinket.io/python/86d89fad13){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/86d89fad13?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-**Animated: Frida**: [See inside](https://trinket.io/python/3d69be294a){:target="_blank"}
+**أسد محبوس**: [انظر من الداخل](https://trinket.io/python/3d69be294a){: target = "_ blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/3d69be294a?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
