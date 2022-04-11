@@ -20,6 +20,6 @@
   </iframe>
 </div>
 
-Take a look at our [Make a face - Community library](https://wke.lt/w/s/8sVH4f){:target="_blank"} to see projects created by community members.
+ألق نظرة على ['Silly eyes - Community' Scratch studio](https://wke.lt/w/s/8sVH4f){: target = "_ blank"} لمشاهدة المشروعات التي أنشأها أعضاء المجتمع.
 
 --- save ---
