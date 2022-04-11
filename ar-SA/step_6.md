@@ -1,38 +1,38 @@
-## Add more details
+## أضف المزيد من التفاصيل
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Does your face or mask need more details to make it more interesting? 
+هل يحتاج وجهك أو قناعك إلى مزيد من التفاصيل لجعله أكثر تشويقًا؟ 
 </div>
 <div>
-![Image showing a face as an example with a headband accessory.](images/frida.png){:width="200px"}
+! [صورة تظهر وجه كمثال مع ملحق عصابة رأس.] (images / frida.png) {: width = "200px"}
 </div>
 </div>
 
 --- task ---
 
-You can use more shapes to add more features to your face or mask.
+يمكنك استخدام المزيد من الأشكال لإضافة المزيد من الميزات إلى وجهك أو قناعك.
 
-How can you give the face more personality?
+كيف يمكنك إعطاء الوجه المزيد من الشخصية؟
 
-You could add:
+يمكنك إضافة:
 
-+ A nose
-+ Eyebrows
-+ Ears
-+ Cheeks
-+ Highlights / catchlights
-+ Whatever you like!
++ أنف
++ الحاجبين
++ آذان
++ الخدين
++ يسلط الضوء / الأضواء
++ ايا كان ما تحب!
 
-Just add the extra details that make sense for your drawing.
+ما عليك سوى إضافة التفاصيل الإضافية التي تناسب الرسم.
 
 --- /task ---
 
 --- task ---
 
-You can make partly transparent colours by adding a fourth number to an RGB colour to give the **opacity**.
+يمكنك إنشاء ألوان شفافة جزئيًا عن طريق إضافة رقم رابع إلى لون RGB لإعطاء "عتامة".
 
-This code draws the overlapping highlights in the Kawaii fruit example:
+يرسم هذا الرمز النقاط البارزة المتداخلة في مثال فاكهة الكيوي:
 
 --- code ---
 ---
@@ -47,7 +47,7 @@ ellipse(150, 160, 25, 25)
 
 --- /code ---
 
-![Kawaii fruit image with highlights at different opacities: 30, 70, 150, 255. The lower value, 30, is more opaque and 255 is less opaque.](images/opacity.png)
+![صورة فاكهة الكيوي مع الإبرازات بدرجات تعتيم مختلفة: 30 ، 70 ، 150 ، 255. القيمة الأقل ، 30 ، تكون أكثر تعتيمًا و 255 أقل تعتيمًا.](images/opacity.png)
 
 --- /task ---
 
