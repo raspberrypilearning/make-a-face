@@ -1,42 +1,43 @@
-## Choose a theme
+## اختر شكلاً
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Have you got an idea about the kind of face or mask you want to make? Use this step to plan your art and set up your canvas.
+هل لديك فكرة عن نوع الوجه أو القناع الذي تريد صنعه؟ استخدم هذه الخطوة لتخطيط فنك وإعداد لوحتك.
 </div>
 <div>
-![The output area with a vampire-themed face.](images/vampire.png){:width="200px"}
+![منطقة المخرجات مع الهدف وحامل الهدف.] 
+(images/vampire.png) {"width="300px:}
 </div>
 </div>
 
 --- task ---
 
-Open the [starter project](https://trinket.io/library/trinkets/54d15b9cdf){:target="_blank"}. Trinket will open in another browser tab.
+افتح مشروع البدء [](https://trinket.io/library/trinkets/54d15b9cdf){: target = "_ blank"}. سيتم فتح Trinket في نافذة متصفح أخرى.
 
 --- /task ---
 
 --- task ---
 
-**Choose:** Think about the kind of face you want to make:
-+ Do you want to choose something from your heritage or popular culture?
-+ Will your art show a human, animal, something mythical, or perhaps a machine?
-+ You might even want to create a self-portrait!
-+ You could draw an emoji to share with your friends
+**اختر:** فكر في نوع الوجه الذي تريد صنعه:
++ هل تريد أن تختار شيئًا من تراثك أو ثقافتك الشعبية؟
++ هل سيُظهر فنك إنسانًا أو حيوانًا أو شيئًا أسطوريًا أو ربما آلة؟
++ قد ترغب حتى في إنشاء صورة ذاتية!
++ يمكنك رسم رمز تعبيري لمشاركته مع أصدقائك
 
 --- /task ---
 
 --- task ---
 
-The first thing to do when creating art using the Python `Processing library` is to add `def setup():` to define a `setup` function that is run once at the beginning of your program.
+أول شيء يجب فعله عند إنشاء فن باستخدام مكتبة Python `Processing Library` هو إضافة `def setup():` لتعريف دالة `setup` يتم تشغيلها مرة واحدة في بداية البرنامج.
 
-The starter project has a `setup` function that sets the `size` of your canvas to `400` width and `400` height.
+يحتوي مشروع البداية على دالة `setup` تعيّن الحجم `` من لوحتك إلى `400` عرض و `400`طول.
 
-**Choose:** Experiment with the numbers and run your code to find a size that you are happy with.
+**اختر:** جرب الأرقام وقم بتشغيل التعليمات البرمجية الخاصة بك للعثور على الحجم الذي يناسبك.
 
 --- collapse ---
 
 ---
-title: Setting the screen size when your program starts
+title: ضبط حجم الشاشة عند بدء البرنامج
 ---
 
 --- code ---
@@ -55,23 +56,29 @@ size(400, 400) #400 by 400 works well for a round face
 
 --- task ---
 
-**Choose:** Think about the colours you will use for your face and change the `background` colour values to set your screen to a complementary colour.
+**اختر:** فكر في الألوان التي ستستخدمها لوجهك وغيّر </code>خلفية` شاشتك على لون مكمل.</p>
 
-[[[generic-theory-simple-colours]]]
+<p spaces-before="0">[[[generic-theory-simple-colours]]]</p>
 
---- collapse ---
+<p spaces-before="0">--- collapse ---</p>
 
----
-title: Setting the background colour when your program starts
----
+<hr />
 
---- code ---
----
-language: python filename: main.py - draw() line_numbers: true line_number_start: 9
-line_highlights: 9
----
+<h2 spaces-before="0">title: ضبط لون الشاشة عند بدء البرنامج</h2>
 
-    background(255, 255, 255) #Try different numbers to change the colour
+<p spaces-before="0">--- code ---</p>
+
+<hr />
+
+<p spaces-before="0">language: python
+filename: main.py - draw()
+line_numbers: true
+line_number_start: 9</p>
+
+<h2 spaces-before="0">line_highlights: 9</h2>
+
+<pre><code>background(255, 255, 255) #Try different numbers to change the colour 
+`</pre>
 
 --- /code ---
 
@@ -81,9 +88,9 @@ line_highlights: 9
 
 --- task ---
 
-**Tip:** The `draw` function has `grid()` code. This adds a coordinates grid over your background that helps you work out where to position features on your face.
+**نصيحة:** دالة `draw` لها `تعليمة برمجية grid()`. يضيف هذا شبكة إحداثيات على خلفيتك تساعدك على معرفة مكان وضع الميزات على وجهك.
 
-To turn the grid off add a `#` in front of the code, to turn it back on remove the `#`.
+لإيقاف تشغيل الشبكة ، أضف `#` أمام الكود ، ولإعادة تشغيله ، قم بإزالة `#`.
 
 --- code ---
 ---
@@ -109,35 +116,35 @@ filename: main.py - draw()
 
 --- task ---
 
-**Test:** Run your project to see your chosen screen size and background colour.
+**اختبار:** قم بتشغيل التعليمات البرمجية الخاصة بك لمعرفة لون الخلفية.
 
 --- /task ---
 
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**تصحيح:** قد تجد بعض الأخطاء في مشروعك والتي تحتاج إلى إصلاحها. فيما يلي بعض الأخطاء الشائعة.
 
 --- collapse ---
 
 ---
-title: I've updated my size and colour but the output area stays the same
+title: لقد قمت بتحديث الحجم واللون ولكن منطقة الإخراج تبقى كما هي
 ---
 
-After changing the code, you will need to `run` your project to see the changes in the output area.
+بعد تغيير الرمز ، ستحتاج إلى `تشغيل` لمشروعك لمعرفة التغييرات في منطقة الإخراج.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: I've tried different numbers but the background colour doesn't change
+title: لقد جربت أرقامًا مختلفة ولكن لون الخلفية لا يتغير
 ---
 
-The maximum amount of red, green, or blue is `255`. Make sure all your `background` colour values are between `0` and `255`.
+الحد الأقصى لمقدار اللون الأحمر أو الأخضر أو الأزرق هو</code>255`. تأكد من أن جميع قيم لون الخلفية` الخاصة بك تتراوح بين `0` و</code>255.  </p>
 
---- /collapse ---
+<p spaces-before="0">--- /collapse ---</p>
 
---- /task ---
+<p spaces-before="0">--- /task ---</p>
 
---- save ---
+<p spaces-before="0">--- save ---</p>
