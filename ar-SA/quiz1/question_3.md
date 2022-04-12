@@ -2,48 +2,48 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+القائمة: السؤال 3 من 3
 ---
 
-Eli was commissioned to design a face to be used on a t-shirt. Eli wrote code using variables for all the different positions, sizes, and colours in their design.
+تم تكليف Eli بتصميم وجه لاستخدامه على قميص. قام Eli بكتابة التعليمات البرمجية باستخدام متغيرات لجميع المواضع والأحجام والألوان المختلفة في تصميمها.
 
-The company loved it! They have asked Eli to create lots more similar designs.
+أحببت الشركة ذلك! لقد طلبوا من Eli إنشاء المزيد من التصميمات المتشابهة.
 
-Why did making the design with code make it quicker for Eli to make lots of new designs?
+لماذا جعل التصميم باستخدام الكود أمر أسرع بالنسبة لإيلي لعمل الكثير من التصميمات الجديدة؟
 
 --- choices ---
 
-- ( ) Coding is fun.
+- () البرمجة ممتعة.
 
   --- feedback ---
 
-True, but that's not why it made it quicker for Eli to produce lots of new designs.
+صحيح ، لكن هذا ليس السبب في جعل إنتاج Eli للكثير من التصميمات الجديدة أسرع.
 
   --- /feedback ---
 
-- (x) It's easy to change the numbers stored in variables to make lots of new designs.
+- (x) من السهل تغيير الأرقام المخزنة في المتغيرات لعمل الكثير من التصميمات الجديدة.
 
   --- feedback ---
 
-Correct! Eli was able to quickly make lots of slightly different versions of their design by changing the numbers stored in the variables.
+صحيح! كان Eli قادرًا على عمل الكثير من الإصدارات المختلفة قليلاً من تصميمهم بسرعة عن طريق تغيير الأرقام المخزنة في المتغيرات.
 
   --- /feedback ---
 
-- ( ) The code runs really quickly.
+- () يعمل الكود بسرعة كبيرة.
 
   --- feedback ---
 
-True, but that doesn't help to create lots of different designs.
+صحيح ، لكن هذا لا يساعد في إنشاء الكثير من التصميمات المختلفة.
 
   --- /feedback ---
 
 --- /choices ---
 
-- ( ) Variables always have different numbers every time you run your program.
+- () تحتوي المتغيرات دائمًا على أرقام مختلفة في كل مرة تقوم فيها بتشغيل برنامجك.
 
   --- feedback ---
 
-Not quite. Variables have the value you assign to them. If you assign a number to a variable (such as `eye_radius = 50`) and don't change it then it will be the same every time you run the program.
+ليس تماما. المتغيرات لها القيمة التي تخصصها لها. إذا قمت بتعيين رقم إلى متغير (مثل `eye_radius = 50`) ولم تقم بتغييره ، فسيكون هو نفسه في كل مرة تقوم فيها بتشغيل البرنامج.
 
   --- /feedback ---
 
