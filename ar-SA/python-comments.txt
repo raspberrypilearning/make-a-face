@@ -1,139 +1,139 @@
-400 by 400 works well for a round face
+400 × 400 مناسبة للوجه المستدير
 
-Try different numbers to change the colour
+جرب أرقامًا مختلفة لتغيير اللون
 
-Shows grid
+يظهر الشبكة
 
-Hide grid by turning it into a comment
+إخفاء الشبكة بتحويلها إلى تعليق
 
-Circle in the middle
+دائرة في المنتصف
 
-You can also use no_stroke()
+يمكنك أيضًا استخدام no_stroke()
 
-Bright yellow
+أصفر فاقع
 
-Black — change to red, green, or blue up to 255
+أسود - قم بالتغيير إلى اللون الأحمر أو الأخضر أو الأزرق حتى 255
 
-x, y, width, height
+x ، y ، العرض ، الارتفاع
 
-A black mouth
+فم أسود
 
-An orange face
+وجه برتقالي
 
-Higher circle
+دائرة أعلى
 
-Lower circle
+الدائرة السفلية
 
-Face mask
+قناع الوجه
 
-Left ear loop
+حلقة الأذن اليسرى
 
-Right ear loop
+حلقة الأذن اليمنى
 
-Large white rectangle
+مستطيل أبيض كبير
 
-Smaller blue rectangle
+مستطيل أزرق أصغر
 
-Mouth
+فم
 
-Starting amount of red
+مقدار البداية من الأحمر
 
-Starting amount of green
+مقدار البداية من الاخضر
 
-Starting amount of blue
+مقدار البداية من الازرق
 
-Uses variables to control the colour change each loop
+يستخدم المتغيرات للتحكم في تغيير اللون في كل حلقة
 
-Move along the x coordinate by the width of a tooth
+تحرك على طول الإحداثي x بعرض السن
 
-Mouth line
+خط الفم
 
-Left tooth
+السن الايسر
 
-Right tooth
+السن الأيمن
 
-Highlights
+تسليط الضوء
 
-70 is transparency/opacity here
+الدرجة 70 هي للشفافية / العتامة هنا
 
-Black
+أسود
 
-White
+أبيض
 
-Eyes
+عيون
 
-Face
+وجه
 
-Green
+أخضر
 
-Put code to run once here
+ضع الشفرة البرمجية للتشغيل مرة واحدة هنا
 
-width and height
+العرض والارتفاع
 
-move under draw() to reset the drawing every frame
+تحرك تحت draw() لإعادة رسم كل إطار
 
-Put code to run every frame here
+ضع التعليمة البرمجية لتشغيل كل إطار هنا
 
-draw mask
+ارسم القناع
 
-eyes and mouth
+عيون وفم
 
-partly cover eyes and mouth
+تغطي العين والفم جزئيا
 
-cover top of mask
+غطاء أعلى القناع
 
-shade half of the mask
+الظل نصف القناع
 
-Put code to run when the mouse is pressed here
+ضع التعليمات البرمجية للتشغيل عند الضغط على الماوس هنا
 
-Keep this to run your code
+احتفظ بهذا لتشغيل التعليمات البرمجية الخاصة بك
 
-Definitions for compatibility with the p5py processing library
+تعاريف للتوافق مع مكتبة معالجة p5py
 
-Shape
+شكل
 
-Fonts
+الخطوط
 
-Text
+نص
 
-Colour
+اللون
 
-Images
+صور
 
-Environment
+بيئة
 
-Transform
+تحول
 
-Keyboard
+لوحة المفاتيح
 
-Hair and face
+الشعر والوجه
 
-stalk
+الساق
 
-Top face background
+أعلى خلفية الوجه
 
-Top face hair
+قمة شعر الوجه
 
-Top face left eye
+أعلى وجه العين اليسرى
 
-Top face right eye
+أعلى وجه العين اليمنى
 
-Top face mouth
+أعلى الوجه بالفم
 
-Bottom face background
+خلفية الوجه السفلي
 
-Bottom face hair
+شعر الوجه السفلي
 
-Bottom face left eye
+الوجه السفلي العين اليسرى
 
-Bottom face right eye
+أعلى وجه العين اليمنى
 
-Bottom face mouth
+اسفل الوجه بالفم
 
-Nose
+الأنف
 
-Face markings
+علامات الوجه
 
-Hair
+شعر
 
-add a # to the beginning of this line to hide the grid
+أضف # إلى بداية هذا السطر لإخفاء الشبكة
