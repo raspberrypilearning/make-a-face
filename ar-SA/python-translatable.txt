@@ -20,7 +20,7 @@
 
 حزين
 
-happy
+سعيد
 
 x_middle
 
@@ -28,4 +28,4 @@ y_eye
 
 y_mouth
 
-mask_width
+عرض_قناع
