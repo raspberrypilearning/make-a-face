@@ -1,52 +1,58 @@
-## Add eyes
+## أضف العيون
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Eyes make a shape start to look like a face.
+العيون تجعل الشكل يبدأ ليبدو كوجه.
 </div>
 <div>
-![The output area showing a face with eyes.](images/eyes.png){:width="200px"}
+! [منطقة المخرجات تظهر هدفًا بخمس دوائر.](images/five_circles.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Think about what kind of eyes your face needs. The simplest eyes are just two circles.
+فكر في نوع العيون التي يحتاجها وجهك. أبسط العيون عبارة عن دائرتين فقط.
 
-You could add different coloured irises and pupils. You could add light highlights / catchlights in a different colour.
+يمكنك إضافة قزحية ملونة مختلفة والتلاميذ. يمكنك إضافة الضوء / الأضواء الخاطفة بلون مختلف.
 
 --- /task ---
 
-Experiment with `ellipses` in the `draw` function to create the eyes you want.
+جرب `اشكال بيضوية` في دالة `draw` لإنشاء العيون التي تريدها.
 
 --- task ---
 
-### Position the eyes
+### ضع العيون
 
-The first number in `ellipse` is the center of the eye. The eyes should be positioned the same distance from the centre of the drawing.
+الرقم الأول في `الشكل البيضوي` هو مركز العين. يجب وضع العينين على نفس المسافة من مركز الرسم.
 
-In this example, `160` and `240` are both `40` pixels away from 200, which works for a drawing with a width of 400.
+في هذا المثال ، `160` و</code> 240 `يبعدان بمقدار ` 40 ` عن 200، وهو ما يصلح لرسم بعرض 400. </p>
 
---- code ---
----
-language: python
-filename: main.py - draw()
----
-  fill(0, 0, 0) #Black — change to red, green, or blue up to 255 eye_size = 50 ellipse(160, 180, eye_size, eye_size) #x, y, width, height ellipse(240, 180, eye_size, eye_size)
+<p spaces-before="0">--- code ---</p>
 
---- /code ---
+<hr />
 
-**Tip:** If you want round eyes, then using an `eye_size` variable makes it easier to change the width and height of both eyes in one place.
+<p spaces-before="0">language: python</p>
+
+<h2 spaces-before="0">filename: main.py - draw()</h2>
+
+<p spaces-before="2">fill(0, 0, 0) #Black — change to red, green, or blue up to 255
+  eye_size = 50
+  ellipse(160, 180, eye_size, eye_size) #x, y, width, height
+  ellipse(240, 180, eye_size, eye_size)</p>
+
+<p spaces-before="0">--- /code --- </p>
+
+<p spaces-before="0"><strong x-id="1">نصيحة:</strong> إذا كنت تريد عيونًا مستديرة ، فإن استخدام متغير <code>eye_size` يجعل من السهل تغيير عرض وارتفاع كلتا العينين في مكان واحد.
 
 [[[processing-python-ellipse]]]
 
 --- collapse ---
 
 ---
-title: Calculating positions based on width
+title: حساب المراكز على أساس العرض
 ---
 
-The centre of a drawing is at position `width / 2` or half the width. You can use this to position the eyes by subtracting the eye width for the left eye and adding it for the right eye:
+يقع مركز الرسم في الموضع `عرض / 2` أو نصف العرض. يمكنك استخدام هذا لوضع العينين عن طريق طرح عرض العين للعين اليسرى وإضافته للعين اليمنى:
 
 --- code ---
 ---
@@ -58,7 +64,7 @@ filename: main.py - draw()
 
 --- /code ---
 
-You could also calculate the width of the eyes based on the width of the drawing.
+يمكنك أيضًا حساب عرض العيون بناءً على عرض الرسم.
 
 --- code ---
 ---
@@ -72,15 +78,15 @@ filename: main.py - draw()
 
 --- /collapse ---
 
-Change the second number in the `ellipse` function call to move the `y` (vertical) position of the eyes.
+قم بتغيير الرقم الثاني في استدعاء دالة `ellipse` لتحريك موضع `y` (رأسيًا) للعينين.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Keep changing the shape and position of the eyes until you like the way they look.
+**اختبار:** استمر في تغيير شكل وموضع العينين حتى تعجبك الطريقة التي تبدو بها.
 
-**Tip:** If you set a stroke for drawing the face and don't want one for the eyes, then you will need to call `no_stroke()` before drawing the eyes.
+**نصيحة:** إذا قمت بتعيين حد لرسم الوجه ولا تريد رسمًا للعين ، فستحتاج إلى استدعاء `no_stroke ()` قبل رسم العيون.
 
 [[[processing-stroke]]]
 
@@ -88,19 +94,19 @@ Change the second number in the `ellipse` function call to move the `y` (vertica
 
 --- task ---
 
-### Add detail
+### أضف التفاصيل
 
-You can use more circles to create:
-+ Coloured irises
-+ Black pupils
-+ White catchlights
-+ Or, something else
+يمكنك استخدام المزيد من الدوائر لإنشاء:
++ قزحية ملونة
++ بؤبؤ عين اسود
++ الأضواء البيضاء
++ أو أي شيء آخر
 
-This eye has a coloured iris, black pupil, and white catchlights with changed opacity: ![The output area showing an eye with catchlights over the pupil and iris.](images/catchlights.png)
+تحتوي هذه العين على قزحية ملونة ، وبؤبؤ أسود ، وأضواء بيضاء متغيرة التعتيم: ![تُظهر منطقة الإخراج عينًا بها أضواء خاطفة على التلميذ والقزحية.](images/catchlights.png)
 
 \[[[generic-theory-simple-colours]]\] \[[[processing-opacity\]]]
 
-You can also animate the eyes by rotating them.
+يمكنك أيضًا تحريك العيون عن طريق تدويرها.
 
 [[[processing-rotation]]]
 
@@ -108,55 +114,56 @@ You can also animate the eyes by rotating them.
 
 --- task ---
 
-**Test:** Keep changing the eyes until you like the way they look.
+**اختبار:** استمر في تغيير شكل وموضع العينين حتى تعجبك الطريقة التي تبدو بها.
 
-Is your drawing starting to look like a face?
+هل بدأ رسمك يبدو كوجه؟
 
 --- /task ---
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**تصحيح:** قد تجد بعض الأخطاء في مشروعك والتي تحتاج إلى إصلاحها. فيما يلي بعض الأخطاء الشائعة.
 
 --- collapse ---
 ---
-title: The eyes aren't centred
+title: العيون ليست في المنتصف
 ---
 
-You could use `height / 2` to place them in the centre.
+يمكنك استخدام ارتفاع</code> `في المركز.</p>
 
---- /collapse ---
+<p spaces-before="0">--- /collapse ---</p>
 
---- collapse ---
----
-title: The eyes aren't aligned with each other
----
+<p spaces-before="0">--- collapse ---</p>
 
-If you want the eyes to be aligned, then make sure you use the same number for the coordinates for both eyes. Try using a variable so that the values are always the same.
+<hr />
 
---- /collapse ---
+<h2 spaces-before="0">title: العيون غير محاذية لبعضها البعض</h2>
 
---- collapse ---
+<p spaces-before="0">إذا كنت تريد محاذاة العينين ، فتأكد من استخدام نفس الرقم للإحداثيات لكلتا العينين. حاول استخدام متغير بحيث تكون القيم هي نفسها دائمًا. </p>
 
----
-title: I can't see the pupil or iris
----
+<p spaces-before="0">--- /collapse ---</p>
 
-The eye needs to be drawn first, then the iris, and finally the pupil. The order in which you draw things is very important.
+<p spaces-before="0">--- collapse ---</p>
 
-Computer graphics are made of layers. In your eye, each ellipse is a layer. Objects on higher layers sit in front of objects on lower layers. Imagine cutting all the shapes out of paper. Depending on how you arrange and overlap that paper, the final result could look very different.
+<hr />
 
---- /collapse ---
+<h2 spaces-before="0">title: لا أستطيع رؤية بؤبؤ العين أو قزحية العين</h2>
 
---- collapse ---
+<p spaces-before="0">يجب رسم العين أولاً ، ثم القزحية ، وأخيراً التلميذ. الترتيب الذي ترسم به الأشياء مهم جدًا.</p>
 
----
-title: My eyes are not round
----
+<p spaces-before="0">تتكون رسومات الكمبيوتر من طبقات. في عينك ، كل قطع ناقص عبارة عن طبقة. تقع الكائنات الموجودة في الطبقات العليا أمام الكائنات الموجودة في الطبقات السفلية. تخيل قص كل الأشكال من الورق. اعتمادًا على كيفية ترتيب وتداخل تلك الورقة، قد تبدو النتيجة النهائية مختلفة تمامًا.</p>
 
-The third and fourth numbers in `ellipse` are the width and height of the eyes.
+<p spaces-before="0">--- /collapse ---</p>
 
-**Tip:** If you make them the same, you will get round eyes.
+<p spaces-before="0">--- collapse ---</p>
+
+<hr />
+
+<h2 spaces-before="0">title: عيني ليست مستديرة</h2>
+
+<p spaces-before="0">الرقمان الثالث والرابع في <code>الشكل البيضوي` هما عرض وارتفاع العينين.
+
+**نصيحة:** إذا جعلتها متشابهة ، فستحصل على عيون مستديرة.
 
 --- /collapse ---
 
