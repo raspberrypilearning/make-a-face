@@ -1,28 +1,28 @@
 ---
-title: Make a face
+title: اصنع وجهًا
 hero_image: images/banner.png
-description: Design and draw a face or mask using geometric shapes
+description: صمم وارسم وجهًا أو قناعًا باستخدام أشكال هندسية
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: Introduction
+    title: المقدمة
   - 
-    title: Choose a theme
+    title: اختر شكلاً
   - 
-    title: Face shape
+    title: شكل الوجه
     completion: engaged
   - 
-    title: Add eyes
+    title: أضف العيون
   - 
-    title: Add a mouth
+    title: أضف فم
   - 
-    title: Add more details
+    title: أضف المزيد من التفاصيل
     completion: internal
   - 
-    title: Reflection
+    title: تفكير
     completion: external
     knowledge_quiz:
       path: quiz1
@@ -30,8 +30,8 @@ steps:
       questions: 3
       passing_score: 3
   - 
-    title: Upgrade your project
+    title: قم بترقية او تطوير مشروعك
   - 
-    title: Share
+    title: مشاركة
   - 
-    title: What next?
+    title: ماهو التالي؟
