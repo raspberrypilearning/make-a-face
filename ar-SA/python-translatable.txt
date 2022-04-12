@@ -1,24 +1,24 @@
-eye_size
+حجم_العين
 
-red
+احمر
 
-green
+اخضر
 
-blue
+ازرق
 
-orange
+برتقالي
 
-brown
+بني
 
-purple
+بنفسجي "purple"
 
-grey
+رمادي
 
-lilac
+أرجواني
 
-gap
+فجوة
 
-sad
+حزين
 
 happy
 
