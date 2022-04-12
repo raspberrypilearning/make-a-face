@@ -1,12 +1,12 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+القائمة: السؤال 2 من 3
 ---
 
-In your project, you added code to draw a face with many features. The order of your code was extremely important to make the face look like your design.
+لقد أضفت في مشروعك رمزًا لرسم وجه به العديد من الميزات. كان ترتيب الكود مهمًا للغاية لجعل الوجه يبدو مثل تصميمك.
 
-If you ran this code, what would the face look like?
+إذا قمت بتشغيل هذا الرمز ، كيف سيبدو الوجه؟
 
 --- code ---
 ---
@@ -28,41 +28,41 @@ run()
 
 - ( )
 
-![A white face with black outline. There are two solid green eyes with black outlines.](images/face1.png)
+![مقلة عين بيضاء مع مخطط أسود. هناك نوعان من العيون الخضراء الصلبة مع الخطوط العريضة السوداء.](images/face1.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `ellipse()` and the `stroke()` functions.
+ ليس تمامًا ، انظر إلى ترتيب الدالات `القطع الناقص ()` و `stroke ()`.
 
  --- /feedback ---
 
 - ( )
 
-![A white face with black outline. There are two green eyes with black pupils and both have a black outline.](images/face2.png)
+![مقلة عين بيضاء مع مخطط أسود. هناك نوعان من العيون الخضراء مع التلاميذ السود وكلاهما لهما مخطط أسود.](images/face2.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `stroke()` functions.
+ ليس تمامًا ، انظر إلى ترتيب الدالات القطع الناقص () و `stroke ()`.
 
  --- /feedback ---
 
 - (x)
 
-![A white face with black outline. There are two green eyes with black pupils and the eyes do not have an outline.](images/face3.png)
+![مقلة عين بيضاء مع مخطط أسود. هناك نوعان من العيون الخضراء مع التلاميذ السود وكلاهما لهما مخطط أسود.](images/face3.png)
 
  --- feedback ---
 
- Correct, the code draws a face with a black stroke then turns off the stroke before drawing the circles. The green circles are drawn first with the black circles on top of them.
+ بشكل صحيح ، يرسم الكود وجهًا بضربة سوداء ثم يوقف الحد قبل رسم الدوائر. تم رسم الدوائر الخضراء أولاً مع الدوائر السوداء فوقها.
 
  --- /feedback ---
 
 - ( )
 
-![A white face with black outline. There are two solid green eyes that do not have an outline.](images/face4.png)
+![مقلة عين بيضاء مع مخطط أسود. هناك نوعان من العيون الخضراء الصلبة التي لا تحتوي على مخطط تفصيلي.](images/face4.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `ellipse()` functions.
+ ليس تمامًا ، انظر إلى ترتيب الدالات القطع الناقص () و `stroke ()`.
 
  --- /feedback ---
 
