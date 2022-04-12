@@ -1,22 +1,22 @@
-## Reflection
+## انعكاس
 
-Well done, you have learnt a lot! Now it's time to reflect — reflecting is an important part of learning because it helps make new connections in your brain.
+أحسنت ، لقد تعلمت الكثير! حان الوقت الآن للتفكير - يعد التفكير جزءًا مهمًا من التعلم لأنه يساعد في إنشاء روابط جديدة في عقلك.
 
-Answer the three questions below to reflect on what you've learnt.
+أجب عن الأسئلة الثلاثة أدناه لتفكر فيما تعلمته.
 
-After each question, press **submit**. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+بعد كل سؤال ، اضغط على **submit**. سيتم توجيهك نحو الإجابة الصحيحة. يمكنك القيام بهذا النشاط عدة مرات كما تريد.
 
-Have fun!
+إستمتع!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+القائمة: السؤال 1 من 3
 ---
 
-In your project, you drew mouths using shapes.
+في مشروعك ، قمت برسم أفواه باستخدام الأشكال.
 
-What kind of mouth would this code draw?
+أي نوع من الفم سوف يرسمه هذا الرمز؟
 
 --- code ---
 ---
@@ -33,7 +33,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-  Not quite, to create a sad mouth the second `ellipse` would need a **y_coordinate** that is lower than the first `ellipse`.
+  ليس تمامًا ، لإنشاء فم حزين ، سيحتاج الشكل `الناقص` الثاني إلى **y_coordinate** وهو أقل من أول `قطع ناقص`.
 
   --- /feedback ---
 
@@ -41,7 +41,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-  That's correct! The second `ellipse` is drawn with a **y_coordinate** that is higher than the first `ellipse`.
+  هذا صحيح! ليس تمامًا ، لإنشاء فم حزين ، سيحتاج الشكل `الناقص` الثاني إلى **y_coordinate** وهو أقل من أول `قطع ناقص`.
 
   --- /feedback ---
 
@@ -49,7 +49,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-   Not quite, the second circle has a white `fill(255, 255, 255)` and is positioned partially over the first black circle.
+   ليس تمامًا ، الدائرة الثانية بها تعبئة بيضاء `(255 ، 255 ، 255)` ويتم وضعها جزئيًا فوق الدائرة السوداء الأولى.
 
   --- /feedback ---
 
@@ -57,7 +57,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-The code does not draw rectangles. The `ellipse` function draws circles.
+لا يرسم الكود مستطيلات. وظيفة `القطع الناقص` ترسم دوائر.
 
   --- /feedback ---
 
