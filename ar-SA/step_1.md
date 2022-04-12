@@ -59,7 +59,7 @@
 
 انظر من الداخل أمثلة المشاريع في [Python 1: إنشاء وجه - أمثلة](https://trinket.io/library/folder/make-a-face-examples){: target = "_ blank"} Scratch studio.
 
-![منطقة الإخراج من مشروع فاكهة Kawaii.](images/smile.png) ![منطقة الإخراج من مشروع الوجوه المكدسة.](images/stacked.png) ![The output area from the Tribal mask project.](images/tribal.png)
+![منطقة الإخراج من مشروع فاكهة Kawaii.](images/smile.png) ![منطقة الإخراج من مشروع الوجوه المكدسة.](images/stacked.png) ![منطقة الإخراج من مشروع الوجوه المكدسة.](images/tribal.png)
 
 --- /print-only ---
 
