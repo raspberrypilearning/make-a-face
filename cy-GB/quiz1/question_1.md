@@ -1,22 +1,22 @@
-## Reflection
+## Beth nesaf?
 
-Well done, you have learnt a lot! Now it's time to reflect — reflecting is an important part of learning because it helps make new connections in your brain.
+Da iawn! Rydych chi wedi dysgu cryn dipyn! Amser myfyrio nawr — mae myfyrio'n rhan bwysig o ddysgu oherwydd mae'n helpu i wneud cysylltiadau newydd yn eich ymennydd.
 
-Answer the three questions below to reflect on what you've learnt.
+Atebwch y tri chwestiwn isod i fyfyrio ar yr hyn rydych chi wedi'i ddysgu.
 
-After each question, press **submit**. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Ar ôl bob cwestiwn, pwyswch **cyflwyno**. Byddwch chi'n cael eich tywys i'r ateb cywir. Fe allwch chi wneud y gweithgaredd hwn cymaint ag y mynnwch.
 
-Have fun!
+Mwynhewch!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Cwestiwn 1 o 3
 ---
 
-In your project, you drew mouths using shapes.
+Yn eich prosiect, roeddech chi wedi llunio cegau gan ddefnyddio siapiau.
 
-What kind of mouth would this code draw?
+Pa fath o geg fyddai'r cod hwn yn ei llunio?
 
 --- code ---
 ---
@@ -33,7 +33,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-  Not quite, to create a sad mouth the second `ellipse` would need a **y_coordinate** that is lower than the first `ellipse`.
+  Ddim yn hollol, i greu ceg drist byddai angen i'r ail `ellipse` gael **y_coordinate** sy'n is na'r `ellipse` cyntaf.
 
   --- /feedback ---
 
@@ -41,7 +41,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-  That's correct! The second `ellipse` is drawn with a **y_coordinate** that is higher than the first `ellipse`.
+  Cywir! Mae'r ail `ellipse` yn cael ei lunio â **y_coordinate** sy'n uwch na'r `ellipse` cyntaf.
 
   --- /feedback ---
 
@@ -49,7 +49,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-   Not quite, the second circle has a white `fill(255, 255, 255)` and is positioned partially over the first black circle.
+   Ddim yn hollol, mae gan yr ail gylch `fill(255, 255, 255)` gwyn ac mae wedi'i leoli'n rhannol dros y cylch du cyntaf.
 
   --- /feedback ---
 
@@ -57,7 +57,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-The code does not draw rectangles. The `ellipse` function draws circles.
+Dydy'r cod ddim yn llunio petryalau. Mae'r swyddogaeth `ellipse` yn llunio cylchoedd.
 
   --- /feedback ---
 
