@@ -2,48 +2,48 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Question 3 sur 3
 ---
 
-Eli was commissioned to design a face to be used on a t-shirt. Eli wrote code using variables for all the different positions, sizes, and colours in their design.
+Eli a été chargé de concevoir un visage destiné à être utilisé sur un t-shirt. Eli a écrit du code en utilisant des variables pour toutes les différentes positions, tailles et couleurs de leur design.
 
-The company loved it! They have asked Eli to create lots more similar designs.
+L'entreprise a adoré ! Ils ont demandé à Eli de créer beaucoup plus de designs similaires.
 
-Why did making the design with code make it quicker for Eli to make lots of new designs?
+Pourquoi la création du design avec du code a-t-elle permis à Eli de créer plus rapidement de nombreux nouveaux designs ?
 
 --- choices ---
 
-- ( ) Coding is fun.
+- ( ) Le codage est amusant.
 
   --- feedback ---
 
-True, but that's not why it made it quicker for Eli to produce lots of new designs.
+C'est vrai, mais ce n'est pas pour cela qu'Eli a pu produire plus rapidement de nombreux nouveaux designs.
 
   --- /feedback ---
 
-- (x) It's easy to change the numbers stored in variables to make lots of new designs.
+- (x) Il est facile de modifier les nombres stockés dans les variables pour créer de nombreux nouveaux designs.
 
   --- feedback ---
 
-Correct! Eli was able to quickly make lots of slightly different versions of their design by changing the numbers stored in the variables.
+Correct ! Eli a pu créer rapidement de nombreuses versions légèrement différentes de leur design en modifiant les nombres stockés dans les variables.
 
   --- /feedback ---
 
-- ( ) The code runs really quickly.
+- ( ) Le code s'exécute très rapidement.
 
   --- feedback ---
 
-True, but that doesn't help to create lots of different designs.
+C'est vrai, mais cela n'aide pas à créer beaucoup de designs différents.
 
   --- /feedback ---
 
 --- /choices ---
 
-- ( ) Variables always have different numbers every time you run your program.
+- ( ) Les variables ont toujours des nombres différents à chaque fois que tu exécutes ton programme.
 
   --- feedback ---
 
-Not quite. Variables have the value you assign to them. If you assign a number to a variable (such as `eye_radius = 50`) and don't change it then it will be the same every time you run the program.
+Pas tout à fait. Les variables ont la valeur que tu leur attribues. Si tu attribues un nombre à une variable (comme `rayon_yeux = 50`) et que tu ne le modifies pas, ce sera le même à chaque fois que tu exécuteras le programme.
 
   --- /feedback ---
 
