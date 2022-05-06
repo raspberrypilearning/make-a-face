@@ -1,31 +1,31 @@
-eye_size
+ooggrootte
 
-red
+rood
 
-green
+groen
 
-blue
+blauw
 
-orange
+oranje
 
-brown
+bruin
 
-purple
+paars
 
-grey
+grijs
 
-lilac
+lila
 
-gap
+tussenruimte
 
-sad
+verdrietig
 
-happy
+gelukkig
 
-x_middle
+x_midden
 
-y_eye
+y_oog
 
-y_mouth
+y_mond
 
-mask_width
+masker_breedte
