@@ -1,31 +1,31 @@
-eye_size
+maint_llygaid
 
-red
+coch
 
-green
+gwyrdd
 
-blue
+glas
 
-orange
+oren
 
 brown
 
-purple
+piws
 
-grey
+llwyd
 
-lilac
+leilac
 
-gap
+bwlch
 
-sad
+trist
 
-happy
+hapus
 
-x_middle
+x_canol
 
-y_eye
+y_llygaid
 
-y_mouth
+y_ceg
 
-mask_width
+lled_masg
