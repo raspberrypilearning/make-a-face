@@ -1,12 +1,12 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Cwestiwn 2 o 3
 ---
 
-In your project, you added code to draw a face with many features. The order of your code was extremely important to make the face look like your design.
+Yn eich prosiect, roeddech chi wedi ychwanegu cod i lunio wyneb â nifer o nodweddion. Roedd trefn eich cod yn bwysig iawn i wneud yn siŵr bod y wyneb yn edrych fel eich dyluniad.
 
-If you ran this code, what would the face look like?
+Pe baech chi'n rhedeg y cod hwn, sut fyddai'r wyneb yn edrych?
 
 --- code ---
 ---
@@ -28,41 +28,41 @@ run()
 
 - ( )
 
-![A white face with black outline. There are two solid green eyes with black outlines.](images/face1.png)
+![Wyneb gwyn ag amlinell ddu. Mae dwy lygad werdd soled ag amlinellau du.](images/face1.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `ellipse()` and the `stroke()` functions.
+ Ddim yn hollol, 'drychwch ar drefn y swyddogaethau `ellipse()` a `stroke()`.
 
  --- /feedback ---
 
 - ( )
 
-![A white face with black outline. There are two green eyes with black pupils and both have a black outline.](images/face2.png)
+![Wyneb gwyn ag amlinell ddu. Mae dwy lygad werdd â channwyll llygad ddu ac mae gan y ddwy amlinell ddu.](images/face2.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `stroke()` functions.
+ Ddim yn hollol, 'drychwch ar drefn y swyddogaethau `stroke()`.
 
  --- /feedback ---
 
 - (x)
 
-![A white face with black outline. There are two green eyes with black pupils and the eyes do not have an outline.](images/face3.png)
+![Wyneb gwyn ag amlinell ddu. Mae dwy lygad werdd â channwyll llygad ddu a does gan y llygaid ddim amlinell.](images/face3.png)
 
  --- feedback ---
 
- Correct, the code draws a face with a black stroke then turns off the stroke before drawing the circles. The green circles are drawn first with the black circles on top of them.
+ Cywir, mae'r cod yn llunio wyneb â strôc ddu ac yna'n diffodd y strôc cyn llunio'r cylchoedd. Mae'r cylchoedd gwyrdd yn cael eu llunio gyntaf, â'r cylchoedd du ar eu pen.
 
  --- /feedback ---
 
 - ( )
 
-![A white face with black outline. There are two solid green eyes that do not have an outline.](images/face4.png)
+![Wyneb gwyn ag amlinell ddu. Mae dwy lygad werdd soled heb amlinellau.](images/face4.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `ellipse()` functions.
+ Ddim yn hollol, 'drychwch ar drefn y swyddogaethau `ellipse()`.
 
  --- /feedback ---
 
