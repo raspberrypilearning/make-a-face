@@ -1,25 +1,25 @@
-## Upgrade your project
+## Verbeter je project
 
-If you have time you can upgrade to your project.
+Als je tijd hebt, kun je jouw project verbeteren.
 
-Each of the examples in the [Introduction](.) was created in Trinket and you can look at the code to get ideas and see how they work.
+Elk van de voorbeelden in de [Inleiding](.) is gemaakt in Trinket en je kunt de code bekijken om ideeën op te doen en te zien hoe ze werken.
 
-Here are some other ideas you could try:
-- Add interactivity — try our **Interactive: Theatre Mask**, what happens when you move your mouse across the screen?
-- Add animation — try our **Animated: Frida**, what happens to Frida's headband when you run the project?
+Hier zijn een paar andere ideeën die je zou kunnen proberen:
+- Voeg interactiviteit toe — probeer ons **Interactief: Theatermasker**, wat gebeurt er als je je muis over het scherm beweegt?
+- Animatie toevoegen — probeer onze **Geanimeerd: Frida**, wat gebeurt er met Frida's hoofdband als je het project uitvoert?
 
-**Interactive: Theatre Mask**: [See inside](https://trinket.io/python/86d89fad13){:target="_blank"}
+**Interactief: Theatermasker**: [Bekijk van binnen](https://trinket.io/python/86d89fad13){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/86d89fad13?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-**Animated: Frida**: [See inside](https://trinket.io/python/3d69be294a){:target="_blank"}
+**Geanimeerd: Frida**: [Bekijk van binnen](https://trinket.io/python/3d69be294a){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/3d69be294a?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-Take a look at our [Make a face - Community library](https://wke.lt/w/s/8sVH4f){:target="_blank"} to see projects created by community members.
+Bekijk onze [Make a face - Community library](https://wke.lt/w/s/8sVH4f){:target="_blank"} om projecten te bekijken die zijn gemaakt door community-leden.
 
 --- save ---
