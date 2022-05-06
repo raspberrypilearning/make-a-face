@@ -2,48 +2,48 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Cwestiwn 3 o 3
 ---
 
-Eli was commissioned to design a face to be used on a t-shirt. Eli wrote code using variables for all the different positions, sizes, and colours in their design.
+Cafodd Eli ei chomisiynu i ddylunio wyneb i'w ddefnyddio ar grys t. Ysgrifennodd Eli god gan ddefnyddio newidynnau ar gyfer yr holl wahanol safleoedd, meintiau a lliwiau yn ei dyluniad.
 
-The company loved it! They have asked Eli to create lots more similar designs.
+Roedd y cwmni wrth ei fodd! Mae wedi gofyn i Eli greu llawer o ddyluniadau tebyg eraill.
 
-Why did making the design with code make it quicker for Eli to make lots of new designs?
+Pam oedd dylunio â chod wedi'i gwneud yn gyflymach i Eli wneud llawer o ddyluniadau newydd?
 
 --- choices ---
 
-- ( ) Coding is fun.
+- ( ) Mae codio'n hwyl.
 
   --- feedback ---
 
-True, but that's not why it made it quicker for Eli to produce lots of new designs.
+Mae hynny'n wir, ond dim dyna pam ei bod hi'n gyflymach i Eli greu llawer o ddyluniadau newydd.
 
   --- /feedback ---
 
-- (x) It's easy to change the numbers stored in variables to make lots of new designs.
+- (x) Mae'n hawdd newid y rhifau sy'n cael eu storio mewn newidynnau i wneud llawer o ddyluniadau newydd.
 
   --- feedback ---
 
-Correct! Eli was able to quickly make lots of slightly different versions of their design by changing the numbers stored in the variables.
+Cywir! Roedd Eli'n gallu gwneud llawer o fersiynau ychydig yn wahanol o'i dyluniad yn gyflym drwy newid y rhifau sy'n cael eu storio yn y newidynnau.
 
   --- /feedback ---
 
-- ( ) The code runs really quickly.
+- ( ) Mae'r cod yn rhedeg yn gyflym iawn.
 
   --- feedback ---
 
-True, but that doesn't help to create lots of different designs.
+Mae hynny'n wir, ond dyw hynny ddim yn helpu i greu llawer o wahanol ddyluniadau.
 
   --- /feedback ---
 
 --- /choices ---
 
-- ( ) Variables always have different numbers every time you run your program.
+- ( ) Mae gan newidynnau bob amser rifau gwahanol bob tro rydych chi'n rhedeg eich rhaglen.
 
   --- feedback ---
 
-Not quite. Variables have the value you assign to them. If you assign a number to a variable (such as `eye_radius = 50`) and don't change it then it will be the same every time you run the program.
+Ddim yn hollol. Mae gan newidynnau'r gwerth rydych chi'n ei neilltuo iddyn nhw. Os byddwch chi'n neilltuo rhif i newidyn (fel `eye_radius = 50`) a ddim yn ei newid, bydd yr un fath bob tro rydych chi'n rhedeg y rhaglen.
 
   --- /feedback ---
 
