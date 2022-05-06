@@ -1,42 +1,42 @@
-## Choose a theme
+## Dewis thema
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Have you got an idea about the kind of face or mask you want to make? Use this step to plan your art and set up your canvas.
+Oes gennych chi sniad pa fath o wyneb neu fasg hoffech chi ei wneud? Defnyddiwch y cam hwn i gynllunio eich celf a gosod eich canfas.
 </div>
 <div>
-![The output area with a vampire-themed face.](images/vampire.png){:width="200px"}
+![Yr ardal allbwn gydag wyneb ar thema fampir.](images/vampire.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-Open the [starter project](https://trinket.io/library/trinkets/54d15b9cdf){:target="_blank"}. Trinket will open in another browser tab.
+Agorwch y [prosiect dechreuol](https://trinket.io/library/trinkets/54d15b9cdf){:target="_blank"}. Bydd Trinket yn agor mewn tab arall yn y porwr.
 
 --- /task ---
 
 --- task ---
 
-**Choose:** Think about the kind of face you want to make:
-+ Do you want to choose something from your heritage or popular culture?
-+ Will your art show a human, animal, something mythical, or perhaps a machine?
-+ You might even want to create a self-portrait!
-+ You could draw an emoji to share with your friends
+**Dewis:** Meddyliwch am ba fath o wyneb hoffech chi ei wneud:
++ Ydych chi am ddewis rhywbeth o'ch treftadaeth neu ddiwylliant poblogaidd?
++ Fydd eich celf yn dangos person, anifail, rhywbeth chwedlonol, neu beiriant efallai?
++ Fe allech chi wneud hunanbortread hyd yn oed!
++ Fe allech chi lunio emoji i'w rannu â'ch ffrindiau
 
 --- /task ---
 
 --- task ---
 
-The first thing to do when creating art using the Python `Processing library` is to add `def setup():` to define a `setup` function that is run once at the beginning of your program.
+Y peth cyntaf i'w wneud wrth greu celf gan ddefnyddio `Llyfrgell brosesu` Python yw ychwanegu `def setup():` i ddiffinio swyddogaeth `setup` sy'n rhedeg unwaith ar ddechrau eich rhaglen.
 
-The starter project has a `setup` function that sets the `size` of your canvas to `400` width and `400` height.
+Mae gan y prosiect dechreuol swyddogaeth `setup` sy'n gosod maint eich canfas i `400` o led a `400` o uchder.
 
-**Choose:** Experiment with the numbers and run your code to find a size that you are happy with.
+**Dewis:** Arbrofwch gyda'r rhifau a rhedeg eich cod i ganfod maint rydych chi'n fodlon arno.
 
 --- collapse ---
 
 ---
-title: Setting the screen size when your program starts
+title: Gosod maint y sgrin pan fydd eich rhaglen yn dechrau
 ---
 
 --- code ---
@@ -55,14 +55,14 @@ size(400, 400) #400 by 400 works well for a round face
 
 --- task ---
 
-**Choose:** Think about the colours you will use for your face and change the `background` colour values to set your screen to a complementary colour.
+**Dewis:** Meddyliwch am y lliwiau byddwch chi'n eu defnyddio ar gyfer eich wyneba newid y gwerthoedd lliw `background` i osod eich sgrin ar liw cyflenwol.
 
 [[[generic-theory-simple-colours]]]
 
 --- collapse ---
 
 ---
-title: Setting the background colour when your program starts
+title: Gosod y lliw cefndir pan fydd eich rhaglen yn dechrau
 ---
 
 --- code ---
@@ -81,9 +81,9 @@ line_highlights: 9
 
 --- task ---
 
-**Tip:** The `draw` function has `grid()` code. This adds a coordinates grid over your background that helps you work out where to position features on your face.
+**Cyngor:** Mae gan y swyddogaeth `draw` god `grid()`. Mae hwn yn ychwanegu grid cyfesurynnau dros eich cefndir sy'n eich helpu i wybod ble i leoli nodweddion ar eich wyneb.
 
-To turn the grid off add a `#` in front of the code, to turn it back on remove the `#`.
+I gael gwared ar y grid, ychwanegwch `#` o flaen y cod, ac i'w ychwanegu eto tynnwch y `#`.
 
 --- code ---
 ---
@@ -109,32 +109,32 @@ filename: main.py - draw()
 
 --- task ---
 
-**Test:** Run your project to see your chosen screen size and background colour.
+**Profi:** Rhedwch eich prosiect i weld maint y sgrin a'r lliw cefndir o'ch dewis.
 
 --- /task ---
 
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Difa chwilod:** Efallai bydd angen i chi drwsio chwilod yn eich prosiect. Dyma rai chwilod cyffredin.
 
 --- collapse ---
 
 ---
-title: I've updated my size and colour but the output area stays the same
+title: Dwi wedi diweddaru fy maint a fy lliw ond mae'r ardal allbwn yn dal yr un fath
 ---
 
-After changing the code, you will need to `run` your project to see the changes in the output area.
+Ar ôl newid y cod, bydd angen i chi redeg eich prosiect gyda `run` i weld y newidiadau yn yr ardal allbwn.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: I've tried different numbers but the background colour doesn't change
+title: Dwi wedi rhoi cynnig ar wahanol rifau ond dydy'r lliw cefndir ddim yn newid
 ---
 
-The maximum amount of red, green, or blue is `255`. Make sure all your `background` colour values are between `0` and `255`.
+Y lefel uchaf o goch, gwyrdd neu las yw `255`. Gwnewch yn siŵr bod eich holl werthoedd lliw `background` rhwng `0` a `255`.
 
 --- /collapse ---
 
