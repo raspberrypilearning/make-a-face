@@ -1,37 +1,37 @@
-## Add a mouth
+## Voeg een mond toe
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-A mouth is a great way of showing emotion. Will your character have a smile, frown, or something else? 
+Een mond is een geweldige manier om emotie te tonen. Zal je gezicht een glimlach, frons of iets anders hebben? 
 </div>
 <div>
-![Image showing a robot face as an example of a face with a mouth.](images/mask.png){:width="200px"}
+![Afbeelding met een robotgezicht als voorbeeld van een gezicht met een mond.](images/mask.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-Think about what kind of mouth your face needs. The simplest mouth would be a circle to look surprised.
+Bedenk wat voor soort mond je gezicht nodig heeft. De eenvoudigste mond zou een cirkel zijn om verrast te kijken.
 
-You could add two overlapping circles to create a smile or frown. Triangles or rectangles could be added for teeth.
+Je kunt twee overlappende cirkels toevoegen om een glimlach of frons te maken. Er kunnen driehoeken of rechthoeken worden toegevoegd voor tanden.
 
 --- /task ---
 
 --- task ---
 
-Add code to your `draw()` function to add a mouth.
+Voeg code toe aan je `draw()` functie om een mond toe te voegen.
 
 --- collapse ---
 
 ---
-title: Create a mouth from overlapping circles
+title: Maak een mond van overlappende cirkels
 ---
 
-Set the `fill` colour for your mouth then draw an `ellipse`. Set the `fill` colour again, this time to match the face colour, then draw a second `ellipse`.
+Stel de `vul`-kleur in voor je mond en teken vervolgens een `ellips`. Stel de `vul`-kleur opnieuw in, deze keer om overeen te komen met de gezichtskleur, en teken vervolgens een tweede `ellips`.
 
-Change the `y` coordinate of the second `ellipse` to a slightly higher position for a smile or a slightly lower position for a frown.
+Verander de `y` coördinaat van de tweede `ellips` naar een iets hogere positie voor een glimlach of een iets lagere positie voor een frons.
 
-![The output area showing a smiling mouth.](images/smile.png)
+![Het outputgebied toont een lachende mond.](images/smile.png)
 
 --- code ---
 ---
@@ -46,7 +46,7 @@ filename: main.py - draw()
 
 --- /code ---
 
-![The output area showing a frowning mouth.](images/frown.png)
+![Het outputgebied met een fronsende mond.](images/frown.png)
 
 --- code ---
 ---
@@ -66,23 +66,23 @@ filename: main.py - draw()
 --- collapse ---
 
 ---
-title: Create a mouth using rectangles
+title: Maak een mond met behulp van rechthoeken
 ---
 
-Robots are often shown with `rectangle` shaped mouths. Sometimes `rectangle` and `ellipse` shapes are used together to create a grimace emoji or to add a face mask.
+Robots worden vaak afgebeeld met `rechthoekige` monden. Soms worden `rechthoek`- en `ellips`-vormen samen gebruikt om een grijns-emoji te maken of om een gezichtsmasker toe te voegen.
 
-![The output area showing a face with rectangle facemask.](images/rectangle-mask.png)
+![Het outputgebied toont een gezicht met een rechthoekig gezichtsmasker.](images/rectangle-mask.png)
 
-Add the code for a `rectangle`, then create a smaller `rectangle` within it. Change the `stroke` and `fill` colours to complement your theme. Add `ellipse` shapes if needed.
+Voeg de code toe voor een `rechthoek` en maak er vervolgens een kleinere `rechthoek` in. Wijzig de kleuren van de `lijn` en `vulling` om je thema aan te vullen. Voeg indien nodig `ellips`-vormen toe.
 
-**Tip:** Remember to put the `ellipse` shapes above the `rectangle` code if you want them to go behind the `rectangle` shapes.
+**Tip:** Vergeet niet om de `ellips`-vormen boven de `rechthoek`-code te plaatsen als je wil dat ze achter de `rechthoek`-vormen gaan.
 
 --- code ---
 ---
 language: python
 filename: main.py - draw()
 ---
-# Face mask
+# Gezichtsmasker
 no_fill()    
 stroke(255, 255, 255)     
 ellipse(150, 250, 30, 30) #Left ear loop    
@@ -97,27 +97,27 @@ rect(152, 235, 96, 30) #Smaller blue rectangle
 
 --- /collapse ---
 
-**Tip:** Add a `#Mouth` comment on the line before your mouth code to help you easily find the mouth code.
+**Tip:** Voeg een `#mond` opmerking toe voor code die je mond maakt om je te helpen deze code gemakkelijk terug te vinden.
 
 --- /task ---
 
 --- task ---
 
-**Choose:** You could also add multiple teeth to your mouth using `translate` to change the `x` coordinate after each tooth is drawn.
+**Kies:** je kunt ook meerdere tanden aan je mond toevoegen met `translate` om de `x` cordinaat te veranderen nadat elke tand is getekend.
 
 --- collapse ---
 
 ---
-title: Use a loop to add a row of teeth
+title: Gebruik een lus om een rij tanden toe te voegen
 ---
 
-Add code to create a `for` loop that repeats in order to create the number of teeth you need.
+Voeg code toe om een `for` lus te maken die wordt herhaald om het aantal tanden te maken dat je nodig hebt.
 
-![The output area showing a robot face with a row of rectangle teeth in different colours.](images/robot-teeth.png)
+![Het outputgebied toont een robotgezicht met een rij rechthoekige tanden in verschillende kleuren.](images/robot-teeth.png)
 
-After each tooth has been drawn, add code to `translate()` it by the width of the tooth.
+Voeg code toe om na elke getekende tand een `translate()` met de breedte van de tand uit te voeren.
 
-You can also add code to change the colour of each tooth.
+Je kunt ook code toevoegen om de kleur van elke tand te veranderen.
 
 --- code ---
 ---
@@ -125,7 +125,7 @@ language: python
 filename: main.py - draw()
 ---
 
-# Mouth
+# Mond
 fill(90, 110, 184)     
 red = 90 #Starting amount of red   
 green = 110 #Starting amount of green    
@@ -147,21 +147,21 @@ translate(33, 0) #Move along the x coordinate by the width of a tooth
 --- collapse ---
 
 ---
-title: Use triangles to add fangs
+title: Gebruik driehoeken om hoektanden toe te voegen
 ---
 
-Create a `rectangle` to use as the line of the mouth.
+Maak een `rechthoek` om als mondlijn te gebruiken.
 
-Add two `triangle` shapes to create the fangs. Change the `x` coordinates for each corner to position the fangs at opposite ends of the mouth line.
+Voeg twee `driehoek`-vormen toe om de hoektanden te maken. Wijzig de `x`-coördinaten voor elke hoek om de tanden aan de tegenoverliggende uiteinden van de mondlijn te plaatsen.
 
-![The output area showing a vampire face with a rectangle mouth and two triangle teeth.](images/vampire.png)
+![Het output gebied toont een vampiergezicht met een rechthoekige mond en twee driehoekige tanden.](images/vampire.png)
 
 --- code ---
 ---
 language: python
 filename: main.py - draw()
 ---
-# Mouth
+# Mond
   fill(0)    
 rect(170, 260, 60, 5) #Mouth line    
 fill(0)    
@@ -175,15 +175,15 @@ triangle(210, 260, 220, 280, 230, 260) #Right tooth
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Debug:** Mogelijk vind je enkele fouten in jouw project die je moet oplossen. Hier zijn enkele veelvoorkomende fouten.
 
 --- collapse ---
 
 ---
-title: My overlapping shape goes outside the face
+title: Mijn overlappende vorm valt buiten het gezicht
 ---
 
-If you use two overlapping shapes to create a mouth, then you need to make sure the shape that is the same colour as the face doesn't go outside the face. If it does, then change the width or height of the shape so that it's small enough to fit inside the face.
+Als je twee overlappende vormen gebruikt om een mond te maken, moet je ervoor zorgen dat de vorm die dezelfde kleur heeft als het gezicht niet buiten het gezicht valt. Als dit het geval is, wijzig dan de breedte of hoogte van de vorm zodat deze klein genoeg is om in het gezicht te passen.
 
 --- /collapse ---
 
@@ -191,10 +191,10 @@ If you use two overlapping shapes to create a mouth, then you need to make sure 
 --- collapse ---
 
 ---
-title: I have too many teeth
+title: Ik heb te veel tanden
 ---
 
-Don't forget that `range()` creates a sequence of numbers starting from 0 not 1. This may make a difference to your code depending on how you have positioned your teeth.
+Vergeet niet dat `range()` een reeks getallen maakt die begint vanaf 0 en niet vanaf 1. Dit kan een verschil maken voor je code, afhankelijk van hoe je je tanden hebt gepositioneerd.
 
 --- /collapse ---
 
