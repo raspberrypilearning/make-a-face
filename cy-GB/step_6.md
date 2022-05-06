@@ -1,38 +1,38 @@
-## Add more details
+## Ychwanegu mwy o fanylion
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Does your face or mask need more details to make it more interesting? 
+Oes angen mwy o fanylion ar eich wyneb neu fasg i'w wneud yn fwy diddorol? 
 </div>
 <div>
-![Image showing a face as an example with a headband accessory.](images/frida.png){:width="200px"}
+![Delwedd yn dangos wyneb fel enghraifft gydag ategolyn band gwallt.](images/frida.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-You can use more shapes to add more features to your face or mask.
+Fe allwch chi ddefnyddio mwy o siapiau i ychwanegu mwy o nodweddion at eich wyneb neu fasg.
 
-How can you give the face more personality?
+Sut gallwch chi roi mwy o bersonoliaeth i'r wyneb?
 
-You could add:
+Fe allech chi ychwanegu:
 
-+ A nose
-+ Eyebrows
-+ Ears
-+ Cheeks
-+ Highlights / catchlights
-+ Whatever you like!
++ Trwyn
++ Aeliau
++ Clustiau
++ Bochau
++ Aroleuadau / goleubwyntiau
++ Beth bynnag hoffech chi!
 
-Just add the extra details that make sense for your drawing.
+Ychwanegwch y manylion ychwanegol sy'n cyd-fynd â'ch lluniad.
 
 --- /task ---
 
 --- task ---
 
-You can make partly transparent colours by adding a fourth number to an RGB colour to give the **opacity**.
+Fe allwch chi wneud lliwiau lled-dryloyw drwy ychwanegu pedwerydd rhif at liw RGB i roi'r **afloywder**.
 
-This code draws the overlapping highlights in the Kawaii fruit example:
+Mae'r cod hwn yn llunio'r aroleuadau sy'n gorgyffwrdd yn yr enghraifft Ffrwyth Kawaii:
 
 --- code ---
 ---
@@ -47,7 +47,7 @@ ellipse(150, 160, 25, 25)
 
 --- /code ---
 
-![Kawaii fruit image with highlights at different opacities: 30, 70, 150, 255. The lower value, 30, is more opaque and 255 is less opaque.](images/opacity.png)
+![Delwedd o Ffrwyth Kawaii gydag aroleuadau o wahanol afloywder: 30, 70, 150, 255. Mae'r gwerth isaf, 30, yn fwy afloyw, a 255 yn llai afloyw.](images/opacity.png)
 
 --- /task ---
 
