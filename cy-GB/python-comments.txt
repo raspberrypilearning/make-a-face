@@ -1,139 +1,139 @@
-400 by 400 works well for a round face
+Mae 400 wrth 400 yn gweithio'n dda ar gyfer wyneb crwn
 
-Try different numbers to change the colour
+Rhowch gynnig ar wahanol rifau i newid y lliw
 
-Shows grid
+Dangos grid
 
-Hide grid by turning it into a comment
+Cuddio grid drwy ei droi'n sylw
 
-Circle in the middle
+Cylch yn y canol
 
-You can also use no_stroke()
+Fe allwch chi ddefnyddio no_stroke() hefyd
 
-Bright yellow
+Melyn llachar
 
-Black — change to red, green, or blue up to 255
+Du — newid i goch, gwyrdd neu las hyd at 255
 
-x, y, width, height
+x, y, lled, uchder
 
-A black mouth
+Ceg ddu
 
-An orange face
+Wyneb oren
 
-Higher circle
+Cylch uwch
 
-Lower circle
+Cylch is
 
-Face mask
+Masg wyneb
 
-Left ear loop
+Dolen clust chwith
 
-Right ear loop
+Dolen clust dde
 
-Large white rectangle
+Petryal mawr gwyn
 
-Smaller blue rectangle
+Petryal glas llai
 
-Mouth
+Ceg
 
-Starting amount of red
+Faint o goch i ddechrau
 
-Starting amount of green
+Faint o wyrdd i ddechrau
 
-Starting amount of blue
+Faint o las i ddechrau
 
-Uses variables to control the colour change each loop
+Yn defnyddio newidynnau i reoli'r newid lliw bob dolen
 
-Move along the x coordinate by the width of a tooth
+Symud ar hyd y cyfesuryn x o led dant
 
-Mouth line
+Llinell ceg
 
-Left tooth
+Dant chwith
 
-Right tooth
+Dant dde
 
-Highlights
+Aroleuadau
 
-70 is transparency/opacity here
+70 yw tryloywder/afloywder yma
 
-Black
+Du
 
-White
+Gwyn
 
-Eyes
+Llygaid
 
-Face
+Wyneb
 
-Green
+Gwyrdd
 
-Put code to run once here
+Rhowch god i redeg unwaith yma
 
-width and height
+lled ac uchder
 
-move under draw() to reset the drawing every frame
+symudwch o dan draw() i ailosod y lluniad bob ffrâm
 
-Put code to run every frame here
+Rhowch god i redeg ym mhob ffrâm yma
 
-draw mask
+llunio masg
 
-eyes and mouth
+llygaid a cheg
 
-partly cover eyes and mouth
+gorchuddio llygaid a cheg yn rhannol
 
-cover top of mask
+gorchuddio top y masg
 
-shade half of the mask
+cysgodi hanner y masg
 
-Put code to run when the mouse is pressed here
+Rhowch god i redeg pan fydd y llygoden yn cael ei phwyso yma
 
-Keep this to run your code
+Cadwch hwn i redeg eich cod
 
-Definitions for compatibility with the p5py processing library
+Diffiniadau ar gyfer cydnawsedd â'r llyfrgell brosesu p5py
 
-Shape
+Siâp
 
-Fonts
+Ffontiau
 
-Text
+Testun
 
-Colour
+Lliw
 
-Images
+Delweddau
 
-Environment
+Amgylchedd
 
-Transform
+Trawsnewid
 
-Keyboard
+Bysellfwrdd
 
-Hair and face
+Gwallt a wyneb
 
-stalk
+coesyn
 
-Top face background
+Cefndir wyneb uchaf
 
-Top face hair
+Gwallt wyneb uchaf
 
-Top face left eye
+Llygad chwith wyneb uchaf
 
-Top face right eye
+Llygad dde wyneb uchaf
 
-Top face mouth
+Ceg wyneb uchaf
 
-Bottom face background
+Cefndir wyneb isaf
 
-Bottom face hair
+Gwallt wyneb isaf
 
-Bottom face left eye
+Llygad chwith wyneb isaf
 
-Bottom face right eye
+Llygad dde wyneb isaf
 
-Bottom face mouth
+Ceg wyneb isaf
 
-Nose
+Trwyn
 
-Face markings
+Marciau wyneb
 
-Hair
+Gwallt
 
-add a # to the beginning of this line to hide the grid
+ychwanegwch # at ddechrau'r llinell hon i guddio'r grid
