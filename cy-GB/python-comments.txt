@@ -1,0 +1,139 @@
+Mae 400 wrth 400 yn gweithio'n dda ar gyfer wyneb crwn
+
+Rhowch gynnig ar wahanol rifau i newid y lliw
+
+Dangos grid
+
+Cuddio grid drwy ei droi'n sylw
+
+Cylch yn y canol
+
+Fe allwch chi ddefnyddio no_stroke() hefyd
+
+Melyn llachar
+
+Du — newid i goch, gwyrdd neu las hyd at 255
+
+x, y, lled, uchder
+
+Ceg ddu
+
+Wyneb oren
+
+Cylch uwch
+
+Cylch is
+
+Masg wyneb
+
+Dolen clust chwith
+
+Dolen clust dde
+
+Petryal mawr gwyn
+
+Petryal glas llai
+
+Ceg
+
+Faint o goch i ddechrau
+
+Faint o wyrdd i ddechrau
+
+Faint o las i ddechrau
+
+Yn defnyddio newidynnau i reoli'r newid lliw bob dolen
+
+Symud ar hyd y cyfesuryn x o led dant
+
+Llinell ceg
+
+Dant chwith
+
+Dant dde
+
+Aroleuadau
+
+70 yw tryloywder/afloywder yma
+
+Du
+
+Gwyn
+
+Llygaid
+
+Wyneb
+
+Gwyrdd
+
+Rhowch god i redeg unwaith yma
+
+lled ac uchder
+
+symudwch o dan draw() i ailosod y lluniad bob ffrâm
+
+Rhowch god i redeg ym mhob ffrâm yma
+
+llunio masg
+
+llygaid a cheg
+
+gorchuddio llygaid a cheg yn rhannol
+
+gorchuddio top y masg
+
+cysgodi hanner y masg
+
+Rhowch god i redeg pan fydd y llygoden yn cael ei phwyso yma
+
+Cadwch hwn i redeg eich cod
+
+Diffiniadau ar gyfer cydnawsedd â'r llyfrgell brosesu p5py
+
+Siâp
+
+Ffontiau
+
+Testun
+
+Lliw
+
+Delweddau
+
+Amgylchedd
+
+Trawsnewid
+
+Bysellfwrdd
+
+Gwallt a wyneb
+
+coesyn
+
+Cefndir wyneb uchaf
+
+Gwallt wyneb uchaf
+
+Llygad chwith wyneb uchaf
+
+Llygad dde wyneb uchaf
+
+Ceg wyneb uchaf
+
+Cefndir wyneb isaf
+
+Gwallt wyneb isaf
+
+Llygad chwith wyneb isaf
+
+Llygad dde wyneb isaf
+
+Ceg wyneb isaf
+
+Trwyn
+
+Marciau wyneb
+
+Gwallt
+
+ychwanegwch # at ddechrau'r llinell hon i guddio'r grid
