@@ -1,139 +1,139 @@
-400 by 400 works well for a round face
+400 par 400 fonctionne bien pour un visage rond
 
-Try different numbers to change the colour
+Essaie différents nombres pour changer la couleur
 
-Shows grid
+Affiche la grille
 
-Hide grid by turning it into a comment
+Cacher la grille en la transformant en commentaire
 
-Circle in the middle
+Cercle au milieu
 
-You can also use no_stroke()
+Tu peux aussi utiliser no_stroke()
 
-Bright yellow
+Jaune vif
 
-Black — change to red, green, or blue up to 255
+Noir - passe au rouge, au vert ou au bleu jusqu'à 255
 
-x, y, width, height
+x, y, largeur, hauteur
 
-A black mouth
+Une bouche noire
 
-An orange face
+Un visage orange
 
-Higher circle
+Cercle supérieur
 
-Lower circle
+Cercle intérieur
 
-Face mask
+Masque
 
-Left ear loop
+Boucle d'oreille gauche
 
-Right ear loop
+Boucle d'oreille gauche
 
-Large white rectangle
+Grand rectangle blanc
 
-Smaller blue rectangle
+Petit rectangle bleu
 
-Mouth
+Bouche
 
-Starting amount of red
+Quantité de départ de rouge
 
-Starting amount of green
+Quantité de départ de vert
 
-Starting amount of blue
+Quantité de départ de bleu
 
-Uses variables to control the colour change each loop
+Utilise des variables pour contrôler le changement de couleur à chaque boucle
 
-Move along the x coordinate by the width of a tooth
+Se déplacer le long de la coordonnée x de la largeur d'une dent
 
-Mouth line
+Ligne de bouche
 
-Left tooth
+Dent gauche
 
-Right tooth
+Dent droite
 
-Highlights
+Zones claires
 
-70 is transparency/opacity here
+70 est la transparence/opacité ici
 
-Black
+Noir
 
-White
+Blanc
 
-Eyes
+Yeux
 
-Face
+Visage
 
-Green
+Vert
 
-Put code to run once here
+Mettre le code à exécuter une fois ici
 
-width and height
+largeur et hauteur
 
-move under draw() to reset the drawing every frame
+déplacer sous draw() pour réinitialiser le dessin à chaque image
 
-Put code to run every frame here
+Mettre le code pour exécuter chaque image ici
 
-draw mask
+dessiner un masque
 
-eyes and mouth
+yeux et bouche
 
-partly cover eyes and mouth
+couvrir partiellement les yeux et la bouche
 
-cover top of mask
+couvrir le haut du masque
 
-shade half of the mask
+ombrer la moitié du masque
 
-Put code to run when the mouse is pressed here
+Mettre le code à exécuter lorsque la souris est pressée ici
 
-Keep this to run your code
+Garde ceci pour exécuter ton code
 
-Definitions for compatibility with the p5py processing library
+Définitions pour la compatibilité avec la bibliothèque de traitement p5py
 
-Shape
+Forme
 
-Fonts
+Polices
 
-Text
+Texte
 
-Colour
+Couleur
 
 Images
 
-Environment
+Environnement
 
-Transform
+Transformation
 
-Keyboard
+Clavier
 
-Hair and face
+Cheveux et visage
 
-stalk
+tige
 
-Top face background
+Fond du visage supérieur
 
-Top face hair
+Cheveux du haut du visage
 
-Top face left eye
+Visage supérieur oeil gauche
 
-Top face right eye
+Visage supérieur œil droit
 
-Top face mouth
+Bouche du haut du visage
 
-Bottom face background
+Fond du visage inférieur
 
-Bottom face hair
+Cheveux du bas du visage
 
-Bottom face left eye
+Visage inférieur œil gauche
 
-Bottom face right eye
+Visage inférieur œil droit
 
-Bottom face mouth
+Bouche du bas du visage
 
-Nose
+Nez
 
-Face markings
+Marques sur le visage
 
-Hair
+Cheveux
 
-add a # to the beginning of this line to hide the grid
+ajouter un # au début de cette ligne pour cacher la grille
