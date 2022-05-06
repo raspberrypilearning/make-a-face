@@ -1,139 +1,139 @@
-400 by 400 works well for a round face
+400 bij 400 werkt goed voor een rond gezicht
 
-Try different numbers to change the colour
+Probeer andere getallen om de kleur te veranderen
 
-Shows grid
+Toont raster
 
-Hide grid by turning it into a comment
+Verberg raster door het te veranderen in een opmerking
 
-Circle in the middle
+Cirkel in het midden
 
-You can also use no_stroke()
+Je kunt ook no_stroke() gebruiken
 
-Bright yellow
+Fel geel
 
-Black — change to red, green, or blue up to 255
+Zwart: Verander naar rood, groen of blauw tot 255
 
-x, y, width, height
+x, y, breedte, hoogte
 
-A black mouth
+Een zwarte mond
 
-An orange face
+Een oranje gezicht
 
-Higher circle
+Hogere cirkel
 
-Lower circle
+Onderste cirkel
 
-Face mask
+Gezichtsmasker
 
-Left ear loop
+Linker oorlus
 
-Right ear loop
+Rechter oorlus
 
-Large white rectangle
+Grote witte rechthoek
 
-Smaller blue rectangle
+Kleinere blauwe rechthoek
 
-Mouth
+Mond
 
-Starting amount of red
+Beginhoeveelheid rood
 
-Starting amount of green
+Beginhoeveelheid groen
 
-Starting amount of blue
+Beginhoeveelheid blauw
 
-Uses variables to control the colour change each loop
+Gebruikt variabelen om de kleurverandering van elke lus te regelen
 
-Move along the x coordinate by the width of a tooth
+Beweeg langs de x-coördinaat met de breedte van een tand
 
-Mouth line
+Mondlijn
 
-Left tooth
+Linker tand
 
-Right tooth
+Rechter tand
 
 Highlights
 
-70 is transparency/opacity here
+70 is hier de transparantie/doorzichtigheid
 
-Black
+Zwart
 
-White
+Wit
 
-Eyes
+Ogen
 
-Face
+Gezicht
 
-Green
+Groen
 
-Put code to run once here
+Zet de code om eenmalig uit te voeren hier onder
 
-width and height
+breedte en hoogte
 
-move under draw() to reset the drawing every frame
+plaats onder draw() om de tekening elk frame te resetten
 
-Put code to run every frame here
+Zet hier code om bij elk frame uit te voeren
 
-draw mask
+teken het masker
 
-eyes and mouth
+ogen en mond
 
-partly cover eyes and mouth
+bedek ogen en mond gedeeltelijk
 
-cover top of mask
+bedek de bovenkant van het masker
 
-shade half of the mask
+schaduw de helft van het masker
 
-Put code to run when the mouse is pressed here
+Zet code hier die moet worden uitgevoerd wanneer de muis wordt ingedrukt
 
-Keep this to run your code
+Bewaar dit om je code uit te voeren
 
-Definitions for compatibility with the p5py processing library
+Definities voor compatibiliteit met de p5py-verwerkingsbibliotheek
 
-Shape
+Vorm
 
-Fonts
+Lettertypen
 
-Text
+Tekst
 
-Colour
+Kleur
 
-Images
+Afbeeldingen
 
-Environment
+Omgeving
 
-Transform
+Omzetten
 
-Keyboard
+Toetsenbord
 
-Hair and face
+Haar en gezicht
 
-stalk
+steel
 
-Top face background
+Bovenste gezicht achtergrond
 
-Top face hair
+Haar van het bovenste gezicht
 
-Top face left eye
+Bovenste gezicht linkeroog
 
-Top face right eye
+Bovenste gezicht rechteroog
 
-Top face mouth
+Bovenste gezicht mond
 
-Bottom face background
+Achtergrond van het onderste gezicht
 
-Bottom face hair
+Haar van het onderste gezicht
 
-Bottom face left eye
+Onderste gezicht linkeroog
 
-Bottom face right eye
+Onderste gezicht rechter oog
 
-Bottom face mouth
+Onderste gezicht mond
 
-Nose
+Neus
 
-Face markings
+Gezichtsmarkeringen
 
-Hair
+Haar
 
-add a # to the beginning of this line to hide the grid
+voeg een # toe aan het begin van deze regel om het raster te verbergen
