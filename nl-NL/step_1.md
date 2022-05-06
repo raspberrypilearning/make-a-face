@@ -1,44 +1,44 @@
-## Introduction
+## Inleiding
 
-Write Python code to draw a face or mask using geometric shapes.
+Schrijf Python-code om een gezicht of masker te tekenen met behulp van geometrische vormen.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The creation of <span style="color: #0faeb0">**geometric art**</span> dates back to Ancient Greece where vases would be painted with patterns made up of shapes. Artists began using shapes to draw humans and animals with circles for heads, triangle bodies, and lines for legs and arms.
+De creatie van <span style="color: #0faeb0">**geometrische kunst**</span> gaat terug naar het oude Griekenland waar vazen werden beschilderd met patronen die uit verschillende vormen bestaan. Kunstenaars begonnen vormen te gebruiken om mensen en dieren te tekenen met cirkels voor hoofden, driehoekslichamen en lijnen voor benen en armen.
 </p>
 
-You will:
+Je gaat:
 
-+ Use code creatively to make a piece of digital art
-+ Draw and position your art using geometric shapes, coordinates, and layers
-+ Organise your code with functions
++ Code creatief gebruiken om een stukje digitale kunst te maken
++ Je kunst tekenen en positioneren met behulp van geometrische vormen, coördinaten en lagen
++ Je code organiseren met functies
 
-![Examples of different faces.](images/strip.png)
+![Voorbeelden van verschillende gezichten.](images/strip.png)
 
 --- no-print ---
 
-### Get inspiration
+### Doe inspiratie op
 
-You are going to make some design decisions about the kind of face you will make and how you will use code to get the effect you want.
+Je gaat wat ontwerpbeslissingen nemen over het soort gezicht dat je gaat maken en hoe je code gaat gebruiken om het gewenste effect te krijgen.
 
 --- task ---
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-Look at these examples and think about how they have been made from circles, ellipses, squares, rectangles, and triangles.
+Bekijk deze voorbeelden en bedenk hoe ze zijn gemaakt van cirkels, ellipsen, vierkanten, rechthoeken en driehoeken.
 
-**Kawaii fruit**: [See inside](https://trinket.io/python/6bad88800b){:target="_blank"}
+**Kawaii fruit**: [Bekijk van binnen](https://trinket.io/python/6bad88800b){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/6bad88800b?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-**Stacked faces**: [See inside](https://trinket.io/python/f90794771c){:target="_blank"}
+**Gestapelde gezichten**: [Bekijk van binnen](https://trinket.io/python/f90794771c){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/f90794771c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-**Tribal mask**: [See inside](https://trinket.io/python/b876d500ab){:target="_blank"}
+**Stammenmasker**: [Bekijk van binnen](https://trinket. io/python/b876d500ab){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/b876d500ab?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
@@ -53,13 +53,13 @@ Look at these examples and think about how they have been made from circles, ell
 
 --- print-only ---
 
-### Get inspiration
+### Doe inspiratie op
 
-You are going to make some design decisions about the kind of face you will make and how you will use code to get the effect you want.
+Je gaat wat ontwerpbeslissingen nemen over het soort gezicht dat je gaat maken en hoe je code gaat gebruiken om het gewenste effect te krijgen.
 
-See inside example projects in [Python 1: Make a face — Examples](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"} Scratch studio.
+Zie in voorbeeldprojecten in [Python 1: Maak een gezicht — voorbeelden](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"} Scratch studio.
 
-![The output area from the Kawaii fruit project.](images/smile.png) ![The output area from the Stacked faces project.](images/stacked.png) ![The output area from the Tribal mask project.](images/tribal.png)
+![Het output gebied van het Kawaii-fruitproject.](images/smile.png) ![Het uitvoergebied van de gestapelde gezichtenproject.](images/stacked.png) ![Het output gebied van het stammenmasker project.](images/tribal.png)
 
 --- /print-only ---
 
