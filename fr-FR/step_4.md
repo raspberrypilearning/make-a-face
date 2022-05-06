@@ -1,31 +1,31 @@
-## Add eyes
+## Ajouter des yeux
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Eyes make a shape start to look like a face.
+Les yeux font qu'une forme commence à ressembler à un visage.
 </div>
 <div>
-![The output area showing a face with eyes.](images/eyes.png){:width="200px"}
+![La zone de sortie montrant un visage avec des yeux.](images/eyes.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-Think about what kind of eyes your face needs. The simplest eyes are just two circles.
+Pense au type d'yeux dont ton visage a besoin. Les yeux les plus simples ne sont que deux cercles.
 
-You could add different coloured irises and pupils. You could add light highlights / catchlights in a different colour.
+Tu peux ajouter des iris et des pupilles de différentes couleurs. Tu peux ajouter des zones claires / reflets dans une couleur différente.
 
 --- /task ---
 
-Experiment with `ellipses` in the `draw` function to create the eyes you want.
+Expérimente avec `ellipse` dans la fonction `dessiner` pour créer les yeux que tu veux.
 
 --- task ---
 
-### Position the eyes
+### Positionner les yeux
 
-The first number in `ellipse` is the center of the eye. The eyes should be positioned the same distance from the centre of the drawing.
+Le premier nombre dans `ellipse` est le centre de l'œil. Les yeux doivent être positionnés à la même distance du centre du dessin.
 
-In this example, `160` and `240` are both `40` pixels away from 200, which works for a drawing with a width of 400.
+Dans cet exemple, `160` et `240` sont tous les deux à `40` pixels de 200, ce qui fonctionne pour un dessin d'une largeur de 400.
 
 --- code ---
 ---
@@ -36,17 +36,17 @@ filename: main.py - draw()
 
 --- /code ---
 
-**Tip:** If you want round eyes, then using an `eye_size` variable makes it easier to change the width and height of both eyes in one place.
+**Astuce :** Si tu veux des yeux ronds, l'utilisation d'une variable `taille_yeux` facilite la modification de la largeur et de la hauteur des deux yeux au même endroit.
 
 [[[processing-python-ellipse]]]
 
 --- collapse ---
 
 ---
-title: Calculating positions based on width
+title: Calcul des positions en fonction de la largeur
 ---
 
-The centre of a drawing is at position `width / 2` or half the width. You can use this to position the eyes by subtracting the eye width for the left eye and adding it for the right eye:
+Le centre d'un dessin est à la position `largeur / 2` ou la moitié de la largeur. Tu peux l'utiliser pour positionner les yeux en soustrayant la largeur des yeux pour l'œil gauche et en l'ajoutant pour l'œil droit :
 
 --- code ---
 ---
@@ -58,7 +58,7 @@ filename: main.py - draw()
 
 --- /code ---
 
-You could also calculate the width of the eyes based on the width of the drawing.
+Tu peux également calculer la largeur des yeux en fonction de la largeur du dessin.
 
 --- code ---
 ---
@@ -72,15 +72,15 @@ filename: main.py - draw()
 
 --- /collapse ---
 
-Change the second number in the `ellipse` function call to move the `y` (vertical) position of the eyes.
+Modifie le deuxième nombre dans l'appel de fonction `ellipse` pour déplacer la position `y` (verticale) des yeux.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Keep changing the shape and position of the eyes until you like the way they look.
+**Test :** Continue à changer la forme et la position des yeux jusqu'à ce que tu aimes leur apparence.
 
-**Tip:** If you set a stroke for drawing the face and don't want one for the eyes, then you will need to call `no_stroke()` before drawing the eyes.
+**Astuce :** Si tu définis un trait pour dessiner le visage et que tu n'en veux pas pour les yeux, tu devras alors appeler `no_stroke()` avant de dessiner les yeux.
 
 [[[processing-stroke]]]
 
@@ -88,19 +88,19 @@ Change the second number in the `ellipse` function call to move the `y` (vertica
 
 --- task ---
 
-### Add detail
+### Ajouter des détails
 
-You can use more circles to create:
-+ Coloured irises
-+ Black pupils
-+ White catchlights
-+ Or, something else
+Tu peux utiliser d'autres cercles pour créer :
++ Des iris colorés
++ Des pupilles noires
++ Des reflets blancs
++ Ou autre chose
 
-This eye has a coloured iris, black pupil, and white catchlights with changed opacity: ![The output area showing an eye with catchlights over the pupil and iris.](images/catchlights.png)
+Cet œil a un iris coloré, une pupille noire et des reflets blancs avec une opacité modifiée : ![La zone de sortie montrant un œil avec des reflets au-dessus de la pupille et de l'iris.](images/catchlights.png)
 
 \[[[generic-theory-simple-colours]]\] \[[[processing-opacity\]]]
 
-You can also animate the eyes by rotating them.
+Tu peux également animer les yeux en les faisant pivoter.
 
 [[[processing-rotation]]]
 
@@ -108,55 +108,55 @@ You can also animate the eyes by rotating them.
 
 --- task ---
 
-**Test:** Keep changing the eyes until you like the way they look.
+**Test :** Continue à changer les yeux jusqu'à ce que tu aimes leur apparence.
 
-Is your drawing starting to look like a face?
+Ton dessin commence à ressembler à un visage ?
 
 --- /task ---
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Débogage :** Il est possible que tu trouves des bogues dans ton projet que tu dois corriger. Voici quelques bogues assez courants.
 
 --- collapse ---
 ---
-title: The eyes aren't centred
+title: Les yeux ne sont pas centrés
 ---
 
-You could use `height / 2` to place them in the centre.
+Tu peux utiliser `hauteur / 2` pour les placer au centre.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: The eyes aren't aligned with each other
+title: Les yeux ne sont pas alignés
 ---
 
-If you want the eyes to be aligned, then make sure you use the same number for the coordinates for both eyes. Try using a variable so that the values are always the same.
-
---- /collapse ---
-
---- collapse ---
-
----
-title: I can't see the pupil or iris
----
-
-The eye needs to be drawn first, then the iris, and finally the pupil. The order in which you draw things is very important.
-
-Computer graphics are made of layers. In your eye, each ellipse is a layer. Objects on higher layers sit in front of objects on lower layers. Imagine cutting all the shapes out of paper. Depending on how you arrange and overlap that paper, the final result could look very different.
+Si tu veux que les yeux soient alignés, assure-toi d'utiliser le même nombre pour les coordonnées des deux yeux. Essaie d'utiliser une variable pour que les valeurs soient toujours les mêmes.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My eyes are not round
+title: Je ne vois ni la pupille ni l'iris
 ---
 
-The third and fourth numbers in `ellipse` are the width and height of the eyes.
+L'œil doit d'abord être dessiné, puis l'iris et enfin la pupille. L'ordre dans lequel tu dessines les choses est très important.
 
-**Tip:** If you make them the same, you will get round eyes.
+L'infographie est composée de calques. Dans ton œil, chaque ellipse est un calque. Les objets des calques supérieurs se placent devant les objets des calques inférieurs. Imagine découper toutes les formes dans du papier. Selon la façon dont tu organises et superposes ce papier, le résultat final peut être très différent.
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: Mes yeux ne sont pas ronds
+---
+
+Les troisième et quatrième nombres dans `ellipse` sont la largeur et la hauteur des yeux.
+
+**Astuce :** Si tu les fais identiques, tu obtiendras des yeux ronds.
 
 --- /collapse ---
 
