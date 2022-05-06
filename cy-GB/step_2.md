@@ -11,7 +11,7 @@ Oes gennych chi sniad pa fath o wyneb neu fasg hoffech chi ei wneud? Defnyddiwch
 
 --- task ---
 
-Agorwch y [prosiect dechreuol](https://trinket.io/library/trinkets/54d15b9cdf){:target="_blank"}. Bydd Trinket yn agor mewn tab arall yn y porwr.
+Agorwch y [prosiect dechreuol](https://trinket.io/library/trinkets/c3d8df2d8e){:target="_blank"}. Bydd Trinket yn agor mewn tab arall yn y porwr.
 
 --- /task ---
 

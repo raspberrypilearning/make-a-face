@@ -26,21 +26,21 @@ Byddwch chi'n gwneud penderfyniadau dylunio am y math o wyneb i'w wneud, a sut b
 
 'Drychwch ar yr enghreifftiau hyn a meddwl am sut maen nhw wedi cael eu gwneud o gylchoedd, elipsau, sgwariau, petryalau a thrionglau.
 
-**Ffrwyth Kawaii**: [Gweld tu mewn](https://trinket.io/python/6bad88800b){:target="_blank"}
+**Ffrwyth Kawaii**: [Gweld tu mewn](https://trinket.io/python/ec544e5e2f){:target="_blank"}
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/python/6bad88800b?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/python/ec544e5e2f?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-**Wynebau mewn pentwr**: [Gweld tu mewn](https://trinket.io/python/f90794771c){:target="_blank"}
+**Wynebau mewn pentwr**: [Gweld tu mewn](https://trinket.io/python/53fb8b4951){:target="_blank"}
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/python/f90794771c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/python/53fb8b4951?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-**Masg llwythol**: [Gweld tu mewn](https://trinket.io/python/b876d500ab){:target="_blank"}
+**Masg llwythol**: [Gweld tu mewn](https://trinket.io/python/572feeba8e){:target="_blank"}
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/python/b876d500ab?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/python/572feeba8e?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 

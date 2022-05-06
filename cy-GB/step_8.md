@@ -8,15 +8,15 @@ Dyma rai syniadau eraill gallech chi roi cynnig arnyn nhw:
 - Ychwanegu rhyngweithioldeb — rhowch gynnig ar **Rhyngweithiol: Masg Theatr**, beth sy'n digwydd pan fyddwch chi'n symud eich llygoden ar draws y sgrin?
 - Ychwanegu animeiddiad — rhowch gynnig ar **Animeiddiad: Frida**, beth sy'n digwydd i fand gwallt Frida pan fyddwch chi'n rhedeg y prosiect?
 
-**Rhyngweithiol: Masg Theatr**: [Gweld tu mewn](https://trinket.io/python/86d89fad13){:target="_blank"}
+**Rhyngweithiol: Masg Theatr**: [Gweld tu mewn](https://trinket.io/python/32025d3e5a){:target="_blank"}
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/python/86d89fad13?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/python/32025d3e5a?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-**Animeiddiad: Frida**: [Gweld tu mewn](https://trinket.io/python/3d69be294a){:target="_blank"}
+**Animeiddiad: Frida**: [Gweld tu mewn](https://trinket.io/python/aebb2aeb8b){:target="_blank"}
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/python/3d69be294a?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/python/aebb2aeb8b?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
