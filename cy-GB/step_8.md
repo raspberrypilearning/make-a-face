@@ -1,25 +1,25 @@
-## Upgrade your project
+## Uwchraddio eich prosiect
 
-If you have time you can upgrade to your project.
+Os oes gennych chi amser, fe allwch chi uwchraddio eich prosiect.
 
-Each of the examples in the [Introduction](.) was created in Trinket and you can look at the code to get ideas and see how they work.
+Cafodd pob un o'r enghreifftiau yn [Cyflwyniad](.) ei chreu yn Trinket ac fe allwch chi edrych ar y cod i gael syniadau a gweld sut maen nhw'n gweithio.
 
-Here are some other ideas you could try:
-- Add interactivity — try our **Interactive: Theatre Mask**, what happens when you move your mouse across the screen?
-- Add animation — try our **Animated: Frida**, what happens to Frida's headband when you run the project?
+Dyma rai syniadau eraill gallech chi roi cynnig arnyn nhw:
+- Ychwanegu rhyngweithioldeb — rhowch gynnig ar **Rhyngweithiol: Masg Theatr**, beth sy'n digwydd pan fyddwch chi'n symud eich llygoden ar draws y sgrin?
+- Ychwanegu animeiddiad — rhowch gynnig ar **Animeiddiad: Frida**, beth sy'n digwydd i fand gwallt Frida pan fyddwch chi'n rhedeg y prosiect?
 
-**Interactive: Theatre Mask**: [See inside](https://trinket.io/python/86d89fad13){:target="_blank"}
+**Rhyngweithiol: Masg Theatr**: [Gweld tu mewn](https://trinket.io/python/86d89fad13){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/86d89fad13?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-**Animated: Frida**: [See inside](https://trinket.io/python/3d69be294a){:target="_blank"}
+**Animeiddiad: Frida**: [Gweld tu mewn](https://trinket.io/python/3d69be294a){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/3d69be294a?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-Take a look at our [Make a face - Community library](https://wke.lt/w/s/8sVH4f){:target="_blank"} to see projects created by community members.
+Tarwch olwg ar [Make a face - Community library](https://wke.lt/w/s/8sVH4f){:target="_blank"} i weld prosiectau wedi'u creu gan aelodau o'r gymuned.
 
 --- save ---
