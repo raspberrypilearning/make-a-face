@@ -1,12 +1,12 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Vraag 2 van 3
 ---
 
-In your project, you added code to draw a face with many features. The order of your code was extremely important to make the face look like your design.
+In je project heb je code toegevoegd om een gezicht te tekenen met veel functies. De volgorde van je code was erg belangrijk om het gezicht eruit te laten zien als je ontwerp.
 
-If you ran this code, what would the face look like?
+Hoe zou het gezicht eruit zien als je deze code uitvoert?
 
 --- code ---
 ---
@@ -28,41 +28,41 @@ run()
 
 - ( )
 
-![A white face with black outline. There are two solid green eyes with black outlines.](images/face1.png)
+![Een wit gezicht met een zwarte omtrek. Er zijn twee groene ogen met zwarte contouren.](images/face1.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `ellipse()` and the `stroke()` functions.
+ Niet helemaal, kijk naar de volgorde van de `ellips()` en de `stroke()` functies.
 
  --- /feedback ---
 
 - ( )
 
-![A white face with black outline. There are two green eyes with black pupils and both have a black outline.](images/face2.png)
+![Een wit gezicht met een zwarte omtrek. Er zijn twee groene ogen met zwarte pupillen en beide hebben een zwarte omtrek.](images/face2.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `stroke()` functions.
+ Niet helemaal, kijk naar de volgorde van de `stroke()` functies.
 
  --- /feedback ---
 
 - (x)
 
-![A white face with black outline. There are two green eyes with black pupils and the eyes do not have an outline.](images/face3.png)
+![Een wit gezicht met een zwarte omtrek. Er zijn twee groene ogen met zwarte pupillen en de ogen hebben geen omtreklijn.](images/face3.png)
 
  --- feedback ---
 
- Correct, the code draws a face with a black stroke then turns off the stroke before drawing the circles. The green circles are drawn first with the black circles on top of them.
+ Juist, de code tekent een gezicht met een zwarte streep en schakelt de rand uit voordat de cirkels worden getekend. De groene cirkels worden eerst getekend met de zwarte cirkels er bovenop.
 
  --- /feedback ---
 
 - ( )
 
-![A white face with black outline. There are two solid green eyes that do not have an outline.](images/face4.png)
+![Een wit gezicht met een zwarte omtrek. Er zijn twee groene ogen die geen omtrek hebben.](images/face4.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `ellipse()` functions.
+ Niet helemaal, kijk naar de volgorde van de `ellips()` functies.
 
  --- /feedback ---
 
