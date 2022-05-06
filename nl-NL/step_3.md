@@ -1,21 +1,21 @@
-## Face shape
+## Vorm van het gezicht
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Draw and colour a shape for your face or mask. Don't add the other features just yet, they will come later.
+Teken en kleur een vorm voor je gezicht of masker. Voeg de andere elementen nog niet toe, die komen later.
 </div>
 <div>
-![Image of a square-faced robot.](images/robot-teeth.png){:width="200px"}
+![Afbeelding van een robot met een vierkant gezicht.](afbeeldingen/robot-tanden.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-Decide on the main shape of the face for your mask. It could be a circle, an ellipse, a rectangle, or even a triangle.
+Kies de hoofdvorm van het gezicht voor je masker. Het kan een cirkel, een ellips, een rechthoek of zelfs een driehoek zijn.
 
-Add code to the `draw()` function to draw a face or mask. Make sure you also remove `pass` from inside the function.
+Voeg code toe aan de `draw()` functie om een gezicht of masker te tekenen. Zorg ervoor dat je ook `pass` verwijdert in de functie.
 
-This example draws a circle in the middle, but it's up to you which shape to use.
+In dit voorbeeld wordt een cirkel in het midden getekend, maar je kunt helemaal zelf bepalen welke vorm je wil gebruiken.
 
 --- code ---
 ---
@@ -28,7 +28,7 @@ ellipse(width/2, height/2, 200, 200) #Circle in the middle
 
 --- /code ---
 
-![The output area showing a black circle in the middle of the grid.](images/black-circle.png)
+![Het output gebied met een zwarte cirkel in het midden van het raster.](images/black-circle.png)
 
 [[[processing-python-ellipse]]]
 
@@ -42,17 +42,17 @@ ellipse(width/2, height/2, 200, 200) #Circle in the middle
 
 --- task ---
 
-**Test:** Run your code and change it to get the face size and shape that you want.
+**Test:** Voer je code uit en wijzig deze om de grootte en vorm van het gezicht te krijgen die je wilt.
 
 --- /task ---
 
 --- task ---
 
-Choose a stroke colour for the outline and a fill colour for the main part of the shape.
+Kies een lijnkleur voor de omtrek en een vulkleur voor het hoofdgedeelte van de vorm.
 
 [[[processing-stroke]]]
 
-If you don't want an outline, then use `no_stroke()`.
+Als je geen omtrek wilt, gebruik dan `no_stroke()`.
 
 --- code ---
 ---
@@ -70,7 +70,7 @@ def draw(): stroke(0) #You can also use no_stroke() fill(255, 255, 0) #Bright ye
 
 --- task ---
 
-**Test:** Run your code and change the colour until you are happy with it.
+**Test:** Voer je code uit en wijzig de kleur totdat je er tevreden mee bent.
 
 --- /task ---
 
