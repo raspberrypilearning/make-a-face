@@ -1,31 +1,31 @@
-## Add eyes
+## Voeg ogen toe
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Eyes make a shape start to look like a face.
+Ogen laten een vorm eruit zien als een gezicht.
 </div>
 <div>
-![The output area showing a face with eyes.](images/eyes.png){:width="200px"}
+![Het output gebied toont een gezicht met ogen.](images/eyes.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-Think about what kind of eyes your face needs. The simplest eyes are just two circles.
+Bedenk wat voor ogen je gezicht nodig heeft. De eenvoudigste ogen zijn slechts twee cirkels.
 
-You could add different coloured irises and pupils. You could add light highlights / catchlights in a different colour.
+Je zou verschillende kleuren irissen en pupillen kunnen toevoegen. Je zou lichte highlights/catchlights in een andere kleur kunnen toevoegen.
 
 --- /task ---
 
-Experiment with `ellipses` in the `draw` function to create the eyes you want.
+Experimenteer met `ellipsen` in de functie `draw` om de ogen te maken die je wilt.
 
 --- task ---
 
-### Position the eyes
+### Plaats de ogen
 
-The first number in `ellipse` is the center of the eye. The eyes should be positioned the same distance from the centre of the drawing.
+Het eerste getal in `ellipse` is het midden van het oog. De ogen moeten op dezelfde afstand van het midden van de tekening worden geplaatst.
 
-In this example, `160` and `240` are both `40` pixels away from 200, which works for a drawing with a width of 400.
+In dit voorbeeld liggen `160` en `240` allebei `40` pixels weg van 200, wat werkt voor een tekening met een breedte van 400.
 
 --- code ---
 ---
@@ -36,17 +36,17 @@ filename: main.py - draw()
 
 --- /code ---
 
-**Tip:** If you want round eyes, then using an `eye_size` variable makes it easier to change the width and height of both eyes in one place.
+**Tip:** als je ronde ogen wilt, kun je met behulp van een `ooggrootte` variabele de breedte en hoogte van beide ogen op één plek gemakkelijker wijzigen.
 
 [[[processing-python-ellipse]]]
 
 --- collapse ---
 
 ---
-title: Calculating positions based on width
+title: Posities berekenen op basis van breedte
 ---
 
-The centre of a drawing is at position `width / 2` or half the width. You can use this to position the eyes by subtracting the eye width for the left eye and adding it for the right eye:
+Het midden van een tekening staat op positie `breedte / 2` of de helft van de breedte. Je kunt dit gebruiken om de ogen te positioneren door de oogbreedte voor het linkeroog af te trekken en op te tellen voor het rechteroog:
 
 --- code ---
 ---
@@ -58,7 +58,7 @@ filename: main.py - draw()
 
 --- /code ---
 
-You could also calculate the width of the eyes based on the width of the drawing.
+Je kunt ook de breedte van de ogen berekenen op basis van de breedte van de tekening.
 
 --- code ---
 ---
@@ -72,15 +72,15 @@ filename: main.py - draw()
 
 --- /collapse ---
 
-Change the second number in the `ellipse` function call to move the `y` (vertical) position of the eyes.
+Wijzig het tweede getal in de functieaanroep `ellipse` om de `y` (verticale) positie van de ogen te verplaatsen.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Keep changing the shape and position of the eyes until you like the way they look.
+**Test:** Blijf de vorm en positie van de ogen veranderen totdat je tevreden bent.
 
-**Tip:** If you set a stroke for drawing the face and don't want one for the eyes, then you will need to call `no_stroke()` before drawing the eyes.
+**Tip:** als je een rand instelt om het gezicht te tekenen en er geen wilt voor de ogen, moet je `no_stroke()` aanroepen voordat je de ogen tekent.
 
 [[[processing-stroke]]]
 
@@ -88,19 +88,19 @@ Change the second number in the `ellipse` function call to move the `y` (vertica
 
 --- task ---
 
-### Add detail
+### Voeg details toe
 
-You can use more circles to create:
-+ Coloured irises
-+ Black pupils
-+ White catchlights
-+ Or, something else
+Je kunt meer cirkels gebruiken voor:
++ Gekleurde irissen
++ Zwarte pupillen
++ Witte catchlights
++ Of iets anders
 
-This eye has a coloured iris, black pupil, and white catchlights with changed opacity: ![The output area showing an eye with catchlights over the pupil and iris.](images/catchlights.png)
+Dit oog heeft een gekleurde iris, zwarte pupil en witte catchlights met gewijzigde doorzichtigheid: ![Het outputgebied toont een oog met catchlights over de pupil en iris.](images/catchlights.png)
 
 \[[[generic-theory-simple-colours]]\] \[[[processing-opacity\]]]
 
-You can also animate the eyes by rotating them.
+Je kunt de ogen ook veranderen door ze te draaien.
 
 [[[processing-rotation]]]
 
@@ -108,55 +108,55 @@ You can also animate the eyes by rotating them.
 
 --- task ---
 
-**Test:** Keep changing the eyes until you like the way they look.
+**Test:** Verander de ogen totdat je tevreden bent.
 
-Is your drawing starting to look like a face?
+Begint je tekening op een gezicht te lijken?
 
 --- /task ---
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Debug:** Mogelijk vind je enkele fouten in jouw project die je moet oplossen. Hier zijn enkele veel voorkomende bugs.
 
 --- collapse ---
 ---
-title: The eyes aren't centred
+title: De ogen zijn niet gecentreerd
 ---
 
-You could use `height / 2` to place them in the centre.
+Je zou `hoogte / 2` kunnen gebruiken om ze in het midden te plaatsen.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: The eyes aren't aligned with each other
+title: De ogen zijn niet uitgelijnd met elkaar
 ---
 
-If you want the eyes to be aligned, then make sure you use the same number for the coordinates for both eyes. Try using a variable so that the values are always the same.
-
---- /collapse ---
-
---- collapse ---
-
----
-title: I can't see the pupil or iris
----
-
-The eye needs to be drawn first, then the iris, and finally the pupil. The order in which you draw things is very important.
-
-Computer graphics are made of layers. In your eye, each ellipse is a layer. Objects on higher layers sit in front of objects on lower layers. Imagine cutting all the shapes out of paper. Depending on how you arrange and overlap that paper, the final result could look very different.
+Als je wilt dat de ogen worden uitgelijnd, zorg er dan voor dat je hetzelfde getal gebruikt voor de coördinaten voor beide ogen. Probeer een variabele te gebruiken zodat de waarden altijd hetzelfde zijn.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My eyes are not round
+title: Ik kan de pupil of iris niet zien
 ---
 
-The third and fourth numbers in `ellipse` are the width and height of the eyes.
+Eerst moet het oog worden getekend, dan de iris en tenslotte de pupil. De volgorde waarin je dingen tekent is erg belangrijk.
 
-**Tip:** If you make them the same, you will get round eyes.
+Computerafbeeldingen zijn gemaakt van lagen. In je oog is elke ellips een laag. Objecten op hogere lagen zitten voor objecten op lagere lagen. Stel je voor dat je alle vormen uit papier knipt. Afhankelijk van hoe je dat papier rangschikt en overlapt, kan het eindresultaat er heel anders uitzien.
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: Mijn ogen zijn niet rond
+---
+
+Het derde en vierde getal in `ellipse` zijn de breedte en hoogte van de ogen.
+
+**Tip:** Als je ze hetzelfde maakt, krijg je ronde ogen.
 
 --- /collapse ---
 
