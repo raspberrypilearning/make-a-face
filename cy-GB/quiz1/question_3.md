@@ -43,7 +43,7 @@ Mae hynny'n wir, ond dyw hynny ddim yn helpu i greu llawer o wahanol ddyluniadau
 
   --- feedback ---
 
-Ddim yn hollol. Mae gan newidynnau'r gwerth rydych chi'n ei neilltuo iddyn nhw. Os byddwch chi'n neilltuo rhif i newidyn (fel `eye_radius = 50`) a ddim yn ei newid, bydd yr un fath bob tro rydych chi'n rhedeg y rhaglen.
+Ddim yn hollol. Mae gan newidynnau'r gwerth rydych chi'n ei neilltuo iddyn nhw. Os byddwch chi'n neilltuo rhif i newidyn (fel `radiws_llygaid = 50`) a ddim yn ei newid, bydd yr un fath bob tro rydych chi'n rhedeg y rhaglen.
 
   --- /feedback ---
 
