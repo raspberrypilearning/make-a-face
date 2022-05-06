@@ -1,31 +1,31 @@
-eye_size
+taille-yeux
 
-red
+rouge
 
-green
+vert
 
-blue
+bleu
 
 orange
 
-brown
+brun
 
-purple
+violet
 
-grey
+gris
 
-lilac
+lilas
 
-gap
+écart
 
-sad
+triste
 
-happy
+heureux
 
-x_middle
+milieu_x
 
-y_eye
+yeux_y
 
-y_mouth
+bouche_y
 
-mask_width
+largeur_masque
