@@ -1,42 +1,42 @@
-## Choose a theme
+## Choisir un thème
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Have you got an idea about the kind of face or mask you want to make? Use this step to plan your art and set up your canvas.
+As-tu une idée du type de visage ou de masque que tu souhaites réaliser ? Utilise cette étape pour planifier ton art et configurer ta zone de travail.
 </div>
 <div>
-![The output area with a vampire-themed face.](images/vampire.png){:width="200px"}
+![La zone de sortie avec un visage sur le thème des vampires.](images/vampire.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-Open the [starter project](https://trinket.io/library/trinkets/54d15b9cdf){:target="_blank"}. Trinket will open in another browser tab.
+Ouvre le [projet de démarrage](https://trinket.io/library/trinkets/54d15b9cdf){:target="_blank"}. Trinket s'ouvrira dans un autre onglet du navigateur.
 
 --- /task ---
 
 --- task ---
 
-**Choose:** Think about the kind of face you want to make:
-+ Do you want to choose something from your heritage or popular culture?
-+ Will your art show a human, animal, something mythical, or perhaps a machine?
-+ You might even want to create a self-portrait!
-+ You could draw an emoji to share with your friends
+**Choisir :** Réfléchis au type de visage que tu veux faire :
++ Veux-tu choisir quelque chose de ton héritage ou de ta culture populaire ?
++ Ton art montrera-t-il un humain, un animal, quelque chose de mythique ou peut-être une machine ?
++ Tu voudras peut-être même créer un autoportrait !
++ Tu pourrais dessiner un emoji à partager avec tes amis
 
 --- /task ---
 
 --- task ---
 
-The first thing to do when creating art using the Python `Processing library` is to add `def setup():` to define a `setup` function that is run once at the beginning of your program.
+La première chose à faire lors de la création artistique à l'aide de la bibliothèque Python `Processing` est d'ajouter `def configuration():` pour définir une fonction `configuration` qui est exécutée une fois au début de ton programme.
 
-The starter project has a `setup` function that sets the `size` of your canvas to `400` width and `400` height.
+Le projet de démarrage a une fonction `configuration` qui définit la `taille` de ta zone de travail à `400` de largeur et `400` de hauteur.
 
-**Choose:** Experiment with the numbers and run your code to find a size that you are happy with.
+**Choisir :** Expérimente avec les nombres et exécute ton code pour trouver une taille qui te convient.
 
 --- collapse ---
 
 ---
-title: Setting the screen size when your program starts
+title: Définir la taille de l'écran au démarrage de ton programme
 ---
 
 --- code ---
@@ -55,14 +55,14 @@ size(400, 400) #400 by 400 works well for a round face
 
 --- task ---
 
-**Choose:** Think about the colours you will use for your face and change the `background` colour values to set your screen to a complementary colour.
+**Choisir :** Pense aux couleurs que tu utiliseras pour ton visage et change les couleurs `d'arrière-plan` pour régler ton écran sur une couleur complémentaire.
 
 [[[generic-theory-simple-colours]]]
 
 --- collapse ---
 
 ---
-title: Setting the background colour when your program starts
+title: Définir la couleur d'arrière-plan au démarrage de ton programme
 ---
 
 --- code ---
@@ -81,9 +81,9 @@ line_highlights: 9
 
 --- task ---
 
-**Tip:** The `draw` function has `grid()` code. This adds a coordinates grid over your background that helps you work out where to position features on your face.
+**Astuce :** La fonction `dessiner` a un code `grid()`. Cela ajoute une grille de coordonnées sur ton arrière-plan qui t'aide à déterminer où positionner les traits sur ton visage.
 
-To turn the grid off add a `#` in front of the code, to turn it back on remove the `#`.
+Pour désactiver la grille, ajoute un `#` devant le code, pour la réactiver, supprime le `#`.
 
 --- code ---
 ---
@@ -109,32 +109,32 @@ filename: main.py - draw()
 
 --- task ---
 
-**Test:** Run your project to see your chosen screen size and background colour.
+**Test :** Exécute ton projet pour voir la taille d'écran et la couleur d'arrière-plan que tu as choisies.
 
 --- /task ---
 
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Débogage :** Il est possible que tu trouves des bogues dans ton projet que tu dois corriger. Voici quelques bogues assez courants.
 
 --- collapse ---
 
 ---
-title: I've updated my size and colour but the output area stays the same
+title : J'ai mis à jour ma taille et ma couleur mais la zone de sortie reste la même
 ---
 
-After changing the code, you will need to `run` your project to see the changes in the output area.
+Après avoir modifié le code, tu devras `exécuter` ton projet pour voir les changements dans la zone de sortie.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: I've tried different numbers but the background colour doesn't change
+title: J'ai essayé différents numéros, mais la couleur d'arrière-plan ne change pas
 ---
 
-The maximum amount of red, green, or blue is `255`. Make sure all your `background` colour values are between `0` and `255`.
+La quantité maximale de rouge, de vert ou de bleu est de `255`. Assure-toi que toutes tes valeurs de couleur `d'arrière-plan` sont comprises entre `0` et `255`.
 
 --- /collapse ---
 
