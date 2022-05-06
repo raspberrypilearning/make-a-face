@@ -1,42 +1,42 @@
-## Choose a theme
+## Kies een thema
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Have you got an idea about the kind of face or mask you want to make? Use this step to plan your art and set up your canvas.
+Heb je een idee over het soort gezicht of masker dat je wilt maken? Gebruik deze stap om een plannetje te maken voor je kunstwerk en je canvas in te stellen.
 </div>
 <div>
-![The output area with a vampire-themed face.](images/vampire.png){:width="200px"}
+![Het outputgebied met een gezicht met een vampierthema.](images/vampire.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-Open the [starter project](https://trinket.io/library/trinkets/54d15b9cdf){:target="_blank"}. Trinket will open in another browser tab.
+Open het [startproject](https://trinket.io/library/trinkets/54d15b9cdf){:target="_blank"}. Trinket wordt geopend in een ander browsertabblad.
 
 --- /task ---
 
 --- task ---
 
-**Choose:** Think about the kind of face you want to make:
-+ Do you want to choose something from your heritage or popular culture?
-+ Will your art show a human, animal, something mythical, or perhaps a machine?
-+ You might even want to create a self-portrait!
-+ You could draw an emoji to share with your friends
+**Kies:** denk na over het soort gezicht dat je wilt maken:
++ Wil je iets kiezen uit je erfgoed of populaire cultuur?
++ Ga je een kunstwerk maken van een mens, dier, iets mythisch, of misschien een machine laten zien?
++ Misschien wil je wel een zelfportret maken!
++ Je kunt een emoji tekenen om met je vrienden te delen
 
 --- /task ---
 
 --- task ---
 
-The first thing to do when creating art using the Python `Processing library` is to add `def setup():` to define a `setup` function that is run once at the beginning of your program.
+Het eerste wat je moet doen bij het maken van kunst met de Python `Processing library` is het toevoegen van `def setup():` om een `setup`-functie te definiëren die eenmaal aan het begin van je programma wordt uitgevoerd.
 
-The starter project has a `setup` function that sets the `size` of your canvas to `400` width and `400` height.
+Het startproject heeft een `setup`-functie die de `grootte` van je canvas instelt op `400` breedte en `400` hoogte.
 
-**Choose:** Experiment with the numbers and run your code to find a size that you are happy with.
+**Kies:** experimenteer met de getallen en voer je code uit om een grootte te vinden die je leuk vindt.
 
 --- collapse ---
 
 ---
-title: Setting the screen size when your program starts
+title: De schermgrootte instellen wanneer het programma wordt gestart
 ---
 
 --- code ---
@@ -55,14 +55,14 @@ size(400, 400) #400 by 400 works well for a round face
 
 --- task ---
 
-**Choose:** Think about the colours you will use for your face and change the `background` colour values to set your screen to a complementary colour.
+**Kies:** denk aan de kleuren die je voor je gezicht gaat gebruiken en wijzig de `achtergrond` kleurwaarden om het scherm in te stellen op een complementaire kleur.
 
 [[[generic-theory-simple-colours]]]
 
 --- collapse ---
 
 ---
-title: Setting the background colour when your program starts
+title: De achtergrondkleur instellen wanneer het programma start
 ---
 
 --- code ---
@@ -81,9 +81,9 @@ line_highlights: 9
 
 --- task ---
 
-**Tip:** The `draw` function has `grid()` code. This adds a coordinates grid over your background that helps you work out where to position features on your face.
+**Tip:** de `draw` functie heeft `grid()` (raster) code. Hiermee wordt een coördinatenraster over je achtergrond toegevoegd dat je helpt uit te zoeken waar je elementen op je gezicht kunt plaatsen.
 
-To turn the grid off add a `#` in front of the code, to turn it back on remove the `#`.
+Om het raster uit te schakelen, voeg je een `#` toe voor de code, om deze weer in te schakelen, verwijder je de `#`.
 
 --- code ---
 ---
@@ -109,32 +109,32 @@ filename: main.py - draw()
 
 --- task ---
 
-**Test:** Run your project to see your chosen screen size and background colour.
+**Test:** Voer je project uit om de gekozen schermgrootte en achtergrondkleur te zien.
 
 --- /task ---
 
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Debug:** je kunt enkele bugs in je project vinden die je moet oplossen. Hier zijn enkele veel voorkomende bugs.
 
 --- collapse ---
 
 ---
-title: I've updated my size and colour but the output area stays the same
+title: Ik heb mijn grootte en kleur bijgewerkt, maar het uitvoergebied blijft hetzelfde
 ---
 
-After changing the code, you will need to `run` your project to see the changes in the output area.
+Nadat je de code hebt gewijzigd, moet je je project `uitvoeren` om de wijzigingen in het uitvoergebied te zien.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: I've tried different numbers but the background colour doesn't change
+title: Ik heb verschillende getallen geprobeerd, maar de achtergrondkleur verandert niet
 ---
 
-The maximum amount of red, green, or blue is `255`. Make sure all your `background` colour values are between `0` and `255`.
+De maximale hoeveelheid rood, groen of blauw is `255`. Zorg ervoor dat alle `achtergrond` kleurwaarden tussen `0` en `255` liggen.
 
 --- /collapse ---
 
