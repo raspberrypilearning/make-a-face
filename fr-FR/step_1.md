@@ -1,44 +1,44 @@
 ## Introduction
 
-Write Python code to draw a face or mask using geometric shapes.
+Écrire du code Python pour dessiner un visage ou un masque à l'aide de formes géométriques.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The creation of <span style="color: #0faeb0">**geometric art**</span> dates back to Ancient Greece where vases would be painted with patterns made up of shapes. Artists began using shapes to draw humans and animals with circles for heads, triangle bodies, and lines for legs and arms.
+La création de <span style="color: #0faeb0">**l'art géométrique**</span> remonte à la Grèce antique où les vases étaient peints avec des motifs composés de formes. Les artistes ont commencé à utiliser des formes pour dessiner des humains et des animaux avec des cercles pour les têtes, des corps triangulaires et des lignes pour les jambes et les bras.
 </p>
 
-You will:
+Tu vas devoir :
 
-+ Use code creatively to make a piece of digital art
-+ Draw and position your art using geometric shapes, coordinates, and layers
-+ Organise your code with functions
++ Utiliser le code de manière créative pour créer une œuvre d'art numérique
++ Dessiner et positionner ton art à l'aide de formes géométriques, de coordonnées et de calques
++ Organiser ton code avec des fonctions
 
-![Examples of different faces.](images/strip.png)
+![Exemples de visages différents.](images/strip.png)
 
 --- no-print ---
 
-### Get inspiration
+### Trouve l'inspiration
 
-You are going to make some design decisions about the kind of face you will make and how you will use code to get the effect you want.
+Tu vas prendre des décisions de conception concernant le type de visage que tu vas créer et la manière dont tu utiliseras le code pour obtenir l'effet souhaité.
 
 --- task ---
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-Look at these examples and think about how they have been made from circles, ellipses, squares, rectangles, and triangles.
+Regarde ces exemples et réfléchis à la façon dont ils ont été créés à partir de cercles, d'ellipses, de carrés, de rectangles et de triangles.
 
-**Kawaii fruit**: [See inside](https://trinket.io/python/6bad88800b){:target="_blank"}
+**Fruits kawaii** : [Voir à l'intérieur](https://trinket.io/python/6bad88800b){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/6bad88800b?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-**Stacked faces**: [See inside](https://trinket.io/python/f90794771c){:target="_blank"}
+**Visages empilés** : [Voir à l'intérieur](https://trinket.io/python/f90794771c){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/f90794771c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-**Tribal mask**: [See inside](https://trinket.io/python/b876d500ab){:target="_blank"}
+**Masque tribal** : [Voir à l'intérieur](https://trinket. io/python/b876d500ab){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/b876d500ab?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
@@ -53,13 +53,13 @@ Look at these examples and think about how they have been made from circles, ell
 
 --- print-only ---
 
-### Get inspiration
+### Trouve l'inspiration
 
-You are going to make some design decisions about the kind of face you will make and how you will use code to get the effect you want.
+Tu vas prendre des décisions de conception concernant le type de visage que tu vas créer et la manière dont tu utiliseras le code pour obtenir l'effet souhaité.
 
-See inside example projects in [Python 1: Make a face — Examples](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"} Scratch studio.
+Voir à l'intérieur des exemples de projets dans le studio Scratch [Python 1 : Faire un visage — Exemples](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"}.
 
-![The output area from the Kawaii fruit project.](images/smile.png) ![The output area from the Stacked faces project.](images/stacked.png) ![The output area from the Tribal mask project.](images/tribal.png)
+![La zone de sortie du projet de fruits Kawaii.](images/smile.png) ![La zone de sortie du projet Visages empilés.](images/stacked.png) ![La zone de sortie du projet Masque tribal.](images/tribal.png)
 
 --- /print-only ---
 
