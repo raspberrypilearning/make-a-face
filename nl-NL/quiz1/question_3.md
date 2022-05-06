@@ -2,48 +2,48 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Vraag 3 van 3
 ---
 
-Eli was commissioned to design a face to be used on a t-shirt. Eli wrote code using variables for all the different positions, sizes, and colours in their design.
+Eli kreeg de opdracht om een gezicht te ontwerpen voor op een t-shirt. Eli schreef code met behulp van variabelen voor alle verschillende posities, maten en kleuren in hun ontwerp.
 
-The company loved it! They have asked Eli to create lots more similar designs.
+Het bedrijf vond het geweldig! Ze hebben Eli gevraagd om nog veel meer vergelijkbare ontwerpen te maken.
 
-Why did making the design with code make it quicker for Eli to make lots of new designs?
+Waarom maakte het maken van het ontwerp met code het voor Eli sneller om veel nieuwe ontwerpen te maken?
 
 --- choices ---
 
-- ( ) Coding is fun.
+- ( ) Coderen is leuk.
 
   --- feedback ---
 
-True, but that's not why it made it quicker for Eli to produce lots of new designs.
+Waar, maar dat is niet de reden waarom Eli veel sneller nog meer nieuwe ontwerpen kon maken.
 
   --- /feedback ---
 
-- (x) It's easy to change the numbers stored in variables to make lots of new designs.
+- (x) Het is gemakkelijk om de getallen die in variabelen zijn opgeslagen te veranderen om veel nieuwe ontwerpen te maken.
 
   --- feedback ---
 
-Correct! Eli was able to quickly make lots of slightly different versions of their design by changing the numbers stored in the variables.
+Juist! Eli was in staat om snel veel iets verschillende versies van hun ontwerp te maken door de getallen in de variabelen te veranderen.
 
   --- /feedback ---
 
-- ( ) The code runs really quickly.
+- ( ) De code werkt heel snel.
 
   --- feedback ---
 
-True, but that doesn't help to create lots of different designs.
+Waar, maar dat helpt niet om veel verschillende ontwerpen te maken.
 
   --- /feedback ---
 
 --- /choices ---
 
-- ( ) Variables always have different numbers every time you run your program.
+- ( ) Variabelen hebben elke keer dat je je programma uitvoert verschillende waarden.
 
   --- feedback ---
 
-Not quite. Variables have the value you assign to them. If you assign a number to a variable (such as `eye_radius = 50`) and don't change it then it will be the same every time you run the program.
+Niet helemaal. Variabelen hebben de waarde die je eraan toewijst. Als je een getal aan een variabele toewijst (zoals `oogstraal = 50`) en je dit getal niet wijzigt, zal dit niet veranderen als je het programma opnieuw uitvoert.
 
   --- /feedback ---
 
