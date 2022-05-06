@@ -1,38 +1,38 @@
-## Add more details
+## Voeg meer details toe
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Does your face or mask need more details to make it more interesting? 
+Heeft je gezicht of masker meer details nodig om het interessanter te maken? 
 </div>
 <div>
-![Image showing a face as an example with a headband accessory.](images/frida.png){:width="200px"}
+![Voorbeeld afbeelding van een gezicht met een hoofdband.](images/frida.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-You can use more shapes to add more features to your face or mask.
+Je kunt meer vormen gebruiken om meer elementen aan je gezicht of masker toe te voegen.
 
-How can you give the face more personality?
+Hoe kun je het gezicht meer persoonlijkheid geven?
 
-You could add:
+Je zou het volgende kunnen toevoegen:
 
-+ A nose
-+ Eyebrows
-+ Ears
-+ Cheeks
-+ Highlights / catchlights
-+ Whatever you like!
++ Een neus
++ Wenkbrauwen
++ Oren
++ Wangen
++ Highlights/catchlights
++ Wat je maar wilt!
 
-Just add the extra details that make sense for your drawing.
+Voeg gewoon de extra details toe die voor je tekening zinvol zijn.
 
 --- /task ---
 
 --- task ---
 
-You can make partly transparent colours by adding a fourth number to an RGB colour to give the **opacity**.
+Je kunt gedeeltelijk transparante kleuren maken door een vierde getal toe te voegen aan een RGB-kleur om de **doorzichtigheid** te geven.
 
-This code draws the overlapping highlights in the Kawaii fruit example:
+Deze code tekent de overlappende highlights in het Kawaii fruit voorbeeld:
 
 --- code ---
 ---
@@ -47,7 +47,7 @@ ellipse(150, 160, 25, 25)
 
 --- /code ---
 
-![Kawaii fruit image with highlights at different opacities: 30, 70, 150, 255. The lower value, 30, is more opaque and 255 is less opaque.](images/opacity.png)
+![Kawaii fruit afbeelding met highlights bij verschillende doorzichtigheiden: 30, 70, 150, 255. De lagere waarde, 30, is meer doorzichtig en 255 is minder doorzichtig.](images/opacity.png)
 
 --- /task ---
 
