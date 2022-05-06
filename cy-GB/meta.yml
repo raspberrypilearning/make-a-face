@@ -22,7 +22,7 @@ steps:
     title: Ychwanegu mwy o fanylion
     completion: internal
   - 
-    title: Beth nesaf?
+    title: Myfyrio
     completion: external
     knowledge_quiz:
       path: quiz1
