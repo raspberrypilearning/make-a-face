@@ -1,38 +1,38 @@
-## Add more details
+## Ajouter plus de détails
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Does your face or mask need more details to make it more interesting? 
+Ton visage ou ton masque a-t-il besoin de plus de détails pour le rendre plus intéressant ? 
 </div>
 <div>
-![Image showing a face as an example with a headband accessory.](images/frida.png){:width="200px"}
+![Image montrant un visage à titre d'exemple avec un accessoire bandeau.](images/frida.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-You can use more shapes to add more features to your face or mask.
+Tu peux utiliser plus de formes pour ajouter plus de fonctionnalités à ton visage ou à ton masque.
 
-How can you give the face more personality?
+Comment donner plus de personnalité au visage ?
 
-You could add:
+Tu pourrais ajouter :
 
-+ A nose
-+ Eyebrows
-+ Ears
-+ Cheeks
-+ Highlights / catchlights
-+ Whatever you like!
++ Un nez
++ Des sourcils
++ Des oreilles
++ Des joues
++ Reliefs / reflets
++ Tout ce que tu aimes !
 
-Just add the extra details that make sense for your drawing.
+Ajoute simplement les détails supplémentaires qui ont du sens pour ton dessin.
 
 --- /task ---
 
 --- task ---
 
-You can make partly transparent colours by adding a fourth number to an RGB colour to give the **opacity**.
+Tu peux créer des couleurs partiellement transparentes en ajoutant un quatrième chiffre à une couleur RVB pour donner **l'opacité**.
 
-This code draws the overlapping highlights in the Kawaii fruit example:
+Ce code dessine les reflets qui se chevauchent dans l'exemple de fruit Kawaii :
 
 --- code ---
 ---
@@ -47,7 +47,7 @@ ellipse(150, 160, 25, 25)
 
 --- /code ---
 
-![Kawaii fruit image with highlights at different opacities: 30, 70, 150, 255. The lower value, 30, is more opaque and 255 is less opaque.](images/opacity.png)
+![Image de fruits kawaii avec des reflets à différentes opacités : 30, 70, 150, 255. La valeur inférieure, 30, est plus opaque et 255 est moins opaque.](images/opacity.png)
 
 --- /task ---
 
