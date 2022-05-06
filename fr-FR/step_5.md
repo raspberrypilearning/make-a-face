@@ -1,37 +1,37 @@
-## Add a mouth
+## Ajouter une bouche
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-A mouth is a great way of showing emotion. Will your character have a smile, frown, or something else? 
+Une bouche est un excellent moyen de montrer une émotion. Ton personnage aura-t-il un sourire, un froncement de sourcils ou autre chose ? 
 </div>
 <div>
-![Image showing a robot face as an example of a face with a mouth.](images/mask.png){:width="200px"}
+![Image montrant un visage de robot comme exemple de visage avec une bouche.](images/mask.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-Think about what kind of mouth your face needs. The simplest mouth would be a circle to look surprised.
+Pense au type de bouche dont ton visage a besoin. La bouche la plus simple serait un cercle pour avoir l'air surpris.
 
-You could add two overlapping circles to create a smile or frown. Triangles or rectangles could be added for teeth.
+Tu peux ajouter deux cercles qui se chevauchent pour créer un sourire ou un froncement de sourcils. Des triangles ou des rectangles pourraient être ajoutés pour les dents.
 
 --- /task ---
 
 --- task ---
 
-Add code to your `draw()` function to add a mouth.
+Ajoute du code à ta fonction `dessiner()` pour ajouter une bouche.
 
 --- collapse ---
 
 ---
-title: Create a mouth from overlapping circles
+title: Créer une bouche à partir de cercles superposés
 ---
 
-Set the `fill` colour for your mouth then draw an `ellipse`. Set the `fill` colour again, this time to match the face colour, then draw a second `ellipse`.
+Définis la couleur de `remplissage` pour ta bouche puis dessine une `ellipse`. Définis à nouveau la couleur de `remplissage`, cette fois pour qu'elle corresponde à la couleur du visage, puis dessine une seconde `ellipse`.
 
-Change the `y` coordinate of the second `ellipse` to a slightly higher position for a smile or a slightly lower position for a frown.
+Change la coordonnée `y` de la seconde `ellipse` en une position légèrement plus haute pour un sourire ou une position légèrement plus basse pour un froncement de sourcils.
 
-![The output area showing a smiling mouth.](images/smile.png)
+![La zone de sortie montrant une bouche souriante.](images/smile.png)
 
 --- code ---
 ---
@@ -46,7 +46,7 @@ filename: main.py - draw()
 
 --- /code ---
 
-![The output area showing a frowning mouth.](images/frown.png)
+![La zone de sortie montrant une bouche fronçant les sourcils.](images/frown.png)
 
 --- code ---
 ---
@@ -66,23 +66,23 @@ filename: main.py - draw()
 --- collapse ---
 
 ---
-title: Create a mouth using rectangles
+title: Créer une bouche à l'aide de rectangles
 ---
 
-Robots are often shown with `rectangle` shaped mouths. Sometimes `rectangle` and `ellipse` shapes are used together to create a grimace emoji or to add a face mask.
+Les robots sont souvent représentés avec des bouches en forme de `rectangle`. Parfois, les formes `rectangle` et `ellipse` sont utilisées ensemble pour créer un emoji grimace ou pour ajouter un masque.
 
-![The output area showing a face with rectangle facemask.](images/rectangle-mask.png)
+![La zone de sortie montrant un visage avec un masque rectangulaire.](images/rectangle-mask.png)
 
-Add the code for a `rectangle`, then create a smaller `rectangle` within it. Change the `stroke` and `fill` colours to complement your theme. Add `ellipse` shapes if needed.
+Ajoute le code d'un `rectangle`, puis crée un `rectangle` plus petit à l'intérieur. Modifie les couleurs de `traits` et de `remplissage` pour compléter ton thème. Ajoute des formes d'`ellipse` si nécessaire.
 
-**Tip:** Remember to put the `ellipse` shapes above the `rectangle` code if you want them to go behind the `rectangle` shapes.
+**Astuce :** N'oublie pas de placer les formes d'`ellipse` au-dessus du code `rectangle` si tu veux qu'elles aillent derrière les formes `rectangle`.
 
 --- code ---
 ---
 language: python
 filename: main.py - draw()
 ---
-# Face mask
+# Masque
 no_fill()    
 stroke(255, 255, 255)     
 ellipse(150, 250, 30, 30) #Left ear loop    
@@ -97,27 +97,27 @@ rect(152, 235, 96, 30) #Smaller blue rectangle
 
 --- /collapse ---
 
-**Tip:** Add a `#Mouth` comment on the line before your mouth code to help you easily find the mouth code.
+**Astuce :** Ajoute un commentaire `#Bouche` sur la ligne avant ton code de la bouche pour t'aider à trouver facilement le code de la bouche.
 
 --- /task ---
 
 --- task ---
 
-**Choose:** You could also add multiple teeth to your mouth using `translate` to change the `x` coordinate after each tooth is drawn.
+**Choisir :** Tu peux également ajouter plusieurs dents à ta bouche en utilisant `translation` pour modifier la coordonnée `x` après avoir dessiné chaque dent.
 
 --- collapse ---
 
 ---
-title: Use a loop to add a row of teeth
+title: Utiliser une boucle pour ajouter une rangée de dents
 ---
 
-Add code to create a `for` loop that repeats in order to create the number of teeth you need.
+Ajoute du code pour créer une boucle `for` qui se répète afin de créer le nombre de dents dont tu as besoin.
 
-![The output area showing a robot face with a row of rectangle teeth in different colours.](images/robot-teeth.png)
+![La zone de sortie montrant un visage de robot avec une rangée de dents rectangulaires de différentes couleurs.](images/robot-teeth.png)
 
-After each tooth has been drawn, add code to `translate()` it by the width of the tooth.
+Une fois chaque dent dessinée, ajoute du code pour le `translate()` de la largeur de la dent.
 
-You can also add code to change the colour of each tooth.
+Tu peux également ajouter du code pour changer la couleur de chaque dent.
 
 --- code ---
 ---
@@ -125,7 +125,7 @@ language: python
 filename: main.py - draw()
 ---
 
-# Mouth
+# Bouche
 fill(90, 110, 184)     
 red = 90 #Starting amount of red   
 green = 110 #Starting amount of green    
@@ -147,21 +147,21 @@ translate(33, 0) #Move along the x coordinate by the width of a tooth
 --- collapse ---
 
 ---
-title: Use triangles to add fangs
+title: Utilise des triangles pour ajouter des canines
 ---
 
-Create a `rectangle` to use as the line of the mouth.
+Crée un `rectangle` à utiliser comme ligne de la bouche.
 
-Add two `triangle` shapes to create the fangs. Change the `x` coordinates for each corner to position the fangs at opposite ends of the mouth line.
+Ajoute deux formes de `triangle` pour créer les canines. Modifie les coordonnées `x` pour chaque coin afin de positionner les canines aux extrémités opposées de la ligne de la bouche.
 
-![The output area showing a vampire face with a rectangle mouth and two triangle teeth.](images/vampire.png)
+![La zone de sortie montrant un visage de vampire avec une bouche rectangulaire et deux dents triangulaires.](images/vampire.png)
 
 --- code ---
 ---
 language: python
 filename: main.py - draw()
 ---
-# Mouth
+# Bouche
   fill(0)    
 rect(170, 260, 60, 5) #Mouth line    
 fill(0)    
@@ -175,15 +175,15 @@ triangle(210, 260, 220, 280, 230, 260) #Right tooth
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Débogage :** Il est possible que tu trouves des bogues dans ton projet que tu dois corriger. Voici quelques bogues assez courants.
 
 --- collapse ---
 
 ---
-title: My overlapping shape goes outside the face
+title: Ma forme superposée sort du visage
 ---
 
-If you use two overlapping shapes to create a mouth, then you need to make sure the shape that is the same colour as the face doesn't go outside the face. If it does, then change the width or height of the shape so that it's small enough to fit inside the face.
+Si tu utilises deux formes qui se chevauchent pour créer une bouche, tu dois t'assurer que la forme de la même couleur que le visage ne dépasse pas le visage. Si c'est le cas, modifie la largeur ou la hauteur de la forme afin qu'elle soit suffisamment petite pour tenir à l'intérieur du visage.
 
 --- /collapse ---
 
@@ -191,10 +191,10 @@ If you use two overlapping shapes to create a mouth, then you need to make sure 
 --- collapse ---
 
 ---
-title: I have too many teeth
+title: J'ai trop de dents
 ---
 
-Don't forget that `range()` creates a sequence of numbers starting from 0 not 1. This may make a difference to your code depending on how you have positioned your teeth.
+N'oublie pas que `range()` crée une séquence de nombres commençant par 0 et non 1. Cela peut faire une différence dans ton code en fonction de la façon dont tu as positionné tes dents.
 
 --- /collapse ---
 
