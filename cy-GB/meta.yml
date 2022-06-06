@@ -5,23 +5,26 @@ description: Dyluniwch a llunio wyneb neu fasg gan ddefnyddio siapiau geometrig
 version: 4
 listed: true
 copyedit: true
-last_tested: "2021-10-06"
+last_tested: '2021-10-06'
 steps:
-  - title: Cyflwyniad
-  - title: Dewis thema
-  - title: Siâp y wyneb
-    completion: engaged
-  - title: Ychwanegu llygaid
-  - title: Ychwanegu ceg
-  - title: Ychwanegu mwy o fanylion
-    completion: internal
-  - title: Myfyrio
-    completion: external
-    knowledge_quiz:
-      path: quiz1
-      version: 1
-      questions: 3
-      passing_score: 3
-  - title: Uwchraddio dy brosiect
-  - title: Rhannu
-  - title: Beth nesaf?
+- title: Cyflwyniad
+- title: Dewis thema
+- title: Siâp y wyneb
+  completion:
+  - engaged
+- title: Ychwanegu llygaid
+- title: Ychwanegu ceg
+- title: Ychwanegu mwy o fanylion
+  completion:
+  - internal
+- title: Myfyrio
+  knowledge_quiz:
+    path: quiz1
+    version: 1
+    questions: 3
+    passing_score: 3
+  completion:
+  - external
+- title: Uwchraddio dy brosiect
+- title: Rhannu
+- title: Beth nesaf?
