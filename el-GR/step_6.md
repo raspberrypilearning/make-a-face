@@ -1,38 +1,38 @@
-## Add more details
+## Πρόσθεσε λεπτομέρειες
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Does your face or mask need more details to make it more interesting? 
+Το πρόσωπο ή η μάσκα σου χρειάζονται περισσότερες λεπτομέρειες για να το κάνουν πιο ενδιαφέρον; 
 </div>
 <div>
-![Image showing a face as an example with a headband accessory.](images/frida.png){:width="200px"}
+![Εικόνα που δείχνει ένα πρόσωπο ως παράδειγμα με αξεσουάρ κεφαλόδεσμου.](images/frida.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-You can use more shapes to add more features to your face or mask.
+Μπορείς να χρησιμοποιήσεις περισσότερα σχήματα για να προσθέσεις περισσότερα χαρακτηριστικά στο πρόσωπο ή τη μάσκα σου.
 
-How can you give the face more personality?
+Πώς μπορείς να δώσεις στο πρόσωπο περισσότερη προσωπικότητα;
 
-You could add:
+Θα μπορούσες να προσθέσεις:
 
-+ A nose
-+ Eyebrows
-+ Ears
-+ Cheeks
-+ Highlights / catchlights
-+ Whatever you like!
++ Μια μύτη
++ Φρύδια
++ Αυτιά
++ Μάγουλα
++ Ανταύγειες / αντακλάσεις του φωτός
++ Ό, τι σου αρέσει!
 
-Just add the extra details that make sense for your drawing.
+Απλώς πρόσθεσε τις επιπλέον λεπτομέρειες που έχουν νόημα για το σχέδιό σου.
 
 --- /task ---
 
 --- task ---
 
-You can make partly transparent colours by adding a fourth number to an RGB colour to give the **opacity**.
+Μπορείς να δημιουργήσεις μερικώς διαφανή χρώματα προσθέτοντας έναν τέταρτο αριθμό σε ένα χρώμα RGB για να του ορίσεις την **αδιαφάνεια**.
 
-This code draws the overlapping highlights in the Kawaii fruit example:
+Αυτός ο κώδικας σχεδιάζει επικαλυπτόμενα φωτεινά σημεία στο παράδειγμα με τα φρούτα Kawaii:
 
 --- code ---
 ---
@@ -47,7 +47,7 @@ ellipse(150, 160, 25, 25)
 
 --- /code ---
 
-![Kawaii fruit image with highlights at different opacities: 30, 70, 150, 255. The lower value, 30, is more opaque and 255 is less opaque.](images/opacity.png)
+![Εικόνα φρούτων kawaii με φωτεινά σημεία σε διαφορετικές αδιαφάνειες: 30, 70, 150, 255. Η χαμηλότερη τιμή, 30, είναι πιο αδιαφανής και 255 είναι λιγότερο αδιαφανής.](images/opacity.png)
 
 --- /task ---
 
