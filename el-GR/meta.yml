@@ -1,37 +1,40 @@
 ---
-title: Make a face
+title: Φτιάξε μια φάτσα
 hero_image: images/banner.png
-description: Design and draw a face or mask using geometric shapes
+description: Σχεδίασε και ζωγράφισε ένα πρόσωπο ή μάσκα χρησιμοποιώντας γεωμετρικά σχήματα
 version: 4
 listed: true
 copyedit: true
-last_tested: "2021-10-06"
+last_tested: '2021-10-06'
 steps:
   - 
-    title: Introduction
+    title: Εισαγωγή
   - 
-    title: Choose a theme
+    title: Επίλεξε το θέμα σου
   - 
-    title: Face shape
-    completion: engaged
+    title: Σχήμα προσώπου
+    completion:
+      - engaged
   - 
-    title: Add eyes
+    title: Πρόσθεσε μάτια
   - 
-    title: Add a mouth
+    title: Πρόσθεσε ένα στόμα
   - 
-    title: Add more details
-    completion: internal
+    title: Πρόσθεσε λεπτομέρειες
+    completion:
+      - internal
   - 
-    title: Reflection
-    completion: external
+    title: Αναστοχασμός
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
-    title: Upgrade your project
+    title: Αναβάθμιση του έργου σου
   - 
-    title: Share
+    title: Μοιράσου
   - 
-    title: What next?
+    title: Και τώρα;
