@@ -1,12 +1,12 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Ερώτηση 2 από 3
 ---
 
-In your project, you added code to draw a face with many features. The order of your code was extremely important to make the face look like your design.
+Στο έργο σου, πρόσθεσες κώδικα για να σχεδιάσεις ένα πρόσωπο με πολλά χαρακτηριστικά. Η σειρά του κώδικά σου ήταν εξαιρετικά σημαντική για να μοιάζει το πρόσωπο με το σχέδιό σου.
 
-If you ran this code, what would the face look like?
+Αν εκτελούσες αυτόν τον κώδικα, πώς θα ήταν το πρόσωπο;
 
 --- code ---
 ---
@@ -28,41 +28,41 @@ run()
 
 - ( )
 
-![A white face with black outline. There are two solid green eyes with black outlines.](images/face1.png)
+![Ένα λευκό πρόσωπο με μαύρο περίγραμμα. Υπάρχουν δύο συμπαγή πράσινα μάτια με μαύρα περιγράμματα.](images/face1.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `ellipse()` and the `stroke()` functions.
+ Όχι ακριβώς, δες τη σειρά των συναρτήσεων `ellipse()` και `stroke()`.
 
  --- /feedback ---
 
 - ( )
 
-![A white face with black outline. There are two green eyes with black pupils and both have a black outline.](images/face2.png)
+![Ένα λευκό πρόσωπο με μαύρο περίγραμμα. Υπάρχουν δύο πράσινα μάτια με μαύρες κόρες και και τα δύο έχουν μαύρο περίγραμμα.](images/face2.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `stroke()` functions.
+ Όχι ακριβώς, δες τη σειρά των συναρτήσεων `stroke()`.
 
  --- /feedback ---
 
 - (x)
 
-![A white face with black outline. There are two green eyes with black pupils and the eyes do not have an outline.](images/face3.png)
+![Ένα λευκό πρόσωπο με μαύρο περίγραμμα. Υπάρχουν δύο πράσινα μάτια με μαύρες κόρες και τα μάτια δεν έχουν περίγραμμα.](images/face3.png)
 
  --- feedback ---
 
- Correct, the code draws a face with a black stroke then turns off the stroke before drawing the circles. The green circles are drawn first with the black circles on top of them.
+ Σωστά, ο κώδικας σχεδιάζει ένα πρόσωπο με μαύρο περίγραμμα και στη συνέχεια, απενεργοποιεί το περίγραμμα πριν σχεδιάσει τους κύκλους. Οι πράσινοι κύκλοι σχεδιάζονται πρώτα με τους μαύρους κύκλους από πάνω τους.
 
  --- /feedback ---
 
 - ( )
 
-![A white face with black outline. There are two solid green eyes that do not have an outline.](images/face4.png)
+![Ένα λευκό πρόσωπο με μαύρο περίγραμμα. Υπάρχουν δύο συμπαγή πράσινα μάτια που δεν έχουν περίγραμμα.](images/face4.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `ellipse()` functions.
+ Όχι ακριβώς, κοιτάξτε τη σειρά των συναρτήσεων `ellipse()`.
 
  --- /feedback ---
 
