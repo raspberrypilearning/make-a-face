@@ -1,31 +1,31 @@
-eye_size
+tamano_de_ojos
 
-red
+rojo
 
-green
+verde
 
-blue
+azul
 
-orange
+naranja
 
-brown
+cafe
 
-purple
+morado
 
-grey
+gris
 
-lilac
+lila
 
-gap
+abertura
 
-sad
+triste
 
-happy
+feliz
 
-x_middle
+x_centro
 
-y_eye
+y_ojo
 
-y_mouth
+y_boca
 
-mask_width
+ancho_mascara
