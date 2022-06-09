@@ -1,31 +1,31 @@
-## Add eyes
+## Πρόσθεσε Μάτια
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Eyes make a shape start to look like a face.
+Τα μάτια κάνουν ένα σχήμα να αρχίζει να μοιάζει με πρόσωπο.
 </div>
 <div>
-![The output area showing a face with eyes.](images/eyes.png){:width="200px"}
+![Η περιοχή εξόδου δείχνει ένα πρόσωπο με μάτια.](images/eyes.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-Think about what kind of eyes your face needs. The simplest eyes are just two circles.
+Σκέψου τι είδους μάτια χρειάζεται το πρόσωπό σου. Τα πιο απλά μάτια είναι απλά δύο κύκλοι.
 
-You could add different coloured irises and pupils. You could add light highlights / catchlights in a different colour.
+Μπορείς να προσθέσεις διαφορετικού χρώματος ίριδες και κόρες. Θα μπορούσες να προσθέσεις φωτεινές ανταύγειες / αντανακλάσεις σε διαφορετικό χρώμα.
 
 --- /task ---
 
-Experiment with `ellipses` in the `draw` function to create the eyes you want.
+Πειραματίσου με `ελλείψεις` στη συνάρτηση `draw` για να δημιουργήσεις τα μάτια που θέλεις.
 
 --- task ---
 
-### Position the eyes
+### Τοποθέτησε τα μάτια
 
-The first number in `ellipse` is the center of the eye. The eyes should be positioned the same distance from the centre of the drawing.
+Ο πρώτος αριθμός στην `ellipse` είναι το κέντρο του ματιού. Τα μάτια πρέπει να τοποθετούνται στην ίδια απόσταση από το κέντρο του σχεδίου.
 
-In this example, `160` and `240` are both `40` pixels away from 200, which works for a drawing with a width of 400.
+Σε αυτό το παράδειγμα, το `160` και το `240` απέχουν και τα δύο `40` pixel από το 200, το οποίο λειτουργεί για ένα σχέδιο με πλάτος 400.
 
 --- code ---
 ---
@@ -36,17 +36,17 @@ filename: main.py - draw()
 
 --- /code ---
 
-**Tip:** If you want round eyes, then using an `eye_size` variable makes it easier to change the width and height of both eyes in one place.
+**Συμβουλή:** Εάν θέλεις στρογγυλά μάτια, τότε χρησιμοποιώντας μια μεταβλητή `eye_size` διευκολύνεις την αλλαγή του πλάτους και του ύψους και των δύο ματιών σε ένα σημείο.
 
 [[[processing-python-ellipse]]]
 
 --- collapse ---
 
 ---
-title: Calculating positions based on width
+title: Υπολογισμός θέσεων με βάση το πλάτος
 ---
 
-The centre of a drawing is at position `width / 2` or half the width. You can use this to position the eyes by subtracting the eye width for the left eye and adding it for the right eye:
+Το κέντρο ενός σχεδίου βρίσκεται στη θέση `width / 2` δηλαδή στο μισό του πλάτους. Μπορείς να το χρησιμοποιήσεις για να τοποθετήσεις τα μάτια αφαιρώντας το πλάτος του ματιού για το αριστερό μάτι και προσθέτοντάς το για το δεξί μάτι:
 
 --- code ---
 ---
@@ -58,7 +58,7 @@ filename: main.py - draw()
 
 --- /code ---
 
-You could also calculate the width of the eyes based on the width of the drawing.
+Θα μπορούσες επίσης να υπολογίσεις το πλάτος των ματιών με βάση το πλάτος του σχεδίου.
 
 --- code ---
 ---
@@ -72,15 +72,15 @@ filename: main.py - draw()
 
 --- /collapse ---
 
-Change the second number in the `ellipse` function call to move the `y` (vertical) position of the eyes.
+Άλλαξε τον δεύτερο αριθμό στην κλήση συνάρτησης `ellipse` για να μετακινήσεις τη θέση `y` των ματιών (κατακόρυφα).
 
 --- /task ---
 
 --- task ---
 
-**Test:** Keep changing the shape and position of the eyes until you like the way they look.
+**Τεστ:** Συνέχισε να αλλάζεις το σχήμα και τη θέση των ματιών μέχρι να σου αρέσει η εμφάνιση τους.
 
-**Tip:** If you set a stroke for drawing the face and don't want one for the eyes, then you will need to call `no_stroke()` before drawing the eyes.
+**Συμβουλή:** Εάν έχεις ορίσει ένα περίγραμμα για το σχέδιο του προσώπου και δεν θέλεις ένα για τα μάτια, τότε θα χρειαστεί να καλέσεις το `no_stroke()` πριν σχεδιάσετε τα μάτια.
 
 [[[processing-stroke]]]
 
@@ -88,19 +88,19 @@ Change the second number in the `ellipse` function call to move the `y` (vertica
 
 --- task ---
 
-### Add detail
+### Πρόσθεσε λεπτομέρεια
 
-You can use more circles to create:
-+ Coloured irises
-+ Black pupils
-+ White catchlights
-+ Or, something else
+Μπορείς να χρησιμοποιήσεις περισσότερους κύκλους για να δημιουργήσεις:
++ Χρωματιστές ίριδες
++ Μαύρες κόρες
++ Λευκές αντανακλάσεις του φωτός στα μάτια
++ Ή κάτι άλλο
 
-This eye has a coloured iris, black pupil, and white catchlights with changed opacity: ![The output area showing an eye with catchlights over the pupil and iris.](images/catchlights.png)
+Αυτό το μάτι έχει έγχρωμη ίριδα, μαύρη κόρη και λευκές αντανακλάσεις με αλλαγμένη αδιαφάνεια: ![Η περιοχή εξόδου δείχνει ένα μάτι με αντανάκλαση του φωτός πάνω από την κόρη και την ίριδα.](images/catchlights.png)
 
 \[[[generic-theory-simple-colours]]\] \[[[processing-opacity\]]]
 
-You can also animate the eyes by rotating them.
+Μπορείς επίσης να ζωντανέψεις τα μάτια περιστρέφοντάς τα.
 
 [[[processing-rotation]]]
 
@@ -108,55 +108,55 @@ You can also animate the eyes by rotating them.
 
 --- task ---
 
-**Test:** Keep changing the eyes until you like the way they look.
+**Τεστ:** Συνέχισε να αλλάζεις τα μάτια μέχρι να σου αρέσει η εμφάνιση τους.
 
-Is your drawing starting to look like a face?
+Αρχίζει το σχέδιό σου να μοιάζει με πρόσωπο;
 
 --- /task ---
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Εντοπισμός σφαλμάτων:** Ενδέχεται να βρεις κάποια σφάλματα στο έργο σου που πρέπει να διορθώσεις. Εδώ είναι μερικά συνηθισμένα σφάλματα.
 
 --- collapse ---
 ---
-title: The eyes aren't centred
+title: Τα μάτια δεν είναι κεντραρισμένα
 ---
 
-You could use `height / 2` to place them in the centre.
+Θα μπορούσες να χρησιμοποιήσεις το `height / 2` για να τα τοποθετήσεις στο κέντρο.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: The eyes aren't aligned with each other
+title: Τα μάτια δεν είναι ευθυγραμμισμένα μεταξύ τους
 ---
 
-If you want the eyes to be aligned, then make sure you use the same number for the coordinates for both eyes. Try using a variable so that the values are always the same.
-
---- /collapse ---
-
---- collapse ---
-
----
-title: I can't see the pupil or iris
----
-
-The eye needs to be drawn first, then the iris, and finally the pupil. The order in which you draw things is very important.
-
-Computer graphics are made of layers. In your eye, each ellipse is a layer. Objects on higher layers sit in front of objects on lower layers. Imagine cutting all the shapes out of paper. Depending on how you arrange and overlap that paper, the final result could look very different.
+Εάν θέλεις τα μάτια να είναι ευθυγραμμισμένα, τότε βεβαιώσου ότι χρησιμοποιείς τον ίδιο αριθμό για τις συντεταγμένες και για τα δύο μάτια. Δοκίμασε να χρησιμοποιήσεις μια μεταβλητή έτσι ώστε οι τιμές να είναι πάντα οι ίδιες.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My eyes are not round
+title: Δεν μπορώ να δω την κόρη ή την ίριδα
 ---
 
-The third and fourth numbers in `ellipse` are the width and height of the eyes.
+Πρώτα πρέπει να ζωγραφιστεί το μάτι, μετά η ίριδα και τέλος η κόρη. Η σειρά με την οποία σχεδιάζεις τα πράγματα είναι πολύ σημαντική.
 
-**Tip:** If you make them the same, you will get round eyes.
+Τα γραφικά υπολογιστών αποτελούνται από στρώσεις. Στο μάτι σου, κάθε έλλειψη είναι μια στρώση. Τα αντικείμενα σε υψηλότερες στρώσεις κάθονται μπροστά από τα αντικείμενα χαμηλότερων στρώσεων. Φαντάσου να κόβεις όλα τα σχήματα από χαρτί. Ανάλογα με τον τρόπο με τον οποίο τακτοποιείς και επικαλύπτεις αυτό το χαρτί, το τελικό αποτέλεσμα μπορεί να φαίνεται πολύ διαφορετικό.
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: Τα μάτια μου δεν είναι στρογγυλά
+---
+
+Ο τρίτος και ο τέταρτος αριθμός στο `ellipse` είναι το πλάτος και το ύψος των ματιών.
+
+**Συμβουλή:** Αν τα κάνεις ίδια, θα έχεις στρογγυλά μάτια.
 
 --- /collapse ---
 
