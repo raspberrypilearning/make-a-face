@@ -1,42 +1,42 @@
-## Choose a theme
+## Elige un tema
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Have you got an idea about the kind of face or mask you want to make? Use this step to plan your art and set up your canvas.
+¿Tienes alguna idea sobre el tipo de cara o máscara que quieres hacer? Usa este paso para planificar tu arte y configurar tu lienzo.
 </div>
 <div>
-![The output area with a vampire-themed face.](images/vampire.png){:width="200px"}
+![El área de salida con una cara tipo vampiro.](images/vampire.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-Open the [starter project](https://trinket.io/library/trinkets/54d15b9cdf){:target="_blank"}. Trinket will open in another browser tab.
+Abre el [proyecto inicial](https://trinket.io/library/trinkets/54d15b9cdf){:target="_blank"}. Trinket se abrirá en otra pestaña del navegador.
 
 --- /task ---
 
 --- task ---
 
-**Choose:** Think about the kind of face you want to make:
-+ Do you want to choose something from your heritage or popular culture?
-+ Will your art show a human, animal, something mythical, or perhaps a machine?
-+ You might even want to create a self-portrait!
-+ You could draw an emoji to share with your friends
+**Elige:** Piensa en el tipo de cara que quieres hacer:
++ ¿Quieres elegir algo de tu propia tradición o cultura popular?
++ ¿Tu arte mostrará un ser humano, un animal, algo mítico o quizás una máquina?
++ ¡Incluso podrías crear un autorretrato!
++ Podrías dibujar un emoji para compartir con tus amigos
 
 --- /task ---
 
 --- task ---
 
-The first thing to do when creating art using the Python `Processing library` is to add `def setup():` to define a `setup` function that is run once at the beginning of your program.
+Lo primero que debes hacer al crear arte utilizando la `biblioteca de procesamiento` de Python es agregar `def setup():` para definir una función `setup` que se ejecuta una vez al comienzo de tu programa.
 
-The starter project has a `setup` function that sets the `size` of your canvas to `400` width and `400` height.
+El proyecto inicial tiene una función `setup` que establece el `tamaño` de tu lienzo en `400` de ancho y `400` de alto.
 
-**Choose:** Experiment with the numbers and run your code to find a size that you are happy with.
+**Elige:** Experimenta con los números y ejecuta tu código para encontrar el tamaño que más te guste.
 
 --- collapse ---
 
 ---
-title: Setting the screen size when your program starts
+title: Configurar el tamaño de la pantalla cuando se inicia el programa
 ---
 
 --- code ---
@@ -55,14 +55,14 @@ size(400, 400) #400 by 400 works well for a round face
 
 --- task ---
 
-**Choose:** Think about the colours you will use for your face and change the `background` colour values to set your screen to a complementary colour.
+**Elige:** Piensa en los colores que usarás para la cara y cambia los valores de color del `fondo` para configurar tu pantalla con un color complementario.
 
 [[[generic-theory-simple-colours]]]
 
 --- collapse ---
 
 ---
-title: Setting the background colour when your program starts
+title: Configurar el color de fondo cuando se inicia el programa
 ---
 
 --- code ---
@@ -81,9 +81,9 @@ line_highlights: 9
 
 --- task ---
 
-**Tip:** The `draw` function has `grid()` code. This adds a coordinates grid over your background that helps you work out where to position features on your face.
+**Sugerencia:** La función `dibujar` tiene el código `cuadrícula()`. Esto agrega una cuadrícula de coordenadas sobre tu fondo que te ayuda a determinar dónde colocar las características en tu cara.
 
-To turn the grid off add a `#` in front of the code, to turn it back on remove the `#`.
+Para quitar la cuadrícula, agrega un `#` delante del código, para volver a ponerla, elimina el `#`.
 
 --- code ---
 ---
@@ -109,32 +109,32 @@ filename: main.py - draw()
 
 --- task ---
 
-**Test:** Run your project to see your chosen screen size and background colour.
+**Prueba:** Ejecuta tu proyecto para ver el tamaño de pantalla y el color de fondo elegidos.
 
 --- /task ---
 
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Depurar:** Es posible que encuentres algunos errores en tu proyecto que necesites corregir. A continuación, se muestran algunos errores comunes.
 
 --- collapse ---
 
 ---
-title: I've updated my size and colour but the output area stays the same
+title: Actualicé el tamaño y el color, pero el resultado permanece igual
 ---
 
-After changing the code, you will need to `run` your project to see the changes in the output area.
+Después de cambiar el código, deberás `ejecutar` tu proyecto para poder visualizar los cambios.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: I've tried different numbers but the background colour doesn't change
+title: Probé con diferentes números, pero el color de fondo no cambia
 ---
 
-The maximum amount of red, green, or blue is `255`. Make sure all your `background` colour values are between `0` and `255`.
+La cantidad máxima de rojo, verde o azul es `255`. Asegúrate de que todos los valores de `fondo` estén entre `0` y `255`.
 
 --- /collapse ---
 
