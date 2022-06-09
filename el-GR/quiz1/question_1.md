@@ -1,22 +1,22 @@
-## Reflection
+## Αναστοχασμός
 
-Well done, you have learnt a lot! Now it's time to reflect — reflecting is an important part of learning because it helps make new connections in your brain.
+Μπράβο, έμαθες πολλά! Τώρα, ήρθε η ώρα να εξετάσεις τις νέες γνώσεις- ο αναστοχασμός είναι σημαντικό μέρος της μάθησης, επειδή βοηθά στη δημιουργία νέων συνδέσεων στον εγκέφαλό σου.
 
-Answer the three questions below to reflect on what you've learnt.
+Απάντησε στις τρεις ερωτήσεις παρακάτω για να διαπιστώσεις τι έμαθες.
 
-After each question, press **submit**. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Μετά από κάθε ερώτηση, πάτα **υποβολή**. Θα οδηγηθείς στη σωστή απάντηση. Μπορείς να επαναλάβεις αυτήν τη δραστηριότητα όσες φορές θέλεις.
 
-Have fun!
+Καλή διασκέδαση!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Ερώτηση 1 από 3
 ---
 
-In your project, you drew mouths using shapes.
+Στο έργο σου, ζωγράφισες στόματα χρησιμοποιώντας σχήματα.
 
-What kind of mouth would this code draw?
+Τι είδους στόμα θα έβγαζε αυτός ο κώδικας;
 
 --- code ---
 ---
@@ -33,7 +33,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-  Not quite, to create a sad mouth the second `ellipse` would need a **y_coordinate** that is lower than the first `ellipse`.
+  Όχι ακριβώς, για να δημιουργήσεις ένα θλιμμένο στόμα, η δεύτερη έλλειψη `` θα χρειαζόταν μια **συντεταγμένη_y** που να είναι χαμηλότερη από την πρώτη `έλλειψη`.
 
   --- /feedback ---
 
@@ -41,7 +41,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-  That's correct! The second `ellipse` is drawn with a **y_coordinate** that is higher than the first `ellipse`.
+  Αυτό είναι το σωστό! Η δεύτερη `έλλειψη` σχεδιάζεται με μια **συντεταγμένη_y** που είναι υψηλότερη από την πρώτη `έλλειψη`.
 
   --- /feedback ---
 
@@ -49,7 +49,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-   Not quite, the second circle has a white `fill(255, 255, 255)` and is positioned partially over the first black circle.
+   Όχι ακριβώς, ο δεύτερος κύκλος έχει ένα λευκό `fill(255, 255, 255)` και είναι τοποθετημένο εν μέρει πάνω από τον πρώτο μαύρο κύκλο.
 
   --- /feedback ---
 
@@ -57,7 +57,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-The code does not draw rectangles. The `ellipse` function draws circles.
+Ο κώδικας δεν σχεδιάζει ορθογώνια. Η συνάρτηση `ellipse` σχεδιάζει κύκλους.
 
   --- /feedback ---
 
