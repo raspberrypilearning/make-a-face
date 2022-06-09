@@ -1,44 +1,44 @@
-## Introduction
+## Εισαγωγή
 
-Write Python code to draw a face or mask using geometric shapes.
+Γράψε κώδικα στην Python για να ζωγραφίσεις ένα πρόσωπο ή μάσκα, χρησιμοποιώντας γεωμετρικά σχήματα.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The creation of <span style="color: #0faeb0">**geometric art**</span> dates back to Ancient Greece where vases would be painted with patterns made up of shapes. Artists began using shapes to draw humans and animals with circles for heads, triangle bodies, and lines for legs and arms.
+Η δημιουργία της <span style="color: #0faeb0">**γεωμετρικής τέχνης**</span> χρονολογείται από την Αρχαία Ελλάδα, όπου τα βάζα βάφονταν με σχέδια που αποτελούνται από σχήματα. Οι καλλιτέχνες άρχισαν να χρησιμοποιούν σχήματα για να σχεδιάζουν ανθρώπους και ζώα με κύκλους για κεφάλια, τρίγωνα σώματα και γραμμές για πόδια και χέρια.
 </p>
 
-You will:
+Θα χρειαστεί να:
 
-+ Use code creatively to make a piece of digital art
-+ Draw and position your art using geometric shapes, coordinates, and layers
-+ Organise your code with functions
++ Χρησιμοποιήσεις τον κώδικα δημιουργικά για να φτιάξεις ένα έργο ψηφιακής τέχνης
++ Σχεδιάσεις και τοποθετήσεις την τέχνη σου χρησιμοποιώντας γεωμετρικά σχήματα, συντεταγμένες και επίπεδα
++ Οργανώσεις τον κωδικό σου με συναρτήσεις
 
-![Examples of different faces.](images/strip.png)
+![Παραδείγματα διαφορετικών προσώπων.](images/strip.png)
 
 --- no-print ---
 
-### Get inspiration
+### Πάρε έμπνευση
 
-You are going to make some design decisions about the kind of face you will make and how you will use code to get the effect you want.
+Θα λάβεις κάποιες σχεδιαστικές αποφάσεις σχετικά με το είδος του προσώπου που θα κάνεις και πώς θα χρησιμοποιήσεις κώδικα για να έχεις τα εφέ που θέλεις.
 
 --- task ---
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-Look at these examples and think about how they have been made from circles, ellipses, squares, rectangles, and triangles.
+Κοίταξε αυτά τα παραδείγματα και σκέψου πώς έχουν κατασκευαστεί από κύκλους, ελλείψεις, τετράγωνα, ορθογώνια και τρίγωνα.
 
-**Kawaii fruit**: [See inside](https://trinket.io/python/6bad88800b){:target="_blank"}
+**Φρούτο Kawaii**: [Δες μέσα](https://trinket.io/python/6bad88800b){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/6bad88800b?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-**Stacked faces**: [See inside](https://trinket.io/python/f90794771c){:target="_blank"}
+**Στοιβαγμένα πρόσωπα**: [Δες μέσα](https://trinket.io/python/f90794771c){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/f90794771c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-**Tribal mask**: [See inside](https://trinket.io/python/b876d500ab){:target="_blank"}
+**Μάσκα Φυλής**: [Δες μέσα](https://trinket. io/python/b876d500ab){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/b876d500ab?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
@@ -53,13 +53,13 @@ Look at these examples and think about how they have been made from circles, ell
 
 --- print-only ---
 
-### Get inspiration
+### Πάρε έμπνευση
 
-You are going to make some design decisions about the kind of face you will make and how you will use code to get the effect you want.
+Θα λάβεις κάποιες σχεδιαστικές αποφάσεις σχετικά με το είδος του προσώπου που θα κάνεις και πώς θα χρησιμοποιήσεις κώδικα για να έχεις τα εφέ που θέλεις.
 
-See inside example projects in [Python 1: Make a face — Examples](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"} Scratch studio.
+Δες παραδείγματα έργων στο [Python 1: Φτιάξε ένα πρόσωπο - Παραδείγματα](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"} Scratch studio.
 
-![The output area from the Kawaii fruit project.](images/smile.png) ![The output area from the Stacked faces project.](images/stacked.png) ![The output area from the Tribal mask project.](images/tribal.png)
+![Η περιοχή εξόδου για το έργο Φρούτο Kawaii.](images/smile.png) ![Η περιοχή εξόδου για το έργο Στοιβαγμένα πρόσωπα.](images/stacked.png) ![Η περιοχή εξόδου για το έργο Μάσκα Φυλής.](images/tribal.png)
 
 --- /print-only ---
 
