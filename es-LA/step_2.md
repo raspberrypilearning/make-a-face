@@ -107,7 +107,7 @@ language: python
 filename: main.py - draw()
 ---
 
-    #grid() #HOculta la cuadrícula convirtiéndola en un comentario
+    #grid() #Oculta la cuadrícula convirtiéndola en un comentario
 
 --- /code ---
 
