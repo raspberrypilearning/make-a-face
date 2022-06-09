@@ -1,0 +1,139 @@
+400 por 400 funciona bien para una cara redonda
+
+Prueba diferentes números para cambiar el color
+
+Muestra cuadrícula
+
+Oculta la cuadrícula convirtiéndola en un comentario
+
+Círculo en medio
+
+También puedes usar no_stroke()
+
+Amarillo brillante
+
+Negro: cambia a rojo, verde o azul hasta 255
+
+x, y, ancho, alto
+
+Una boca negra
+
+Una cara naranja
+
+Círculo superior
+
+Círculo inferior
+
+Máscara
+
+Ciclo de la oreja izquierda
+
+Ciclo de la oreja derecha
+
+Rectángulo blanco grande
+
+Rectángulo azul más pequeño
+
+Boca
+
+Cantidad inicial de rojo
+
+Cantidad inicial de verde
+
+Cantidad inicial de azul
+
+Utiliza variables para controlar el cambio de color de cada ciclo
+
+Cambia la coordenada x para cubrir el ancho de un diente
+
+Línea de la boca
+
+Diente izquierdo
+
+Diente derecho
+
+Reflejos
+
+La transparencia/opacidad aquí es 70
+
+Negro
+
+Blanco
+
+Ojos
+
+Cara
+
+Verde
+
+Ejecuta el código aquí una vez
+
+ancho y altura
+
+muévete debajo de draw() para restablecer el dibujo en cada cuadro
+
+Ejecuta el código para cada cuadro aquí
+
+dibuja máscara
+
+ojos y boca
+
+cubre parcialmente los ojos y la boca
+
+cubre la parte superior de la máscara
+
+sombrea la mitad de la máscara
+
+Ejecuta el código cuando se presiona el ratón aquí
+
+Mantén esto para ejecutar tu código
+
+Definiciones de compatibilidad con la biblioteca de procesamiento p5py
+
+Forma
+
+Tipos de letra
+
+Texto
+
+Color
+
+Imágenes
+
+Entorno informático
+
+Transformar
+
+Teclado
+
+Cabello y cara
+
+tallo
+
+Fondo de la cara superior
+
+Cabello de la cara superior
+
+Ojo izquierdo de la cara superior
+
+Ojo derecho de la cara superior
+
+Boca de la cara superior
+
+Fondo de la cara inferior
+
+Cabello de la cara inferior
+
+Ojo izquierdo de la cara inferior
+
+Ojo derecho de la cara inferior
+
+Boca de la cara inferior
+
+Nariz
+
+Marcas faciales
+
+Cabello
+
+agrega un # al comienzo de esta línea para ocultar la cuadrícula
