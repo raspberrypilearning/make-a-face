@@ -1,38 +1,38 @@
-## Add more details
+## Agrega más detalles
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Does your face or mask need more details to make it more interesting? 
+¿Tu cara o máscara necesitan más detalles para hacerlos más interesantes? 
 </div>
 <div>
-![Image showing a face as an example with a headband accessory.](images/frida.png){:width="200px"}
+![Imagen que muestra un rostro como ejemplo con una diadema.](images/frida.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-You can use more shapes to add more features to your face or mask.
+Puedes usar más formas para agregar más características a tu cara o máscara.
 
-How can you give the face more personality?
+¿Cómo puedes dar más personalidad a la cara?
 
-You could add:
+Podrías agregar:
 
-+ A nose
-+ Eyebrows
-+ Ears
-+ Cheeks
-+ Highlights / catchlights
-+ Whatever you like!
++ Una nariz
++ Cejas
++ Orejas
++ Mejillas
++ Reflejos o destellos
++ ¡Lo que quieras!
 
-Just add the extra details that make sense for your drawing.
+Simplemente agrega los detalles adicionales que tengan sentido para tu dibujo.
 
 --- /task ---
 
 --- task ---
 
-You can make partly transparent colours by adding a fourth number to an RGB colour to give the **opacity**.
+Puedes hacer colores parcialmente transparentes agregando un cuarto número a un color RGB para dar **opacidad**.
 
-This code draws the overlapping highlights in the Kawaii fruit example:
+Este código dibuja los reflejos superpuestos en el ejemplo de la fruta Kawaii:
 
 --- code ---
 ---
@@ -47,7 +47,7 @@ ellipse(150, 160, 25, 25)
 
 --- /code ---
 
-![Kawaii fruit image with highlights at different opacities: 30, 70, 150, 255. The lower value, 30, is more opaque and 255 is less opaque.](images/opacity.png)
+![Imagen de fruta kawaii con reflejos en diferentes opacidades: 30, 70, 150, 255. El valor más bajo, 30, es más opaco y 255 es menos opaco.](images/opacity.png)
 
 --- /task ---
 
