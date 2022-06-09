@@ -1,21 +1,21 @@
-## Face shape
+## Forma de la cara
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Draw and colour a shape for your face or mask. Don't add the other features just yet, they will come later.
+Dibuja y colorea una forma para tu cara o máscara. No agregues las otras características todavía, vendrán más tarde.
 </div>
 <div>
-![Image of a square-faced robot.](images/robot-teeth.png){:width="200px"}
+![Imagen de un robot de cara cuadrada.](images/robot-teeth.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-Decide on the main shape of the face for your mask. It could be a circle, an ellipse, a rectangle, or even a triangle.
+Decide la forma principal de la cara para tu máscara. Puede ser un círculo, una elipse, un rectángulo o incluso un triángulo.
 
-Add code to the `draw()` function to draw a face or mask. Make sure you also remove `pass` from inside the function.
+Agrega código a la función `dibujar()` para dibujar una cara o una máscara. Asegúrate de eliminar también `pasar` del interior de la función.
 
-This example draws a circle in the middle, but it's up to you which shape to use.
+Este ejemplo dibuja un círculo en el medio, pero depende de ti qué forma usar.
 
 --- code ---
 ---
@@ -28,7 +28,7 @@ ellipse(width/2, height/2, 200, 200) #Circle in the middle
 
 --- /code ---
 
-![The output area showing a black circle in the middle of the grid.](images/black-circle.png)
+![El área de salida que muestra un círculo negro en el medio de la cuadrícula.](images/black-circle.png)
 
 [[[processing-python-ellipse]]]
 
@@ -42,17 +42,17 @@ ellipse(width/2, height/2, 200, 200) #Circle in the middle
 
 --- task ---
 
-**Test:** Run your code and change it to get the face size and shape that you want.
+**Prueba:** Ejecuta tu código y cámbialo para obtener el tamaño y la forma de la cara que deseas.
 
 --- /task ---
 
 --- task ---
 
-Choose a stroke colour for the outline and a fill colour for the main part of the shape.
+Elige un color de trazo para el contorno y un color de relleno para la parte principal de la forma.
 
 [[[processing-stroke]]]
 
-If you don't want an outline, then use `no_stroke()`.
+Si no deseas un contorno utiliza `sin_contorno()`.
 
 --- code ---
 ---
@@ -70,7 +70,7 @@ def draw(): stroke(0) #You can also use no_stroke() fill(255, 255, 0) #Bright ye
 
 --- task ---
 
-**Test:** Run your code and change the colour until you are happy with it.
+**Prueba:** Ejecuta tu código y cambia el color hasta que encuentres el que más te guste.
 
 --- /task ---
 
