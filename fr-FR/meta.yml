@@ -5,7 +5,7 @@ description: Concevoir et dessiner un visage ou un masque à l'aide de formes g�
 version: 4
 listed: true
 copyedit: true
-last_tested: "2021-10-06"
+last_tested: '2021-10-06'
 steps:
   - 
     title: Introduction
@@ -13,22 +13,25 @@ steps:
     title: Choisir un thème
   - 
     title: Forme du visage
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: Ajouter des yeux
   - 
     title: Ajouter une bouche
   - 
     title: Ajouter plus de détails
-    completion: internal
+    completion:
+      - internal
   - 
     title: Réflexion
-    completion: external
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
     title: Améliorer ton projet
   - 
