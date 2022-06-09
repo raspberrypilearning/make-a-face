@@ -127,7 +127,7 @@ filename: main.py - draw()
 --- collapse ---
 
 ---
-title : J'ai mis à jour ma taille et ma couleur mais la zone de sortie reste la même
+title: J'ai mis à jour ma taille et ma couleur mais la zone de sortie reste la même
 ---
 
 Après avoir modifié le code, tu devras `exécuter` ton projet pour voir les changements dans la zone de sortie.
