@@ -1,22 +1,22 @@
-## Reflection
+## Reflexión
 
-Well done, you have learnt a lot! Now it's time to reflect — reflecting is an important part of learning because it helps make new connections in your brain.
+¡Bien hecho, has aprendido mucho! Ahora es momento de reflexionar: esta es una parte importante del aprendizaje porque te ayuda a establecer nuevas conexiones en tu cerebro.
 
-Answer the three questions below to reflect on what you've learnt.
+Responde las siguientes tres preguntas para reflexionar sobre lo que has aprendido.
 
-After each question, press **submit**. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Después de cada pregunta, presiona **enviar**. Vamos a guiarte hacia la respuesta correcta. Puedes realizar esta actividad tantas veces como quieras.
 
-Have fun!
+¡Que te diviertas!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Pregunta 1 de 3
 ---
 
-In your project, you drew mouths using shapes.
+En tu proyecto, dibujaste bocas usando formas.
 
-What kind of mouth would this code draw?
+¿Qué tipo de boca dibujaría este código?
 
 --- code ---
 ---
@@ -33,7 +33,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-  Not quite, to create a sad mouth the second `ellipse` would need a **y_coordinate** that is lower than the first `ellipse`.
+  No precisamente, para crear una boca triste, la segunda `elipse`, necesitaría una **y_coordinada** más baja que la primera `elipse`.
 
   --- /feedback ---
 
@@ -41,7 +41,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-  That's correct! The second `ellipse` is drawn with a **y_coordinate** that is higher than the first `ellipse`.
+  ¡Correcto! La segunda `elipse` se dibuja con una **y_coordinada** más alta que la primera `elipse`.
 
   --- /feedback ---
 
@@ -49,7 +49,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-   Not quite, the second circle has a white `fill(255, 255, 255)` and is positioned partially over the first black circle.
+   No exactamente, el segundo círculo tiene un relleno blanco, `relleno (255, 255, 255)`, y está colocado parcialmente sobre el primer círculo negro.
 
   --- /feedback ---
 
@@ -57,7 +57,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-The code does not draw rectangles. The `ellipse` function draws circles.
+El código no dibuja rectángulos. La función `elipse` dibuja círculos.
 
   --- /feedback ---
 
