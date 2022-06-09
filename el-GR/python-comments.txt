@@ -1,139 +1,139 @@
-400 by 400 works well for a round face
+Το 400 επί 400 λειτουργεί καλά για ένα στρογγυλό πρόσωπο
 
-Try different numbers to change the colour
+Δοκίμασε διαφορετικούς αριθμούς για να αλλάξεις το χρώμα
 
-Shows grid
+Εμφανίζει πλέγμα
 
-Hide grid by turning it into a comment
+Απόκρυψη πλέγματος μετατρέποντάς το σε σχόλιο
 
-Circle in the middle
+Κύκλος στη μέση
 
-You can also use no_stroke()
+Μπορείς επίσης να χρησιμοποιήσεις το no_stroke()
 
-Bright yellow
+Φωτεινό κίτρινο
 
-Black — change to red, green, or blue up to 255
+Μαύρο — άλλαξε σε κόκκινο, πράσινο ή μπλε έως 255
 
-x, y, width, height
+x, y, πλάτος, ύψος
 
-A black mouth
+Ένα μαύρο στόμα
 
-An orange face
+Ένα πορτοκαλί πρόσωπο
 
-Higher circle
+Πάνω κύκλος
 
-Lower circle
+Κάτω κύκλος
 
-Face mask
+Μάσκα προσώπου
 
-Left ear loop
+Βρόχος αριστερού αυτιού
 
-Right ear loop
+Βρόχος δεξιού αυτιού
 
-Large white rectangle
+Μεγάλο άσπρο ορθογώνιο
 
-Smaller blue rectangle
+Μικρότερο μπλε ορθογώνιο
 
-Mouth
+Στόμα
 
-Starting amount of red
+Αρχική ποσότητα κόκκινου
 
-Starting amount of green
+Αρχική ποσότητα πρασίνου
 
-Starting amount of blue
+Αρχικό ποσότητα μπλε
 
-Uses variables to control the colour change each loop
+Χρησιμοποιεί μεταβλητές για τον έλεγχο της αλλαγής χρώματος σε κάθε βρόχο
 
-Move along the x coordinate by the width of a tooth
+Μετακινήσου κατά μήκος της συντεταγμένης x κατά το πλάτος ενός δοντιού
 
-Mouth line
+Γραμμή στόματος
 
-Left tooth
+Αριστερό δόντι
 
-Right tooth
+Δεξί δόντι
 
-Highlights
+Ανταύγειες
 
-70 is transparency/opacity here
+70 είναι η διαφάνεια/αδιαφάνεια εδώ
 
-Black
+Μαύρο
 
-White
+Άσπρο
 
-Eyes
+Μάτια
 
-Face
+Πρόσωπο
 
-Green
+Πράσινο
 
-Put code to run once here
+Βάλε εδώ κώδικα που θα εκτελεστεί μια φορά
 
-width and height
+πλάτος και ύψος
 
-move under draw() to reset the drawing every frame
+πήγαινε κάτω από το draw() για να επαναφέρεις τη σχεδίαση σε κάθε πλαίσιο
 
-Put code to run every frame here
+Βάλε εδώ κώδικα που θα εκτελείται σε κάθε καρέ
 
-draw mask
+ζωγράφισε μάσκα
 
-eyes and mouth
+μάτια και στόμα
 
-partly cover eyes and mouth
+κάλυψε εν μέρει τα μάτια και το στόμα
 
-cover top of mask
+κάλυψε το πάνω μέρος της μάσκας
 
-shade half of the mask
+σκίασε τη μισή μάσκα
 
-Put code to run when the mouse is pressed here
+Βάλε κώδικα που θα τρέξει όταν το ποντίκι πατηθεί εδώ
 
-Keep this to run your code
+Από εδώ εκτελείς τον κώδικά σου
 
-Definitions for compatibility with the p5py processing library
+Ορισμοί για συμβατότητα με τη βιβλιοθήκη επεξεργασίας p5py
 
-Shape
+Σχήμα
 
-Fonts
+Γραμματοσειρές
 
-Text
+Κείμενο
 
-Colour
+Χρώμα
 
-Images
+Εικόνες
 
-Environment
+Περιβάλλον
 
-Transform
+Μετασχηματισμός
 
-Keyboard
+Πληκτρολόγιο
 
-Hair and face
+Μαλλιά και πρόσωπο
 
-stalk
+παρακολούθησε
 
-Top face background
+Φόντο του πάνω προσώπου
 
-Top face hair
+Μαλλιά του πάνω προσώπου
 
-Top face left eye
+Αριστερό μάτι του πάνω προσώπου
 
-Top face right eye
+Δεξί μάτι του πάνω προσώπου
 
-Top face mouth
+Στόμα του πάνω προσώπου
 
-Bottom face background
+Φόντο του κάτω προσώπου
 
-Bottom face hair
+Μαλλιά του κάτω προσώπου
 
-Bottom face left eye
+Αριστερό μάτι του κάτω προσώπου
 
-Bottom face right eye
+Δεξί μάτι του κάτω προσώπου
 
-Bottom face mouth
+Στόμα του κάτω προσώπου
 
-Nose
+Μύτη
 
-Face markings
+Σημάδια προσώπου
 
-Hair
+Μαλλιά
 
-add a # to the beginning of this line to hide the grid
+πρόσθεσε ένα # στην αρχή αυτής της γραμμής για να κρύψεις το πλέγμα
