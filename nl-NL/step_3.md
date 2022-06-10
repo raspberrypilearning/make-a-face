@@ -5,7 +5,7 @@
 Teken en kleur een vorm voor je gezicht of masker. Voeg de andere elementen nog niet toe, die komen later.
 </div>
 <div>
-![Afbeelding van een robot met een vierkant gezicht.](afbeeldingen/robot-tanden.png){:width="200px"}
+![Afbeelding van een robot met een vierkant gezicht.](images/robot-tanden.png){:width="200px"}
 </div>
 </div>
 
