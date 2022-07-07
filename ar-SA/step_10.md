@@ -1,4 +1,4 @@
-## ما هي الخطوة التالية؟
+## ماهو التالي؟
 
 إذا كنت تتبع مسار [مقدمة الى Python](https://projects.raspberrypi.org/ar-SA/raspberrypi/python-intro)، يمكنك الانتقال إلى مشروع [التدريب على الهدف](https://projects.raspberrypi.org/ar-SA/projects/dont-collide). في هذا المشروع ، ستقوم بعمل لعبة عقبة للتمرير حيث يجب أن تصل شخصيتك إلى نقطة النهاية دون الاصطدام بالعقبات.
 
