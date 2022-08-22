@@ -1,38 +1,38 @@
-## Add more details
+## 詳細を追加
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Does your face or mask need more details to make it more interesting? 
+顔やマスクをより面白くするために、さらに詳細が必要ですか? 
 </div>
 <div>
-![Image showing a face as an example with a headband accessory.](images/frida.png){:width="200px"}
+！[ヘッドバンドアクセサリを使用した例としての顔を示す画像。](images/frida.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-You can use more shapes to add more features to your face or mask.
+より多くの形状を使用して、顔やマスクに機能を追加できます。
 
-How can you give the face more personality?
+どうすれば顔に個性を与えることができますか？
 
-You could add:
+以下のことができます：
 
-+ A nose
-+ Eyebrows
-+ Ears
-+ Cheeks
-+ Highlights / catchlights
-+ Whatever you like!
++ 鼻
++ 眉毛
++ 耳
++ 頬
++ ハイライト/キャッチライト
++ 君が好きなものならなんでも！
 
-Just add the extra details that make sense for your drawing.
+図面に意味のある詳細を追加するだけです。
 
 --- /task ---
 
 --- task ---
 
-You can make partly transparent colours by adding a fourth number to an RGB colour to give the **opacity**.
+RGBカラーに4番目の数値を追加して **不透明度 **を与えることにより、部分的に透明なカラーを作成できます。
 
-This code draws the overlapping highlights in the Kawaii fruit example:
+このコードは、カワイイフルーツの例で重複するハイライトを描画します。
 
 --- code ---
 ---
@@ -47,7 +47,7 @@ ellipse(150, 160, 25, 25)
 
 --- /code ---
 
-![Kawaii fruit image with highlights at different opacities: 30, 70, 150, 255. The lower value, 30, is more opaque and 255 is less opaque.](images/opacity.png)
+![さまざまな不透明度でハイライトされたカワイイフルーツの画像：30、70、150、255。 低い値の30は不透明度が高く、255は不透明度が低くなります。](images/opacity.png)
 
 --- /task ---
 
