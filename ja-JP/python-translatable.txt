@@ -1,31 +1,31 @@
-eye_size
+目の大きさ
 
-red
+赤
 
-green
+緑
 
-blue
+青
 
-orange
+オレンジ
 
-brown
+茶色
 
-purple
+紫
 
-grey
+グレー
 
-lilac
+ライラック
 
-gap
+ギャップ
 
-sad
+悲しい
 
-happy
+ハッピー
 
-x_middle
+x_中
 
-y_eye
+y_目
 
-y_mouth
+y_口
 
-mask_width
+マスク_幅
