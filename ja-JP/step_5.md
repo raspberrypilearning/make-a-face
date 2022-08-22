@@ -1,37 +1,37 @@
-## Add a mouth
+## 口を追加
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-A mouth is a great way of showing emotion. Will your character have a smile, frown, or something else? 
+口は感情を表すのに最適な方法です。 あなたのキャラクターは笑顔、眉をひそめている、または何か他のものを持っていますか？ 
 </div>
 <div>
-![Image showing a robot face as an example of a face with a mouth.](images/mask.png){:width="200px"}
+！[口のある顔の例としてロボットの顔を示す画像。](images/mask.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-Think about what kind of mouth your face needs. The simplest mouth would be a circle to look surprised.
+あなたの顔がどんな口を必要としているか考えてください。 最も単純な口は、驚いたように見える円です。
 
-You could add two overlapping circles to create a smile or frown. Triangles or rectangles could be added for teeth.
+2つの重なり合う円を追加して、笑顔や眉をひそめることができます。 三角形または長方形を歯に追加できます。
 
 --- /task ---
 
 --- task ---
 
-Add code to your `draw()` function to add a mouth.
+`draw()`関数にコードを追加して、口を追加します。
 
 --- collapse ---
 
 ---
-title: Create a mouth from overlapping circles
+タイトル：重なり合う円から口を作成します
 ---
 
-Set the `fill` colour for your mouth then draw an `ellipse`. Set the `fill` colour again, this time to match the face colour, then draw a second `ellipse`.
+口に `塗りつぶし` 色を設定してから、 `の楕円`を描画します。 今度は顔の色と一致するように、 `塗りつぶし` の色を再度設定してから、2番目の `の楕円`を描画します。
 
-Change the `y` coordinate of the second `ellipse` to a slightly higher position for a smile or a slightly lower position for a frown.
+2番目の `ellipse`の`y`座標を、笑顔の場合は少し高い位置に、眉をひそめている場合は少し低い位置に変更します。
 
-![The output area showing a smiling mouth.](images/smile.png)
+![笑顔の口を示す出力領域。](images/smile.png)
 
 --- code ---
 ---
@@ -46,7 +46,7 @@ filename: main.py - draw()
 
 --- /code ---
 
-![The output area showing a frowning mouth.](images/frown.png)
+![眉をひそめている口を示す出力領域。](images/frown.png)
 
 --- code ---
 ---
@@ -66,23 +66,23 @@ filename: main.py - draw()
 --- collapse ---
 
 ---
-title: Create a mouth using rectangles
+タイトル：長方形を使用して口を作成します
 ---
 
-Robots are often shown with `rectangle` shaped mouths. Sometimes `rectangle` and `ellipse` shapes are used together to create a grimace emoji or to add a face mask.
+ロボットは、多くの場合、 個の`長方形の` 個の形をした口で示されます。 `長方形` と `楕円` の形状を一緒に使用して、しかめっ面の絵文字を作成したり、フェイスマスクを追加したりすることがあります。
 
-![The output area showing a face with rectangle facemask.](images/rectangle-mask.png)
+![長方形のフェイスマスクを持つ面を示す出力領域。](images/rectangle-mask.png)
 
-Add the code for a `rectangle`, then create a smaller `rectangle` within it. Change the `stroke` and `fill` colours to complement your theme. Add `ellipse` shapes if needed.
+`長方形`のコードを追加し、その中に小さい `長方形` を作成します。 テーマを補完するために、 `ストローク` と `塗りつぶし` 色を変更します。 必要に応じて、 `楕円` 個の形状を追加します。
 
-**Tip:** Remember to put the `ellipse` shapes above the `rectangle` code if you want them to go behind the `rectangle` shapes.
+**ヒント：** `長方形` の図形の後ろに配置する場合は、 `楕円` の図形を `長方形` のコードの上に配置することを忘れないでください。
 
 --- code ---
 ---
 language: python
 filename: main.py - draw()
 ---
-# Face mask
+# マスク
 no_fill()    
 stroke(255, 255, 255)     
 ellipse(150, 250, 30, 30) #Left ear loop    
@@ -97,27 +97,27 @@ rect(152, 235, 96, 30) #Smaller blue rectangle
 
 --- /collapse ---
 
-**Tip:** Add a `#Mouth` comment on the line before your mouth code to help you easily find the mouth code.
+**ヒント：** 口コードを簡単に見つけられるように、口コードの前の行に `#Mouth` コメントを追加します。
 
 --- /task ---
 
 --- task ---
 
-**Choose:** You could also add multiple teeth to your mouth using `translate` to change the `x` coordinate after each tooth is drawn.
+**選択：** `translate` を使用して複数の歯を口に追加し、各歯が描かれた後に `x`座標を変更することもできます。
 
 --- collapse ---
 
 ---
-title: Use a loop to add a row of teeth
+タイトル：ループを使用して歯の列を追加します
 ---
 
-Add code to create a `for` loop that repeats in order to create the number of teeth you need.
+必要な数の歯を作成するために繰り返す `ループを作成する` を追加します。
 
-![The output area showing a robot face with a row of rectangle teeth in different colours.](images/robot-teeth.png)
+![さまざまな色の長方形の歯の列を持つロボットの顔を示す出力領域。](images/robot-teeth.png)
 
-After each tooth has been drawn, add code to `translate()` it by the width of the tooth.
+各歯が描かれた後、歯の幅だけ `translate()` にコードを追加します。
 
-You can also add code to change the colour of each tooth.
+各歯の色を変更するコードを追加することもできます。
 
 --- code ---
 ---
@@ -125,7 +125,7 @@ language: python
 filename: main.py - draw()
 ---
 
-# Mouth
+# 口
 fill(90, 110, 184)     
 red = 90 #Starting amount of red   
 green = 110 #Starting amount of green    
@@ -147,21 +147,21 @@ translate(33, 0) #Move along the x coordinate by the width of a tooth
 --- collapse ---
 
 ---
-title: Use triangles to add fangs
+タイトル：三角形を使用して牙を追加します
 ---
 
-Create a `rectangle` to use as the line of the mouth.
+口の線として使用する `の長方形` を作成します。
 
-Add two `triangle` shapes to create the fangs. Change the `x` coordinates for each corner to position the fangs at opposite ends of the mouth line.
+2つの `三角形` の形状を追加して、牙を作成します。 各コーナーの `x`座標を変更して、牙をマウスラインの両端に配置します。
 
-![The output area showing a vampire face with a rectangle mouth and two triangle teeth.](images/vampire.png)
+![長方形の口と2つの三角形の歯を持つ吸血鬼の顔を示す出力領域。](images/vampire.png)
 
 --- code ---
 ---
 language: python
 filename: main.py - draw()
 ---
-# Mouth
+# 口
   fill(0)    
 rect(170, 260, 60, 5) #Mouth line    
 fill(0)    
@@ -175,15 +175,15 @@ triangle(210, 260, 220, 280, 230, 260) #Right tooth
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**デバッグ：** プロジェクトに修正が必要なバグが見つかる場合があります。 一般的なバグは次のとおりです。
 
 --- collapse ---
 
 ---
-title: My overlapping shape goes outside the face
+タイトル：重なり合った形が顔の外に出ます
 ---
 
-If you use two overlapping shapes to create a mouth, then you need to make sure the shape that is the same colour as the face doesn't go outside the face. If it does, then change the width or height of the shape so that it's small enough to fit inside the face.
+2つの重なり合う形状を使用して口を作成する場合は、顔と同じ色の形状が顔の外側に出ないようにする必要があります。 その場合は、形状の幅または高さを変更して、顔の内側に収まるように小さくします。
 
 --- /collapse ---
 
@@ -191,10 +191,10 @@ If you use two overlapping shapes to create a mouth, then you need to make sure 
 --- collapse ---
 
 ---
-title: I have too many teeth
+タイトル：歯が多すぎる
 ---
 
-Don't forget that `range()` creates a sequence of numbers starting from 0 not 1. This may make a difference to your code depending on how you have positioned your teeth.
+`range()`は、1ではなく0から始まる数列を作成することを忘れないでください。 これは、歯の配置方法によっては、コードに違いをもたらす可能性があります。
 
 --- /collapse ---
 
