@@ -37,13 +37,11 @@ Cierto, pero eso no ayuda a crear muchos diseños diferentes.
 
   --- /feedback ---
 
---- /choices ---
-
 - ( ) Las variables siempre tienen números diferentes cada vez que ejecutas tu programa.
 
   --- feedback ---
 
-No exactamente. Las variables tienen el valor que tú les asignas. Si asignas un número a una variable (como `eye_radius = 50`) y no lo cambias, será el mismo cada vez que ejecutes el programa.
+Not quite. Variables have the value you assign to them. If you assign a number to a variable (such as `eye_radius = 50`) and don't change it then it will be the same every time you run the program.
 
   --- /feedback ---
 
