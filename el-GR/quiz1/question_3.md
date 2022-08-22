@@ -37,13 +37,11 @@ legend: Ερώτηση 3 από 3
 
   --- /feedback ---
 
---- /choices ---
-
 - ( ) Οι μεταβλητές έχουν πάντα διαφορετικούς αριθμούς κάθε φορά που εκτελείς το πρόγραμμά σου.
 
   --- feedback ---
 
-Περίπου. Οι μεταβλητές έχουν την τιμή που τους εκχωρείς. Εάν αντιστοιχίσεις έναν αριθμό σε μια μεταβλητή (όπως `eye_radius = 50`) και δεν τον αλλάξεις, τότε θα είναι ο ίδιος κάθε φορά που εκτελείς το πρόγραμμα.
+Not quite. Variables have the value you assign to them. If you assign a number to a variable (such as `eye_radius = 50`) and don't change it then it will be the same every time you run the program.
 
   --- /feedback ---
 
