@@ -37,13 +37,11 @@
 
   --- /feedback ---
 
---- /choices ---
-
 - () تحتوي المتغيرات دائمًا على أرقام مختلفة في كل مرة تقوم فيها بتشغيل برنامجك.
 
   --- feedback ---
 
-ليس تماما. المتغيرات لها القيمة التي تخصصها لها. إذا قمت بتعيين رقم إلى متغير (مثل `eye_radius = 50`) ولم تقم بتغييره ، فسيكون هو نفسه في كل مرة تقوم فيها بتشغيل البرنامج.
+Not quite. Variables have the value you assign to them. If you assign a number to a variable (such as `eye_radius = 50`) and don't change it then it will be the same every time you run the program.
 
   --- /feedback ---
 
