@@ -37,13 +37,11 @@ Waar, maar dat helpt niet om veel verschillende ontwerpen te maken.
 
   --- /feedback ---
 
---- /choices ---
-
 - ( ) Variabelen hebben elke keer dat je je programma uitvoert verschillende waarden.
 
   --- feedback ---
 
-Niet helemaal. Variabelen hebben de waarde die je eraan toewijst. Als je een getal aan een variabele toewijst (zoals `oogstraal = 50`) en je dit getal niet wijzigt, zal dit niet veranderen als je het programma opnieuw uitvoert.
+Not quite. Variables have the value you assign to them. If you assign a number to a variable (such as `eye_radius = 50`) and don't change it then it will be the same every time you run the program.
 
   --- /feedback ---
 
