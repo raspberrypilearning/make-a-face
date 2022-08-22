@@ -1,31 +1,31 @@
-## Add eyes
+## 目を追加する
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Eyes make a shape start to look like a face.
+目は形を顔のように見せ始めます。
 </div>
 <div>
-![The output area showing a face with eyes.](images/eyes.png){:width="200px"}
+！[目で顔を表示する出力領域。](images/eyes.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-Think about what kind of eyes your face needs. The simplest eyes are just two circles.
+あなたの顔にどんな目が必要か考えてみてください。 最も単純な目は2つの円です。
 
-You could add different coloured irises and pupils. You could add light highlights / catchlights in a different colour.
+さまざまな色の虹彩と瞳孔を追加できます。 別の色のライトハイライト/キャッチライトを追加できます。
 
 --- /task ---
 
-Experiment with `ellipses` in the `draw` function to create the eyes you want.
+`draw`関数で`ellipses`を試して、必要な目を作成します。
 
 --- task ---
 
-### Position the eyes
+### 目を配置する
 
-The first number in `ellipse` is the center of the eye. The eyes should be positioned the same distance from the centre of the drawing.
+`ellipse`の最初の数字は、目の中心です。 目は、図面の中心から同じ距離に配置する必要があります。
 
-In this example, `160` and `240` are both `40` pixels away from 200, which works for a drawing with a width of 400.
+この例では、`160`と`240` はどちらも `40`ピクセルから200離れており、400幅の図面で機能します。
 
 --- code ---
 ---
@@ -36,17 +36,17 @@ filename: main.py - draw()
 
 --- /code ---
 
-**Tip:** If you want round eyes, then using an `eye_size` variable makes it easier to change the width and height of both eyes in one place.
+**ヒント：** 丸い目をしたい場合は、 `eye_size` 変数を使用すると、両方の目の幅と高さを1か所で簡単に変更できます。
 
 [[[processing-python-ellipse]]]
 
 --- collapse ---
 
 ---
-title: Calculating positions based on width
+タイトル：幅に基づいて位置を計算する
 ---
 
-The centre of a drawing is at position `width / 2` or half the width. You can use this to position the eyes by subtracting the eye width for the left eye and adding it for the right eye:
+図面の中心は、`width / 2` の位置、すなわち半分の幅の位置にあります。 これを使用して、左目の目の幅を減算し、右目の目の幅を加算することで、目を配置できます。
 
 --- code ---
 ---
@@ -58,7 +58,7 @@ filename: main.py - draw()
 
 --- /code ---
 
-You could also calculate the width of the eyes based on the width of the drawing.
+図面の幅に基づいて目の幅を計算することもできます。
 
 --- code ---
 ---
@@ -72,15 +72,15 @@ filename: main.py - draw()
 
 --- /collapse ---
 
-Change the second number in the `ellipse` function call to move the `y` (vertical) position of the eyes.
+`ellipse`関数呼び出しの2番目の数値を変更して、目の `y` （垂直）位置を移動します。
 
 --- /task ---
 
 --- task ---
 
-**Test:** Keep changing the shape and position of the eyes until you like the way they look.
+**テスト：** 見た目が気に入るまで、目の形と位置を変え続けます。
 
-**Tip:** If you set a stroke for drawing the face and don't want one for the eyes, then you will need to call `no_stroke()` before drawing the eyes.
+**ヒント：** 顔を描画するためのストロークを設定し、目にストロークを設定したくない場合は、目を描画する前に `no_stroke()` を呼び出す必要があります。
 
 [[[processing-stroke]]]
 
@@ -88,19 +88,19 @@ Change the second number in the `ellipse` function call to move the `y` (vertica
 
 --- task ---
 
-### Add detail
+### 詳細を追加
 
-You can use more circles to create:
-+ Coloured irises
-+ Black pupils
-+ White catchlights
-+ Or, something else
+より多くの円を使用して作成できます:
++ 着色された虹彩
++ 黒い瞳
++ 白いキャッチライト
++ または、他の何か
 
-This eye has a coloured iris, black pupil, and white catchlights with changed opacity: ![The output area showing an eye with catchlights over the pupil and iris.](images/catchlights.png)
+この目には、色付きの虹彩、黒い瞳孔、および不透明度が変更された白いキャッチライトがあります： ![瞳孔と虹彩の上にキャッチライトが付いた目を示す出力領域。](images/catchlights.png)
 
 \[[[generic-theory-simple-colours]]\] \[[[processing-opacity\]]]
 
-You can also animate the eyes by rotating them.
+目を回転させてアニメートすることもできます。
 
 [[[processing-rotation]]]
 
@@ -108,55 +108,55 @@ You can also animate the eyes by rotating them.
 
 --- task ---
 
-**Test:** Keep changing the eyes until you like the way they look.
+**テスト：** 見た目が気に入るまで、目を変え続けます。
 
-Is your drawing starting to look like a face?
+あなたの絵は顔のように見え始めていますか？
 
 --- /task ---
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**デバッグ：** プロジェクトに修正が必要なバグが見つかる場合があります。 一般的なバグは次のとおりです。
 
 --- collapse ---
 ---
-title: The eyes aren't centred
+タイトル：目が中央に配置されていません
 ---
 
-You could use `height / 2` to place them in the centre.
+`height / 2` 使用して、それらを中央に配置できます。
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: The eyes aren't aligned with each other
+タイトル：目が合っていない
 ---
 
-If you want the eyes to be aligned, then make sure you use the same number for the coordinates for both eyes. Try using a variable so that the values are always the same.
-
---- /collapse ---
-
---- collapse ---
-
----
-title: I can't see the pupil or iris
----
-
-The eye needs to be drawn first, then the iris, and finally the pupil. The order in which you draw things is very important.
-
-Computer graphics are made of layers. In your eye, each ellipse is a layer. Objects on higher layers sit in front of objects on lower layers. Imagine cutting all the shapes out of paper. Depending on how you arrange and overlap that paper, the final result could look very different.
+目を揃えたい場合は、両方の目の座標に同じ番号を使用していることを確認してください。 値が常に同じになるように変数を使用してみてください。
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My eyes are not round
+タイトル：瞳孔や虹彩が見えない
 ---
 
-The third and fourth numbers in `ellipse` are the width and height of the eyes.
+最初に目を描き、次に虹彩、最後に瞳孔を描く必要があります。 描く順序は、とても大切です。
 
-**Tip:** If you make them the same, you will get round eyes.
+コンピュータグラフィックスはレイヤー構造になっています。 あなたの目では、各楕円はレイヤーです。 上位層のオブジェクトは、下位層のオブジェクトの前に配置されます。 紙からすべての形を切り取ると想像してみてください。 その紙をどう並べ、どう重ねるかによって、最終的な仕上がりは大きく変わってきます。
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+タイトル: 目が丸くない
+---
+
+`ellipse`の3番目と4番目の数字は、目の幅と高さです。
+
+**ヒント：** 同じにすると、目が丸くなります。
 
 --- /collapse ---
 
