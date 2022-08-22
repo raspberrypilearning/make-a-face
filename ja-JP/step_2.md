@@ -1,42 +1,42 @@
-## Choose a theme
+## テーマを選択してください
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Have you got an idea about the kind of face or mask you want to make? Use this step to plan your art and set up your canvas.
+作りたい顔やマスクのアイデアはありますか？ この手順を使用して、アートを計画し、キャンバスを設定します。
 </div>
 <div>
-![The output area with a vampire-themed face.](images/vampire.png){:width="200px"}
+！[吸血鬼をテーマにした顔の出力領域。](images/vampire.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-Open the [starter project](https://trinket.io/library/trinkets/54d15b9cdf){:target="_blank"}. Trinket will open in another browser tab.
+[スタータープロジェクト](https://trinket.io/library/trinkets/54d15b9cdf){:target="_blank"}を開きます。 Trinketは別のブラウザタブで開きます。
 
 --- /task ---
 
 --- task ---
 
-**Choose:** Think about the kind of face you want to make:
-+ Do you want to choose something from your heritage or popular culture?
-+ Will your art show a human, animal, something mythical, or perhaps a machine?
-+ You might even want to create a self-portrait!
-+ You could draw an emoji to share with your friends
+**選択：** あなたが作りたい顔の種類について考えてください：
++ あなたの遺産や大衆文化から何かを選びたいですか？
++ あなたのアートは、人間、動物、何か神話的なもの、あるいはおそらく機械を示していますか？
++ 自画像を作成することもできます。
++ 絵文字を描いて友達と共有することができます
 
 --- /task ---
 
 --- task ---
 
-The first thing to do when creating art using the Python `Processing library` is to add `def setup():` to define a `setup` function that is run once at the beginning of your program.
+最初にPython `Processing library` を使用してアートを作成するときにすることは、`def setup():` を追加して、プログラムの開始時に`def setup():` 関数を定義することです。
 
-The starter project has a `setup` function that sets the `size` of your canvas to `400` width and `400` height.
+スタータープロジェクトには、`setup`関数でキャンバスの `size` を `400` 幅および`400` 高さに設定できます。
 
-**Choose:** Experiment with the numbers and run your code to find a size that you are happy with.
+**選択：** 数値を試してコードを実行し、満足のいくサイズを見つけます。
 
 --- collapse ---
 
 ---
-title: Setting the screen size when your program starts
+タイトル：プログラム起動時の画面サイズの設定
 ---
 
 --- code ---
@@ -55,14 +55,14 @@ size(400, 400) #400 by 400 works well for a round face
 
 --- task ---
 
-**Choose:** Think about the colours you will use for your face and change the `background` colour values to set your screen to a complementary colour.
+**選択：** 顔に使用する色について考え、 `の背景` 色の値を変更して、画面を補色に設定します。
 
 [[[generic-theory-simple-colours]]]
 
 --- collapse ---
 
 ---
-title: Setting the background colour when your program starts
+タイトル：プログラム開始時の背景色の設定
 ---
 
 --- code ---
@@ -81,9 +81,9 @@ line_highlights: 9
 
 --- task ---
 
-**Tip:** The `draw` function has `grid()` code. This adds a coordinates grid over your background that helps you work out where to position features on your face.
+**ヒント：** `draw` 関数には`grid()`コードがあります。 これにより、背景に座標グリッドが追加され、顔のどこにフィーチャを配置するかを決めるのに役立ちます。
 
-To turn the grid off add a `#` in front of the code, to turn it back on remove the `#`.
+グリッドをオフにするには、コードの前に `＃` を追加し、オンに戻すには、 `＃`を削除します。
 
 --- code ---
 ---
@@ -109,32 +109,32 @@ filename: main.py - draw()
 
 --- task ---
 
-**Test:** Run your project to see your chosen screen size and background colour.
+**テスト：** プロジェクトを実行して、選択した画面サイズと背景色を確認します。
 
 --- /task ---
 
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**デバッグ：** プロジェクトに修正が必要なバグが見つかる場合があります。 一般的なバグは次のとおりです。
 
 --- collapse ---
 
 ---
-title: I've updated my size and colour but the output area stays the same
+タイトル：サイズと色を更新しましたが、出力領域は同じままです
 ---
 
-After changing the code, you will need to `run` your project to see the changes in the output area.
+コードを変更した後、出力領域の変更を確認するには、プロジェクトを`run`実行する必要があります。
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: I've tried different numbers but the background colour doesn't change
+タイトル: 数字を変えたのに、背景の色が変更されない。
 ---
 
-The maximum amount of red, green, or blue is `255`. Make sure all your `background` colour values are between `0` and `255`.
+赤、緑、青それぞれの最大値は`255`です。 `backgroud`に指定したそれぞれの値が`0`から`255`の間に入っていることを確認してください。
 
 --- /collapse ---
 
