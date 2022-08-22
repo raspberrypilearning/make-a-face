@@ -2,44 +2,42 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+凡例：質問3/3
 ---
 
-Eli was commissioned to design a face to be used on a t-shirt. Eli wrote code using variables for all the different positions, sizes, and colours in their design.
+Eliは、Tシャツに使用する顔のデザインを依頼されました。 Eliは、デザイン内のさまざまな位置、サイズ、色すべての変数を使用してコードを作成しました。
 
-The company loved it! They have asked Eli to create lots more similar designs.
+会社はそれを愛していました！ 彼らはEliにもっと似たようなデザインをたくさん作るように頼んだ。
 
-Why did making the design with code make it quicker for Eli to make lots of new designs?
+コードを使用してデザインを作成すると、Eliが多くの新しいデザインをすばやく作成できるようになったのはなぜですか？
 
 --- choices ---
 
-- ( ) Coding is fun.
+- （）コーディングは楽しいです。
 
   --- feedback ---
 
-True, but that's not why it made it quicker for Eli to produce lots of new designs.
+そうかもしれませんが、それがEliがたくさんの新しいデザインをより早く作成できるようになった理由ではありません。
 
   --- /feedback ---
 
-- (x) It's easy to change the numbers stored in variables to make lots of new designs.
+- （x）変数に格納されている数値を変更して、多くの新しいデザインを作成するのは簡単です。
 
   --- feedback ---
 
-Correct! Eli was able to quickly make lots of slightly different versions of their design by changing the numbers stored in the variables.
+正解！ Eliは、変数に格納されている数値を変更することで、わずかに異なるバージョンのデザインをすばやく作成することができました。
 
   --- /feedback ---
 
-- ( ) The code runs really quickly.
+- （）コードは非常に高速に実行されます。
 
   --- feedback ---
 
-True, but that doesn't help to create lots of different designs.
+そうですが、それは多くの異なるデザインを作成するのに役立ちません。
 
   --- /feedback ---
 
---- /choices ---
-
-- ( ) Variables always have different numbers every time you run your program.
+- （）プログラムを実行するたびに、変数の数値は常に異なります。
 
   --- feedback ---
 
