@@ -8,13 +8,13 @@
 - إضافة تفاعلية - جرب **Interactive: Theatre Mask**، ماذا يحدث عندما تحرك الماوس عبر الشاشة؟
 - أضف رسومًا متحركة - جرب **Animated: Frida**، ماذا يحدث لعصابة رأس Frida عند تشغيل المشروع؟
 
-**مكيوين ترتان**[انظر في الداخل](https://trinket.io/python/86d89fad13){:target="_blank"}
+**تفاعلي: قناع المسرح **: [ انظر هنا ](https://trinket.io/python/86d89fad13){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/86d89fad13?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-**أسد محبوس**: [انظر من الداخل](https://trinket.io/python/3d69be294a){: target = "_ blank"}
+**متحرك: فريدا**: [انظر هنا](https://trinket.io/python/3d69be294a){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/3d69be294a?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
