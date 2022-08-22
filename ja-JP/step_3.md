@@ -1,21 +1,21 @@
-## Face shape
+## 顔の形
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Draw and colour a shape for your face or mask. Don't add the other features just yet, they will come later.
+顔やマスクの形を描いて色を付けます。 他の機能はまだ追加しないでください。後で追加されます。
 </div>
 <div>
-![Image of a square-faced robot.](images/robot-teeth.png){:width="200px"}
+！[四角いロボットの画像。](images/robot-teeth.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-Decide on the main shape of the face for your mask. It could be a circle, an ellipse, a rectangle, or even a triangle.
+マスクの顔の主な形を決定します。 円、楕円、長方形、さらには三角形の場合もあります。
 
-Add code to the `draw()` function to draw a face or mask. Make sure you also remove `pass` from inside the function.
+`draw()`関数にコードを追加して、顔またはマスクを描画します。 関数内から`pass`も削除してください。
 
-This example draws a circle in the middle, but it's up to you which shape to use.
+この例では、中央に円を描きますが、どの形状を使用するかはあなた次第です。
 
 --- code ---
 ---
@@ -28,7 +28,7 @@ ellipse(width/2, height/2, 200, 200) #Circle in the middle
 
 --- /code ---
 
-![The output area showing a black circle in the middle of the grid.](images/black-circle.png)
+![グリッドの中央に黒い円が表示されている出力領域。](images/black-circle.png)
 
 [[[processing-python-ellipse]]]
 
@@ -42,17 +42,17 @@ ellipse(width/2, height/2, 200, 200) #Circle in the middle
 
 --- task ---
 
-**Test:** Run your code and change it to get the face size and shape that you want.
+**テスト：** コードを実行して変更し、必要な顔のサイズと形状を取得します。
 
 --- /task ---
 
 --- task ---
 
-Choose a stroke colour for the outline and a fill colour for the main part of the shape.
+アウトラインにはストロークの色を選択し、シェイプの主要部分には塗りつぶしの色を選択します。
 
 [[[processing-stroke]]]
 
-If you don't want an outline, then use `no_stroke()`.
+アウトラインが必要ない場合は、`no_stroke()`を使用します。
 
 --- code ---
 ---
@@ -70,7 +70,7 @@ def draw(): stroke(0) #You can also use no_stroke() fill(255, 255, 0) #Bright ye
 
 --- task ---
 
-**Test:** Run your code and change the colour until you are happy with it.
+**テスト：** コードを実行し、満足するまで色を変更します。
 
 --- /task ---
 
