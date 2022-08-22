@@ -1,10 +1,10 @@
-## What next?
+## 次は何をしますか？
 
-If you are following the [Introduction to Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro) pathway, you can move on to the [Don't collide](https://projects.raspberrypi.org/en/projects/dont-collide) project. In this project, you will make a scrolling obstacle game where your character has to reach a finishing point without colliding with obstacles.
+[Python入門](https://projects.raspberrypi.org/en/raspberrypi/python-intro)パスに沿って進めている方は、[射的](https://projects.raspberrypi.org/en/projects/dont-collide)プロジェクトに進みましょう。 このプロジェクトでは、キャラクターが障害物に衝突することなく終点に到達する必要があるスクロール障害物ゲームを作成します。
 
 --- print-only ---
 
-![An example creation from the don't collide project showing a baloon floating in a desert with cacti](images/dont-collide.png)
+![サボテンと一緒に砂漠に浮かぶ風船を示す、衝突しないプロジェクトからの作成例](images/dont-collide.png)
 
 --- /print-only ---
 
@@ -15,4 +15,4 @@ If you are following the [Introduction to Python](https://projects.raspberrypi.o
 
 --- /no-print ---
 
-If you want to have more fun exploring Python, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
+Pythonのさまざまな機能を触ってみたい場合は[これらのプロジェクト](https://projects.raspberrypi.org/en/projects?software%5B%5D=python)を試してみてください。
