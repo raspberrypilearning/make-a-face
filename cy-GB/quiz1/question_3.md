@@ -37,13 +37,11 @@ Mae hynny'n wir, ond dyw hynny ddim yn helpu i greu llawer o wahanol ddyluniadau
 
   --- /feedback ---
 
---- /choices ---
-
 - ( ) Mae gan newidynnau bob amser rifau gwahanol bob tro rydych chi'n rhedeg eich rhaglen.
 
   --- feedback ---
 
-Ddim yn hollol. Mae gan newidynnau'r gwerth rydych chi'n ei neilltuo iddyn nhw. Os byddwch chi'n neilltuo rhif i newidyn (fel `radiws_llygaid = 50`) a ddim yn ei newid, bydd yr un fath bob tro rydych chi'n rhedeg y rhaglen.
+Not quite. Variables have the value you assign to them. If you assign a number to a variable (such as `eye_radius = 50`) and don't change it then it will be the same every time you run the program.
 
   --- /feedback ---
 
