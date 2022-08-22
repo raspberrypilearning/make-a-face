@@ -1,0 +1,139 @@
+400 by 400 works well for a round face
+
+Try different numbers to change the colour
+
+Shows grid
+
+Hide grid by turning it into a comment
+
+Circle in the middle
+
+You can also use no_stroke()
+
+Bright yellow
+
+Black — change to red, green, or blue up to 255
+
+x, y, width, height
+
+A black mouth
+
+An orange face
+
+Higher circle
+
+Lower circle
+
+Face mask
+
+Left ear loop
+
+Right ear loop
+
+Large white rectangle
+
+Smaller blue rectangle
+
+Mouth
+
+Starting amount of red
+
+Starting amount of green
+
+Starting amount of blue
+
+Uses variables to control the colour change each loop
+
+Move along the x coordinate by the width of a tooth
+
+Mouth line
+
+Left tooth
+
+Right tooth
+
+Highlights
+
+70 is transparency/opacity here
+
+Black
+
+White
+
+Eyes
+
+Face
+
+Green
+
+Put code to run once here
+
+width and height
+
+move under draw() to reset the drawing every frame
+
+Put code to run every frame here
+
+draw mask
+
+eyes and mouth
+
+partly cover eyes and mouth
+
+cover top of mask
+
+shade half of the mask
+
+Put code to run when the mouse is pressed here
+
+Keep this to run your code
+
+Definitions for compatibility with the p5py processing library
+
+Shape
+
+Fonts
+
+Text
+
+Colour
+
+Images
+
+Environment
+
+Transform
+
+Keyboard
+
+Hair and face
+
+stalk
+
+Top face background
+
+Top face hair
+
+Top face left eye
+
+Top face right eye
+
+Top face mouth
+
+Bottom face background
+
+Bottom face hair
+
+Bottom face left eye
+
+Bottom face right eye
+
+Bottom face mouth
+
+Nose
+
+Face markings
+
+Hair
+
+add a # to the beginning of this line to hide the grid
