@@ -1,12 +1,12 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+凡例：質問2/3
 ---
 
-In your project, you added code to draw a face with many features. The order of your code was extremely important to make the face look like your design.
+プロジェクトでは、多くの機能を備えた顔を描くためのコードを追加しました。 顔をデザインのように見せるためには、コードの順序が非常に重要でした。
 
-If you ran this code, what would the face look like?
+このコードを実行した場合、顔はどのようになりますか？
 
 --- code ---
 ---
@@ -28,41 +28,41 @@ run()
 
 - ( )
 
-![A white face with black outline. There are two solid green eyes with black outlines.](images/face1.png)
+![黒の輪郭を持つ白い顔。 黒い輪郭で緑色の目が2つあります。](images/face1.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `ellipse()` and the `stroke()` functions.
+ あといっぽ、 `ellipse()` と `stroke()` ファンクションの順序を見てください。
 
  --- /feedback ---
 
 - ( )
 
-![A white face with black outline. There are two green eyes with black pupils and both have a black outline.](images/face2.png)
+![黒の輪郭を持つ白い顔。 二つ黒瞳孔の緑目があり、両方とも黒い輪郭を持っています。](images/face2.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `stroke()` functions.
+ あといっぽ、 `stroke()` ファンクションの順序を見てください。
 
  --- /feedback ---
 
 - (x)
 
-![A white face with black outline. There are two green eyes with black pupils and the eyes do not have an outline.](images/face3.png)
+![黒の輪郭を持つ白い顔。 瞳孔が黒い緑色の目が2つあり、目には輪郭がありません。](images/face3.png)
 
  --- feedback ---
 
- Correct, the code draws a face with a black stroke then turns off the stroke before drawing the circles. The green circles are drawn first with the black circles on top of them.
+ 正解です。コードは黒いストロークで顔を描画し、円を描画する前にストロークをオフにします。 緑の円が最初に描画され、その上に黒の円が描画されます。
 
  --- /feedback ---
 
 - ( )
 
-![A white face with black outline. There are two solid green eyes that do not have an outline.](images/face4.png)
+![黒の輪郭を持つ白い顔。 輪郭のない緑色の目が2つあります。](images/face4.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `ellipse()` functions.
+ あといっぽ、 `ellipse()` ファンクションの順序を見てください。
 
  --- /feedback ---
 
