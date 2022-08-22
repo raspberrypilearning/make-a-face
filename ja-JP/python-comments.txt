@@ -1,139 +1,139 @@
-400 by 400 works well for a round face
+400x400は丸い顔に適しています
 
-Try different numbers to change the colour
+色を変えるために別の数字を試してください
 
-Shows grid
+グリッドを表示
 
-Hide grid by turning it into a comment
+コメントに変えてグリッドを非表示にする
 
-Circle in the middle
+真ん中の円
 
-You can also use no_stroke()
+no_stroke()を使用することもできます
 
-Bright yellow
+鮮明な黄色
 
-Black — change to red, green, or blue up to 255
+黒— 255までの赤、緑、または青に変更します
 
-x, y, width, height
+x、y、幅、高さ
 
-A black mouth
+黒い口
 
-An orange face
+オレンジ色の顔
 
-Higher circle
+上の円
 
-Lower circle
+下の円
 
-Face mask
+マスク
 
-Left ear loop
+左耳ループ
 
-Right ear loop
+右耳ループ
 
-Large white rectangle
+大きな白い長方形
 
-Smaller blue rectangle
+小さい青い長方形
 
-Mouth
+口
 
-Starting amount of red
+赤の開始量
 
-Starting amount of green
+緑の開始量
 
-Starting amount of blue
+青の開始量
 
-Uses variables to control the colour change each loop
+変数を使用して、各ループの色の変更を制御します
 
-Move along the x coordinate by the width of a tooth
+歯の幅だけx座標に沿って移動します
 
-Mouth line
+口のライン
 
-Left tooth
+左歯
 
-Right tooth
+右歯
 
-Highlights
+ハイライト
 
-70 is transparency/opacity here
+70が透明度/不透明度の指定
 
-Black
+黒
 
-White
+白
 
-Eyes
+目
 
-Face
+顔
 
-Green
+緑
 
-Put code to run once here
+一度だけ動かしたいコードをこの下に書く
 
-width and height
+幅と高さ
 
-move under draw() to reset the drawing every frame
+draw()の下に移動して、フレームごとに描画をリセットします
 
-Put code to run every frame here
+フレームごとに動かしたいコードをこの下に書く
 
-draw mask
+マスクを描きます
 
-eyes and mouth
+目と口
 
-partly cover eyes and mouth
+目と口を部分的に覆う
 
-cover top of mask
+マスクの上部を覆う
 
-shade half of the mask
+マスクの半分をシェーディング
 
-Put code to run when the mouse is pressed here
+ここにマウスが押されたときに実行するコードを入力します
 
-Keep this to run your code
+コードを実行するのに必要
 
-Definitions for compatibility with the p5py processing library
+p5py処理ライブラリとの互換性のための定義
 
-Shape
+形
 
-Fonts
+フォント
 
-Text
+テキスト
 
-Colour
+カラー
 
-Images
+図
 
-Environment
+環境
 
-Transform
+トランスフォーム（変形）
 
-Keyboard
+キーボード
 
-Hair and face
+髪と顔
 
-stalk
+茎
 
-Top face background
+上面の背景
 
-Top face hair
+上面の髪
 
-Top face left eye
+上面左目
 
-Top face right eye
+上面右目
 
-Top face mouth
+上面口
 
-Bottom face background
+底面の背景
 
-Bottom face hair
+底面の髪
 
-Bottom face left eye
+底面左目
 
-Bottom face right eye
+底面右目
 
-Bottom face mouth
+底面口
 
-Nose
+鼻
 
-Face markings
+顔のマーキング
 
-Hair
+髪
 
-add a # to the beginning of this line to hide the grid
+この行の先頭に＃を追加して、グリッドを非表示にします
