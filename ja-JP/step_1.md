@@ -1,44 +1,44 @@
-## Introduction
+## はじめに
 
-Write Python code to draw a face or mask using geometric shapes.
+色んな図形を使用して顔またはマスクを描くPythonのコードを書きます。
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The creation of <span style="color: #0faeb0">**geometric art**</span> dates back to Ancient Greece where vases would be painted with patterns made up of shapes. Artists began using shapes to draw humans and animals with circles for heads, triangle bodies, and lines for legs and arms.
+<span style="color: #0faeb0">**幾何学芸術**</span>は、古代ギリシャの花瓶に描かれた図形が始まりとされています。 アーティストは、形を使って、頭に円、三角形の体、脚と腕に線を使って人間や動物を描き始めました。
 </p>
 
-You will:
+あなたは次のことを行います。
 
-+ Use code creatively to make a piece of digital art
-+ Draw and position your art using geometric shapes, coordinates, and layers
-+ Organise your code with functions
++ コードをクリエイティブに使用してデジタルアートを作成する
++ 幾何学的な形状、座標、レイヤーを使用してアートを描画および配置します
++ 関数を使用してコードを整理する
 
-![Examples of different faces.](images/strip.png)
+![さまざまな顔の例。](images/strip.png)
 
 --- no-print ---
 
-### Get inspiration
+### インスピレーションを得る
 
-You are going to make some design decisions about the kind of face you will make and how you will use code to get the effect you want.
+どのような顔にするか、どのようにコードを使って欲しい効果を得るか、デザインしていくことになります。
 
 --- task ---
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-Look at these examples and think about how they have been made from circles, ellipses, squares, rectangles, and triangles.
+これらの例を見て、それらが円、楕円、正方形、長方形、および三角形からどのように作成されているかを考えてください。
 
-**Kawaii fruit**: [See inside](https://trinket.io/python/6bad88800b){:target="_blank"}
+**カワイイフルーツ**：[中を見る] (https://trinket.io/python/6bad88800b){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/6bad88800b?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-**Stacked faces**: [See inside](https://trinket.io/python/f90794771c){:target="_blank"}
+**積み上げ面**：[中を見る] (https://trinket.io/python/f90794771c){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/f90794771c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-**Tribal mask**: [See inside](https://trinket.io/python/b876d500ab){:target="_blank"}
+**部族マスク**：[中を見る]( https://trinket.io/python/b876d500ab){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/b876d500ab?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
@@ -53,13 +53,13 @@ Look at these examples and think about how they have been made from circles, ell
 
 --- print-only ---
 
-### Get inspiration
+### インスピレーションを得る
 
-You are going to make some design decisions about the kind of face you will make and how you will use code to get the effect you want.
+どのような顔にするか、どのようにコードを使って欲しい効果を得るか、デザインしていくことになります。
 
-See inside example projects in [Python 1: Make a face — Examples](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"} Scratch studio.
+[Python 1: 顔を作る — 例](https://trinket.io/library/folder/make-a-face-examples)のサンプルプロジェクトの内部を参照してください{:target="_blank"}スクラッチスタジオ。
 
-![The output area from the Kawaii fruit project.](images/smile.png) ![The output area from the Stacked faces project.](images/stacked.png) ![The output area from the Tribal mask project.](images/tribal.png)
+![カワイイフルーツプロジェクトの出力領域。](images/smile.png) ![積み上げ面プロジェクトからの出力領域。](images/stacked.png) ![部族マスクプロジェクトからの出力領域。](images/tribal.png)
 
 --- /print-only ---
 
