@@ -1,22 +1,22 @@
-## Reflection
+## ふりかえり
 
-Well done, you have learnt a lot! Now it's time to reflect — reflecting is an important part of learning because it helps make new connections in your brain.
+お疲れさまでした。たくさんのことを学びましたね！ 次はふりかえりの時間です。ふりかえりを行うことで、脳内に新しいつながりを作ることができます。このため、ふりかえりは学習の大事な部分です。
 
-Answer the three questions below to reflect on what you've learnt.
+以下の3つの質問に答えて、学んだことをふりかえってみましょう。
 
-After each question, press **submit**. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+各質問の後、**答えを確認する**を押してください。 正しい答えが表示されます。 このアクティビティは何度でも実行できます。
 
-Have fun!
+お楽しみください!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+凡例：質問1/3
 ---
 
-In your project, you drew mouths using shapes.
+プロジェクトでは、図形で口を描きました。
 
-What kind of mouth would this code draw?
+このコードはどのような口を描くでしょうか？
 
 --- code ---
 ---
@@ -33,7 +33,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-  Not quite, to create a sad mouth the second `ellipse` would need a **y_coordinate** that is lower than the first `ellipse`.
+  あといっぽ、悲しい口を作成するには、 2番目の `ellipse` には、最初の `ellipse` より低い**y_coordinate**が必要です。
 
   --- /feedback ---
 
@@ -41,7 +41,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-  That's correct! The second `ellipse` is drawn with a **y_coordinate** that is higher than the first `ellipse`.
+  そのとおりです！ 2番目の `ellipse` は、最初の `ellipse` より高い **y_coordinate**で描画されます。
 
   --- /feedback ---
 
@@ -49,7 +49,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-   Not quite, the second circle has a white `fill(255, 255, 255)` and is positioned partially over the first black circle.
+   あといっぽ、2番目の円には白の `fill(255, 255, 255)` があり、最初の黒の円の上に部分的に配置されています。
 
   --- /feedback ---
 
@@ -57,7 +57,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-The code does not draw rectangles. The `ellipse` function draws circles.
+コードは長方形を描画しません。 `ellipse` ファンクションは円を描画します。
 
   --- /feedback ---
 
