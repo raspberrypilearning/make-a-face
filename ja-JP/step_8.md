@@ -1,25 +1,25 @@
-## Upgrade your project
+## プロジェクトをアップグレードする
 
-If you have time you can upgrade to your project.
+時間がある場合は、プロジェクトにアップグレードできます。
 
-Each of the examples in the [Introduction](.) was created in Trinket and you can look at the code to get ideas and see how they work.
+[はじめに](.) の各例は、Trinketで作成されたものであり、コードを見てアイデアを得て、それらがどのように機能するかを確認できます。
 
-Here are some other ideas you could try:
-- Add interactivity — try our **Interactive: Theatre Mask**, what happens when you move your mouse across the screen?
-- Add animation — try our **Animated: Frida**, what happens to Frida's headband when you run the project?
+これがあなたが試すことができる他のいくつかのアイデアです：
+- インタラクティブ機能を追加— **インタラクティブ：シアターマスク**を試してください。画面上でマウスを動かすとどうなりますか？
+- アニメーションを追加します— **Animated：Frida**を試してください。プロジェクトを実行すると、Fridaのヘッドバンドはどうなりますか？
 
-**Interactive: Theatre Mask**: [See inside](https://trinket.io/python/86d89fad13){:target="_blank"}
+**インタラクティブ：シアターマスク**： [内部を参照](https://trinket.io/python/86d89fad13){:target="_ blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/86d89fad13?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-**Animated: Frida**: [See inside](https://trinket.io/python/3d69be294a){:target="_blank"}
+**アニメーション：フリーダ**： [内部を参照](https://trinket.io/python/3d69be294a){:target="_ blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/3d69be294a?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-Take a look at our [Make a face - Community library](https://wke.lt/w/s/8sVH4f){:target="_blank"} to see projects created by community members.
+コミュニティメンバーによって作成されたプロジェクトを確認するには、 [顔を作る-コミュニティライブラリ](https://wke.lt/w/s/8sVH4f){:target="_blank"}をご覧ください。
 
 --- save ---
