@@ -1,0 +1,30 @@
+---
+title: 顔を作る
+hero_image: images/banner.png
+description: 色んな図形を使用して顔またはマスクを設計および描画します
+version: 4
+listed: true
+copyedit: true
+last_tested: '2021-10-06'
+steps:
+  - title: はじめに
+  - title: テーマを選択してください
+  - title: 顔の形
+    completion:
+      - engaged
+  - title: 目を追加する
+  - title: 口を追加
+  - title: 詳細を追加
+    completion:
+      - internal
+  - title: ふりかえり
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: プロジェクトをアップグレードする
+  - title: 共有
+  - title: 次は何をしますか？
