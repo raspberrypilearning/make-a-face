@@ -16,13 +16,13 @@ language: python
 
 def draw():
 
-  #Face
+  #顔
   stroke(0) #黒
   fill(255) #白
   ellipse(200, 200, 200, 190)
   no_stroke()
   
-  #Eyes
+  #目
   fill(0, 255, 0) #緑
   ellipse(160, 180, 60, 60)
   ellipse(240, 180, 60, 60)
