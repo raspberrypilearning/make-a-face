@@ -12,7 +12,7 @@
 + 幾何学的な形状、座標、レイヤーを使用してアートを描画および配置します
 + 関数を使用してコードを整理する
 
-![さまざまな顔の例。](images/strip.png)
+![さまざまな顔の例](images/strip.png)
 
 --- no-print ---
 
@@ -26,19 +26,19 @@
 
 これらの例を見て、それらが円、楕円、正方形、長方形、および三角形からどのように作成されているかを考えてください。
 
-**カワイイフルーツ**：[中を見る] (https://trinket.io/python/6bad88800b){:target="_blank"}
+**カワイイフルーツ**：[中を見る](https://trinket.io/python/6bad88800b){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/6bad88800b?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-**積み上げ面**：[中を見る] (https://trinket.io/python/f90794771c){:target="_blank"}
+**積み上げ面**：[中を見る](https://trinket.io/python/f90794771c){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/f90794771c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-**部族マスク**：[中を見る]( https://trinket.io/python/b876d500ab){:target="_blank"}
+**部族マスク**：[中を見る](https://trinket.io/python/b876d500ab){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/b876d500ab?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
