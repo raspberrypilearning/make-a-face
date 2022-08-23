@@ -8,15 +8,15 @@
 - インタラクティブ機能を追加— **インタラクティブ：シアターマスク**を試してください。画面上でマウスを動かすとどうなりますか？
 - アニメーションを追加します— **アニメーション：フリーダ**を試してください。プロジェクトを実行すると、Fridaのヘッドバンドはどうなりますか？
 
-**インタラクティブ：シアターマスク**： [内部を参照](https://trinket.io/python/86d89fad13){:target="_blank"}
+**インタラクティブ：シアターマスク**： [内部を参照](https://trinket.io/python/50b604142c){:target="_blank"}
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/python/86d89fad13?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/python/50b604142c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-**アニメーション：フリーダ**： [内部を参照](https://trinket.io/python/3d69be294a){:target="_blank"}
+**アニメーション：フリーダ**： [内部を参照](https://trinket.io/python/4d3f926548){:target="_blank"}
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/python/3d69be294a?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/python/4d3f926548?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 

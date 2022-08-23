@@ -11,7 +11,7 @@
 
 --- task ---
 
-[スタータープロジェクト](https://trinket.io/library/trinkets/54d15b9cdf){:target="_blank"}を開きます。 Trinketは別のブラウザタブで開きます。
+[スタータープロジェクト](https://trinket.io/library/trinkets/13f724d300){:target="_blank"}を開きます。 Trinketは別のブラウザタブで開きます。
 
 --- /task ---
 
