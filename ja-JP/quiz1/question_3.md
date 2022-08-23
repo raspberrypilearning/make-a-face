@@ -41,7 +41,7 @@ Eliは、Tシャツに使用する顔のデザインを依頼されました。 
 
   --- feedback ---
 
-Not quite. Variables have the value you assign to them. If you assign a number to a variable (such as `eye_radius = 50`) and don't change it then it will be the same every time you run the program.
+完全ではありません。 変数には、割り当てた値があります。 変数に番号を割り当て（ `eye_radius = 50`など）、変更しない場合は、プログラムを実行するたびに同じになります。
 
   --- /feedback ---
 
