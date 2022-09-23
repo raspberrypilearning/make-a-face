@@ -5,26 +5,26 @@ description: Design and draw a face or mask using geometric shapes
 version: 4
 listed: true
 copyedit: true
-last_tested: '2021-10-06'
+last_tested: "2021-10-06"
 steps:
-- title: Introduction
-- title: Choose a theme
-- title: Face shape
-  completion:
-  - engaged
-- title: Add eyes
-- title: Add a mouth
-- title: Add more details
-  completion:
-  - internal
-- title: Reflection
-  knowledge_quiz:
-    path: quiz1
-    version: 1
-    questions: 3
-    passing_score: 3
-  completion:
-  - external
-- title: Upgrade your project
-- title: Share
-- title: What next?
+  - title: You will make
+  - title: Choose a theme
+  - title: Face shape
+    completion:
+      - engaged
+  - title: Add eyes
+  - title: Add a mouth
+  - title: Add more details
+    completion:
+      - internal
+  - title: Quick quiz
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Upgrade your project
+  - title: Share
+  - title: What next?
