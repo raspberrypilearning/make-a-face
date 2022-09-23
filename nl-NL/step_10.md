@@ -1,0 +1,26 @@
+## Wat kun je verder nog doen?
+
+Als je het [Inleiding tot Python](https://projects.raspberrypi.org/nl-NL/raspberrypi/python-intro) pad volgt, kun je doorgaan naar het [Niet botsen](https://projects.raspberrypi.org/nl-NL/projects/dont-collide) project. In dit project maak je een hindernisspel waar je personage een eindpunt moet bereiken zonder in botsing te komen met obstakels.
+
+--- print-only ---
+
+![Een voorbeeldproject van een niet botsen-project met een ballon die in een woestijn met cactussen zweeft](images/dont-collide.png)
+
+--- /print-only ---
+
+--- no-print ---
+
+<iframe src="https://trinket.io/embed/python/974800f4ef?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+
+--- /no-print ---
+
+Als je meer plezier wilt hebben met het verkennen van Python, dan kun je een van [deze projecten](https://projects.raspberrypi.org/nl-NL/projects?software%5B%5D=python) uitproberen.
+
+***
+Dit project werd vertaald door vrijwilligers:
+
+Iny van Beuningen
+Robert-Jan Kempenaar
+
+Dankzij vrijwilligers kunnen we mensen over de hele wereld de kans geven om in hun eigen taal te leren. Jij kunt ons helpen meer mensen te bereiken door vrijwillig te starten met vertalen - meer informatie op [rpf.io/translate](https://rpf.io/translate).

@@ -1,0 +1,30 @@
+---
+title: Φτιάξε μια φάτσα
+hero_image: images/banner.png
+description: Σχεδίασε και ζωγράφισε ένα πρόσωπο ή μάσκα χρησιμοποιώντας γεωμετρικά σχήματα
+version: 4
+listed: true
+copyedit: true
+last_tested: '2021-10-06'
+steps:
+  - title: Εισαγωγή
+  - title: Επίλεξε το θέμα σου
+  - title: Σχήμα προσώπου
+    completion:
+      - engaged
+  - title: Πρόσθεσε μάτια
+  - title: Πρόσθεσε ένα στόμα
+  - title: Πρόσθεσε λεπτομέρειες
+    completion:
+      - internal
+  - title: Αναστοχασμός
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Αναβάθμιση του έργου σου
+  - title: Μοιράσου
+  - title: Και τώρα;

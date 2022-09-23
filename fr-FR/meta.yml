@@ -1,0 +1,30 @@
+---
+title: Faire un visage
+hero_image: images/banner.png
+description: Concevoir et dessiner un visage ou un masque à l'aide de formes géométriques
+version: 4
+listed: true
+copyedit: true
+last_tested: '2021-10-06'
+steps:
+  - title: Introduction
+  - title: Choisir un thème
+  - title: Forme du visage
+    completion:
+      - engaged
+  - title: Ajouter des yeux
+  - title: Ajouter une bouche
+  - title: Ajouter plus de détails
+    completion:
+      - internal
+  - title: Réflexion
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Améliorer ton projet
+  - title: Partager
+  - title: Et ensuite ?
