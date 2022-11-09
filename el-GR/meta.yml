@@ -5,10 +5,10 @@ description: Σχεδίασε και ζωγράφισε ένα πρόσωπο ή
 version: 4
 listed: true
 copyedit: true
-last_tested: '2021-10-06'
+last_tested: "2021-10-06"
 steps:
   - 
-    title: Εισαγωγή
+    title: You will make
   - 
     title: Επίλεξε το θέμα σου
   - 
@@ -24,7 +24,7 @@ steps:
     completion:
       - internal
   - 
-    title: Αναστοχασμός
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
