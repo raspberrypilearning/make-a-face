@@ -1,10 +1,10 @@
-## انعكاس
+## Quick quiz
 
-أحسنت ، لقد تعلمت الكثير! حان الوقت الآن للتفكير - يعد التفكير جزءًا مهمًا من التعلم لأنه يساعد في إنشاء روابط جديدة في عقلك.
+Answer the three questions. There are hints to guide you to the correct answer.
 
-أجب عن الأسئلة الثلاثة أدناه لتفكر فيما تعلمته.
+When you have answered each question, click on **Check my answer**.
 
-بعد كل سؤال ، اضغط على **submit**. سيتم توجيهك نحو الإجابة الصحيحة. يمكنك القيام بهذا النشاط عدة مرات كما تريد.
+Have fun!
 
 إستمتع!
 
