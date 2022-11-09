@@ -1,10 +1,10 @@
-## Reflectie
+## Quick quiz
 
-Goed gedaan, je hebt veel geleerd! Nu is het tijd om te reflecteren - reflecteren is een belangrijk onderdeel van leren, omdat het helpt om nieuwe verbindingen in je hersenen te maken.
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Beantwoord de drie onderstaande vragen om terug te kijken op wat je hebt geleerd.
+When you have answered each question, click on **Check my answer**.
 
-Druk na elke vraag op **indienen**. Je wordt naar het juiste antwoord geleid. Je kunt deze activiteit zo vaak doen als je wilt.
+Have fun!
 
 Veel plezier!
 
