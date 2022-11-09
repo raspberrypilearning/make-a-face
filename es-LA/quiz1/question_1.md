@@ -1,10 +1,10 @@
-## Reflexión
+## Quick quiz
 
-¡Bien hecho, has aprendido mucho! Ahora es momento de reflexionar: esta es una parte importante del aprendizaje porque te ayuda a establecer nuevas conexiones en tu cerebro.
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Responde las siguientes tres preguntas para reflexionar sobre lo que has aprendido.
+When you have answered each question, click on **Check my answer**.
 
-Después de cada pregunta, presiona **enviar**. Vamos a guiarte hacia la respuesta correcta. Puedes realizar esta actividad tantas veces como quieras.
+Have fun!
 
 ¡Que te diviertas!
 
