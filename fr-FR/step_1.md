@@ -1,4 +1,4 @@
-## Introduction
+## You will make
 
 Écrire du code Python pour dessiner un visage ou un masque à l'aide de formes géométriques.
 
@@ -16,7 +16,7 @@ Tu vas devoir :
 
 --- no-print ---
 
-### Trouve l'inspiration
+### Get ideas 💭
 
 Tu vas prendre des décisions de conception concernant le type de visage que tu vas créer et la manière dont tu utiliseras le code pour obtenir l'effet souhaité.
 
@@ -53,7 +53,7 @@ Regarde ces exemples et réfléchis à la façon dont ils ont été créés à p
 
 --- print-only ---
 
-### Trouve l'inspiration
+### Get ideas 💭
 
 Tu vas prendre des décisions de conception concernant le type de visage que tu vas créer et la manière dont tu utiliseras le code pour obtenir l'effet souhaité.
 
