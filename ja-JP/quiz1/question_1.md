@@ -1,10 +1,10 @@
-## ふりかえり
+## Quick quiz
 
-お疲れさまでした。たくさんのことを学びましたね！ 次はふりかえりの時間です。ふりかえりを行うことで、脳内に新しいつながりを作ることができます。このため、ふりかえりは学習の大事な部分です。
+Answer the three questions. There are hints to guide you to the correct answer.
 
-以下の3つの質問に答えて、学んだことをふりかえってみましょう。
+When you have answered each question, click on **Check my answer**.
 
-各質問の後、**答えを確認する**を押してください。 正しい答えが表示されます。 このアクティビティは何度でも実行できます。
+Have fun!
 
 お楽しみください!
 
