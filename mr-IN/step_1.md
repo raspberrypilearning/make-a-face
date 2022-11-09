@@ -1,4 +1,4 @@
-## Introduction
+## You will make
 
 Write Python code to draw a face or mask using geometric shapes.
 
@@ -16,7 +16,7 @@ You will:
 
 --- no-print ---
 
-### Get inspiration
+### Get ideas 💭
 
 You are going to make some design decisions about the kind of face you will make and how you will use code to get the effect you want.
 
@@ -53,7 +53,7 @@ Look at these examples and think about how they have been made from circles, ell
 
 --- print-only ---
 
-### Get inspiration
+### Get ideas 💭
 
 You are going to make some design decisions about the kind of face you will make and how you will use code to get the effect you want.
 
