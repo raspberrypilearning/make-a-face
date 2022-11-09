@@ -1,4 +1,4 @@
-## Introducción
+## You will make
 
 Escribe código Python para dibujar una cara o una máscara usando formas geométricas.
 
@@ -16,7 +16,7 @@ Vas a:
 
 --- no-print ---
 
-### Inspírate
+### Get ideas 💭
 
 Vas a tomar algunas decisiones de diseño sobre el tipo de cara que harás y cómo usarás el código para obtener el efecto que deseas.
 
@@ -53,7 +53,7 @@ Mira estos ejemplos y piensa en cómo se han formado a partir de círculos, elip
 
 --- print-only ---
 
-### Inspírate
+### Get ideas 💭
 
 Vas a tomar algunas decisiones de diseño sobre el tipo de cara que harás y cómo usarás el código para obtener el efecto que deseas.
 
