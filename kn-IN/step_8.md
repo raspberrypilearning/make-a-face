@@ -1,4 +1,4 @@
-## Upgrade your project
+## ನಿಮ್ಮ ಯೋಜನೆಯನ್ನು ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ
 
 If you have time you can upgrade to your project.
 
