@@ -1,42 +1,42 @@
-## Choose a theme
+## Вибір теми
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Have you got an idea about the kind of face or mask you want to make? Use this step to plan your art and set up your canvas.
+Ти вже маєш уявлення про те, яке обличчя або маску ти хочеш створити? Скористайся цим етапом, щоб спланувати свою роботу та підготувати полотно.
 </div>
 <div>
-![The output area with a vampire-themed face.](images/vampire.png){:width="200px"}
+![Область виводу з обличчям на вампірську тематику.](images/vampire.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-Open the [starter project](https://trinket.io/library/trinkets/54d15b9cdf){:target="_blank"}. Trinket will open in another browser tab.
+Відкрий [стартовий проєкт](https://trinket.io/library/trinkets/54d15b9cdf){:target="_blank"}. Trinket відкриється в окремій вкладці браузера.
 
 --- /task ---
 
 --- task ---
 
-**Choose:** Think about the kind of face you want to make:
-+ Do you want to choose something from your heritage or popular culture?
-+ Will your art show a human, animal, something mythical, or perhaps a machine?
-+ You might even want to create a self-portrait!
-+ You could draw an emoji to share with your friends
+**Обирай:** Обміркуй, яке обличчя ти хочеш створити:
++ Хочеш вибрати щось зі своєї культурної спадщини або з іншої популярної культури?
++ Чи буде у твоєму мистецтві зображена людина, тварина, щось міфічне, чи, можливо, машина?
++ Можливо, тобі навіть захочеться створити автопортрет!
++ Ти можеш намалювати емодзі, щоб поділитися ним з друзями
 
 --- /task ---
 
 --- task ---
 
-The first thing to do when creating art using the Python `Processing library` is to add `def setup():` to define a `setup` function that is run once at the beginning of your program.
+Перше, що необхідно зробити при створенні мистецтва за допомогою Python `Processing library`, додати `def setup():`, щоб визначити функцію `setup`, яка виконується один раз на початку твоєї програми.
 
-The starter project has a `setup` function that sets the `size` of your canvas to `400` width and `400` height.
+У стартовому проєкті використовується функція `setup`, яка задає `розмір` твого полотна на `400` - ширина, та `400` - висота.
 
-**Choose:** Experiment with the numbers and run your code to find a size that you are happy with.
+**Обирай:** Експериментуй з числами та запускай код, щоб знайти розмір, який буде тобі до вподоби.
 
 --- collapse ---
 
 ---
-title: Setting the screen size when your program starts
+title: Налаштування розміру екрана при запуску програми
 ---
 
 --- code ---
@@ -55,14 +55,14 @@ size(400, 400) #400 by 400 works well for a round face
 
 --- task ---
 
-**Choose:** Think about the colours you will use for your face and change the `background` colour values to set your screen to a complementary colour.
+**Обирай:** Подумай, які кольори ти будеш використовувати для твого обличчя, та зміни значення кольору фону `background`, щоб налаштувати екран на додатковий колір.
 
 [[[generic-theory-simple-colours]]]
 
 --- collapse ---
 
 ---
-title: Setting the background colour when your program starts
+title: Налаштування кольору фону при запуску програми
 ---
 
 --- code ---
@@ -81,9 +81,9 @@ line_highlights: 9
 
 --- task ---
 
-**Tip:** The `draw` function has `grid()` code. This adds a coordinates grid over your background that helps you work out where to position features on your face.
+**Порада:** Функція `draw` має код `grid()`. Це додасть сітку координат поверх фону, яка допоможе тобі розташувати елементи на твоєму обличчі.
 
-To turn the grid off add a `#` in front of the code, to turn it back on remove the `#`.
+Щоб вимкнути сітку, додай перед кодом `#`. Щоб увімкнути сітку знову, видали `#`.
 
 --- code ---
 ---
@@ -109,32 +109,32 @@ filename: main.py - draw()
 
 --- task ---
 
-**Test:** Run your project to see your chosen screen size and background colour.
+**Тест:** Запусти свій проєкт, щоб побачити розмір екрана та колір фону, які були обрані тобою.
 
 --- /task ---
 
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Налагодження:** Можливо, у твоєму проєкті знайдуться помилки, які потрібно буде виправити. Ось деякі поширені помилки.
 
 --- collapse ---
 
 ---
-title: I've updated my size and colour but the output area stays the same
+title: Я змінив(-ла) розмір та колір, але область виводу залишилася такою самою
 ---
 
-After changing the code, you will need to `run` your project to see the changes in the output area.
+Після внесення змін до коду, тобі потрібно зробити `run` (запуск) свого проєкту, щоб побачити зміни в області виводу.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: I've tried different numbers but the background colour doesn't change
+title: Я спробував (ла) різні значення, але колір фону не змінюється
 ---
 
-The maximum amount of red, green, or blue is `255`. Make sure all your `background` colour values are between `0` and `255`.
+Максимальне значення для червоного, зеленого, або синього - `255`. Переконайся, що всі значення кольору для твого фону `background` знаходяться між `0` та `255`.
 
 --- /collapse ---
 
