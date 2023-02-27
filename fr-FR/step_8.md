@@ -20,6 +20,6 @@ Voici quelques idées que tu pourrais essayer :
   </iframe>
 </div>
 
-Jette un œil à notre bibliothèque [Faire un visage - Communité](https://wke.lt/w/s/8sVH4f){:target="_blank"} pour voir les projets créés par les membres de la communauté.
+Jette un œil à notre [Make a face - Community library](https://wke.lt/w/s/8sVH4f){:target="_blank"} pour voir les projets créés par les membres de la communauté.
 
 --- save ---
