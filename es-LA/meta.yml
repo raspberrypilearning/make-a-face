@@ -8,7 +8,7 @@ copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: You will make
+    title: Introducción
   - 
     title: Elige un tema
   - 
@@ -24,7 +24,7 @@ steps:
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Reflexión
     knowledge_quiz:
       path: quiz1
       version: 1
