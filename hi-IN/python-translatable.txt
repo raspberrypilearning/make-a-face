@@ -1,16 +1,16 @@
 eye_size
 
-red
+लाल
 
 green
 
-blue
+नीला
 
 orange
 
 brown
 
-purple
+बैंगनी
 
 grey
 
