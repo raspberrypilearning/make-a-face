@@ -2,7 +2,7 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Pytanie 3 z 3
 ---
 
 Eli was commissioned to design a face to be used on a t-shirt. Eli wrote code using variables for all the different positions, sizes, and colours in their design.
@@ -25,7 +25,7 @@ True, but that's not why it made it quicker for Eli to produce lots of new desig
 
   --- feedback ---
 
-Correct! Eli was able to quickly make lots of slightly different versions of their design by changing the numbers stored in the variables.
+Poprawna odpowiedź! Eli was able to quickly make lots of slightly different versions of their design by changing the numbers stored in the variables.
 
   --- /feedback ---
 
