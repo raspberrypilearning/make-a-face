@@ -1,4 +1,4 @@
-## Upgrade your project
+## Ulepsz swój projekt
 
 If you have time you can upgrade to your project.
 
