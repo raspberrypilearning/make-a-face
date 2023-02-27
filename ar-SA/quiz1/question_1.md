@@ -1,8 +1,8 @@
 ## Quick quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Answer the three questions. سيتم توجيهك نحو الإجابة الصحيحة.
 
-When you have answered each question, click on **Check my answer**.
+بعد كل سؤال ، اضغط على **تحقق من اإلجابة**.
 
 Have fun!
 
