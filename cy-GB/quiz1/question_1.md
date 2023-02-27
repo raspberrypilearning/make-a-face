@@ -1,10 +1,10 @@
-## Quick quiz
+## Beth nesaf?
 
 Answer the three questions. There are hints to guide you to the correct answer.
 
-When you have answered each question, click on **Check my answer**.
+Atebwch y tri chwestiwn isod i fyfyrio ar yr hyn rydych chi wedi'i ddysgu.
 
-Have fun!
+Ar ôl bob cwestiwn, pwyswch **cyflwyno**. Byddwch chi'n cael eich tywys i'r ateb cywir. Fe allwch chi wneud y gweithgaredd hwn cymaint ag y mynnwch.
 
 Mwynhewch!
 
