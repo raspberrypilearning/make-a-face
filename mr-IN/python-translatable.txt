@@ -1,10 +1,10 @@
 eye_size
 
-red
+लाल
 
 green
 
-blue
+निळा
 
 orange
 
