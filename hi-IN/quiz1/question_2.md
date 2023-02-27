@@ -1,7 +1,7 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+किंवदंती: ३ का प्रश्न २
 ---
 
 In your project, you added code to draw a face with many features. The order of your code was extremely important to make the face look like your design.
