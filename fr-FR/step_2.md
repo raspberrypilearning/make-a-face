@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-As-tu une idée du type de visage ou de masque que tu souhaites réaliser ? Utilise cette étape pour planifier ton art et configurer ta zone de travail.
+As-tu une idée du type de visage ou de masque que tu souhaites réaliser ? Utilise cette étape pour planifier ton œuvre et configurer ta zone de travail.
 </div>
 <div>
 ![La zone de sortie avec un visage sur le thème des vampires.](images/vampire.png){:width="200px"}
@@ -19,7 +19,7 @@ Ouvre le [projet de démarrage](https://trinket.io/library/trinkets/54d15b9cdf){
 
 **Choisir :** Réfléchis au type de visage que tu veux faire :
 + Veux-tu choisir quelque chose de ton héritage ou de ta culture populaire ?
-+ Ton art montrera-t-il un humain, un animal, quelque chose de mythique ou peut-être une machine ?
++ Ton œuvre montrera-t-il un humain, un animal, quelque chose de mythique ou peut-être une machine ?
 + Tu voudras peut-être même créer un autoportrait !
 + Tu pourrais dessiner un emoji à partager avec tes amis
 
@@ -27,9 +27,9 @@ Ouvre le [projet de démarrage](https://trinket.io/library/trinkets/54d15b9cdf){
 
 --- task ---
 
-La première chose à faire lors de la création artistique à l'aide de la bibliothèque Python `Processing` est d'ajouter `def configuration():` pour définir une fonction `configuration` qui est exécutée une fois au début de ton programme.
+La première chose à faire lors de la création artistique à l'aide de la bibliothèque de `traitement` Python est d'ajouter `def configuration():` pour définir une fonction `configuration` qui est exécutée une fois au début de ton programme.
 
-Le projet de démarrage a une fonction `configuration` qui définit la `taille` de ta zone de travail à `400` de largeur et `400` de hauteur.
+Le projet de démarrage a une fonction `setup` qui définit la `taille` de ta zone de travail à `400` de largeur et `400` de hauteur.
 
 **Choisir :** Expérimente avec les nombres et exécute ton code pour trouver une taille qui te convient.
 
@@ -81,7 +81,7 @@ line_highlights: 9
 
 --- task ---
 
-**Astuce :** La fonction `dessiner` a un code `grid()`. Cela ajoute une grille de coordonnées sur ton arrière-plan qui t'aide à déterminer où positionner les traits sur ton visage.
+**Astuce :** La fonction `draw` a un code `grid()`. Cela ajoute une grille de coordonnées sur ton arrière-plan qui t'aide à déterminer où positionner les traits sur ton visage.
 
 Pour désactiver la grille, ajoute un `#` devant le code, pour la réactiver, supprime le `#`.
 
@@ -121,7 +121,7 @@ filename: main.py - draw()
 --- collapse ---
 
 ---
-title : J'ai mis à jour ma taille et ma couleur mais la zone de sortie reste la même
+title: J'ai mis à jour ma taille et ma couleur, mais la zone de sortie reste la même
 ---
 
 Après avoir modifié le code, tu devras `exécuter` ton projet pour voir les changements dans la zone de sortie.
