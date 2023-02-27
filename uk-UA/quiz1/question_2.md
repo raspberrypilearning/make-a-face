@@ -1,12 +1,12 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Питання 2 з 3
 ---
 
-In your project, you added code to draw a face with many features. The order of your code was extremely important to make the face look like your design.
+У твоєму проєкті був доданий код для малювання обличчя з багатьма рисами. Порядок твого коду був надзвичайно важливим, щоб зробити обличчя схожим на твій задум.
 
-If you ran this code, what would the face look like?
+Якщо запустити цей код, як би виглядало обличчя?
 
 --- code ---
 ---
@@ -28,41 +28,41 @@ run()
 
 - ( )
 
-![A white face with black outline. There are two solid green eyes with black outlines.](images/face1.png)
+![Біле обличчя з чорним контуром. Два суцільних зелених ока з чорним контуром.](images/face1.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `ellipse()` and the `stroke()` functions.
+ Не зовсім так. Зверни увагу на порядок фігур `ellipse()` та функції `stroke()`.
 
  --- /feedback ---
 
 - ( )
 
-![A white face with black outline. There are two green eyes with black pupils and both have a black outline.](images/face2.png)
+![Біле обличчя з чорним контуром. Два зелених ока з чорними зіницями та чорним контуром.](images/face2.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `stroke()` functions.
+ Не зовсім так. Зверни увагу на порядок функцій `stroke()`.
 
  --- /feedback ---
 
 - (x)
 
-![A white face with black outline. There are two green eyes with black pupils and the eyes do not have an outline.](images/face3.png)
+![Біле обличчя з чорним контуром. Два зелених ока з чорними зіницями, очі не мають контуру.](images/face3.png)
 
  --- feedback ---
 
- Correct, the code draws a face with a black stroke then turns off the stroke before drawing the circles. The green circles are drawn first with the black circles on top of them.
+ Правильно! Код малює обличчя чорним обведенням, а перед тим, як намалювати кола для очей, вимикає обведення. Спочатку малюються зелені кола, а поверх них - чорні.
 
  --- /feedback ---
 
 - ( )
 
-![A white face with black outline. There are two solid green eyes that do not have an outline.](images/face4.png)
+![Біле обличчя з чорним контуром. Два суцільних зелених ока, які не мають контуру.](images/face4.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `ellipse()` functions.
+ Не зовсім так. Зверни увагу на порядок функцій `ellipse()`.
 
  --- /feedback ---
 
