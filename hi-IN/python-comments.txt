@@ -64,7 +64,7 @@ Eyes
 
 Face
 
-Green
+हरा
 
 Put code to run once here
 
@@ -94,9 +94,9 @@ Shape
 
 Fonts
 
-Text
+टेक्स्ट
 
-Colour
+रंग
 
 Images
 
@@ -104,7 +104,7 @@ Environment
 
 Transform
 
-Keyboard
+कीबोर्ड (Keyboard)
 
 Hair and face
 
