@@ -19,7 +19,7 @@ Tu peux ajouter deux cercles qui se chevauchent pour créer un sourire ou un fro
 
 --- task ---
 
-Ajoute du code à ta fonction `dessiner()` pour ajouter une bouche.
+Ajoute du code à ta fonction `dessin()` pour ajouter une bouche.
 
 --- collapse ---
 
@@ -103,7 +103,7 @@ rect(152, 235, 96, 30) #Smaller blue rectangle
 
 --- task ---
 
-**Choisir :** Tu peux également ajouter plusieurs dents à ta bouche en utilisant `translation` pour modifier la coordonnée `x` après avoir dessiné chaque dent.
+**Choisir :** Tu peux également ajouter plusieurs dents à ta bouche en utilisant `translate` pour modifier la coordonnée `x` après avoir dessiné chaque dent.
 
 --- collapse ---
 
