@@ -1,4 +1,4 @@
-## What next?
+## Co następne?
 
 If you are following the [Introduction to Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro) pathway, you can move on to the [Don't collide](https://projects.raspberrypi.org/en/projects/dont-collide) project. In this project, you will make a scrolling obstacle game where your character has to reach a finishing point without colliding with obstacles.
 
