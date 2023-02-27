@@ -1,7 +1,7 @@
 ---
-title: Make a face
+title: एक चेहरा बनाएं
 hero_image: images/banner.png
-description: Design and draw a face or mask using geometric shapes
+description: ज्यामितीय आकृतियों का उपयोग करके एक चेहरा या मास्क डिज़ाइन करें और बनाएं
 version: 4
 listed: true
 copyedit: true
@@ -10,17 +10,17 @@ steps:
   - 
     title: You will make
   - 
-    title: Choose a theme
+    title: एक थीम चुनें
   - 
-    title: Face shape
+    title: चेहरे की आकृति
     completion:
       - engaged
   - 
-    title: Add eyes
+    title: आँखें जोड़ें
   - 
-    title: Add a mouth
+    title: मुँह जोड़ें
   - 
-    title: Add more details
+    title: अधिक विवरण जोड़ें
     completion:
       - internal
   - 
@@ -33,8 +33,8 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: अपने प्रोजेक्ट को अपग्रेड करें
   - 
-    title: Share
+    title: शेयर करें
   - 
-    title: What next?
+    title: आगे क्या?
