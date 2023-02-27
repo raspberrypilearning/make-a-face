@@ -6,7 +6,7 @@ Write Python code to draw a face or mask using geometric shapes.
 The creation of <span style="color: #0faeb0">**geometric art**</span> dates back to Ancient Greece where vases would be painted with patterns made up of shapes. Artists began using shapes to draw humans and animals with circles for heads, triangle bodies, and lines for legs and arms.
 </p>
 
-You will:
+ನೀವು:
 
 + Use code creatively to make a piece of digital art
 + Draw and position your art using geometric shapes, coordinates, and layers
