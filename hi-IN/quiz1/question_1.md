@@ -6,12 +6,12 @@ When you have answered each question, click on **Check my answer**.
 
 Have fun!
 
-Have fun!
+आनंद लें!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+प्रश्न १ का ३
 ---
 
 In your project, you drew mouths using shapes.
