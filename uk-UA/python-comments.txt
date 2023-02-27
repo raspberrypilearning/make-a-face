@@ -1,139 +1,139 @@
-400 by 400 works well for a round face
+400 на 400 добре підходить для круглого обличчя
 
-Try different numbers to change the colour
+Спробуй різні числа, щоб змінити колір
 
-Shows grid
+Показати сітку
 
-Hide grid by turning it into a comment
+Приховати сітку, перетворивши її в коментар
 
-Circle in the middle
+Коло в центрі
 
-You can also use no_stroke()
+Також можна використати no_stroke()
 
-Bright yellow
+Яскраво-жовтий
 
-Black — change to red, green, or blue up to 255
+Чорний; можна змінити на червоний, зелений або синій до 255
 
-x, y, width, height
+зроби ширину та висоту однаковими, щоб намалювати коло
 
-A black mouth
+Чорний рот
 
-An orange face
+Помаранчеве обличчя
 
-Higher circle
+Верхнє коло
 
-Lower circle
+Нижнє коло
 
-Face mask
+Маска для обличчя
 
-Left ear loop
+Ліве вухо
 
-Right ear loop
+Праве вухо
 
-Large white rectangle
+Великий білий прямокутник
 
-Smaller blue rectangle
+Маленький синій прямокутник
 
-Mouth
+Рот
 
-Starting amount of red
+Початкова величина червоного кольору
 
-Starting amount of green
+Початкова величина зеленого кольору
 
-Starting amount of blue
+Початкова величина синього кольору
 
-Uses variables to control the colour change each loop
+Використовує змінні для управління зміною кольору кожного циклу
 
-Move along the x coordinate by the width of a tooth
+Переміщення по координаті х на ширину зуба
 
-Mouth line
+Лінія рота
 
-Left tooth
+Лівий зуб
 
-Right tooth
+Правий зуб
 
-Highlights
+Відблиски світла
 
-70 is transparency/opacity here
+70 - це прозорість/непрозорість
 
-Black
+Чорний
 
-White
+Білий
 
-Eyes
+Очі
 
-Face
+Обличчя
 
-Green
+Зелений
 
-Put code to run once here
+Розмісти тут код для одноразового запуску
 
-width and height
+ширина та висота
 
-move under draw() to reset the drawing every frame
+переміщення під draw() для обнулення малювання кожного кадру
 
-Put code to run every frame here
+Помісти тут код для запуску на кожному кадрі
 
-draw mask
+малювання маски
 
-eyes and mouth
+очі та рот
 
-partly cover eyes and mouth
+частково закривати очі та рот
 
-cover top of mask
+закрити верхню частину маски
 
-shade half of the mask
+відтінити половину маски
 
-Put code to run when the mouse is pressed here
+Код для запуску при натисканні миші розміщуй тут
 
-Keep this to run your code
+За допомогою цього ти зможеш запустити свій код
 
-Definitions for compatibility with the p5py processing library
+Визначення для сумісності з бібліотекою p5py
 
-Shape
+Фігура
 
-Fonts
+Шрифти
 
-Text
+Текст
 
-Colour
+Колір
 
-Images
+Зображення
 
-Environment
+Довкілля
 
-Transform
+Перетворення
 
-Keyboard
+Клавіатура
 
-Hair and face
+Волосся та обличчя
 
-stalk
+плодоніжка
 
-Top face background
+Верхній фон обличчя
 
-Top face hair
+Волосся на верхньому обличчі
 
-Top face left eye
+Ліве око верхнього обличчя
 
-Top face right eye
+Праве око верхнього обличчя
 
-Top face mouth
+Рот верхнього обличчя
 
-Bottom face background
+Нижній фон обличчя
 
-Bottom face hair
+Волосся на нижньому обличчі
 
-Bottom face left eye
+Ліве око нижнього обличчя
 
-Bottom face right eye
+Праве око нижнього обличчя
 
-Bottom face mouth
+Рот нижнього обличчя
 
-Nose
+Ніс
 
-Face markings
+Розмітка обличчя
 
-Hair
+Волосся
 
-add a # to the beginning of this line to hide the grid
+додай на початку цього рядка символ #, щоб приховати сітку
