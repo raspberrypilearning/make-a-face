@@ -11,7 +11,7 @@ Have you got an idea about the kind of face or mask you want to make? Use this s
 
 --- task ---
 
-Open the [starter project](https://trinket.io/library/trinkets/54d15b9cdf){:target="_blank"}. Trinket will open in another browser tab.
+Open the [starter project](https://trinket.io/library/trinkets/54d15b9cdf){:target="_blank"}. O Trinket será aberto em outra aba do navegador.
 
 --- /task ---
 
@@ -116,7 +116,7 @@ filename: main.py - draw()
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Depurar:** Você pode encontrar alguns bugs em seu projeto que precisa corrigir. Aqui estão alguns bugs comuns.
 
 --- collapse ---
 
