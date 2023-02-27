@@ -6,12 +6,12 @@ When you have answered each question, click on **Check my answer**.
 
 Have fun!
 
-Have fun!
+Повеселись!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Вопрос 1 из 3
 ---
 
 In your project, you drew mouths using shapes.
