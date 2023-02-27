@@ -16,7 +16,7 @@ Je gaat:
 
 --- no-print ---
 
-### Get ideas 💭
+### Doe inspiratie op
 
 Je gaat wat ontwerpbeslissingen nemen over het soort gezicht dat je gaat maken en hoe je code gaat gebruiken om het gewenste effect te krijgen.
 
@@ -53,7 +53,7 @@ Bekijk deze voorbeelden en bedenk hoe ze zijn gemaakt van cirkels, ellipsen, vie
 
 --- print-only ---
 
-### Get ideas 💭
+### Doe inspiratie op
 
 Je gaat wat ontwerpbeslissingen nemen over het soort gezicht dat je gaat maken en hoe je code gaat gebruiken om het gewenste effect te krijgen.
 
