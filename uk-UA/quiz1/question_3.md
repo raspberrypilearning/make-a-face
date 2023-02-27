@@ -2,46 +2,46 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Питання 3 з 3
 ---
 
-Eli was commissioned to design a face to be used on a t-shirt. Eli wrote code using variables for all the different positions, sizes, and colours in their design.
+Софії було доручено розробити дизайн обличчя для футболки. Софія написала код з використанням змінних для всіх різних позицій, розмірів та кольорів у її дизайні.
 
-The company loved it! They have asked Eli to create lots more similar designs.
+Компанії дуже сподобалось! Вони попросили Софію розробити ще багато подібних дизайнів.
 
-Why did making the design with code make it quicker for Eli to make lots of new designs?
+Чому створення дизайну за допомогою коду дозволило Софії швидше створювати багато нових дизайнів?
 
 --- choices ---
 
-- ( ) Coding is fun.
+- ( ) Кодувати - це весело.
 
   --- feedback ---
 
-True, but that's not why it made it quicker for Eli to produce lots of new designs.
+Дійсно, але не тому, що це дозволило Софії швидше виготовити багато нових дизайнів.
 
   --- /feedback ---
 
-- (x) It's easy to change the numbers stored in variables to make lots of new designs.
+- (x) Змінюючи числа, які зберігаються у змінних, можна легко створювати безліч нових дизайнів.
 
   --- feedback ---
 
-Correct! Eli was able to quickly make lots of slightly different versions of their design by changing the numbers stored in the variables.
+Правильно! Софія змогла швидко створити багато різних варіантів дизайну, змінюючи числа, які зберігалися у змінних.
 
   --- /feedback ---
 
-- ( ) The code runs really quickly.
+- ( ) Код працює дуже швидко.
 
   --- feedback ---
 
-True, but that doesn't help to create lots of different designs.
+Дійсно, але це не сприяє створенню великої кількості різноманітних дизайнів.
 
   --- /feedback ---
 
-- ( ) Variables always have different numbers every time you run your program.
+- ( ) Змінні завжди мають різні номери при кожному запуску програми.
 
   --- feedback ---
 
-Not quite. Variables have the value you assign to them. If you assign a number to a variable (such as `eye_radius = 50`) and don't change it then it will be the same every time you run the program.
+Не зовсім так. Змінні мають ті значення, які їм присвоєні. Якщо присвоїти змінній значення (наприклад, `eye_radius = 50`) та не змінювати його, то воно буде однаковим при кожному запуску програми.
 
   --- /feedback ---
 
