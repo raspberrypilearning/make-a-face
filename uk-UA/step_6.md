@@ -1,38 +1,38 @@
-## Add more details
+## Додавання деталей
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Does your face or mask need more details to make it more interesting? 
+Чи потрібно твоєму обличчю або масці більше деталей, щоб зробити його більш цікавішим? 
 </div>
 <div>
-![Image showing a face as an example with a headband accessory.](images/frida.png){:width="200px"}
+![Зображення, на якому зображено обличчя, як приклад з аксесуаром пов'язки на голову.](images/frida.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-You can use more shapes to add more features to your face or mask.
+Ти можеш використовувати більше форм, щоб додати більше елементів до свого обличчя або маски.
 
-How can you give the face more personality?
+Як можна зробити обличчя більш індивідуальним?
 
-You could add:
+Можна додати:
 
-+ A nose
-+ Eyebrows
-+ Ears
-+ Cheeks
-+ Highlights / catchlights
-+ Whatever you like!
++ Ніс
++ Брови
++ Вуха
++ Щоки
++ Відблиски / підсвічування
++ Все, що заманеться!
 
-Just add the extra details that make sense for your drawing.
+Просто додай додаткові деталі, які будуть відповідати ідеї твого малюнку.
 
 --- /task ---
 
 --- task ---
 
-You can make partly transparent colours by adding a fourth number to an RGB colour to give the **opacity**.
+Ти можеш створити частково прозорі кольори, додавши четверте число до значення RGB, щоб отримати **прозорість**.
 
-This code draws the overlapping highlights in the Kawaii fruit example:
+Цей код малює декілька відблисків світла, які перекриваються, у проєкті Милий фрукт:
 
 --- code ---
 ---
@@ -47,7 +47,7 @@ ellipse(150, 160, 25, 25)
 
 --- /code ---
 
-![Kawaii fruit image with highlights at different opacities: 30, 70, 150, 255. The lower value, 30, is more opaque and 255 is less opaque.](images/opacity.png)
+![Зображення милого фрукта з відблисками, які мають різну прозорість: 30, 70, 150, 255. Нижче значення, 30 - більш прозоре, а 255 - менш прозоре.](images/opacity.png)
 
 --- /task ---
 
