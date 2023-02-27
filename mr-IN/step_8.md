@@ -1,4 +1,4 @@
-## Upgrade your project
+## तुमचा प्रोजेक्ट अपग्रेड करा
 
 If you have time you can upgrade to your project.
 
