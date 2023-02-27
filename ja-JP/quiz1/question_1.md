@@ -1,8 +1,8 @@
 ## Quick quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Answer the three questions. 正しい答えが表示されます。
 
-When you have answered each question, click on **Check my answer**.
+各質問の後、**答えを確認する**を押してください。
 
 Have fun!
 
