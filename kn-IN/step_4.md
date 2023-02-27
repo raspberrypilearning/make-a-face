@@ -116,7 +116,7 @@ Is your drawing starting to look like a face?
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Debug:** ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ನಲ್ಲಿ ನೀವು ಸರಿಪಡಿಸಬೇಕಾದ ಕೆಲವು ದೋಷಗಳನ್ನು ನೀವು ಕಾಣಬಹುದು. Here are some common bugs.
 
 --- collapse ---
 ---
