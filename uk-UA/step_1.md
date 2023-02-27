@@ -1,44 +1,44 @@
-## You will make
+## Ти зробиш
 
-Write Python code to draw a face or mask using geometric shapes.
+Напишеш код на Python, щоб намалювати обличчя або маску за допомогою геометричних фігур.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The creation of <span style="color: #0faeb0">**geometric art**</span> dates back to Ancient Greece where vases would be painted with patterns made up of shapes. Artists began using shapes to draw humans and animals with circles for heads, triangle bodies, and lines for legs and arms.
+Історія <span style="color: #0faeb0">**геометричного мистецтва**</span> бере свій початок у Стародавній Греції, де вази розписували візерунками, які складалися з фігур. Художники почали використовувати фігури для малювання людей та тварин: кола для голови, трикутники для тіла, лінії для ніг та рук.
 </p>
 
-You will:
+Зможеш:
 
-+ Use code creatively to make a piece of digital art
-+ Draw and position your art using geometric shapes, coordinates, and layers
-+ Organise your code with functions
++ Скористатися кодом творчо, щоб створити витвір цифрового мистецтва
++ Намалювати та оформити своє мистецтво, використовуючи геометричні фігури, координати та слої
++ Організувати свій код за допомогою функцій
 
-![Examples of different faces.](images/strip.png)
+![Приклади різних облич.](images/strip.png)
 
 --- no-print ---
 
-### Get ideas 💭
+### Отримай ідеї 💭
 
-You are going to make some design decisions about the kind of face you will make and how you will use code to get the effect you want.
+Ти будеш приймати деякі дизайнерські рішення щодо того, яке обличчя ти будеш робити та як ти будеш використовувати код, щоб отримати бажаний результат.
 
 --- task ---
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-Look at these examples and think about how they have been made from circles, ellipses, squares, rectangles, and triangles.
+Зверни увагу на ці приклади та подумай, як вони були зроблені з кругів, овалів, квадратів, прямокутників та трикутників.
 
-**Kawaii fruit**: [See inside](https://trinket.io/python/6bad88800b){:target="_blank"}
+**Милий фрукт**: [Подивитись код](https://trinket.io/python/6bad88800b){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/6bad88800b?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-**Stacked faces**: [See inside](https://trinket.io/python/f90794771c){:target="_blank"}
+**Складені обличчя**: [Подивитись код](https://trinket.io/python/f90794771c){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/f90794771c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-**Tribal mask**: [See inside](https://trinket.io/python/b876d500ab){:target="_blank"}
+**Маска племені**: [Подивитись код](https://trinket.io/python/b876d500ab){:target="_blank"}
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/b876d500ab?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
@@ -53,13 +53,13 @@ Look at these examples and think about how they have been made from circles, ell
 
 --- print-only ---
 
-### Get ideas 💭
+### Отримай ідеї 💭
 
-You are going to make some design decisions about the kind of face you will make and how you will use code to get the effect you want.
+Ти будеш приймати деякі дизайнерські рішення щодо того, яке обличчя ти будеш робити та як ти будеш використовувати код, щоб отримати бажаний результат.
 
-See inside example projects in [Python 1: Make a face — Examples](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"} Scratch studio.
+Переглянь приклади проєктів у студії Trinket [Python 1: Обличчя — Приклади](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"}.
 
-![The output area from the Kawaii fruit project.](images/smile.png) ![The output area from the Stacked faces project.](images/stacked.png) ![The output area from the Tribal mask project.](images/tribal.png)
+![Область виводу проєкту Милий фрукт.](images/smile.png) ![Область виводу проєкту Складені обличчя.](images/stacked.png) ![Область виводу проєкту Маска племені.](images/tribal.png)
 
 --- /print-only ---
 
