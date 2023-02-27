@@ -16,13 +16,13 @@ language: python
 
 def draw():
 
-  #Face
+  #Обличчя
   stroke(0) #Чорний
   fill(255) #Білий
   ellipse(200, 200, 200, 190)
   no_stroke()
   
-  #Eyes
+  #Очі
   fill(0, 255, 0) #Зелений
   ellipse(160, 180, 60, 60)
   ellipse(240, 180, 60, 60)
