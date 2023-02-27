@@ -6,12 +6,12 @@ When you have answered each question, click on **Check my answer**.
 
 Have fun!
 
-Have fun!
+Miłej zabawy!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Pytanie 1 z 3
 ---
 
 In your project, you drew mouths using shapes.
