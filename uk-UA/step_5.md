@@ -1,37 +1,37 @@
-## Add a mouth
+## Рот
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-A mouth is a great way of showing emotion. Will your character have a smile, frown, or something else? 
+Рот - це чудовий спосіб вираження емоцій. Твій персонаж буде посміхатися, хмуритися або щось інше? 
 </div>
 <div>
-![Image showing a robot face as an example of a face with a mouth.](images/mask.png){:width="200px"}
+![Зображення обличчя робота як приклад обличчя з ротом.](images/mask.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-Think about what kind of mouth your face needs. The simplest mouth would be a circle to look surprised.
+Подумай, який рот потрібен твоєму обличчю. Найпростішим ротом може бути коло, щоб виглядати здивованим.
 
-You could add two overlapping circles to create a smile or frown. Triangles or rectangles could be added for teeth.
+Ти можеш додати два кола, які накладаються один на одного, щоб створити посмішку або похмурість. Трикутники або прямокутники можуть бути використані для зубів.
 
 --- /task ---
 
 --- task ---
 
-Add code to your `draw()` function to add a mouth.
+Додай код до своєї функції `draw()`, щоб додати рот.
 
 --- collapse ---
 
 ---
-title: Create a mouth from overlapping circles
+title: Створи рот з накладених один на одного кругів
 ---
 
-Set the `fill` colour for your mouth then draw an `ellipse`. Set the `fill` colour again, this time to match the face colour, then draw a second `ellipse`.
+Встанови колір заливки `fill` для рота, потім намалюй овал `ellipse`. Знову встанови колір заливки `fill`, але який відповідає кольору обличчя. Потім намалюй другий овал `ellipse`.
 
-Change the `y` coordinate of the second `ellipse` to a slightly higher position for a smile or a slightly lower position for a frown.
+Змінюй координату `y` другого овалу `ellipse` на трошки вищу позицію - для посмішки або на трошки нижчу - для похмурого обличчя.
 
-![The output area showing a smiling mouth.](images/smile.png)
+![Область виводу із зображенням усміхненого рота.](images/smile.png)
 
 --- code ---
 ---
@@ -46,7 +46,7 @@ filename: main.py - draw()
 
 --- /code ---
 
-![The output area showing a frowning mouth.](images/frown.png)
+![Область виводу із зображенням похмурого рота.](images/frown.png)
 
 --- code ---
 ---
@@ -66,23 +66,23 @@ filename: main.py - draw()
 --- collapse ---
 
 ---
-title: Create a mouth using rectangles
+title: Створення рота за допомогою прямокутників
 ---
 
-Robots are often shown with `rectangle` shaped mouths. Sometimes `rectangle` and `ellipse` shapes are used together to create a grimace emoji or to add a face mask.
+Роботи часто зображуються з ротами у формі прямокутника `rectangle`. Іноді, прямокутник `rectangle` та овал `ellipse` використовуються разом, щоб створити смайлик-кривляку або додати маску для обличчя.
 
-![The output area showing a face with rectangle facemask.](images/rectangle-mask.png)
+![Область виводу показує обличчя з прямокутною маскою.](images/rectangle-mask.png)
 
-Add the code for a `rectangle`, then create a smaller `rectangle` within it. Change the `stroke` and `fill` colours to complement your theme. Add `ellipse` shapes if needed.
+Додай код для прямокутника `rectangle`, а потім створи всередині нього менший прямокутник `rectangle`. Змінюй кольори для `stroke` та `fill`, щоб доповнити тематику твого проєкту. Додай фігури овалів `ellipse`, якщо потрібно.
 
-**Tip:** Remember to put the `ellipse` shapes above the `rectangle` code if you want them to go behind the `rectangle` shapes.
+**Порада:** Не забувай розміщувати фігури овалів `ellipse` над кодом `rectangle`, якщо хочеш, щоб вони були позаду фігури прямокутника `rectangle`.
 
 --- code ---
 ---
 language: python
 filename: main.py - draw()
 ---
-# Face mask
+# Маска для обличчя
 no_fill()    
 stroke(255, 255, 255)     
 ellipse(150, 250, 30, 30) #Left ear loop    
@@ -97,27 +97,27 @@ rect(152, 235, 96, 30) #Smaller blue rectangle
 
 --- /collapse ---
 
-**Tip:** Add a `#Mouth` comment on the line before your mouth code to help you easily find the mouth code.
+**Порада:** Додай коментар `#Рот` перед кодом для створення рота, щоб тобі було легше знайти цей код у майбутньому.
 
 --- /task ---
 
 --- task ---
 
-**Choose:** You could also add multiple teeth to your mouth using `translate` to change the `x` coordinate after each tooth is drawn.
+**Обирай:** Ти також можеш додати декілька зубів до рота, використовуючи код `translate`, щоб змінити координату `x` після того, як буде намальований кожен зуб.
 
 --- collapse ---
 
 ---
-title: Use a loop to add a row of teeth
+title: Додавання ряду зубів за допомогою петлі
 ---
 
-Add code to create a `for` loop that repeats in order to create the number of teeth you need.
+Додай код для створення циклу `for`, який буде повторюватися, щоб створити необхідну кількість зубів.
 
-![The output area showing a robot face with a row of rectangle teeth in different colours.](images/robot-teeth.png)
+![Область виводу показує обличчя робота з рядом прямокутних зубів різних кольорів.](images/robot-teeth.png)
 
-After each tooth has been drawn, add code to `translate()` it by the width of the tooth.
+Після того, як кожен зуб буде намальовано, додай код `translate()`, щоб зробити переведення зуба відповідно до його ширини.
 
-You can also add code to change the colour of each tooth.
+Ти також можеш змінити колір кожного зуба, додавши відповідний код.
 
 --- code ---
 ---
@@ -125,7 +125,7 @@ language: python
 filename: main.py - draw()
 ---
 
-# Mouth
+# Рот
 fill(90, 110, 184)     
 red = 90 #Starting amount of red   
 green = 110 #Starting amount of green    
@@ -147,21 +147,21 @@ translate(33, 0) #Move along the x coordinate by the width of a tooth
 --- collapse ---
 
 ---
-title: Use triangles to add fangs
+title: Використовуй трикутники, щоб зобразити ікла
 ---
 
-Create a `rectangle` to use as the line of the mouth.
+Створи прямокутник `rectangle`, щоб зобразити лінію рота.
 
-Add two `triangle` shapes to create the fangs. Change the `x` coordinates for each corner to position the fangs at opposite ends of the mouth line.
+Додай дві фігури трикутника `triangle`, щоб створити ікла. Змінюй координату `x` для кожного кута, щоб розташувати ікла на протилежних кінцях лінії рота.
 
-![The output area showing a vampire face with a rectangle mouth and two triangle teeth.](images/vampire.png)
+![У вихідній області зображено обличчя вампіра з прямокутним ротом і двома трикутними зубами.](images/vampire.png)
 
 --- code ---
 ---
 language: python
 filename: main.py - draw()
 ---
-# Mouth
+# Рот
   fill(0)    
 rect(170, 260, 60, 5) #Mouth line    
 fill(0)    
@@ -175,15 +175,15 @@ triangle(210, 260, 220, 280, 230, 260) #Right tooth
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Налагодження:** Можливо, у твоєму проєкті знайдуться помилки, які потрібно буде виправити. Ось деякі поширені помилки.
 
 --- collapse ---
 
 ---
-title: My overlapping shape goes outside the face
+title: Одна з накладених форм виходить за межі обличчя
 ---
 
-If you use two overlapping shapes to create a mouth, then you need to make sure the shape that is the same colour as the face doesn't go outside the face. If it does, then change the width or height of the shape so that it's small enough to fit inside the face.
+Якщо для створення рота використовуються дві фігури, які накладаються одна на одну, необхідно переконатися, що фігура однакового кольору з обличчям не виходить його межі. Якщо це так, зміни ширину або висоту форми так, щоб вона була достатньо маленькою, щоб поміститися всередині обличчя.
 
 --- /collapse ---
 
@@ -191,10 +191,10 @@ If you use two overlapping shapes to create a mouth, then you need to make sure 
 --- collapse ---
 
 ---
-title: I have too many teeth
+title: Занадто багато зубів
 ---
 
-Don't forget that `range()` creates a sequence of numbers starting from 0 not 1. This may make a difference to your code depending on how you have positioned your teeth.
+Не забувай, що `range()` створює послідовність чисел, яка починається не з 1, а з 0. Це може вплинути на твій код в залежності від того, як у тебе розташовані зуби.
 
 --- /collapse ---
 
