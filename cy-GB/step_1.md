@@ -1,4 +1,4 @@
-## You will make
+## Cyflwyniad
 
 Ysgrifennwch god Python i lunio wyneb neu fasg gan ddefnyddio siapiau geometrig.
 
@@ -16,7 +16,7 @@ Byddwch chi'n:
 
 --- no-print ---
 
-### Get ideas 💭
+### Cael ysbrydoliaeth
 
 Byddwch chi'n gwneud penderfyniadau dylunio am y math o wyneb i'w wneud, a sut byddwch chi'n defnyddio cod i gael yr effaith rydych chi'n ei dymuno.
 
@@ -53,7 +53,7 @@ Byddwch chi'n gwneud penderfyniadau dylunio am y math o wyneb i'w wneud, a sut b
 
 --- print-only ---
 
-### Get ideas 💭
+### Cael ysbrydoliaeth
 
 Byddwch chi'n gwneud penderfyniadau dylunio am y math o wyneb i'w wneud, a sut byddwch chi'n defnyddio cod i gael yr effaith rydych chi'n ei dymuno.
 
