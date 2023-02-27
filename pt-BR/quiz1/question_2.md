@@ -1,7 +1,7 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legenda: Pergunta 2 de 3
 ---
 
 In your project, you added code to draw a face with many features. The order of your code was extremely important to make the face look like your design.
