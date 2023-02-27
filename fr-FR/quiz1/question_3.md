@@ -41,7 +41,7 @@ C'est vrai, mais cela n'aide pas à créer beaucoup de designs différents.
 
   --- feedback ---
 
-Not quite. Variables have the value you assign to them. If you assign a number to a variable (such as `eye_radius = 50`) and don't change it then it will be the same every time you run the program.
+Pas tout à fait. Les variables ont la valeur que tu leur attribues. Si tu attribues un nombre à une variable (comme `rayon_yeux = 50`) et que tu ne le modifies pas, ce sera le même à chaque fois que tu exécuteras le programme.
 
   --- /feedback ---
 
