@@ -17,7 +17,7 @@ Tu peux ajouter des iris et des pupilles de différentes couleurs. Tu peux ajout
 
 --- /task ---
 
-Expérimente avec `ellipse` dans la fonction `dessiner` pour créer les yeux que tu veux.
+Expérimente avec `ellipse` dans la fonction `configuration` pour créer les yeux que tu veux.
 
 --- task ---
 
