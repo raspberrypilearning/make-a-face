@@ -2,7 +2,7 @@
 
 Answer the three questions. There are hints to guide you to the correct answer.
 
-When you have answered each question, click on **Check my answer**.
+Druk na elke vraag op **indienen**. Je wordt naar het juiste antwoord geleid.
 
 Have fun!
 
