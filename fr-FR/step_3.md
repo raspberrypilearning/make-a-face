@@ -13,7 +13,7 @@ Dessine et colorie une forme pour ton visage ou ton masque. N'ajoute pas encore 
 
 Décide de la forme principale du visage pour ton masque. Il peut s'agir d'un cercle, d'une ellipse, d'un rectangle ou même d'un triangle.
 
-Ajoute du code à la fonction `dessiner()` pour dessiner un visage ou un masque. Assure-toi également de supprimer `pass` de l'intérieur de la fonction.
+Ajoute du code à la fonction `draw()` pour dessiner un visage ou un masque. Assure-toi également de supprimer `pass` de l'intérieur de la fonction.
 
 Cet exemple dessine un cercle au milieu, mais c'est à toi de décider quelle forme utiliser.
 
