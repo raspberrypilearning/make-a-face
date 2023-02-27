@@ -1,4 +1,4 @@
-## You will make
+## Ce que tu vas faire
 
 Écrire du code Python pour dessiner un visage ou un masque à l'aide de formes géométriques.
 
@@ -16,7 +16,7 @@ Tu vas devoir :
 
 --- no-print ---
 
-### Get ideas 💭
+### Trouve l'inspiration 💭
 
 Tu vas prendre des décisions de conception concernant le type de visage que tu vas créer et la manière dont tu utiliseras le code pour obtenir l'effet souhaité.
 
@@ -53,11 +53,11 @@ Regarde ces exemples et réfléchis à la façon dont ils ont été créés à p
 
 --- print-only ---
 
-### Get ideas 💭
+### Trouve l'inspiration 💭
 
 Tu vas prendre des décisions de conception concernant le type de visage que tu vas créer et la manière dont tu utiliseras le code pour obtenir l'effet souhaité.
 
-Voir à l'intérieur des exemples de projets dans le studio Scratch [Python 1 : Faire un visage — Exemples](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"}.
+Voir à l'intérieur des exemples de projets dans le studio Scratch [Python 1: Make a face — Examples](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"}.
 
 ![La zone de sortie du projet de fruits Kawaii.](images/smile.png) ![La zone de sortie du projet Visages empilés.](images/stacked.png) ![La zone de sortie du projet Masque tribal.](images/tribal.png)
 
