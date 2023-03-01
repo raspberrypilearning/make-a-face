@@ -2,7 +2,7 @@
 
 Contesta las tres preguntas. Hay pistas para guiarte hacia la respuesta correcta.
 
-Después de cada pregunta, presiona **enviar**. Vamos a guiarte hacia la respuesta correcta.
+Cuando hayas respondido a cada pregunta, haz clic en **Revisar mi respuesta**.
 
 ¡Qué te diviertas!
 
@@ -33,7 +33,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-  No precisamente, para crear una boca triste, la segunda `elipse`, necesitaría una **y_coordinada** más baja que la primera `elipse`.
+  No precisamente, para crear una boca triste, la segunda `elipse`, necesitaría una **y_coordenada** más baja que la primera `elipse`.
 
   --- /feedback ---
 
@@ -41,7 +41,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-  ¡Correcto! La segunda `elipse` se dibuja con una **y_coordinada** más alta que la primera `elipse`.
+  ¡Correcto! La segunda `elipse` se dibuja con una **y_coordenada** más alta que la primera `elipse`.
 
   --- /feedback ---
 
