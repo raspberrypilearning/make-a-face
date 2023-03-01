@@ -1,10 +1,10 @@
-## Quick quiz
+## Examen rapido
 
-Responde las siguientes tres preguntas para reflexionar sobre lo que has aprendido. There are hints to guide you to the correct answer.
+Contesta las tres preguntas. Hay pistas para guiarte hacia la respuesta correcta.
 
 Después de cada pregunta, presiona **enviar**. Vamos a guiarte hacia la respuesta correcta.
 
-Have fun!
+¡Qué te diviertas!
 
 ¡Que te diviertas!
 
