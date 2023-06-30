@@ -11,7 +11,7 @@ Have you got an idea about the kind of face or mask you want to make? Use this s
 
 --- task ---
 
-Open the [starter project](https://trinket.io/library/trinkets/54d15b9cdf){:target="_blank"}. Trinket will open in another browser tab.
+Open the [starter project](https://editor.raspberrypi.org/en/projects/make-face-starter){:target="_blank"}. The Raspberry Pi code editor will open in another browser tab.
 
 --- /task ---
 
@@ -127,7 +127,7 @@ filename: main.py - draw()
 title: I've updated my size and colour but the output area stays the same
 ---
 
-After changing the code, you will need to `run` your project to see the changes in the output area. 
+After changing the code, you will need to **`Run`** your project to see the changes in the output area. 
 
 --- /collapse ---
 

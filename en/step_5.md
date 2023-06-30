@@ -127,15 +127,15 @@ filename: main.py - draw()
 
 #Mouth    
 fill(90, 110, 184)     
-  red = 90 #Starting amount of red   
-  green = 110 #Starting amount of green    
-  blue = 180 #Starting amount of blue    
-  for i in range (0,6):     
-    rect(100, 300, 33, 50)     
-    fill(red, green, blue) #Uses variables to control the colour change each loop    
-    red = red+40     
-    blue = blue-30     
-    translate(33, 0) #Move along the x coordinate by the width of a tooth    
+red = 90 #Starting amount of red   
+green = 110 #Starting amount of green    
+blue = 180 #Starting amount of blue    
+for i in range (0,6):     
+  rect(100, 300, 33, 50)     
+  fill(red, green, blue) #Uses variables to control the colour change each loop    
+  red = red+40     
+  blue = blue-30     
+  translate(33, 0) #Move along the x coordinate by the width of a tooth    
 
 
 --- /code ---
