@@ -48,7 +48,7 @@ line_number_start: 6
 line_highlights: 7
 ---
 def setup():   
-    size(400, 400) #400 by 400 works well for a round face
+    size(400, 400)  # 400 by 400 works well for a round face
 
 --- /code ---
 
@@ -76,7 +76,7 @@ line_numbers: true
 line_number_start: 9
 line_highlights: 9
 ---
-    background(255, 255, 255) #Try different numbers to change the colour 
+    background(255, 255, 255)  # Try different numbers to change the colour 
 
 --- /code ---
 
@@ -95,7 +95,7 @@ To turn the grid off add a `#` in front of the code, to turn it back on remove t
 language: python
 filename: main.py - draw()
 ---
-    grid() #Shows grid 
+    grid()  # Shows grid 
 
 --- /code ---
 
@@ -104,7 +104,7 @@ filename: main.py - draw()
 language: python
 filename: main.py - draw()
 ---
-    #grid() #Hide grid by turning it into a comment 
+    #grid()  # Hide grid by turning it into a comment 
 
 --- /code ---
 
@@ -115,7 +115,6 @@ filename: main.py - draw()
 **Test:** Run your project to see your chosen screen size and background colour. 
 
 --- /task ---
-
 
 --- task ---
 
