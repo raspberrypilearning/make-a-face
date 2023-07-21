@@ -26,26 +26,20 @@ You are going to make some design decisions about the kind of face you will make
 
 Look at these examples and think about how they have been made from circles, ellipses, squares, rectangles, and triangles.
 
-**Kawaii fruit**: [See inside](https://editor.raspberrypi.org/en/projects/fruit-face-example){:target="_blank"}
-<div>
-  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/fruit-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+**Kawaii fruit**:
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/fruit-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
+[See inside](https://editor.raspberrypi.org/en/projects/fruit-face-example){:target="_blank"}
 
-**Stacked faces**: [See inside](https://editor.raspberrypi.org/en/projects/stacked-faces-example){:target="_blank"}
-<div>
-  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/stacked-faces-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+**Stacked faces**:
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/stacked-faces-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
+[See inside](https://editor.raspberrypi.org/en/projects/stacked-faces-example){:target="_blank"}
 
-**Tribal mask**: [See inside](https://editor.raspberrypi.org/en/projects/tribal-mask-example){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/tribal-mask-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
-
-</div>
-</div>
+**Tribal mask**:
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/tribal-mask-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
+[See inside](https://editor.raspberrypi.org/en/projects/tribal-mask-example){:target="_blank"}
 
 --- /task ---
 

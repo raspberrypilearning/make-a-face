@@ -13,7 +13,7 @@ Draw and colour a shape for your face or mask. Don't add the other features just
 
 Decide on the main shape of the face for your mask. It could be a circle, an ellipse, a rectangle, or even a triangle.
 
-Add code to the `draw()` function to draw a face or mask. Make sure you also remove `pass` from inside the function.
+Add code to the `draw()` function to draw a face or mask.
 
 This example draws a black circle in the middle, but it's up to you which shape and colour to use.
 

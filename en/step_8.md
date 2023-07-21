@@ -8,17 +8,15 @@ Here are some other ideas you could try:
 - Add interactivity — try our **Interactive: Theatre Mask**, what happens when you move your mouse across the screen?  
 - Add animation — try our **Animated: Frida**, what happens to Frida's headband when you run the project? 
 
-**Interactive: Theatre Mask**: [See inside](https://editor.raspberrypi.org/en/projects/interactive-face-example){:target="_blank"}
-<div>
-  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/interactive-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+**Interactive: Theatre Mask**: 
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/interactive-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
+[See inside](https://editor.raspberrypi.org/en/projects/interactive-face-example){:target="_blank"}
 
-**Animated: Frida**: [See inside](https://editor.raspberrypi.org/en/projects/animated-face-example){:target="_blank"}
-<div>
-  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/animated-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+**Animated: Frida**: 
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/animated-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
+[See inside](https://editor.raspberrypi.org/en/projects/animated-face-example){:target="_blank"}
 
 Take a look at our [Make a face - Community library](https://wke.lt/w/s/8sVH4f){:target="_blank"} to see projects created by community members.
 

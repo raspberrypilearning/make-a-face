@@ -4,7 +4,7 @@ If you are following the [Introduction to Python](https://projects.raspberrypi.o
 
 --- print-only ---
 
-![An example creation from the don't collide project showing a baloon floating in a desert with cacti](images/dont-collide.png)
+![An example creation from the don't collide project showing a balloon floating in a desert with cacti](images/dont-collide.png)
 
 --- /print-only ---
 
