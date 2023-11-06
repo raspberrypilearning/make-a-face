@@ -13,7 +13,7 @@
 
 マスクの顔の主な形を決定します。 円、楕円、長方形、さらには三角形の場合もあります。
 
-`draw()`関数にコードを追加して、顔またはマスクを描画します。 関数内から`pass`も削除してください。
+`draw()`関数にコードを追加して、顔またはマスクを描画します。
 
 この例では、中央に円を描きますが、どの形状を使用するかはあなた次第です。
 
@@ -23,8 +23,12 @@ language: python filename: main.py - draw() line_numbers: true line_number_start
 line_highlights: 12
 ---
 
-def draw():   
-ellipse(width/2, height/2, 200, 200) #Circle in the middle
+def draw(): # Put code to run every frame here background(255, 255, 255)  # Change to your background colour
+
+    # Add code to draw your face here
+    ellipse(width/2, height/2, 200, 200)  # Circle in the middle
+    
+    grid()  # add a # to the beginning of this line to hide the grid
 
 --- /code ---
 
@@ -60,7 +64,10 @@ language: python filename: main.py - draw() line_numbers: true line_number_start
 line_highlights: 13
 ---
 
-def draw(): stroke(0) #You can also use no_stroke() fill(255, 255, 0) #Bright yellow ellipse(width/2, height/2, 200, 200) #Circle in the middle
+    def draw():
+      stroke(0) #no_stroke()を使用することもできます 
+      fill(255, 255, 0) #鮮明な黄色
+      ellipse(width/2, height/2, 200, 200) #真ん中の円
 
 --- /code ---
 
