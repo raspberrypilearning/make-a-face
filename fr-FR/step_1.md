@@ -22,30 +22,21 @@ Tu vas prendre des décisions de conception concernant le type de visage que tu 
 
 --- task ---
 <div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
+<div style="flex-basis: 175px; flex-grow: 1">
 
 Regarde ces exemples et réfléchis à la façon dont ils ont été créés à partir de cercles, d'ellipses, de carrés, de rectangles et de triangles.
 
-**Fruits kawaii** : [Voir à l'intérieur](https://trinket.io/python/6bad88800b){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/6bad88800b?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+**Kawaii fruit**:
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/fruit-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> **Visages empilés** : \[Voir à l'intérieur\](https://trinket.io/python/5afc474e8a){:target="_blank"}
 
-**Visages empilés** : [Voir à l'intérieur](https://trinket.io/python/f90794771c){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/f90794771c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+**Stacked faces**:
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/stacked-faces-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> Voir à l'intérieur des exemples de projets dans le studio Scratch [Python 1 : Faire un visage — Exemples](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"}.
 
-**Masque tribal** : [Voir à l'intérieur](https://trinket. io/python/b876d500ab){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/b876d500ab?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
-
-</div>
-</div>
+**Tribal mask**:
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/tribal-mask-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> **Masque tribal** : \[Voir à l'intérieur\](https://trinket.io/python/af20662d9e){:target="_blank"}
 
 --- /task ---
 
@@ -53,11 +44,11 @@ Regarde ces exemples et réfléchis à la façon dont ils ont été créés à p
 
 --- print-only ---
 
-### Trouve l'inspiration 💭
+### Trouve l'inspiration
 
 Tu vas prendre des décisions de conception concernant le type de visage que tu vas créer et la manière dont tu utiliseras le code pour obtenir l'effet souhaité.
 
-Voir à l'intérieur des exemples de projets dans le studio Scratch [Python 1: Make a face — Examples](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"}.
+Investigate the example projects above, see if you can identify the shapes used to make the faces. You can click **See inside** to view the code.
 
 ![La zone de sortie du projet de fruits Kawaii.](images/smile.png) ![La zone de sortie du projet Visages empilés.](images/stacked.png) ![La zone de sortie du projet Masque tribal.](images/tribal.png)
 
