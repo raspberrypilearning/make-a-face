@@ -40,10 +40,10 @@ language: python
 filename: main.py - draw()
 ---
 
-  #Highlights    
-fill(255, 255, 255, 70) #70 is transparency/opacity here    
-ellipse(170, 150, 35, 35)   
-ellipse(150, 160, 25, 25)
+    #Zones claires<br x-id="3" />
+      fill(255, 255, 255, 70) #70 est la transparence/opacité ici<br x-id="4" />
+      ellipse(170, 150, 35, 35)<br x-id="3" />
+      ellipse(150, 160, 25, 25)
 
 --- /code ---
 
