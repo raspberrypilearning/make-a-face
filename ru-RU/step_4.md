@@ -32,7 +32,11 @@ In this example, `160` and `240` are both `40` pixels away from 200, which works
 language: python
 filename: main.py - draw()
 ---
-  fill(0, 0, 0) #Black — change to red, green, or blue up to 255 eye_size = 50 ellipse(160, 180, eye_size, eye_size) #x, y, width, height ellipse(240, 180, eye_size, eye_size)
+
+    fill(0, 0, 0)  # Black — change to red, green, or blue up to 255
+    eye_size = 50
+    ellipse(160, 180, eye_size, eye_size)  # x, y, width, height
+    ellipse(240, 180, eye_size, eye_size)
 
 --- /code ---
 
@@ -54,7 +58,10 @@ language: python
 filename: main.py - draw()
 ---
 
-  fill(0, 0, 0) #Black — change to red, green, or blue up to 255 eye_size = 50 ellipse( (width / 2) - 40, 180, eye_size, eye_size) #x, y, width, height ellipse( (width / 2) + 40 , 180, eye_size, eye_size)
+    fill(0, 0, 0)  # Black — change to red, green, or blue up to 255
+    eye_size = 50
+    ellipse( (width / 2) - 40, 180, eye_size, eye_size)  # x, y, width, height
+    ellipse( (width / 2) + 40 , 180, eye_size, eye_size)
 
 --- /code ---
 
@@ -66,7 +73,9 @@ language: python
 filename: main.py - draw()
 ---
 
-  fill(0, 0, 0) #Black — change to red, green, or blue up to 255 ellipse( (width / 2) - (width / 10) , 180, eye_size, eye_size) #x, y, width, height ellipse( (width / 2) + (width / 10) , 180, eye_size, eye_size)
+    fill(0, 0, 0)  # Black — change to red, green, or blue up to 255
+    ellipse( (width / 2) - (width / 10) , 180, eye_size, eye_size)  # x, y, width, height
+    ellipse( (width / 2) + (width / 10) , 180, eye_size, eye_size)
 
 --- /code ---
 
