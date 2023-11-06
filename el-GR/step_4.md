@@ -32,11 +32,15 @@
 language: python
 filename: main.py - draw()
 ---
-  fill(0, 0, 0) #Black — change to red, green, or blue up to 255 eye_size = 50 ellipse(160, 180, eye_size, eye_size) #x, y, width, height ellipse(240, 180, eye_size, eye_size)
+
+    fill(0, 0, 0)  # Black — change to red, green, or blue up to 255
+    eye_size = 50
+    ellipse(160, 180, eye_size, eye_size)  # x, y, width, height
+    ellipse(240, 180, eye_size, eye_size)
 
 --- /code ---
 
-**Συμβουλή:** Εάν θέλεις στρογγυλά μάτια, τότε χρησιμοποιώντας μια μεταβλητή `eye_size` διευκολύνεις την αλλαγή του πλάτους και του ύψους και των δύο ματιών σε ένα σημείο.
+**Tip:** If you want round eyes, then using an `eye_size` variable makes it easier to change the width and height of both eyes in one place.
 
 [[[processing-python-ellipse]]]
 
@@ -46,7 +50,7 @@ filename: main.py - draw()
 title: Υπολογισμός θέσεων με βάση το πλάτος
 ---
 
-Το κέντρο ενός σχεδίου βρίσκεται στη θέση `width / 2` δηλαδή στο μισό του πλάτους. Μπορείς να το χρησιμοποιήσεις για να τοποθετήσεις τα μάτια αφαιρώντας το πλάτος του ματιού για το αριστερό μάτι και προσθέτοντάς το για το δεξί μάτι:
+The centre of a drawing is at position `width / 2` or half the width. You can use this to position the eyes by subtracting the eye width for the left eye and adding it for the right eye:
 
 --- code ---
 ---
@@ -54,11 +58,14 @@ language: python
 filename: main.py - draw()
 ---
 
-  fill(0, 0, 0) #Black — change to red, green, or blue up to 255 eye_size = 50 ellipse( (width / 2) - 40, 180, eye_size, eye_size) #x, y, width, height ellipse( (width / 2) + 40 , 180, eye_size, eye_size)
+    fill(0, 0, 0)  # Black — change to red, green, or blue up to 255
+    eye_size = 50
+    ellipse( (width / 2) - 40, 180, eye_size, eye_size)  # x, y, width, height
+    ellipse( (width / 2) + 40 , 180, eye_size, eye_size)
 
 --- /code ---
 
-Θα μπορούσες επίσης να υπολογίσεις το πλάτος των ματιών με βάση το πλάτος του σχεδίου.
+fill(0, 0, 0) #Μαύρο — άλλαξε σε κόκκινο, πράσινο ή μπλε έως 255 eye_size = 50 ellipse( (width / 2) - 40, 180, eye_size, eye_size) #x, y, πλάτος, ύψος ellipse( (width / 2) + 40 , 180, eye_size, eye_size)
 
 --- code ---
 ---
@@ -66,21 +73,23 @@ language: python
 filename: main.py - draw()
 ---
 
-  fill(0, 0, 0) #Black — change to red, green, or blue up to 255 ellipse( (width / 2) - (width / 10) , 180, eye_size, eye_size) #x, y, width, height ellipse( (width / 2) + (width / 10) , 180, eye_size, eye_size)
+    fill(0, 0, 0)  # Black — change to red, green, or blue up to 255
+    ellipse( (width / 2) - (width / 10) , 180, eye_size, eye_size)  # x, y, width, height
+    ellipse( (width / 2) + (width / 10) , 180, eye_size, eye_size)
 
 --- /code ---
 
 --- /collapse ---
 
-Άλλαξε τον δεύτερο αριθμό στην κλήση συνάρτησης `ellipse` για να μετακινήσεις τη θέση `y` των ματιών (κατακόρυφα).
+fill(0, 0, 0) #Μαύρο — άλλαξε σε κόκκινο, πράσινο ή μπλε έως 255 ellipse( (width / 2) - (width / 10) , 180, eye_size, eye_size) #x, y, πλάτος, ύψος ellipse( (width / 2) + (width / 10) , 180, eye_size, eye_size)
 
 --- /task ---
 
 --- task ---
 
-**Τεστ:** Συνέχισε να αλλάζεις το σχήμα και τη θέση των ματιών μέχρι να σου αρέσει η εμφάνιση τους.
+Άλλαξε τον δεύτερο αριθμό στην κλήση συνάρτησης `ellipse` για να μετακινήσεις τη θέση `y` των ματιών (κατακόρυφα).
 
-**Συμβουλή:** Εάν έχεις ορίσει ένα περίγραμμα για το σχέδιο του προσώπου και δεν θέλεις ένα για τα μάτια, τότε θα χρειαστεί να καλέσεις το `no_stroke()` πριν σχεδιάσετε τα μάτια.
+**Tip:** If you set a stroke for drawing the face and don't want one for the eyes, then you will need to call `no_stroke()` before drawing the eyes.
 
 [[[processing-stroke]]]
 
@@ -90,17 +99,17 @@ filename: main.py - draw()
 
 ### Πρόσθεσε λεπτομέρεια
 
-Μπορείς να χρησιμοποιήσεις περισσότερους κύκλους για να δημιουργήσεις:
+You can use more circles to create:
 + Χρωματιστές ίριδες
 + Μαύρες κόρες
 + Λευκές αντανακλάσεις του φωτός στα μάτια
 + Ή κάτι άλλο
 
-Αυτό το μάτι έχει έγχρωμη ίριδα, μαύρη κόρη και λευκές αντανακλάσεις με αλλαγμένη αδιαφάνεια: ![Η περιοχή εξόδου δείχνει ένα μάτι με αντανάκλαση του φωτός πάνω από την κόρη και την ίριδα.](images/catchlights.png)
+This eye has a coloured iris, black pupil, and white catchlights with changed opacity: ![The output area showing an eye with catchlights over the pupil and iris.](images/catchlights.png)
 
 \[[[generic-theory-simple-colours]]\] \[[[processing-opacity\]]]
 
-Μπορείς επίσης να ζωντανέψεις τα μάτια περιστρέφοντάς τα.
+Μπορείς να χρησιμοποιήσεις περισσότερους κύκλους για να δημιουργήσεις:
 
 [[[processing-rotation]]]
 
@@ -108,22 +117,22 @@ filename: main.py - draw()
 
 --- task ---
 
-**Τεστ:** Συνέχισε να αλλάζεις τα μάτια μέχρι να σου αρέσει η εμφάνιση τους.
+**Test:** Keep changing the eyes until you like the way they look.
 
-Αρχίζει το σχέδιό σου να μοιάζει με πρόσωπο;
+Is your drawing starting to look like a face?
 
 --- /task ---
 
 --- task ---
 
-**Εντοπισμός σφαλμάτων:** Ενδέχεται να βρεις κάποια σφάλματα στο έργο σου που πρέπει να διορθώσεις. Εδώ είναι μερικά συνηθισμένα σφάλματα.
+**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
 
 --- collapse ---
 ---
 title: Τα μάτια δεν είναι κεντραρισμένα
 ---
 
-Θα μπορούσες να χρησιμοποιήσεις το `height / 2` για να τα τοποθετήσεις στο κέντρο.
+You could use `height / 2` to place them in the centre.
 
 --- /collapse ---
 
@@ -132,7 +141,7 @@ title: Τα μάτια δεν είναι κεντραρισμένα
 title: Τα μάτια δεν είναι ευθυγραμμισμένα μεταξύ τους
 ---
 
-Εάν θέλεις τα μάτια να είναι ευθυγραμμισμένα, τότε βεβαιώσου ότι χρησιμοποιείς τον ίδιο αριθμό για τις συντεταγμένες και για τα δύο μάτια. Δοκίμασε να χρησιμοποιήσεις μια μεταβλητή έτσι ώστε οι τιμές να είναι πάντα οι ίδιες.
+If you want the eyes to be aligned, then make sure you use the same number for the coordinates for both eyes. Try using a variable so that the values are always the same.
 
 --- /collapse ---
 
@@ -142,9 +151,9 @@ title: Τα μάτια δεν είναι ευθυγραμμισμένα μετα
 title: Δεν μπορώ να δω την κόρη ή την ίριδα
 ---
 
-Πρώτα πρέπει να ζωγραφιστεί το μάτι, μετά η ίριδα και τέλος η κόρη. Η σειρά με την οποία σχεδιάζεις τα πράγματα είναι πολύ σημαντική.
+The eye needs to be drawn first, then the iris, and finally the pupil. The order in which you draw things is very important.
 
-Τα γραφικά υπολογιστών αποτελούνται από στρώσεις. Στο μάτι σου, κάθε έλλειψη είναι μια στρώση. Τα αντικείμενα σε υψηλότερες στρώσεις κάθονται μπροστά από τα αντικείμενα χαμηλότερων στρώσεων. Φαντάσου να κόβεις όλα τα σχήματα από χαρτί. Ανάλογα με τον τρόπο με τον οποίο τακτοποιείς και επικαλύπτεις αυτό το χαρτί, το τελικό αποτέλεσμα μπορεί να φαίνεται πολύ διαφορετικό.
+Computer graphics are made of layers. In your eye, each ellipse is a layer. Objects on higher layers sit in front of objects on lower layers. Imagine cutting all the shapes out of paper. Depending on how you arrange and overlap that paper, the final result could look very different.
 
 --- /collapse ---
 
@@ -154,9 +163,9 @@ title: Δεν μπορώ να δω την κόρη ή την ίριδα
 title: Τα μάτια μου δεν είναι στρογγυλά
 ---
 
-Ο τρίτος και ο τέταρτος αριθμός στο `ellipse` είναι το πλάτος και το ύψος των ματιών.
+The third and fourth numbers in `ellipse` are the width and height of the eyes.
 
-**Συμβουλή:** Αν τα κάνεις ίδια, θα έχεις στρογγυλά μάτια.
+**Tip:** If you make them the same, you will get round eyes.
 
 --- /collapse ---
 
