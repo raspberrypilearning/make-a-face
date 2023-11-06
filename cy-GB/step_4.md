@@ -32,11 +32,15 @@ Yn yr enghraifft hon, mae `160` a `240` `40` picsel i ffwrdd o 200, sy'n gweithi
 language: python
 filename: main.py - draw()
 ---
-  fill(0, 0, 0) #Black — change to red, green, or blue up to 255 eye_size = 50 ellipse(160, 180, eye_size, eye_size) #x, y, width, height ellipse(240, 180, eye_size, eye_size)
+
+    fill(0, 0, 0)  # Black — change to red, green, or blue up to 255
+    eye_size = 50
+    ellipse(160, 180, eye_size, eye_size)  # x, y, width, height
+    ellipse(240, 180, eye_size, eye_size)
 
 --- /code ---
 
-**Cyngor:** Os hoffech chi gael llygaid crwn, mae defnyddio newidyn `maint_llygaid` yn ei gwneud hi'n haws newid lled ac uchder y ddwy lygad mewn un lle.
+**Tip:** If you want round eyes, then using an `eye_size` variable makes it easier to change the width and height of both eyes in one place.
 
 [[[processing-python-ellipse]]]
 
@@ -46,7 +50,7 @@ filename: main.py - draw()
 title: Cyfrifo lleoliad ar sail lled
 ---
 
-Mae canol lluniad yn y safle `width / 2` neu hanner y lled. Fe allwch chi ddefnyddio hyn i leoli'r llygaid drwy dynnu lled y llygad ar gyfer y llygad chwith a'i ychwanegu ar gyfer y llygad dde:
+The centre of a drawing is at position `width / 2` or half the width. You can use this to position the eyes by subtracting the eye width for the left eye and adding it for the right eye:
 
 --- code ---
 ---
@@ -54,11 +58,14 @@ language: python
 filename: main.py - draw()
 ---
 
-  fill(0, 0, 0) #Black — change to red, green, or blue up to 255 eye_size = 50 ellipse( (width / 2) - 40, 180, eye_size, eye_size) #x, y, width, height ellipse( (width / 2) + 40 , 180, eye_size, eye_size)
+    fill(0, 0, 0)  # Black — change to red, green, or blue up to 255
+    eye_size = 50
+    ellipse( (width / 2) - 40, 180, eye_size, eye_size)  # x, y, width, height
+    ellipse( (width / 2) + 40 , 180, eye_size, eye_size)
 
 --- /code ---
 
-Fe allech chi hefyd gyfrifo lled y llygaid ar sail lled y lluniad.
+fill(0, 0, 0) #Du — newid i goch, gwyrdd neu las hyd at 255 maint_llygaid = 50 ellipse( (width / 2) - 40, 180, maint_llygaid, maint_llygaid) #x, y, lled, uchder ellipse( (width / 2) + 40 , 180, maint_llygaid, maint_llygaid)
 
 --- code ---
 ---
@@ -66,21 +73,23 @@ language: python
 filename: main.py - draw()
 ---
 
-  fill(0, 0, 0) #Black — change to red, green, or blue up to 255 ellipse( (width / 2) - (width / 10) , 180, eye_size, eye_size) #x, y, width, height ellipse( (width / 2) + (width / 10) , 180, eye_size, eye_size)
+    fill(0, 0, 0)  # Black — change to red, green, or blue up to 255
+    ellipse( (width / 2) - (width / 10) , 180, eye_size, eye_size)  # x, y, width, height
+    ellipse( (width / 2) + (width / 10) , 180, eye_size, eye_size)
 
 --- /code ---
 
 --- /collapse ---
 
-Newidiwch yr ail rif yn yr alwad swyddogaeth `ellipse` i symud safle `y` (fertigol) y llygaid.
+fill(0, 0, 0) #Du — newid i goch, gwyrdd neu las hyd at 255 ellipse( (width / 2) - (width / 10) , 180, maint_llygaid, maint_llygaid) #x, y, lled, uchder ellipse( (width / 2) + (width / 10) , 180, maint_llygaid, maint_llygaid)
 
 --- /task ---
 
 --- task ---
 
-**Profi:** Daliwch ati i newid siâp a safle'r llygaid nes eich bod yn fodlon ar sut maen nhw'n edrych.
+Newidiwch yr ail rif yn yr alwad swyddogaeth `ellipse` i symud safle `y` (fertigol) y llygaid.
 
-**Cyngor:** Os ydych chi'n gosod strôc ar gyfer llunio'r wyneb ond nad ydych chi eisiau un ar gyfer y llygaid, bydd angen i chi alw `no_stroke()` cyn llunio'r llygaid.
+**Tip:** If you set a stroke for drawing the face and don't want one for the eyes, then you will need to call `no_stroke()` before drawing the eyes.
 
 [[[processing-stroke]]]
 
@@ -90,17 +99,17 @@ Newidiwch yr ail rif yn yr alwad swyddogaeth `ellipse` i symud safle `y` (fertig
 
 ### Ychwanegu manylion
 
-Fe allwch chi ddefnyddio mwy o gylchoedd i greu:
+You can use more circles to create:
 + Irisau lliw
 + Canwyllau llygaid du
 + Goleubwyntiau gwyn
 + Neu rywbeth arall!
 
-Mae gan y llygad hon iris lliw, cannwyll llygad ddu a goleubwyntiau gwyn gydag afloywder wedi'i newid: ![Yr ardal allbwn yn dangos llygad gyda goleubwyntiau dros gannwyll y llygad a'r iris.](images/catchlights.png)
+This eye has a coloured iris, black pupil, and white catchlights with changed opacity: ![The output area showing an eye with catchlights over the pupil and iris.](images/catchlights.png)
 
 \[[[generic-theory-simple-colours]]\] \[[[processing-opacity\]]]
 
-Fe allwch chi hefyd animeiddio'r llygaid drwy eu cylchdroi.
+Fe allwch chi ddefnyddio mwy o gylchoedd i greu:
 
 [[[processing-rotation]]]
 
@@ -108,22 +117,22 @@ Fe allwch chi hefyd animeiddio'r llygaid drwy eu cylchdroi.
 
 --- task ---
 
-**Profi:** Daliwch ati i newid y llygaid nes eich bod yn fodlon ar sut maen nhw'n edrych.
+**Test:** Keep changing the eyes until you like the way they look.
 
-Yw eich lluniad yn dechrau edrych fel wyneb?
+Is your drawing starting to look like a face?
 
 --- /task ---
 
 --- task ---
 
-**Difa chwilod:** Efallai bydd angen i chi drwsio chwilod yn eich prosiect. Dyma rai chwilod cyffredin.
+**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
 
 --- collapse ---
 ---
 title: Dydy'r llygaid ddim wedi'u canoli
 ---
 
-Fe allech chi ddefnyddio `height / 2` i'w lleoli yn y canol.
+You could use `height / 2` to place them in the centre.
 
 --- /collapse ---
 
@@ -132,7 +141,7 @@ Fe allech chi ddefnyddio `height / 2` i'w lleoli yn y canol.
 title: Dydy'r llygaid ddim yn gyflin
 ---
 
-Os ydych chi am i'r llygaid fod yn gyflin, gwnewch yn siŵr eich bod yn defnyddio'r un rhif ar gyfer cyfesurynnau'r ddwy lygad. Rhowch gynnig ar ddefnyddio newidyn fel bod y gwerthoedd yr un fath bob amser.
+If you want the eyes to be aligned, then make sure you use the same number for the coordinates for both eyes. Try using a variable so that the values are always the same.
 
 --- /collapse ---
 
@@ -142,9 +151,9 @@ Os ydych chi am i'r llygaid fod yn gyflin, gwnewch yn siŵr eich bod yn defnyddi
 title: Dydw i ddim yn gallu gweld cannwyll y llygad neu'r iris
 ---
 
-Mae angen llunio'r llygad gyntaf, yna'r iris, a channwyll y llygad yn olaf. Mae'r drefn rydych chi'n llunio pethau ynddi yn bwysig iawn.
+The eye needs to be drawn first, then the iris, and finally the pupil. The order in which you draw things is very important.
 
-Mae graffeg cyfrifiadurol wedi'i gwneud o haenau. Yn eich llygad, mae pob elips yn haen. Mae gwrthrychau ar haenau uwch yn eistedd o flaen gwrthrychau ar haenau is. Dychmygwch dorri'r holl siapiau allan o bapur. Yn dibynnu ar sut rydych chi'n trefnu ac yn croesi'r papur hwnnw, gallai'r canlyniad edrych yn wahanol iawn.
+Computer graphics are made of layers. In your eye, each ellipse is a layer. Objects on higher layers sit in front of objects on lower layers. Imagine cutting all the shapes out of paper. Depending on how you arrange and overlap that paper, the final result could look very different.
 
 --- /collapse ---
 
@@ -154,9 +163,9 @@ Mae graffeg cyfrifiadurol wedi'i gwneud o haenau. Yn eich llygad, mae pob elips 
 title: Dydy fy llygaid ddim yn grwn
 ---
 
-Y trydydd a'r pedwerydd rhif yn `ellipse` yw lled ac uchder y llygaid.
+Mae graffeg cyfrifiadurol wedi'i gwneud o haenau. Yn eich llygad, mae pob elips yn haen. Mae gwrthrychau ar haenau uwch yn eistedd o flaen gwrthrychau ar haenau is. Dychmygwch dorri'r holl siapiau allan o bapur. Yn dibynnu ar sut rydych chi'n trefnu ac yn croesi'r papur hwnnw, gallai'r canlyniad edrych yn wahanol iawn.
 
-**Cyngor:** Os byddwch chi'n eu gwneud yr un fath, byddwch chi'n cael llygaid crwn.
+**Tip:** If you make them the same, you will get round eyes.
 
 --- /collapse ---
 
