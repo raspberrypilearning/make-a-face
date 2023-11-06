@@ -1,42 +1,42 @@
-## Choose a theme
+## Escolha um tema
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Have you got an idea about the kind of face or mask you want to make? Use this step to plan your art and set up your canvas.
+Você tem uma ideia sobre o tipo de rosto ou máscara que deseja fazer? Use esta etapa para planejar sua arte e configurar sua tela.
 </div>
 <div>
-![The output area with a vampire-themed face.](images/vampire.png){:width="200px"}
+![A área de saída com um rosto com tema de vampiro.](images/vampire.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-Open the [starter project](https://trinket.io/library/trinkets/54d15b9cdf){:target="_blank"}. O Trinket será aberto em outra aba do navegador.
+Open the [starter project](https://editor.raspberrypi.org/en/projects/make-face-starter){:target="_blank"}. The Raspberry Pi code editor will open in another browser tab.
 
 --- /task ---
 
 --- task ---
 
-**Choose:** Think about the kind of face you want to make:
-+ Do you want to choose something from your heritage or popular culture?
-+ Will your art show a human, animal, something mythical, or perhaps a machine?
-+ You might even want to create a self-portrait!
-+ You could draw an emoji to share with your friends
+**Escolha:** Pense no tipo de rosto que deseja fazer:
++ Você quer escolher algo de sua herança ou cultura popular?
++ Sua arte mostrará um ser humano, animal, algo mítico ou talvez uma máquina?
++ Você pode até querer criar um autorretrato!
++ Você pode desenhar um emoji para compartilhar com seus amigos
 
 --- /task ---
 
 --- task ---
 
-The first thing to do when creating art using the Python `Processing library` is to add `def setup():` to define a `setup` function that is run once at the beginning of your program.
+A primeira coisa a fazer ao criar arte usando a `Biblioteca de processamento` Python é adicionar `def setup():` para definir uma função `setup` que é executada uma vez no início do seu programa.
 
-The starter project has a `setup` function that sets the `size` of your canvas to `400` width and `400` height.
+O projeto inicial tem uma função `setup` que define o `tamanho` da sua tela para `400` largura e `400` de altura.
 
-**Choose:** Experiment with the numbers and run your code to find a size that you are happy with.
+**Escolha:** Experimente os números e execute seu código para encontrar um tamanho que lhe agrade.
 
 --- collapse ---
 
 ---
-title: Setting the screen size when your program starts
+título: Configurando o tamanho da tela quando seu programa inicia
 ---
 
 --- code ---
@@ -45,7 +45,7 @@ language: python filename: main.py - setup() line_numbers: true line_number_star
 line_highlights: 7
 ---
 def setup():   
-size(400, 400) #400 by 400 works well for a round face
+size(400, 400)  # 400 by 400 works well for a round face
 
 --- /code ---
 
@@ -55,14 +55,14 @@ size(400, 400) #400 by 400 works well for a round face
 
 --- task ---
 
-**Choose:** Think about the colours you will use for your face and change the `background` colour values to set your screen to a complementary colour.
+**Escolha:** Pense nas cores que você usará para o seu rosto e altere os valores das cores de `fundo` para definir sua tela com uma cor complementar.
 
 [[[generic-theory-simple-colours]]]
 
 --- collapse ---
 
 ---
-title: Setting the background colour when your program starts
+título: Definindo a cor de fundo quando seu programa inicia
 ---
 
 --- code ---
@@ -71,7 +71,7 @@ language: python filename: main.py - draw() line_numbers: true line_number_start
 line_highlights: 9
 ---
 
-    background(255, 255, 255) #Try different numbers to change the colour
+    background(255, 255, 255)  # Try different numbers to change the colour
 
 --- /code ---
 
@@ -81,9 +81,9 @@ line_highlights: 9
 
 --- task ---
 
-**Tip:** The `draw` function has `grid()` code. This adds a coordinates grid over your background that helps you work out where to position features on your face.
+**Dica:** A função `draw` tem código `grid()`. Isso adiciona uma grade de coordenadas sobre o plano de fundo que ajuda você a descobrir onde posicionar características em seu rosto.
 
-To turn the grid off add a `#` in front of the code, to turn it back on remove the `#`.
+Para desativar a grade, adicione um `#` na frente do código, para ativá-la novamente, remova o `#`.
 
 --- code ---
 ---
@@ -91,7 +91,7 @@ language: python
 filename: main.py - draw()
 ---
 
-    grid() #Shows grid
+    grid()  # Shows grid
 
 --- /code ---
 
@@ -101,7 +101,7 @@ language: python
 filename: main.py - draw()
 ---
 
-    #grid() #Hide grid by turning it into a comment
+    #grid()  # Hide grid by turning it into a comment
 
 --- /code ---
 
@@ -109,32 +109,31 @@ filename: main.py - draw()
 
 --- task ---
 
-**Test:** Run your project to see your chosen screen size and background colour.
+**Teste:** Execute seu projeto para ver o tamanho de tela e a cor de fundo escolhidos.
 
 --- /task ---
 
-
 --- task ---
 
-**Depurar:** Você pode encontrar alguns bugs em seu projeto que precisa corrigir. Aqui estão alguns bugs comuns.
+**Depurar:** Você pode encontrar alguns erros em seu projeto que precisa corrigir. Aqui estão alguns erros comuns.
 
 --- collapse ---
 
 ---
-title: I've updated my size and colour but the output area stays the same
+título: Atualizei o tamanho e cor, mas a janela do programa permanece a mesma
 ---
 
-After changing the code, you will need to `run` your project to see the changes in the output area.
+After changing the code, you will need to **`Run`** your project to see the changes in the output area.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: I've tried different numbers but the background colour doesn't change
+título: Eu tentei diferentes números, mas a cor de fundo não se altera
 ---
 
-The maximum amount of red, green, or blue is `255`. Make sure all your `background` colour values are between `0` and `255`.
+O valor máximo de vermelho, verde ou azul é `255`. Tenha certeza de que todos os valores de cor de`fundo` estejam entre `0` e `255`.
 
 --- /collapse ---
 
