@@ -11,7 +11,7 @@
 
 --- task ---
 
-Відкрий [стартовий проєкт](https://trinket.io/library/trinkets/54d15b9cdf){:target="_blank"}. Trinket відкриється в окремій вкладці браузера.
+Open the [starter project](https://editor.raspberrypi.org/en/projects/make-face-starter){:target="_blank"}. The Raspberry Pi code editor will open in another browser tab.
 
 --- /task ---
 
@@ -29,7 +29,7 @@
 
 Перше, що необхідно зробити при створенні мистецтва за допомогою Python `Processing library`, додати `def setup():`, щоб визначити функцію `setup`, яка виконується один раз на початку твоєї програми.
 
-У стартовому проєкті використовується функція `setup`, яка задає `розмір` твого полотна на `400` - ширина, та `400` - висота.
+У стартовому проєкті використовується функція `setup`, яка задає `розмір (size)` твого полотна на `400` - ширина, та `400` - висота.
 
 **Обирай:** Експериментуй з числами та запускай код, щоб знайти розмір, який буде тобі до вподоби.
 
@@ -45,7 +45,7 @@ language: python filename: main.py - setup() line_numbers: true line_number_star
 line_highlights: 7
 ---
 def setup():   
-size(400, 400) #400 by 400 works well for a round face
+size(400, 400)  # 400 by 400 works well for a round face
 
 --- /code ---
 
@@ -71,7 +71,7 @@ language: python filename: main.py - draw() line_numbers: true line_number_start
 line_highlights: 9
 ---
 
-    background(255, 255, 255) #Try different numbers to change the colour
+    background(255, 255, 255) #Спробуй різні числа, щоб змінити колір
 
 --- /code ---
 
@@ -91,7 +91,7 @@ language: python
 filename: main.py - draw()
 ---
 
-    grid() #Shows grid
+    grid() #Показати сітку
 
 --- /code ---
 
@@ -101,7 +101,7 @@ language: python
 filename: main.py - draw()
 ---
 
-    #grid() #Hide grid by turning it into a comment
+    #grid() #Приховати сітку, перетворивши її в коментар
 
 --- /code ---
 
@@ -112,7 +112,6 @@ filename: main.py - draw()
 **Тест:** Запусти свій проєкт, щоб побачити розмір екрана та колір фону, які були обрані тобою.
 
 --- /task ---
-
 
 --- task ---
 
