@@ -13,18 +13,22 @@ Dibuja y colorea una forma para tu cara o máscara. No agregues las otras caract
 
 Decide la forma principal de la cara para tu máscara. Puede ser un círculo, una elipse, un rectángulo o incluso un triángulo.
 
-Agrega código a la función `dibujar()` para dibujar una cara o una máscara. Asegúrate de eliminar también `pasar` del interior de la función.
+Agrega código a la función `draw()` para dibujar una cara o una máscara.
 
 Este ejemplo dibuja un círculo en el medio, pero depende de ti qué forma usar.
 
 --- code ---
 ---
-language: python filename: main.py - draw() line_numbers: true line_number_start: 11
-line_highlights: 12
+language: python filename: main.py - draw() line_numbers: true line_number_start: 10
+line_highlights: 14, 15
 ---
 
-def draw():   
-ellipse(width/2, height/2, 200, 200) #Circle in the middle
+def draw(): # Put code to run every frame here background(255, 255, 255)  # Change to your background colour
+
+    # Add code to draw your face here
+    ellipse(width/2, height/2, 200, 200)  # Circle in the middle
+    
+    grid()  # add a # to the beginning of this line to hide the grid
 
 --- /code ---
 
@@ -56,11 +60,14 @@ Si no deseas un contorno utiliza `sin_contorno()`.
 
 --- code ---
 ---
-language: python filename: main.py - draw() line_numbers: true line_number_start: 11
-line_highlights: 13
+language: python filename: main.py - draw() line_numbers: true line_number_start: 13
+line_highlights: 14
 ---
 
-def draw(): stroke(0) #You can also use no_stroke() fill(255, 255, 0) #Bright yellow ellipse(width/2, height/2, 200, 200) #Circle in the middle
+    def draw(): 
+      stroke(0) #También puedes usar no_stroke() 
+      fill(255, 255, 0) #Amarillo brillante 
+      ellipse(width/2, height/2, 200, 200) #Círculo en medio
 
 --- /code ---
 
