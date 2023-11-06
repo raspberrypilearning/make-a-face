@@ -32,7 +32,11 @@ In dit voorbeeld liggen `160` en `240` allebei `40` pixels weg van 200, wat werk
 language: python
 filename: main.py - draw()
 ---
-  fill(0, 0, 0) #Black — change to red, green, or blue up to 255 eye_size = 50 ellipse(160, 180, eye_size, eye_size) #x, y, width, height ellipse(240, 180, eye_size, eye_size)
+
+    fill(0, 0, 0) #Zwart: Verander naar rood, groen of blauw tot 255
+      ooggrootte = 50 
+      ellipse(160, 180, ooggrootte, ooggrootte) #x, y, breedte, hoogte 
+      ellipse(240, 180, ooggrootte, ooggrootte)
 
 --- /code ---
 
@@ -46,7 +50,7 @@ filename: main.py - draw()
 title: Posities berekenen op basis van breedte
 ---
 
-Het midden van een tekening staat op positie `breedte / 2` of de helft van de breedte. Je kunt dit gebruiken om de ogen te positioneren door de oogbreedte voor het linkeroog af te trekken en op te tellen voor het rechteroog:
+Het midden van een tekening staat op positie `width / 2` of de helft van de breedte. Je kunt dit gebruiken om de ogen te positioneren door de oogbreedte voor het linkeroog af te trekken en op te tellen voor het rechteroog:
 
 --- code ---
 ---
@@ -54,7 +58,10 @@ language: python
 filename: main.py - draw()
 ---
 
-  fill(0, 0, 0) #Black — change to red, green, or blue up to 255 eye_size = 50 ellipse( (width / 2) - 40, 180, eye_size, eye_size) #x, y, width, height ellipse( (width / 2) + 40 , 180, eye_size, eye_size)
+    fill(0, 0, 0) #Zwart: Verander naar rood, groen of blauw tot 255
+      ooggrootte = 50 
+      ellipse( (width / 2) - 40, 180, ooggrootte, ooggrootte) #x, y, breedte, hoogte 
+      ellipse( (width / 2) + 40 , 180, ooggrootte, ooggrootte)
 
 --- /code ---
 
@@ -66,7 +73,9 @@ language: python
 filename: main.py - draw()
 ---
 
-  fill(0, 0, 0) #Black — change to red, green, or blue up to 255 ellipse( (width / 2) - (width / 10) , 180, eye_size, eye_size) #x, y, width, height ellipse( (width / 2) + (width / 10) , 180, eye_size, eye_size)
+    fill(0, 0, 0) #Zwart: Verander naar rood, groen of blauw tot 255
+      ellipse( (width / 2) - (width / 10) , 180, ooggrootte, ooggrootte) #x, y, breedte, hoogte 
+      ellipse( (width / 2) + (width / 10) , 180, ooggrootte, ooggrootte)
 
 --- /code ---
 
@@ -123,7 +132,7 @@ Begint je tekening op een gezicht te lijken?
 title: De ogen zijn niet gecentreerd
 ---
 
-Je zou `hoogte / 2` kunnen gebruiken om ze in het midden te plaatsen.
+Je zou `height / 2` kunnen gebruiken om ze in het midden te plaatsen.
 
 --- /collapse ---
 
