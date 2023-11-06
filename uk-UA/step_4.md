@@ -32,11 +32,15 @@
 language: python
 filename: main.py - draw()
 ---
-  fill(0, 0, 0) #Black — change to red, green, or blue up to 255 eye_size = 50 ellipse(160, 180, eye_size, eye_size) #x, y, width, height ellipse(240, 180, eye_size, eye_size)
+
+    fill(0, 0, 0)  # Black — change to red, green, or blue up to 255
+    eye_size = 50
+    ellipse(160, 180, eye_size, eye_size)  # x, y, width, height
+    ellipse(240, 180, eye_size, eye_size)
 
 --- /code ---
 
-**Порада:** Якщо ти хочеш круглі очі, скористайся змінною `eye_size`, щоб спростити зміну ширини та висоти обох очей одночасно.
+**Tip:** If you want round eyes, then using an `eye_size` variable makes it easier to change the width and height of both eyes in one place.
 
 [[[processing-python-ellipse]]]
 
@@ -46,7 +50,7 @@ filename: main.py - draw()
 title: Визначення позицій за допомогою ширини
 ---
 
-Центр малюнка знаходиться на позиції `width / 2` або на половині його ширини. Ти можеш використовувати це для розташування очей, віднімаючи ширину очей для лівого ока та додаючи її для правого ока:
+The centre of a drawing is at position `width / 2` or half the width. You can use this to position the eyes by subtracting the eye width for the left eye and adding it for the right eye:
 
 --- code ---
 ---
@@ -54,11 +58,14 @@ language: python
 filename: main.py - draw()
 ---
 
-  fill(0, 0, 0) #Black — change to red, green, or blue up to 255 eye_size = 50 ellipse( (width / 2) - 40, 180, eye_size, eye_size) #x, y, width, height ellipse( (width / 2) + 40 , 180, eye_size, eye_size)
+    fill(0, 0, 0)  # Black — change to red, green, or blue up to 255
+    eye_size = 50
+    ellipse( (width / 2) - 40, 180, eye_size, eye_size)  # x, y, width, height
+    ellipse( (width / 2) + 40 , 180, eye_size, eye_size)
 
 --- /code ---
 
-Також можеш розрахувати ширину очей, орієнтуючись на ширину малюнка.
+fill(0, 0, 0) #Чорний; можна змінити на червоний, зелений або синій до 255 eye_size = 50 ellipse( (width / 2) - 40, 180, eye_size, eye_size) #x, y, ширина, висота ellipse( (width / 2) + 40 , 180, eye_size, eye_size)
 
 --- code ---
 ---
@@ -66,21 +73,23 @@ language: python
 filename: main.py - draw()
 ---
 
-  fill(0, 0, 0) #Black — change to red, green, or blue up to 255 ellipse( (width / 2) - (width / 10) , 180, eye_size, eye_size) #x, y, width, height ellipse( (width / 2) + (width / 10) , 180, eye_size, eye_size)
+    fill(0, 0, 0)  # Black — change to red, green, or blue up to 255
+    ellipse( (width / 2) - (width / 10) , 180, eye_size, eye_size)  # x, y, width, height
+    ellipse( (width / 2) + (width / 10) , 180, eye_size, eye_size)
 
 --- /code ---
 
 --- /collapse ---
 
-Заміни друге число у функції `ellipse`, щоб перемістити `y` - (вертикальне) розташування очей.
+fill(0, 0, 0) #Чорний; можна змінити на червоний, зелений або синій до 255 ellipse( (width / 2) - (width / 10) , 180, eye_size, eye_size) #x, y, ширина, висота ellipse( (width / 2) + (width / 10) , 180, eye_size, eye_size)
 
 --- /task ---
 
 --- task ---
 
-**Тест:** Продовжуй змінювати фігуру та позицію очей до тих пір, поки не отримаєш бажаний результат.
+Заміни друге число у функції `ellipse`, щоб перемістити `y` - (вертикальне) розташування очей.
 
-**Порада:** Якщо при малюванні обличчя було створено обведення, а для очей його не потрібно, тобі потрібно викликати функцію `no_stroke()` перед тим, як намалювати очі.
+**Tip:** If you set a stroke for drawing the face and don't want one for the eyes, then you will need to call `no_stroke()` before drawing the eyes.
 
 [[[processing-stroke]]]
 
@@ -90,17 +99,17 @@ filename: main.py - draw()
 
 ### Додавання деталей
 
-Ти можеш використовувати більше кружечків, щоб створювати:
+You can use more circles to create:
 + Кольорові райдужки
 + Чорні зіниці
 + Білі світлові відблиски
 + Або щось інше
 
-Це око має кольорову райдужну оболонку, чорну зіницю та білі світлові відблиски з різною прозорістю: ![У зоні виводу зображено око з підсвічуванням зіниці та райдужної оболонки.](images/catchlights.png)
+This eye has a coloured iris, black pupil, and white catchlights with changed opacity: ![The output area showing an eye with catchlights over the pupil and iris.](images/catchlights.png)
 
 \[[[generic-theory-simple-colours]]\] \[[[processing-opacity\]]]
 
-Також можна оживити очі, додавши анімацію обертання.
+Ти можеш використовувати більше кружечків, щоб створювати:
 
 [[[processing-rotation]]]
 
@@ -108,22 +117,22 @@ filename: main.py - draw()
 
 --- task ---
 
-**Тест:** Продовжуй вносити зміни, поки очі не будуть виглядати так, як тобі подобається.
+**Test:** Keep changing the eyes until you like the way they look.
 
-Тепер твій малюнок починає бути схожим на обличчя?
+Is your drawing starting to look like a face?
 
 --- /task ---
 
 --- task ---
 
-**Налагодження:** Можливо, у твоєму проєкті знайдуться помилки, які потрібно буде виправити. Ось деякі поширені помилки.
+**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
 
 --- collapse ---
 ---
 title: Очі не знаходяться в центрі
 ---
 
-Можеш використати `height / 2`, щоб розташувати їх у центрі.
+You could use `height / 2` to place them in the centre.
 
 --- /collapse ---
 
@@ -132,7 +141,7 @@ title: Очі не знаходяться в центрі
 title: Очі не розташовані на одному рівні
 ---
 
-Якщо ти хочеш, щоб очі були на одному рівні, переконайся, що ти використовуєш однакові значення координат для обох очей. Спробуй скористатися змінною з однаковими значеннями.
+If you want the eyes to be aligned, then make sure you use the same number for the coordinates for both eyes. Try using a variable so that the values are always the same.
 
 --- /collapse ---
 
@@ -142,9 +151,9 @@ title: Очі не розташовані на одному рівні
 title: Зіницю або райдужну оболонку не видно
 ---
 
-Спочатку потрібно намалювати око, потім райдужну оболонку і, нарешті, зіницю. Порядок, в якому ти малюєш деталі, дуже важливий.
+The eye needs to be drawn first, then the iris, and finally the pupil. The order in which you draw things is very important.
 
-Комп'ютерна графіка побудована з багатьох шарів. У твоєму оці кожен овал - це шар. Об'єкти на вищих шарах знаходяться перед об'єктами на нижчих шарах. Уяви, що ти вирізаєш всі фігури з паперу. Залежно від того, як ти будеш розташовувати та накладати цей папір, кінцевий результат може виглядати зовсім по-різному.
+Computer graphics are made of layers. In your eye, each ellipse is a layer. Objects on higher layers sit in front of objects on lower layers. Imagine cutting all the shapes out of paper. Depending on how you arrange and overlap that paper, the final result could look very different.
 
 --- /collapse ---
 
@@ -154,9 +163,9 @@ title: Зіницю або райдужну оболонку не видно
 title: Очі не круглі
 ---
 
-Третє та четверте число в `ellipse` - це ширина та висота очей.
+The third and fourth numbers in `ellipse` are the width and height of the eyes.
 
-**Порада:** Якщо ти зробиш їх однаковими - отримаєш круглі очі.
+**Tip:** If you make them the same, you will get round eyes.
 
 --- /collapse ---
 
