@@ -1,38 +1,42 @@
-## Add eyes
+## Adicione olhos
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Eyes make a shape start to look like a face.
+Os olhos fazem uma forma começar a se parecer com um rosto.
 </div>
 <div>
-![The output area showing a face with eyes.](images/eyes.png){:width="200px"}
+![A área de saída mostrando um rosto com olhos.](images/eyes.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-Think about what kind of eyes your face needs. The simplest eyes are just two circles.
+Pense em que tipo de olhos seu rosto precisa. Os olhos mais simples são apenas dois círculos.
 
-You could add different coloured irises and pupils. You could add light highlights / catchlights in a different colour.
+Você pode adicionar íris e pupilas de cores diferentes. Você pode adicionar realces de luz / holofotes em uma cor diferente.
 
 --- /task ---
 
-Experiment with `ellipses` in the `draw` function to create the eyes you want.
+Experimente com `elipses` na função `draw` para criar os olhos que você deseja.
 
 --- task ---
 
-### Position the eyes
+### Posicione os olhos
 
-The first number in `ellipse` is the center of the eye. The eyes should be positioned the same distance from the centre of the drawing.
+O primeiro número na função `ellipse` é o centro do olho. Os olhos devem estar posicionados à mesma distância do centro do desenho.
 
-In this example, `160` and `240` are both `40` pixels away from 200, which works for a drawing with a width of 400.
+Neste exemplo, `160` e `240` estão ambos `40` píxeis de distância de 200, o que funciona para um desenho com uma largura de 400.
 
 --- code ---
 ---
 language: python
 filename: main.py - draw()
 ---
-  fill(0, 0, 0) #Black — change to red, green, or blue up to 255 eye_size = 50 ellipse(160, 180, eye_size, eye_size) #x, y, width, height ellipse(240, 180, eye_size, eye_size)
+
+    fill(0, 0, 0)  # Black — change to red, green, or blue up to 255
+    eye_size = 50
+    ellipse(160, 180, eye_size, eye_size)  # x, y, width, height
+    ellipse(240, 180, eye_size, eye_size)
 
 --- /code ---
 
@@ -43,7 +47,7 @@ filename: main.py - draw()
 --- collapse ---
 
 ---
-title: Calculating positions based on width
+title: Calculando posições com base na largura
 ---
 
 The centre of a drawing is at position `width / 2` or half the width. You can use this to position the eyes by subtracting the eye width for the left eye and adding it for the right eye:
@@ -54,7 +58,10 @@ language: python
 filename: main.py - draw()
 ---
 
-  fill(0, 0, 0) #Black — change to red, green, or blue up to 255 eye_size = 50 ellipse( (width / 2) - 40, 180, eye_size, eye_size) #x, y, width, height ellipse( (width / 2) + 40 , 180, eye_size, eye_size)
+    fill(0, 0, 0)  # Black — change to red, green, or blue up to 255
+    eye_size = 50
+    ellipse( (width / 2) - 40, 180, eye_size, eye_size)  # x, y, width, height
+    ellipse( (width / 2) + 40 , 180, eye_size, eye_size)
 
 --- /code ---
 
@@ -66,7 +73,9 @@ language: python
 filename: main.py - draw()
 ---
 
-  fill(0, 0, 0) #Black — change to red, green, or blue up to 255 ellipse( (width / 2) - (width / 10) , 180, eye_size, eye_size) #x, y, width, height ellipse( (width / 2) + (width / 10) , 180, eye_size, eye_size)
+    fill(0, 0, 0)  # Black — change to red, green, or blue up to 255
+    ellipse( (width / 2) - (width / 10) , 180, eye_size, eye_size)  # x, y, width, height
+    ellipse( (width / 2) + (width / 10) , 180, eye_size, eye_size)
 
 --- /code ---
 
@@ -88,13 +97,13 @@ Change the second number in the `ellipse` function call to move the `y` (vertica
 
 --- task ---
 
-### Add detail
+### Adicione detalhes
 
 You can use more circles to create:
-+ Coloured irises
-+ Black pupils
-+ White catchlights
-+ Or, something else
++ Íris coloridas
++ Pupilas negras
++ Holofotes brancos
++ Ou alguma outra coisa
 
 This eye has a coloured iris, black pupil, and white catchlights with changed opacity: ![The output area showing an eye with catchlights over the pupil and iris.](images/catchlights.png)
 
@@ -116,11 +125,11 @@ Is your drawing starting to look like a face?
 
 --- task ---
 
-**Depurar:** Você pode encontrar alguns bugs em seu projeto que precisa corrigir. Aqui estão alguns bugs comuns.
+**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
 
 --- collapse ---
 ---
-title: The eyes aren't centred
+título: Os olhos não estão centrados
 ---
 
 You could use `height / 2` to place them in the centre.
@@ -129,7 +138,7 @@ You could use `height / 2` to place them in the centre.
 
 --- collapse ---
 ---
-title: The eyes aren't aligned with each other
+título: Os olhos não estão alinhados entre si
 ---
 
 If you want the eyes to be aligned, then make sure you use the same number for the coordinates for both eyes. Try using a variable so that the values are always the same.
@@ -139,7 +148,7 @@ If you want the eyes to be aligned, then make sure you use the same number for t
 --- collapse ---
 
 ---
-title: I can't see the pupil or iris
+título: Não consigo ver a pupila ou a íris
 ---
 
 The eye needs to be drawn first, then the iris, and finally the pupil. The order in which you draw things is very important.
@@ -151,7 +160,7 @@ Computer graphics are made of layers. In your eye, each ellipse is a layer. Obje
 --- collapse ---
 
 ---
-title: My eyes are not round
+título: Meus olhos não são redondos
 ---
 
 The third and fourth numbers in `ellipse` are the width and height of the eyes.
