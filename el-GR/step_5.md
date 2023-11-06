@@ -39,10 +39,10 @@ language: python
 filename: main.py - draw()
 ---
 
-    fill(0, 0, 0) #A black mouth
+    fill(0, 0, 0) #Ένα μαύρο στόμα
     ellipse(200, 240, 15, 15)
-    fill(255, 165, 0) #An orange face
-    ellipse(200, 235, 15, 15) #Higher circle
+    fill(255, 165, 0) #Ένα πορτοκαλί πρόσωπο
+    ellipse(200, 235, 15, 15) #Πάνω κύκλος
 
 --- /code ---
 
@@ -54,10 +54,10 @@ language: python
 filename: main.py - draw()
 ---
 
-    fill(0, 0, 0) #A black mouth
+    fill(0, 0, 0) #Ένα μαύρο στόμα
     ellipse(200, 240, 15, 15)
-    fill(255, 165, 0) #An orange face
-    ellipse(200, 245, 15, 15) #Lower circle
+    fill(255, 165, 0) #Ένα πορτοκαλί πρόσωπο
+    ellipse(200, 245, 15, 15) #Κάτω κύκλος
 
 --- /code ---
 
@@ -82,28 +82,29 @@ title: Δημιούργησε ένα στόμα χρησιμοποιώντας �
 language: python
 filename: main.py - draw()
 ---
-# Μάσκα προσώπου
-no_fill()    
-stroke(255, 255, 255)     
-ellipse(150, 250, 30, 30) #Left ear loop    
-ellipse(250, 250, 30, 30) #Right ear loop    
-fill(255, 255, 255)    
-no_stroke()     
-rect(150, 230, 100, 40) #Large white rectangle    
-fill(108, 200, 206)    
-rect(152, 235, 96, 30) #Smaller blue rectangle
+
+    # Face mask
+    no_fill()
+    stroke(255, 255, 255)
+    ellipse(150, 250, 30, 30)  # Left ear loop
+    ellipse(250, 250, 30, 30)  # Right ear loop
+    fill(255, 255, 255)
+    no_stroke()
+    rect(150, 230, 100, 40)  # Large white rectangle
+    fill(108, 200, 206)
+    rect(152, 235, 96, 30)  # Smaller blue rectangle
 
 --- /code ---
 
 --- /collapse ---
 
-**Συμβουλή:** Πρόσθεσε ένα σχόλιο `#Στόμα` στη γραμμή πριν από τον κώδικα σου για το στόμα για να σε βοηθήσει να βρεις εύκολα τον κώδικα για το στόμα.
+**Tip:** Add a `#Mouth` comment on the line before your mouth code to help you easily find the mouth code.
 
 --- /task ---
 
 --- task ---
 
-**Επίλεξε:** Μπορείς επίσης να προσθέσεις πολλά δόντια στο στόμα σου χρησιμοποιώντας το `translate` για να αλλάξεις τη συντεταγμένη `x` μετά την σχεδίαση του κάθε δοντιού.
+**Choose:** You could also add multiple teeth to your mouth using `translate` to change the `x` coordinate after each tooth is drawn.
 
 --- collapse ---
 
@@ -111,13 +112,13 @@ rect(152, 235, 96, 30) #Smaller blue rectangle
 title: Χρησιμοποίησε έναν βρόχο για να προσθέσεις μια σειρά από δόντια
 ---
 
-Πρόσθεσε κώδικα για να δημιουργήσεις μια δομή επανάληψης `for` που επαναλαμβάνεται για να δημιουργήσεις τον αριθμό των δοντιών που χρειάζεσαι.
+Add code to create a `for` loop that repeats in order to create the number of teeth you need.
 
-![Η περιοχή εξόδου δείχνει ένα πρόσωπο ρομπότ με μια σειρά από ορθογώνια δόντια σε διαφορετικά χρώματα.](images/robot-teeth.png)
+![The output area showing a robot face with a row of rectangle teeth in different colours.](images/robot-teeth.png)
+
+After each tooth has been drawn, add code to `translate()` it by the width of the tooth.
 
 Αφού ζωγραφιστεί κάθε δόντι, πρόσθεσε τον κώδικα στην συνάρτηση `translate()` για να μετακινήσεις την οθόνη κατά το πλάτος του δοντιού.
-
-Μπορείς επίσης να προσθέσεις κώδικα για να αλλάξεις το χρώμα κάθε δοντιού.
 
 --- code ---
 ---
@@ -125,17 +126,17 @@ language: python
 filename: main.py - draw()
 ---
 
-# Στόμα
-fill(90, 110, 184)     
-red = 90 #Starting amount of red   
-green = 110 #Starting amount of green    
-blue = 180 #Starting amount of blue    
-for i in range (0,6):     
-rect(100, 300, 33, 50)     
-fill(red, green, blue) #Uses variables to control the colour change each loop    
-red = red+40     
-blue = blue-30     
-translate(33, 0) #Move along the x coordinate by the width of a tooth
+    # Mouth
+    fill(90, 110, 184)
+    red = 90  # Starting amount of red
+    green = 110  # Starting amount of green
+    blue = 180  # Starting amount of blue
+    for i in range (0,6):
+        rect(100, 300, 33, 50)
+        fill(red, green, blue)  # Uses variables to control the colour change each loop
+        red = red+40
+        blue = blue-30
+        translate(33, 0)  # Move along the x coordinate by the width of a tooth
 
 
 --- /code ---
@@ -150,23 +151,24 @@ translate(33, 0) #Move along the x coordinate by the width of a tooth
 title: Χρησιμοποίησε τρίγωνα για να προσθέσεις κυνόδοντες
 ---
 
-Δημιούργησε ένα `ορθογώνιο` για να το χρησιμοποιήσεις ως γραμμή του στόματος.
+Create a `rectangle` to use as the line of the mouth.
 
-Πρόσθεσε δύο σχήματα `triangle` για να δημιουργήσεις τους κυνόδοντες. Άλλαξε τις συντεταγμένες `x` για κάθε κορυφή του τριγώνου για να τοποθετήσεις τους κυνόδοντες στα απέναντι άκρα της γραμμής του στόματος.
+Add two `triangle` shapes to create the fangs. Change the `x` coordinates for each corner to position the fangs at opposite ends of the mouth line.
 
-![Η περιοχή εξόδου δείχνει ένα πρόσωπο βαμπίρ με ένα ορθογώνιο στόμα και δύο τριγωνικά δόντια.](images/vampire.png)
+![The output area showing a vampire face with a rectangle mouth and two triangle teeth.](images/vampire.png)
 
 --- code ---
 ---
 language: python
 filename: main.py - draw()
 ---
-# Στόμα
-  fill(0)    
-rect(170, 260, 60, 5) #Mouth line    
-fill(0)    
-triangle(170, 260, 180, 280, 190, 260) #Left tooth    
-triangle(210, 260, 220, 280, 230, 260) #Right tooth    
+
+    # Mouth
+    fill(0)
+    rect(170, 260, 60, 5)  # Mouth line
+    fill(0)
+    triangle(170, 260, 180, 280, 190, 260)  # Left tooth
+    triangle(210, 260, 220, 280, 230, 260)  # Right tooth
 --- /code ---
 
 --- /collapse ---
@@ -175,7 +177,7 @@ triangle(210, 260, 220, 280, 230, 260) #Right tooth
 
 --- task ---
 
-**Εντοπισμός σφαλμάτων:** Ενδέχεται να βρεις κάποια σφάλματα στο έργο σου που πρέπει να διορθώσεις. Εδώ είναι μερικά συνηθισμένα σφάλματα.
+**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
 
 --- collapse ---
 
@@ -183,7 +185,7 @@ triangle(210, 260, 220, 280, 230, 260) #Right tooth
 title: Το επικαλυπτόμενο σχήμα μου, φεύγει έξω από το πρόσωπο
 ---
 
-Εάν χρησιμοποιείς δύο επικαλυπτόμενα σχήματα για να δημιουργήσεις ένα στόμα, τότε πρέπει να βεβαιωθείς ότι το σχήμα που έχει το ίδιο χρώμα με το πρόσωπο δεν βγαίνει έξω από το πρόσωπο. Αν ναι, τότε άλλαξε το πλάτος ή το ύψος του σχήματος για να είναι αρκετά μικρό ώστε να χωράει μέσα στο πρόσωπο.
+If you use two overlapping shapes to create a mouth, then you need to make sure the shape that is the same colour as the face doesn't go outside the face. If it does, then change the width or height of the shape so that it's small enough to fit inside the face.
 
 --- /collapse ---
 
@@ -194,7 +196,7 @@ title: Το επικαλυπτόμενο σχήμα μου, φεύγει έξω 
 title: Έχω πάρα πολλά δόντια
 ---
 
-Μην ξεχνάς ότι η συνάρτηση `range()` δημιουργεί μια ακολουθία αριθμών που ξεκινά από το 0 και όχι το 1. Αυτό μπορεί να κάνει διαφορά στον κώδικά σου ανάλογα με το πώς έχεις τοποθετήσει τα δόντια σου.
+Don't forget that `range()` creates a sequence of numbers starting from 0 not 1. This may make a difference to your code depending on how you have positioned your teeth.
 
 --- /collapse ---
 
