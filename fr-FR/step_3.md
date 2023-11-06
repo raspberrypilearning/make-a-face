@@ -13,7 +13,7 @@ Dessine et colorie une forme pour ton visage ou ton masque. N'ajoute pas encore 
 
 Décide de la forme principale du visage pour ton masque. Il peut s'agir d'un cercle, d'une ellipse, d'un rectangle ou même d'un triangle.
 
-Ajoute du code à la fonction `draw()` pour dessiner un visage ou un masque. Assure-toi également de supprimer `pass` de l'intérieur de la fonction.
+Ajoute du code à la fonction `draw()` pour dessiner un visage ou un masque.
 
 Cet exemple dessine un cercle au milieu, mais c'est à toi de décider quelle forme utiliser.
 
@@ -23,8 +23,12 @@ language: python filename: main.py - draw() line_numbers: true line_number_start
 line_highlights: 12
 ---
 
-def draw():   
-ellipse(width/2, height/2, 200, 200) #Circle in the middle
+def draw(): # Put code to run every frame here background(255, 255, 255)  # Change to your background colour
+
+    # Add code to draw your face here
+    ellipse(width/2, height/2, 200, 200)  # Circle in the middle
+    
+    grid()  # add a # to the beginning of this line to hide the grid
 
 --- /code ---
 
@@ -60,7 +64,9 @@ language: python filename: main.py - draw() line_numbers: true line_number_start
 line_highlights: 13
 ---
 
-def draw(): stroke(0) #You can also use no_stroke() fill(255, 255, 0) #Bright yellow ellipse(width/2, height/2, 200, 200) #Circle in the middle
+    # Add code to draw your face here
+    fill(255, 255, 0)  # Bright yellow
+    ellipse(width/2, height/2, 200, 200)
 
 --- /code ---
 
