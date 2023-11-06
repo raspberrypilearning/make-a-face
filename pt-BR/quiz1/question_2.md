@@ -4,9 +4,9 @@
 legenda: Pergunta 2 de 3
 ---
 
-In your project, you added code to draw a face with many features. The order of your code was extremely important to make the face look like your design.
+Em seu projeto, você adicionou código para desenhar um rosto com muitos recursos. A ordem do seu código foi extremamente importante para fazer o rosto parecer com o seu desenho.
 
-If you ran this code, what would the face look like?
+Se você executasse esse código, como ficaria o rosto?
 
 --- code ---
 ---
@@ -28,41 +28,41 @@ run()
 
 - ( )
 
-![A white face with black outline. There are two solid green eyes with black outlines.](images/face1.png)
+![Um rosto branco com contorno preto. Existem dois olhos verdes sólidos com contornos pretos.](images/face1.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `ellipse()` and the `stroke()` functions.
+ Não é bem assim, observe a ordem das funções `ellipse()` e `stroke()`.
 
  --- /feedback ---
 
 - ( )
 
-![A white face with black outline. There are two green eyes with black pupils and both have a black outline.](images/face2.png)
+![Um rosto branco com contorno preto. Existem dois olhos verdes com pupilas pretas e ambos têm um contorno preto.](images/face2.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `stroke()` functions.
+ Não é bem assim, veja a ordem das funções `stroke()`.
 
  --- /feedback ---
 
 - (x)
 
-![A white face with black outline. There are two green eyes with black pupils and the eyes do not have an outline.](images/face3.png)
+![Um rosto branco com contorno preto. Existem dois olhos verdes com pupilas negras e os olhos não têm contorno.](images/face3.png)
 
  --- feedback ---
 
- Correct, the code draws a face with a black stroke then turns off the stroke before drawing the circles. The green circles are drawn first with the black circles on top of them.
+ Correto, o código desenha um rosto com um traço preto e desliga o traço antes de desenhar os círculos. Os círculos verdes são desenhados primeiro com os círculos pretos em cima deles.
 
  --- /feedback ---
 
 - ( )
 
-![A white face with black outline. There are two solid green eyes that do not have an outline.](images/face4.png)
+![Um rosto branco com contorno preto. Existem dois olhos verdes sólidos que não têm contorno.](images/face4.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `ellipse()` functions.
+ Não é bem assim, veja a ordem das funções `ellipse()`.
 
  --- /feedback ---
 
