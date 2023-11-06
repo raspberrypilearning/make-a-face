@@ -39,10 +39,10 @@ language: python
 filename: main.py - draw()
 ---
 
-    fill(0, 0, 0) #A black mouth
+    fill(0, 0, 0) #黒い口
     ellipse(200, 240, 15, 15)
-    fill(255, 165, 0) #An orange face
-    ellipse(200, 235, 15, 15) #Higher circle
+    fill(255, 165, 0) #オレンジ色の顔
+    ellipse(200, 235, 15, 15) #上の円
 
 --- /code ---
 
@@ -54,10 +54,10 @@ language: python
 filename: main.py - draw()
 ---
 
-    fill(0, 0, 0) #A black mouth
+    fill(0, 0, 0) #黒い口
     ellipse(200, 240, 15, 15)
-    fill(255, 165, 0) #An orange face
-    ellipse(200, 245, 15, 15) #Lower circle
+    fill(255, 165, 0) #オレンジ色の顔
+    ellipse(200, 245, 15, 15) #下の円
 
 --- /code ---
 
@@ -82,22 +82,22 @@ filename: main.py - draw()
 language: python
 filename: main.py - draw()
 ---
-# マスク
-no_fill()    
-stroke(255, 255, 255)     
-ellipse(150, 250, 30, 30) #Left ear loop    
-ellipse(250, 250, 30, 30) #Right ear loop    
-fill(255, 255, 255)    
-no_stroke()     
-rect(150, 230, 100, 40) #Large white rectangle    
-fill(108, 200, 206)    
-rect(152, 235, 96, 30) #Smaller blue rectangle
+
+    no_fill()<br x-id="4" />
+    stroke(255, 255, 255)<br x-id="5" />
+    ellipse(150, 250, 30, 30) #左耳ループ<br x-id="4" />
+    ellipse(250, 250, 30, 30) #右耳ループ<br x-id="4" />
+    fill(255, 255, 255)<br x-id="4" />
+    no_stroke()<br x-id="5" />
+    rect(150, 230, 100, 40) #大きな白い長方形<br x-id="4" />
+    fill(108, 200, 206)<br x-id="4" />
+    rect(152, 235, 96, 30) #小さい青い長方形
 
 --- /code ---
 
 --- /collapse ---
 
-**ヒント：** 口コードを簡単に見つけられるように、口コードの前の行に `#Mouth` コメントを追加します。
+**ヒント：** 口コードを簡単に見つけられるように、口コードの前の行に `#口` コメントを追加します。
 
 --- /task ---
 
@@ -125,17 +125,16 @@ language: python
 filename: main.py - draw()
 ---
 
-# 口
-fill(90, 110, 184)     
-red = 90 #Starting amount of red   
-green = 110 #Starting amount of green    
-blue = 180 #Starting amount of blue    
-for i in range (0,6):     
-rect(100, 300, 33, 50)     
-fill(red, green, blue) #Uses variables to control the colour change each loop    
-red = red+40     
-blue = blue-30     
-translate(33, 0) #Move along the x coordinate by the width of a tooth
+    fill(90, 110, 184)<br x-id="5" />
+      red = 90 #赤の開始量<br x-id="3" />
+      green = 110 #緑の開始量<br x-id="4" />
+      blue = 180 #青の開始量<br x-id="4" />
+      for i in range (0,6):<br x-id="5" />
+        rect(100, 300, 33, 50)<br x-id="5" />
+        fill(red, green, blue) #変数を使用して、各ループの色の変更を制御します<br x-id="4" />
+        red = red+40<br x-id="5" />
+        blue = blue-30<br x-id="5" />
+        translate(33, 0) #歯の幅だけx座標に沿って移動します
 
 
 --- /code ---
@@ -161,12 +160,13 @@ translate(33, 0) #Move along the x coordinate by the width of a tooth
 language: python
 filename: main.py - draw()
 ---
-# 口
-  fill(0)    
-rect(170, 260, 60, 5) #Mouth line    
-fill(0)    
-triangle(170, 260, 180, 280, 190, 260) #Left tooth    
-triangle(210, 260, 220, 280, 230, 260) #Right tooth    
+
+    fill(0)<br x-id="4" />
+      rect(170, 260, 60, 5) #口のライン<br x-id="4" />
+      fill(0)<br x-id="4" />
+      triangle(170, 260, 180, 280, 190, 260) #左歯<br x-id="4" />
+      triangle(210, 260, 220, 280, 230, 260) #右歯<br x-id="4" />
+    --- /code ---
 --- /code ---
 
 --- /collapse ---
