@@ -1,38 +1,38 @@
-## Add more details
+## Adicione mais detalhes
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Does your face or mask need more details to make it more interesting? 
+Seu rosto ou máscara precisa de mais detalhes para torná-lo mais interessante? 
 </div>
 <div>
-![Image showing a face as an example with a headband accessory.](images/frida.png){:width="200px"}
+![Imagem mostrando um rosto como exemplo com um acessório de bandana.](images/frida.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-You can use more shapes to add more features to your face or mask.
+Você pode usar mais formas para adicionar mais características ao seu rosto ou máscara.
 
-How can you give the face more personality?
+Como dar mais personalidade ao rosto?
 
-You could add:
+Você poderia adicionar:
 
-+ A nose
-+ Eyebrows
-+ Ears
-+ Cheeks
-+ Highlights / catchlights
-+ Whatever you like!
++ Um nariz
++ Sobrancelhas
++ Ouvidos
++ Bochechas
++ Realces / holofotes
++ O que você quiser!
 
-Just add the extra details that make sense for your drawing.
+Basta adicionar os detalhes extras que fazem sentido para o seu desenho.
 
 --- /task ---
 
 --- task ---
 
-You can make partly transparent colours by adding a fourth number to an RGB colour to give the **opacity**.
+Você pode criar cores parcialmente transparentes adicionando um quarto número a uma cor RGB para fornecer a **opacidade**.
 
-This code draws the overlapping highlights in the Kawaii fruit example:
+Este código desenha os realces sobrepostos com o exemplo da fruta Kawaii:
 
 --- code ---
 ---
@@ -40,10 +40,10 @@ language: python
 filename: main.py - draw()
 ---
 
-  #Highlights    
-fill(255, 255, 255, 70) #70 is transparency/opacity here    
-ellipse(170, 150, 35, 35)   
-ellipse(150, 160, 25, 25)
+    # Highlights    
+    fill(255, 255, 255, 70)  # 70 is transparency/opacity here    
+    ellipse(170, 150, 35, 35)   
+    ellipse(150, 160, 25, 25)
 
 --- /code ---
 
