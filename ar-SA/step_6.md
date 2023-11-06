@@ -40,10 +40,10 @@ language: python
 filename: main.py - draw()
 ---
 
-  #Highlights    
-fill(255, 255, 255, 70) #70 is transparency/opacity here    
-ellipse(170, 150, 35, 35)   
-ellipse(150, 160, 25, 25)
+    #تسليط الضوء<br x-id="4" />
+      fill(255, 255, 255, 70) #الدرجة 70 هي للشفافية / العتامة هنا<br x-id="4" />
+      ellipse(170, 150, 35, 35)<br x-id="3" />
+      ellipse(150, 160, 25, 25)
 
 --- /code ---
 
