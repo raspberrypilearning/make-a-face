@@ -40,10 +40,10 @@ language: python
 filename: main.py - draw()
 ---
 
-  #Highlights    
-fill(255, 255, 255, 70) #70 is transparency/opacity here    
-ellipse(170, 150, 35, 35)   
-ellipse(150, 160, 25, 25)
+    # Highlights    
+    fill(255, 255, 255, 70)  # 70 is transparency/opacity here    
+    ellipse(170, 150, 35, 35)   
+    ellipse(150, 160, 25, 25)
 
 --- /code ---
 
