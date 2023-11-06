@@ -39,10 +39,10 @@ language: python
 filename: main.py - draw()
 ---
 
-    fill(0, 0, 0) #A black mouth
+    fill(0, 0, 0)  # A black mouth
     ellipse(200, 240, 15, 15)
-    fill(255, 165, 0) #An orange face
-    ellipse(200, 235, 15, 15) #Higher circle
+    fill(255, 165, 0)  # An orange face
+    ellipse(200, 235, 15, 15)  # Higher circle
 
 --- /code ---
 
@@ -54,10 +54,10 @@ language: python
 filename: main.py - draw()
 ---
 
-    fill(0, 0, 0) #A black mouth
+    fill(0, 0, 0) #Чорний рот
     ellipse(200, 240, 15, 15)
-    fill(255, 165, 0) #An orange face
-    ellipse(200, 245, 15, 15) #Lower circle
+    fill(255, 165, 0) #Помаранчеве обличчя
+    ellipse(200, 245, 15, 15) #Нижнє коло
 
 --- /code ---
 
@@ -82,28 +82,29 @@ title: Створення рота за допомогою прямокутни�
 language: python
 filename: main.py - draw()
 ---
-# Маска для обличчя
-no_fill()    
-stroke(255, 255, 255)     
-ellipse(150, 250, 30, 30) #Left ear loop    
-ellipse(250, 250, 30, 30) #Right ear loop    
-fill(255, 255, 255)    
-no_stroke()     
-rect(150, 230, 100, 40) #Large white rectangle    
-fill(108, 200, 206)    
-rect(152, 235, 96, 30) #Smaller blue rectangle
+
+    # Face mask
+    no_fill()
+    stroke(255, 255, 255)
+    ellipse(150, 250, 30, 30)  # Left ear loop
+    ellipse(250, 250, 30, 30)  # Right ear loop
+    fill(255, 255, 255)
+    no_stroke()
+    rect(150, 230, 100, 40)  # Large white rectangle
+    fill(108, 200, 206)
+    rect(152, 235, 96, 30)  # Smaller blue rectangle
 
 --- /code ---
 
 --- /collapse ---
 
-**Порада:** Додай коментар `#Рот` перед кодом для створення рота, щоб тобі було легше знайти цей код у майбутньому.
+**Tip:** Add a `#Mouth` comment on the line before your mouth code to help you easily find the mouth code.
 
 --- /task ---
 
 --- task ---
 
-**Обирай:** Ти також можеш додати декілька зубів до рота, використовуючи код `translate`, щоб змінити координату `x` після того, як буде намальований кожен зуб.
+**Choose:** You could also add multiple teeth to your mouth using `translate` to change the `x` coordinate after each tooth is drawn.
 
 --- collapse ---
 
@@ -111,13 +112,13 @@ rect(152, 235, 96, 30) #Smaller blue rectangle
 title: Додавання ряду зубів за допомогою петлі
 ---
 
-Додай код для створення циклу `for`, який буде повторюватися, щоб створити необхідну кількість зубів.
+Add code to create a `for` loop that repeats in order to create the number of teeth you need.
 
-![Область виводу показує обличчя робота з рядом прямокутних зубів різних кольорів.](images/robot-teeth.png)
+![The output area showing a robot face with a row of rectangle teeth in different colours.](images/robot-teeth.png)
+
+After each tooth has been drawn, add code to `translate()` it by the width of the tooth.
 
 Після того, як кожен зуб буде намальовано, додай код `translate()`, щоб зробити переведення зуба відповідно до його ширини.
-
-Ти також можеш змінити колір кожного зуба, додавши відповідний код.
 
 --- code ---
 ---
@@ -125,17 +126,17 @@ language: python
 filename: main.py - draw()
 ---
 
-# Рот
-fill(90, 110, 184)     
-red = 90 #Starting amount of red   
-green = 110 #Starting amount of green    
-blue = 180 #Starting amount of blue    
-for i in range (0,6):     
-rect(100, 300, 33, 50)     
-fill(red, green, blue) #Uses variables to control the colour change each loop    
-red = red+40     
-blue = blue-30     
-translate(33, 0) #Move along the x coordinate by the width of a tooth
+    # Mouth
+    fill(90, 110, 184)
+    red = 90  # Starting amount of red
+    green = 110  # Starting amount of green
+    blue = 180  # Starting amount of blue
+    for i in range (0,6):
+        rect(100, 300, 33, 50)
+        fill(red, green, blue)  # Uses variables to control the colour change each loop
+        red = red+40
+        blue = blue-30
+        translate(33, 0)  # Move along the x coordinate by the width of a tooth
 
 
 --- /code ---
@@ -150,23 +151,24 @@ translate(33, 0) #Move along the x coordinate by the width of a tooth
 title: Використовуй трикутники, щоб зобразити ікла
 ---
 
-Створи прямокутник `rectangle`, щоб зобразити лінію рота.
+Create a `rectangle` to use as the line of the mouth.
 
-Додай дві фігури трикутника `triangle`, щоб створити ікла. Змінюй координату `x` для кожного кута, щоб розташувати ікла на протилежних кінцях лінії рота.
+Add two `triangle` shapes to create the fangs. Change the `x` coordinates for each corner to position the fangs at opposite ends of the mouth line.
 
-![У вихідній області зображено обличчя вампіра з прямокутним ротом і двома трикутними зубами.](images/vampire.png)
+![The output area showing a vampire face with a rectangle mouth and two triangle teeth.](images/vampire.png)
 
 --- code ---
 ---
 language: python
 filename: main.py - draw()
 ---
-# Рот
-  fill(0)    
-rect(170, 260, 60, 5) #Mouth line    
-fill(0)    
-triangle(170, 260, 180, 280, 190, 260) #Left tooth    
-triangle(210, 260, 220, 280, 230, 260) #Right tooth    
+
+    # Mouth
+    fill(0)
+    rect(170, 260, 60, 5)  # Mouth line
+    fill(0)
+    triangle(170, 260, 180, 280, 190, 260)  # Left tooth
+    triangle(210, 260, 220, 280, 230, 260)  # Right tooth
 --- /code ---
 
 --- /collapse ---
@@ -175,7 +177,7 @@ triangle(210, 260, 220, 280, 230, 260) #Right tooth
 
 --- task ---
 
-**Налагодження:** Можливо, у твоєму проєкті знайдуться помилки, які потрібно буде виправити. Ось деякі поширені помилки.
+**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
 
 --- collapse ---
 
@@ -183,7 +185,7 @@ triangle(210, 260, 220, 280, 230, 260) #Right tooth
 title: Одна з накладених форм виходить за межі обличчя
 ---
 
-Якщо для створення рота використовуються дві фігури, які накладаються одна на одну, необхідно переконатися, що фігура однакового кольору з обличчям не виходить його межі. Якщо це так, зміни ширину або висоту форми так, щоб вона була достатньо маленькою, щоб поміститися всередині обличчя.
+If you use two overlapping shapes to create a mouth, then you need to make sure the shape that is the same colour as the face doesn't go outside the face. If it does, then change the width or height of the shape so that it's small enough to fit inside the face.
 
 --- /collapse ---
 
@@ -194,7 +196,7 @@ title: Одна з накладених форм виходить за межі 
 title: Занадто багато зубів
 ---
 
-Не забувай, що `range()` створює послідовність чисел, яка починається не з 1, а з 0. Це може вплинути на твій код в залежності від того, як у тебе розташовані зуби.
+Don't forget that `range()` creates a sequence of numbers starting from 0 not 1. This may make a difference to your code depending on how you have positioned your teeth.
 
 --- /collapse ---
 
