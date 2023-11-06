@@ -11,7 +11,7 @@
 
 --- task ---
 
-[スタータープロジェクト](https://trinket.io/library/trinkets/54d15b9cdf){:target="_blank"}を開きます。 Trinketは別のブラウザタブで開きます。
+[スタータープロジェクト](https://trinket.io/library/trinkets/13f724d300){:target="_blank"}を開きます。 Trinketは別のブラウザタブで開きます。
 
 --- /task ---
 
@@ -45,7 +45,7 @@ language: python filename: main.py - setup() line_numbers: true line_number_star
 line_highlights: 7
 ---
 def setup():   
-size(400, 400) #400 by 400 works well for a round face
+size(400, 400) #400x400は丸い顔に適しています
 
 --- /code ---
 
@@ -71,7 +71,7 @@ language: python filename: main.py - draw() line_numbers: true line_number_start
 line_highlights: 9
 ---
 
-    background(255, 255, 255) #Try different numbers to change the colour
+    background(255, 255, 255) #色を変えるために別の数字を試してください
 
 --- /code ---
 
@@ -91,7 +91,7 @@ language: python
 filename: main.py - draw()
 ---
 
-    grid() #Shows grid
+    grid() #グリッドを表示
 
 --- /code ---
 
@@ -101,7 +101,7 @@ language: python
 filename: main.py - draw()
 ---
 
-    #grid() #Hide grid by turning it into a comment
+    #grid() #コメントに変えてグリッドを非表示にする
 
 --- /code ---
 
@@ -112,7 +112,6 @@ filename: main.py - draw()
 **テスト：** プロジェクトを実行して、選択した画面サイズと背景色を確認します。
 
 --- /task ---
-
 
 --- task ---
 
