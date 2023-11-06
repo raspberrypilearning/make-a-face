@@ -12,7 +12,7 @@
 
 --- task ---
 
-افتح مشروع البدء [](https://trinket.io/library/trinkets/54d15b9cdf){: target = "_ blank"}. سيتم فتح Trinket في نافذة متصفح أخرى.
+[افتح مشروع البدء](https://trinket.io/library/trinkets/13f724d300){:target="_blank"}. سيتم فتح Trinket في نافذة متصفح أخرى.
 
 --- /task ---
 
@@ -46,7 +46,7 @@ language: python filename: main.py - setup() line_numbers: true line_number_star
 line_highlights: 7
 ---
 def setup():   
-size(400, 400) #400 by 400 works well for a round face
+size(400, 400) #400 × 400 مناسبة للوجه المستدير
 
 --- /code ---
 
@@ -77,7 +77,7 @@ line_number_start: 9</p>
 
 <h2 spaces-before="0">line_highlights: 9</h2>
 
-<pre><code>background(255, 255, 255) #Try different numbers to change the colour 
+<pre><code>background(255, 255, 255) #جرب أرقامًا مختلفة لتغيير اللون 
 `</pre>
 
 --- /code ---
@@ -98,7 +98,7 @@ language: python
 filename: main.py - draw()
 ---
 
-    grid() #Shows grid
+    grid() #يظهر الشبكة
 
 --- /code ---
 
@@ -108,7 +108,7 @@ language: python
 filename: main.py - draw()
 ---
 
-    #grid() #Hide grid by turning it into a comment
+    #grid() #إخفاء الشبكة بتحويلها إلى تعليق
 
 --- /code ---
 
@@ -119,7 +119,6 @@ filename: main.py - draw()
 **اختبار:** قم بتشغيل التعليمات البرمجية الخاصة بك لمعرفة لون الخلفية.
 
 --- /task ---
-
 
 --- task ---
 
