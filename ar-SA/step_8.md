@@ -8,17 +8,13 @@
 - إضافة تفاعلية - جرب **Interactive: Theatre Mask**، ماذا يحدث عندما تحرك الماوس عبر الشاشة؟
 - أضف رسومًا متحركة - جرب **Animated: Frida**، ماذا يحدث لعصابة رأس Frida عند تشغيل المشروع؟
 
-**تفاعلي: قناع المسرح **: [ انظر هنا ](https://trinket.io/python/86d89fad13){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/86d89fad13?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+**تفاعلي: قناع المسرح**: [انظر هنا](https://trinket.io/python/b696d66e7d){:target="_blank"}
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/interactive-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> [See inside](https://editor.raspberrypi.org/en/projects/interactive-face-example){:target="_blank"}
 
-**متحرك: فريدا**: [انظر هنا](https://trinket.io/python/3d69be294a){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/3d69be294a?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+**متحرك: فريدا**: [انظر هنا](https://trinket.io/python/1ee3504148){:target="_blank"}
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/animated-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> [See inside](https://editor.raspberrypi.org/en/projects/animated-face-example){:target="_blank"}
 
 ألق نظرة على ['Silly eyes - Community' Scratch studio](https://wke.lt/w/s/8sVH4f){: target = "_ blank"} لمشاهدة المشروعات التي أنشأها أعضاء المجتمع.
 
