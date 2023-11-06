@@ -11,7 +11,7 @@ Have you got an idea about the kind of face or mask you want to make? Use this s
 
 --- task ---
 
-Open the [starter project](https://trinket.io/library/trinkets/54d15b9cdf){:target="_blank"}. Trinket will open in another browser tab.
+Open the [starter project](https://editor.raspberrypi.org/en/projects/make-face-starter){:target="_blank"}. The Raspberry Pi code editor will open in another browser tab.
 
 --- /task ---
 
@@ -45,7 +45,7 @@ language: python filename: main.py - setup() line_numbers: true line_number_star
 line_highlights: 7
 ---
 def setup():   
-size(400, 400) #400 by 400 works well for a round face
+size(400, 400)  # 400 by 400 works well for a round face
 
 --- /code ---
 
@@ -71,7 +71,7 @@ language: python filename: main.py - draw() line_numbers: true line_number_start
 line_highlights: 9
 ---
 
-    background(255, 255, 255) #Try different numbers to change the colour
+    background(255, 255, 255)  # Try different numbers to change the colour
 
 --- /code ---
 
@@ -91,7 +91,7 @@ language: python
 filename: main.py - draw()
 ---
 
-    grid() #Shows grid
+    grid()  # Shows grid
 
 --- /code ---
 
@@ -101,7 +101,7 @@ language: python
 filename: main.py - draw()
 ---
 
-    #grid() #Hide grid by turning it into a comment
+    #grid()  # Hide grid by turning it into a comment
 
 --- /code ---
 
@@ -113,7 +113,6 @@ filename: main.py - draw()
 
 --- /task ---
 
-
 --- task ---
 
 **Debugowanie:** Być może znajdziesz błędy w swoim projekcie, które musisz naprawić. Oto kilka typowych błędów.
@@ -124,7 +123,7 @@ filename: main.py - draw()
 title: I've updated my size and colour but the output area stays the same
 ---
 
-After changing the code, you will need to `run` your project to see the changes in the output area.
+After changing the code, you will need to **`Run`** your project to see the changes in the output area.
 
 --- /collapse ---
 
