@@ -10,7 +10,8 @@
 
 --- no-print ---
 
-<iframe src="https://trinket.io/embed/python/974800f4ef?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/dont-pop-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
 
 
 --- /no-print ---
