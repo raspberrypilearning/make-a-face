@@ -1,4 +1,4 @@
-## You will make
+## Wat ga je maken
 
 Schrijf Python-code om een gezicht of masker te tekenen met behulp van geometrische vormen.
 
@@ -22,30 +22,21 @@ Je gaat wat ontwerpbeslissingen nemen over het soort gezicht dat je gaat maken e
 
 --- task ---
 <div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
+<div style="flex-basis: 175px; flex-grow: 1">
 
 Bekijk deze voorbeelden en bedenk hoe ze zijn gemaakt van cirkels, ellipsen, vierkanten, rechthoeken en driehoeken.
 
-**Kawaii fruit**: [Bekijk van binnen](https://trinket.io/python/6bad88800b){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/6bad88800b?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+**Kawaii fruit**:
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/fruit-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> Zie in voorbeeldprojecten in [Python 1: Maak een gezicht — voorbeelden](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"} Scratch studio.
 
-**Gestapelde gezichten**: [Bekijk van binnen](https://trinket.io/python/f90794771c){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/f90794771c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+**Stacked faces**:
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/stacked-faces-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> **Gestapelde gezichten**: \[Bekijk van binnen\](https://trinket.io/python/02aa2f9f05){:target="_blank"}
 
-**Stammenmasker**: [Bekijk van binnen](https://trinket. io/python/b876d500ab){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/b876d500ab?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
-
-</div>
-</div>
+**Tribal mask**:
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/tribal-mask-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> **Stammenmasker**: \[Bekijk van binnen\](https://trinket.io/python/b08029f2bd){:target="_blank"}
 
 --- /task ---
 
@@ -57,7 +48,7 @@ Bekijk deze voorbeelden en bedenk hoe ze zijn gemaakt van cirkels, ellipsen, vie
 
 Je gaat wat ontwerpbeslissingen nemen over het soort gezicht dat je gaat maken en hoe je code gaat gebruiken om het gewenste effect te krijgen.
 
-Zie in voorbeeldprojecten in [Python 1: Maak een gezicht — voorbeelden](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"} Scratch studio.
+Investigate the example projects above, see if you can identify the shapes used to make the faces. You can click **See inside** to view the code.
 
 ![Het output gebied van het Kawaii-fruitproject.](images/smile.png) ![Het uitvoergebied van de gestapelde gezichtenproject.](images/stacked.png) ![Het output gebied van het stammenmasker project.](images/tribal.png)
 
