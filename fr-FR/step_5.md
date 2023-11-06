@@ -39,10 +39,10 @@ language: python
 filename: main.py - draw()
 ---
 
-    fill(0, 0, 0) #A black mouth
+    fill(0, 0, 0) #Une bouche noire
     ellipse(200, 240, 15, 15)
-    fill(255, 165, 0) #An orange face
-    ellipse(200, 235, 15, 15) #Higher circle
+    fill(255, 165, 0) #Un visage orange
+    ellipse(200, 235, 15, 15) #Cercle supérieur
 
 --- /code ---
 
@@ -54,10 +54,10 @@ language: python
 filename: main.py - draw()
 ---
 
-    fill(0, 0, 0) #A black mouth
+    fill(0, 0, 0) #Une bouche noire
     ellipse(200, 240, 15, 15)
-    fill(255, 165, 0) #An orange face
-    ellipse(200, 245, 15, 15) #Lower circle
+    fill(255, 165, 0) #Un visage orange
+    ellipse(200, 245, 15, 15) #Cercle intérieur
 
 --- /code ---
 
@@ -82,16 +82,16 @@ Ajoute le code d'un `rectangle`, puis crée un `rectangle` plus petit à l'inté
 language: python
 filename: main.py - draw()
 ---
-# Masque
-no_fill()    
-stroke(255, 255, 255)     
-ellipse(150, 250, 30, 30) #Left ear loop    
-ellipse(250, 250, 30, 30) #Right ear loop    
-fill(255, 255, 255)    
-no_stroke()     
-rect(150, 230, 100, 40) #Large white rectangle    
-fill(108, 200, 206)    
-rect(152, 235, 96, 30) #Smaller blue rectangle
+
+    no_fill()<br x-id="4" />
+    stroke(255, 255, 255)<br x-id="5" />
+    ellipse(150, 250, 30, 30) #Boucle d'oreille gauche<br x-id="4" />
+    ellipse(250, 250, 30, 30) #Boucle d'oreille droite<br x-id="4" />
+    fill(255, 255, 255)<br x-id="4" />
+    no_stroke()<br x-id="5" />
+    rect(150, 230, 100, 40) #Grand rectangle blanc<br x-id="4" />
+    fill(108, 200, 206)<br x-id="4" />
+    rect(152, 235, 96, 30) #Petit rectangle bleu
 
 --- /code ---
 
@@ -103,7 +103,7 @@ rect(152, 235, 96, 30) #Smaller blue rectangle
 
 --- task ---
 
-**Choisir :** Tu peux également ajouter plusieurs dents à ta bouche en utilisant `translate` pour modifier la coordonnée `x` après avoir dessiné chaque dent.
+**Choisir :** Tu peux également ajouter plusieurs dents à ta bouche en utilisant `translation` pour modifier la coordonnée `x` après avoir dessiné chaque dent.
 
 --- collapse ---
 
@@ -125,17 +125,16 @@ language: python
 filename: main.py - draw()
 ---
 
-# Bouche
-fill(90, 110, 184)     
-red = 90 #Starting amount of red   
-green = 110 #Starting amount of green    
-blue = 180 #Starting amount of blue    
-for i in range (0,6):     
-rect(100, 300, 33, 50)     
-fill(red, green, blue) #Uses variables to control the colour change each loop    
-red = red+40     
-blue = blue-30     
-translate(33, 0) #Move along the x coordinate by the width of a tooth
+    fill(90, 110, 184)<br x-id="5" />
+      rouge = 90 #Quantité de départ de rouge<br x-id="3" />
+      vert = 110 #Quantité de départ de vert<br x-id="4" />
+      bleu = 180 #Quantité de départ de bleu<br x-id="3" />
+      for i in range (0,6):<br x-id="5" />
+        rect(100, 300, 33, 50)<br x-id="5" />
+        fill(rouge, vert, bleu) #Utilise des variables pour contrôler le changement de couleur à chaque boucle<br x-id="3" />
+        rouge = rouge+40<br x-id="5" />
+        bleu = bleu-30<br x-id="5" />
+        translate(33, 0) #Se déplacer le long de la coordonnée x de la largeur d'une dent
 
 
 --- /code ---
@@ -161,12 +160,13 @@ Ajoute deux formes de `triangle` pour créer les canines. Modifie les coordonné
 language: python
 filename: main.py - draw()
 ---
-# Bouche
-  fill(0)    
-rect(170, 260, 60, 5) #Mouth line    
-fill(0)    
-triangle(170, 260, 180, 280, 190, 260) #Left tooth    
-triangle(210, 260, 220, 280, 230, 260) #Right tooth    
+
+    fill(0)<br x-id="4" />
+      rect(170, 260, 60, 5) #Ligne de bouche<br x-id="2" />
+      fill(0)<br x-id="4" />
+      triangle(170, 260, 180, 280, 190, 260) #Dent gauche<br x-id="4" />
+      triangle(210, 260, 220, 280, 230, 260) #Dent droite<br x-id="3" />
+    --- /code ---
 --- /code ---
 
 --- /collapse ---
