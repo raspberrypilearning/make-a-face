@@ -19,12 +19,16 @@ Mae'r enghraifft hon yn llunio cylch yn y canol, ond chi sydd i benderfynu pa si
 
 --- code ---
 ---
-language: python filename: main.py - draw() line_numbers: true line_number_start: 11
-line_highlights: 12
+language: python filename: main.py - draw() line_numbers: true line_number_start: 10
+line_highlights: 14, 15
 ---
 
-def draw():   
-ellipse(width/2, height/2, 200, 200) #Circle in the middle
+def draw(): # Put code to run every frame here background(255, 255, 255)  # Change to your background colour
+
+    # Add code to draw your face here
+    ellipse(width/2, height/2, 200, 200)  # Circle in the middle
+    
+    grid()  # add a # to the beginning of this line to hide the grid
 
 --- /code ---
 
@@ -56,11 +60,13 @@ Os nad ydych chi eisiau amlinell, defnyddiwch `no_stroke()`.
 
 --- code ---
 ---
-language: python filename: main.py - draw() line_numbers: true line_number_start: 11
-line_highlights: 13
+language: python filename: main.py - draw() line_numbers: true line_number_start: 13
+line_highlights: 14
 ---
 
-def draw(): stroke(0) #You can also use no_stroke() fill(255, 255, 0) #Bright yellow ellipse(width/2, height/2, 200, 200) #Circle in the middle
+    # Add code to draw your face here
+    fill(255, 255, 0)  # Bright yellow
+    ellipse(width/2, height/2, 200, 200)
 
 --- /code ---
 
@@ -70,7 +76,7 @@ def draw(): stroke(0) #You can also use no_stroke() fill(255, 255, 0) #Bright ye
 
 --- task ---
 
-**Profi:** Rhedwch eich cod a newid y lliw nes eich bod yn fodlon arno.
+**Test:** Run your code and change the colour until you are happy with it.
 
 --- /task ---
 
