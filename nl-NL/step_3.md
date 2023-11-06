@@ -13,18 +13,20 @@ Teken en kleur een vorm voor je gezicht of masker. Voeg de andere elementen nog 
 
 Kies de hoofdvorm van het gezicht voor je masker. Het kan een cirkel, een ellips, een rechthoek of zelfs een driehoek zijn.
 
-Voeg code toe aan de `draw()` functie om een gezicht of masker te tekenen. Zorg ervoor dat je ook `pass` verwijdert in de functie.
+Voeg code toe aan de `draw()` functie om een gezicht of masker te tekenen.
 
 In dit voorbeeld wordt een cirkel in het midden getekend, maar je kunt helemaal zelf bepalen welke vorm je wil gebruiken.
 
 --- code ---
 ---
-language: python filename: main.py - draw() line_numbers: true line_number_start: 11
-line_highlights: 12
+language: python filename: main.py - draw() line_numbers: true line_number_start: 10
+line_highlights: 14, 15
 ---
 
-def draw():   
-ellipse(width/2, height/2, 200, 200) #Circle in the middle
+def draw(): # Put code to run every frame here background(255, 255, 255)  # Change to your background colour
+
+    def draw():<br x-id="3" />
+      ellipse(width/2, height/2, 200, 200) #Cirkel in het midden
 
 --- /code ---
 
@@ -60,7 +62,10 @@ language: python filename: main.py - draw() line_numbers: true line_number_start
 line_highlights: 13
 ---
 
-def draw(): stroke(0) #You can also use no_stroke() fill(255, 255, 0) #Bright yellow ellipse(width/2, height/2, 200, 200) #Circle in the middle
+    def draw(): 
+      stroke(0) #Je kunt ook no_stroke() gebruiken
+      fill(255, 255, 0) #Fel geel 
+      ellipse(width/2, height/2, 200, 200) #Cirkel in het midden
 
 --- /code ---
 
