@@ -8,17 +8,13 @@ Hier zijn een paar andere ideeën die je zou kunnen proberen:
 - Voeg interactiviteit toe — probeer ons **Interactief: Theatermasker**, wat gebeurt er als je je muis over het scherm beweegt?
 - Animatie toevoegen — probeer onze **Geanimeerd: Frida**, wat gebeurt er met Frida's hoofdband als je het project uitvoert?
 
-**Interactief: Theatermasker**: [Bekijk van binnen](https://trinket.io/python/86d89fad13){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/86d89fad13?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+**Interactief: Theatermasker**: [Bekijk van binnen](https://trinket.io/python/83b782d950){:target="_blank"}
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/interactive-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> [See inside](https://editor.raspberrypi.org/en/projects/interactive-face-example){:target="_blank"}
 
-**Geanimeerd: Frida**: [Bekijk van binnen](https://trinket.io/python/3d69be294a){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/3d69be294a?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+**Geanimeerd: Frida**: [Bekijk van binnen](https://trinket.io/python/5b86285ad0){:target="_blank"}
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/animated-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> [See inside](https://editor.raspberrypi.org/en/projects/animated-face-example){:target="_blank"}
 
 Bekijk onze [Make a face - Community library](https://wke.lt/w/s/8sVH4f){:target="_blank"} om projecten te bekijken die zijn gemaakt door community-leden.
 
