@@ -32,7 +32,11 @@ En este ejemplo, `160` y `240` están a `40` píxeles de 200, lo que está bien 
 language: python
 filename: main.py - draw()
 ---
-  fill(0, 0, 0) #Black — change to red, green, or blue up to 255 eye_size = 50 ellipse(160, 180, eye_size, eye_size) #x, y, width, height ellipse(240, 180, eye_size, eye_size)
+
+    fill(0, 0, 0)  # Black — change to red, green, or blue up to 255
+    eye_size = 50
+    ellipse(160, 180, eye_size, eye_size)  # x, y, width, height
+    ellipse(240, 180, eye_size, eye_size)
 
 --- /code ---
 
@@ -46,7 +50,7 @@ filename: main.py - draw()
 title: Calculando posiciones basadas en el ancho
 ---
 
-El centro de un dibujo está en la posición `ancho/ 2` o la mitad del ancho. Puedes usar esto para posicionar los ojos restando el ancho del ojo izquierdo y sumándolo para el ojo derecho:
+El centro de un dibujo está en la posición `width / 2` o la mitad del ancho. Puedes usar esto para posicionar los ojos restando el ancho del ojo izquierdo y sumándolo para el ojo derecho:
 
 --- code ---
 ---
@@ -54,7 +58,10 @@ language: python
 filename: main.py - draw()
 ---
 
-  fill(0, 0, 0) #Black — change to red, green, or blue up to 255 eye_size = 50 ellipse( (width / 2) - 40, 180, eye_size, eye_size) #x, y, width, height ellipse( (width / 2) + 40 , 180, eye_size, eye_size)
+    fill(0, 0, 0)  # Black — change to red, green, or blue up to 255
+    eye_size = 50
+    ellipse( (width / 2) - 40, 180, eye_size, eye_size)  # x, y, width, height
+    ellipse( (width / 2) + 40 , 180, eye_size, eye_size)
 
 --- /code ---
 
@@ -66,13 +73,15 @@ language: python
 filename: main.py - draw()
 ---
 
-  fill(0, 0, 0) #Black — change to red, green, or blue up to 255 ellipse( (width / 2) - (width / 10) , 180, eye_size, eye_size) #x, y, width, height ellipse( (width / 2) + (width / 10) , 180, eye_size, eye_size)
+    fill(0, 0, 0)  # Black — change to red, green, or blue up to 255
+    ellipse( (width / 2) - (width / 10) , 180, eye_size, eye_size)  # x, y, width, height
+    ellipse( (width / 2) + (width / 10) , 180, eye_size, eye_size)
 
 --- /code ---
 
 --- /collapse ---
 
-Cambia el segundo número en la llamada de función `elipse` para mover la posición `y` (vertical) de los ojos.
+Cambia el segundo número en la llamada de función `ellipse` para mover la posición `y` (vertical) de los ojos.
 
 --- /task ---
 
@@ -80,7 +89,7 @@ Cambia el segundo número en la llamada de función `elipse` para mover la posic
 
 **Prueba:** Sigue cambiando la forma y la posición de los ojos hasta que te guste cómo se ven.
 
-**Sugerencia:** Si estableces un trazo para dibujar la cara y no quieres usar uno para los ojos, deberás llamar a `sin_contorno()` antes de dibujar los ojos.
+**Sugerencia:** Si estableces un trazo para dibujar la cara y no quieres usar uno para los ojos, deberás llamar a `no_stroke()` antes de dibujar los ojos.
 
 [[[processing-stroke]]]
 
@@ -123,7 +132,7 @@ También puedes animar los ojos haciéndolos rotar.
 title: Los ojos no están centrados
 ---
 
-Puedes usar `altura/ 2` para colocarlos en el centro.
+Puedes usar `height / 2` para colocarlos en el centro.
 
 --- /collapse ---
 
@@ -154,7 +163,7 @@ Los gráficos por computadora están hechos de capas. En tu ojo cada elipse es u
 title: Mis ojos no son redondos
 ---
 
-El tercer y cuarto número en `elipse` son el ancho y la altura de los ojos.
+El tercer y cuarto número en `ellipse` son el ancho y la altura de los ojos.
 
 **Tip:** Si usas los mismos números obtendrás ojos redondos.
 
