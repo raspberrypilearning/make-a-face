@@ -22,30 +22,21 @@
 
 --- task ---
 <div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
+<div style="flex-basis: 175px; flex-grow: 1">
 
 انظر إلى هذه الأمثلة وفكر في كيفية تكوينها من الدوائر والأشكال البيضاوية والمربعات والمستطيلات والمثلثات.
 
-** فاكهة Kawaii **: [راجع الداخل] (https://trinket.io/python/6bad88800b) {: target = "_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/6bad88800b?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+**Kawaii fruit**:
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/fruit-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> انظر من الداخل أمثلة المشاريع في [Python 1: إنشاء وجه - أمثلة](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"} Scratch studio.
 
-** وجوه مكدسة **: [راجع داخل] (https://trinket.io/python/f90794771c) {: target = "_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/f90794771c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+**Stacked faces**:
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/stacked-faces-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> **وجوه مكدسة**: \[راجع داخل\](https://trinket.io/python/8a612f747d){:target="_blank"}
 
-** Tribal mask **: [راجع الداخل] (https: // trinket. io / python / b876d500ab) {: target = "_ blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/b876d500ab?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
-
-</div>
-</div>
+**Tribal mask**:
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/tribal-mask-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> **Tribal mask**: \[راجع الداخل\](https://trinket.io/python/1ff5abf279){:target="_blank"}
 
 --- /task ---
 
@@ -57,7 +48,7 @@
 
 سوف تتخذ بعض قرارات التصميم بشأن نوع اللعبة التي ستقوم بها وكيف ستستخدم التعليمات البرمجية للحصول على التأثيرات التي تريدها.
 
-انظر من الداخل أمثلة المشاريع في [Python 1: إنشاء وجه - أمثلة](https://trinket.io/library/folder/make-a-face-examples){: target = "_ blank"} Scratch studio.
+Investigate the example projects above, see if you can identify the shapes used to make the faces. You can click **See inside** to view the code.
 
 ![منطقة الإخراج من مشروع فاكهة Kawaii.](images/smile.png) ![منطقة الإخراج من مشروع الوجوه المكدسة.](images/stacked.png) ![منطقة الإخراج من مشروع الوجوه المكدسة.](images/tribal.png)
 
