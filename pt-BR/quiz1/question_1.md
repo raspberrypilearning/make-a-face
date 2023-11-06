@@ -1,10 +1,10 @@
-## Quick quiz
+## Teste rápido
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Responda às três perguntas. Existem dicas para guiá-lo para a resposta correta.
 
-When you have answered each question, click on **Check my answer**.
+Após responder cada pergunta, clique em **Verificar minha resposta**.
 
-Have fun!
+Divirta-se!
 
 Divirta-se!
 
@@ -14,9 +14,9 @@ Divirta-se!
 legenda: Pergunta 1 de 3
 ---
 
-In your project, you drew mouths using shapes.
+No seu projeto, você desenhou bocas usando formas.
 
-What kind of mouth would this code draw?
+Que tipo de boca esse código desenharia?
 
 --- code ---
 ---
@@ -33,7 +33,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-  Not quite, to create a sad mouth the second `ellipse` would need a **y_coordinate** that is lower than the first `ellipse`.
+  Não é bem assim, para criar uma boca triste, a segunda `elipse` precisaria de uma **coordenada_y** que é menor que a primeira `elipse`.
 
   --- /feedback ---
 
@@ -41,7 +41,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-  That's correct! The second `ellipse` is drawn with a **y_coordinate** that is higher than the first `ellipse`.
+  Está correto! A segunda `elipse` é desenhada com uma **coordenada_y** que é mais alta que a primeira `elipse`.
 
   --- /feedback ---
 
@@ -49,7 +49,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-   Not quite, the second circle has a white `fill(255, 255, 255)` and is positioned partially over the first black circle.
+   Não é bem assim, o segundo círculo tem um preenchimento branco `fill(255, 255, 255)` e está posicionado parcialmente sobre o primeiro círculo preto.
 
   --- /feedback ---
 
@@ -57,7 +57,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-The code does not draw rectangles. The `ellipse` function draws circles.
+O código não desenha retângulos. A função `ellipse` desenha círculos.
 
   --- /feedback ---
 
