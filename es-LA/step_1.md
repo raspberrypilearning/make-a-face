@@ -22,30 +22,21 @@ Vas a tomar algunas decisiones de diseño sobre el tipo de cara que harás y có
 
 --- task ---
 <div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
+<div style="flex-basis: 175px; flex-grow: 1">
 
 Mira estos ejemplos y piensa en cómo se han formado a partir de círculos, elipses, cuadrados, rectángulos y triángulos.
 
-**Fruta kawaii **: [Ver dentro](https://trinket.io/python/6bad88800b){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/6bad88800b?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+**Kawaii fruit**:
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/fruit-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> **Máscara tribal**: \[Ver dentro\](https://trinket.io/python/f7def6e944){:target="_blank"}
 
-**Caras apiladas**: [Ver dentro](https://trinket.io/python/f90794771c){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/f90794771c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+**Stacked faces**:
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/stacked-faces-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> Ver dentro de los proyectos de ejemplo en el estudio Scratch [Python 1: Haz una cara- Ejemplos](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"}.
 
-**Máscara tribal**: [Ver dentro](https://trinket.io/python/b876d500ab){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/b876d500ab?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
-
-</div>
-</div>
+**Tribal mask**:
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/tribal-mask-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> **Caras apiladas**: \[Ver dentro\](https://trinket.io/python/95faa8208c){:target="_blank"}
 
 --- /task ---
 
@@ -53,11 +44,11 @@ Mira estos ejemplos y piensa en cómo se han formado a partir de círculos, elip
 
 --- print-only ---
 
-### Obtén ideas 💭
+### Get ideas 💭
 
 Vas a tomar algunas decisiones de diseño sobre el tipo de cara que harás y cómo usarás el código para obtener el efecto que deseas.
 
-Ver dentro de los proyectos de ejemplo en el estudio Scratch [Python 1: Haz una cara- Ejemplos](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"}.
+Investigate the example projects above, see if you can identify the shapes used to make the faces. You can click **See inside** to view the code.
 
 ![El área de salida del proyecto de fruta Kawaii.](images/smile.png) ![El área de salida del proyecto de caras apiladas.](images/stacked.png) ![El área de salida del proyecto de máscaras tribales.](images/tribal.png)
 
