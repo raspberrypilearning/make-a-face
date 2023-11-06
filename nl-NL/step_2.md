@@ -11,7 +11,7 @@ Heb je een idee over het soort gezicht of masker dat je wilt maken? Gebruik deze
 
 --- task ---
 
-Open het [startproject](https://trinket.io/library/trinkets/54d15b9cdf){:target="_blank"}. Trinket wordt geopend in een ander browsertabblad.
+Open het [startproject](https://trinket.io/library/trinkets/694f65f944){:target="_blank"}. Trinket wordt geopend in een ander browsertabblad.
 
 --- /task ---
 
@@ -45,7 +45,7 @@ language: python filename: main.py - setup() line_numbers: true line_number_star
 line_highlights: 7
 ---
 def setup():   
-size(400, 400) #400 by 400 works well for a round face
+size(400, 400) #400 bij 400 werkt goed voor een rond gezicht
 
 --- /code ---
 
@@ -71,7 +71,7 @@ language: python filename: main.py - draw() line_numbers: true line_number_start
 line_highlights: 9
 ---
 
-    background(255, 255, 255) #Try different numbers to change the colour
+    background(255, 255, 255) #Probeer andere getallen om de kleur te veranderen
 
 --- /code ---
 
@@ -91,7 +91,7 @@ language: python
 filename: main.py - draw()
 ---
 
-    grid() #Shows grid
+    grid() #Toont raster
 
 --- /code ---
 
@@ -101,7 +101,7 @@ language: python
 filename: main.py - draw()
 ---
 
-    #grid() #Hide grid by turning it into a comment
+    #grid() #Verberg raster door het te veranderen in een opmerking
 
 --- /code ---
 
@@ -112,7 +112,6 @@ filename: main.py - draw()
 **Test:** Voer je project uit om de gekozen schermgrootte en achtergrondkleur te zien.
 
 --- /task ---
-
 
 --- task ---
 
