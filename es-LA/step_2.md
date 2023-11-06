@@ -11,7 +11,7 @@
 
 --- task ---
 
-Abre el [proyecto inicial](https://trinket.io/library/trinkets/54d15b9cdf){:target="_blank"}. Trinket se abrirá en otra pestaña del navegador.
+Abre el [proyecto inicial](https://trinket.io/library/trinkets/a68341f248){:target="_blank"}. Trinket se abrirá en otra pestaña del navegador.
 
 --- /task ---
 
@@ -45,7 +45,7 @@ language: python filename: main.py - setup() line_numbers: true line_number_star
 line_highlights: 7
 ---
 def setup():   
-size(400, 400) #400 by 400 works well for a round face
+size(400, 400)  # 400 by 400 works well for a round face
 
 --- /code ---
 
@@ -71,7 +71,7 @@ language: python filename: main.py - draw() line_numbers: true line_number_start
 line_highlights: 9
 ---
 
-    background(255, 255, 255) #Try different numbers to change the colour
+    background(255, 255, 255)  # Try different numbers to change the colour
 
 --- /code ---
 
@@ -91,7 +91,7 @@ language: python
 filename: main.py - draw()
 ---
 
-    grid() #Shows grid
+    grid()  # Shows grid
 
 --- /code ---
 
@@ -101,7 +101,7 @@ language: python
 filename: main.py - draw()
 ---
 
-    #grid() #Hide grid by turning it into a comment
+    #grid()  # Hide grid by turning it into a comment
 
 --- /code ---
 
@@ -113,7 +113,6 @@ filename: main.py - draw()
 
 --- /task ---
 
-
 --- task ---
 
 **Depurar:** Es posible que encuentres algunos errores en tu proyecto que necesites corregir. A continuación, se muestran algunos errores comunes.
@@ -124,7 +123,7 @@ filename: main.py - draw()
 title: Actualicé el tamaño y el color, pero el resultado permanece igual
 ---
 
-Después de cambiar el código, deberás `ejecutar` tu proyecto para poder visualizar los cambios.
+Después de cambiar el código, deberás `ejecutar (run)` tu proyecto para poder visualizar los cambios.
 
 --- /collapse ---
 
