@@ -22,30 +22,21 @@ Byddwch chi'n gwneud penderfyniadau dylunio am y math o wyneb i'w wneud, a sut b
 
 --- task ---
 <div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
+<div style="flex-basis: 175px; flex-grow: 1">
 
-'Drychwch ar yr enghreifftiau hyn a meddwl am sut maen nhw wedi cael eu gwneud o gylchoedd, elipsau, sgwariau, petryalau a thrionglau.
+Look at these examples and think about how they have been made from circles, ellipses, squares, rectangles, and triangles.
 
-**Ffrwyth Kawaii**: [Gweld tu mewn](https://trinket.io/python/6bad88800b){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/6bad88800b?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+**Kawaii fruit**:
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/fruit-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> [See inside](https://editor.raspberrypi.org/en/projects/fruit-face-example){:target="_blank"}
 
-**Wynebau mewn pentwr**: [Gweld tu mewn](https://trinket.io/python/f90794771c){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/f90794771c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+**Stacked faces**:
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/stacked-faces-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> [See inside](https://editor.raspberrypi.org/en/projects/stacked-faces-example){:target="_blank"}
 
-**Masg llwythol**: [Gweld tu mewn](https://trinket.io/python/b876d500ab){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/b876d500ab?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
-
-</div>
-</div>
+**Tribal mask**:
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/tribal-mask-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> [See inside](https://editor.raspberrypi.org/en/projects/tribal-mask-example){:target="_blank"}
 
 --- /task ---
 
@@ -53,13 +44,13 @@ Byddwch chi'n gwneud penderfyniadau dylunio am y math o wyneb i'w wneud, a sut b
 
 --- print-only ---
 
-### Cael ysbrydoliaeth
+### Get ideas 💭
 
-Byddwch chi'n gwneud penderfyniadau dylunio am y math o wyneb i'w wneud, a sut byddwch chi'n defnyddio cod i gael yr effaith rydych chi'n ei dymuno.
+You are going to make some design decisions about the kind of face you will make and how you will use code to get the effect you want.
 
-Fe allwch chi weld tu mewn i brosiectau enghreifftiol yn [Python 1: Make a face — Examples](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"} Scratch studio.
+Investigate the example projects above, see if you can identify the shapes used to make the faces. You can click **See inside** to view the code.
 
-![Yr ardal allbwn o brosiect Ffrwyth Kawaii.](images/smile.png) ![Yr ardal allbwn o brosiect Wynebau mewn pentwr.](images/stacked.png) ![Yr ardal allbwn o brosiect Masg llwythol.](images/tribal.png)
+![The output area from the Kawaii fruit project.](images/smile.png) ![The output area from the Stacked faces project.](images/stacked.png) ![The output area from the Tribal mask project.](images/tribal.png)
 
 --- /print-only ---
 
