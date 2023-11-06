@@ -1,25 +1,21 @@
 ## Melhore o seu projeto
 
-If you have time you can upgrade to your project.
+Se você tiver tempo, você pode melhorar o seu projeto.
 
-Each of the examples in the [Introduction](.) was created in Trinket and you can look at the code to get ideas and see how they work.
+Cada um dos exemplos na [Introdução](.) foi criado no Trinket e você pode consultar o código para obter ideias e ver como elas funcionam.
 
-Here are some other ideas you could try:
-- Add interactivity — try our **Interactive: Theatre Mask**, what happens when you move your mouse across the screen?
-- Add animation — try our **Animated: Frida**, what happens to Frida's headband when you run the project?
+Aqui estão algumas ideias que você pode tentar:
+- Adicione interatividade - experimente nosso **Interativo: Máscara de Teatro**, o que acontece quando você move o mouse pela tela?
+- Adicione animação — experimente nosso **Animado: Frida**, o que acontece com a tiara de Frida quando você executa o projeto?
 
-**Interactive: Theatre Mask**: [See inside](https://trinket.io/python/86d89fad13){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/86d89fad13?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+**Interactive: Theatre Mask**:
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/interactive-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> [See inside](https://editor.raspberrypi.org/en/projects/interactive-face-example){:target="_blank"}
 
-**Animated: Frida**: [See inside](https://trinket.io/python/3d69be294a){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/3d69be294a?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+**Animated: Frida**:
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/animated-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> [See inside](https://editor.raspberrypi.org/en/projects/animated-face-example){:target="_blank"}
 
-Take a look at our [Make a face - Community library](https://wke.lt/w/s/8sVH4f){:target="_blank"} to see projects created by community members.
+Dê uma olhada em nossa [Crie um rosto -Biblioteca comunitária](https://wke.lt/w/s/8sVH4f){:target="_blank"} para ver os projetos criados por membros da comunidade.
 
 --- save ---
