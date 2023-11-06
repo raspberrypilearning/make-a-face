@@ -13,7 +13,7 @@
 
 حدد الشكل الرئيسي للوجه لقناعك. يمكن أن تكون دائرة أو قطع ناقص أو مستطيل أو حتى مثلث.
 
-أضف رمزًا إلى الوظيفة `draw ()` لرسم وجه أو قناع. تأكد أيضًا من إزالة `تمرير` من داخل الوظيفة.
+أضف رمزًا إلى الوظيفة `()draw` لرسم وجه أو قناع.
 
 يرسم هذا المثال دائرة في المنتصف ، لكن الأمر متروك لك بشأن الشكل الذي تريد استخدامه.
 
@@ -23,8 +23,12 @@ language: python filename: main.py - draw() line_numbers: true line_number_start
 line_highlights: 12
 ---
 
-def draw():   
-ellipse(width/2, height/2, 200, 200) #Circle in the middle
+def draw(): # Put code to run every frame here background(255, 255, 255)  # Change to your background colour
+
+    # Add code to draw your face here
+    ellipse(width/2, height/2, 200, 200)  # Circle in the middle
+    
+    grid()  # add a # to the beginning of this line to hide the grid
 
 --- /code ---
 
@@ -60,7 +64,9 @@ language: python filename: main.py - draw() line_numbers: true line_number_start
 line_highlights: 13
 ---
 
-def draw(): stroke(0) #You can also use no_stroke() fill(255, 255, 0) #Bright yellow ellipse(width/2, height/2, 200, 200) #Circle in the middle
+    # Add code to draw your face here
+    fill(255, 255, 0)  # Bright yellow
+    ellipse(width/2, height/2, 200, 200)
 
 --- /code ---
 
