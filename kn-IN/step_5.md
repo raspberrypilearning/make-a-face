@@ -39,10 +39,10 @@ language: python
 filename: main.py - draw()
 ---
 
-    fill(0, 0, 0) #A black mouth
+    fill(0, 0, 0)  # A black mouth
     ellipse(200, 240, 15, 15)
-    fill(255, 165, 0) #An orange face
-    ellipse(200, 235, 15, 15) #Higher circle
+    fill(255, 165, 0)  # An orange face
+    ellipse(200, 235, 15, 15)  # Higher circle
 
 --- /code ---
 
@@ -54,10 +54,10 @@ language: python
 filename: main.py - draw()
 ---
 
-    fill(0, 0, 0) #A black mouth
+    fill(0, 0, 0)  # A black mouth
     ellipse(200, 240, 15, 15)
-    fill(255, 165, 0) #An orange face
-    ellipse(200, 245, 15, 15) #Lower circle
+    fill(255, 165, 0)  # An orange face
+    ellipse(200, 245, 15, 15)  # Lower circle
 
 --- /code ---
 
@@ -82,16 +82,17 @@ Add the code for a `rectangle`, then create a smaller `rectangle` within it. Cha
 language: python
 filename: main.py - draw()
 ---
-# Face mask
-no_fill()    
-stroke(255, 255, 255)     
-ellipse(150, 250, 30, 30) #Left ear loop    
-ellipse(250, 250, 30, 30) #Right ear loop    
-fill(255, 255, 255)    
-no_stroke()     
-rect(150, 230, 100, 40) #Large white rectangle    
-fill(108, 200, 206)    
-rect(152, 235, 96, 30) #Smaller blue rectangle
+
+    # Face mask
+    no_fill()
+    stroke(255, 255, 255)
+    ellipse(150, 250, 30, 30)  # Left ear loop
+    ellipse(250, 250, 30, 30)  # Right ear loop
+    fill(255, 255, 255)
+    no_stroke()
+    rect(150, 230, 100, 40)  # Large white rectangle
+    fill(108, 200, 206)
+    rect(152, 235, 96, 30)  # Smaller blue rectangle
 
 --- /code ---
 
@@ -125,17 +126,17 @@ language: python
 filename: main.py - draw()
 ---
 
-# Mouth
-fill(90, 110, 184)     
-red = 90 #Starting amount of red   
-green = 110 #Starting amount of green    
-blue = 180 #Starting amount of blue    
-for i in range (0,6):     
-rect(100, 300, 33, 50)     
-fill(red, green, blue) #Uses variables to control the colour change each loop    
-red = red+40     
-blue = blue-30     
-translate(33, 0) #Move along the x coordinate by the width of a tooth
+    # Mouth
+    fill(90, 110, 184)
+    red = 90  # Starting amount of red
+    green = 110  # Starting amount of green
+    blue = 180  # Starting amount of blue
+    for i in range (0,6):
+        rect(100, 300, 33, 50)
+        fill(red, green, blue)  # Uses variables to control the colour change each loop
+        red = red+40
+        blue = blue-30
+        translate(33, 0)  # Move along the x coordinate by the width of a tooth
 
 
 --- /code ---
@@ -161,12 +162,13 @@ Add two `triangle` shapes to create the fangs. Change the `x` coordinates for ea
 language: python
 filename: main.py - draw()
 ---
-# Mouth
-  fill(0)    
-rect(170, 260, 60, 5) #Mouth line    
-fill(0)    
-triangle(170, 260, 180, 280, 190, 260) #Left tooth    
-triangle(210, 260, 220, 280, 230, 260) #Right tooth    
+
+    # Mouth
+    fill(0)
+    rect(170, 260, 60, 5)  # Mouth line
+    fill(0)
+    triangle(170, 260, 180, 280, 190, 260)  # Left tooth
+    triangle(210, 260, 220, 280, 230, 260)  # Right tooth
 --- /code ---
 
 --- /collapse ---
@@ -175,7 +177,7 @@ triangle(210, 260, 220, 280, 230, 260) #Right tooth
 
 --- task ---
 
-**Debug:** ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ನಲ್ಲಿ ನೀವು ಸರಿಪಡಿಸಬೇಕಾದ ಕೆಲವು ದೋಷಗಳನ್ನು ನೀವು ಕಾಣಬಹುದು. Here are some common bugs.
+**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
 
 --- collapse ---
 
