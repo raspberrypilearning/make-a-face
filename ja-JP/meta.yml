@@ -2,6 +2,8 @@
 title: 顔を作る
 hero_image: images/banner.png
 description: 色んな図形を使用して顔またはマスクを設計および描画します
+meta_title: Python coding projects for kids and teens | Make a face
+meta_description: Learn Python with the Raspberry Pi Foundation's coding projects for kids and teens. Write Python code to draw a face or mask using geometric shapes.
 version: 4
 listed: true
 copyedit: true
