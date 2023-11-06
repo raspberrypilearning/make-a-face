@@ -13,18 +13,22 @@
 
 Визнач, якою буде основна фігура для твого обличчя або маски. Це може бути коло, овал, прямокутник, або навіть трикутник.
 
-Додай код до функції `draw()`, щоб намалювати обличчя або маску. Не забудь видалити `pass` із середини функції.
+Add code to the `draw()` function to draw a face or mask.
 
 У цьому прикладі коло намальоване в центрі, але ти можеш обрати іншу фігуру.
 
 --- code ---
 ---
-language: python filename: main.py - draw() line_numbers: true line_number_start: 11
-line_highlights: 12
+language: python filename: main.py - draw() line_numbers: true line_number_start: 10
+line_highlights: 14, 15
 ---
 
-def draw():   
-ellipse(width/2, height/2, 200, 200) #Circle in the middle
+def draw(): # Put code to run every frame here background(255, 255, 255)  # Change to your background colour
+
+    # Add code to draw your face here
+    ellipse(width/2, height/2, 200, 200)  # Circle in the middle
+    
+    grid()  # add a # to the beginning of this line to hide the grid
 
 --- /code ---
 
@@ -60,7 +64,9 @@ language: python filename: main.py - draw() line_numbers: true line_number_start
 line_highlights: 13
 ---
 
-def draw(): stroke(0) #You can also use no_stroke() fill(255, 255, 0) #Bright yellow ellipse(width/2, height/2, 200, 200) #Circle in the middle
+    # Add code to draw your face here
+    fill(255, 255, 0)  # Bright yellow
+    ellipse(width/2, height/2, 200, 200)
 
 --- /code ---
 
@@ -70,7 +76,7 @@ def draw(): stroke(0) #You can also use no_stroke() fill(255, 255, 0) #Bright ye
 
 --- task ---
 
-**Тест:** Запускай свій проєкт та змінюй колір до тих пір, поки не знайдеш бажаний результат.
+**Test:** Run your code and change the colour until you are happy with it.
 
 --- /task ---
 
