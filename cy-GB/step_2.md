@@ -11,7 +11,7 @@ Oes gennych chi sniad pa fath o wyneb neu fasg hoffech chi ei wneud? Defnyddiwch
 
 --- task ---
 
-Agorwch y [prosiect dechreuol](https://trinket.io/library/trinkets/54d15b9cdf){:target="_blank"}. Bydd Trinket yn agor mewn tab arall yn y porwr.
+Open the [starter project](https://editor.raspberrypi.org/en/projects/make-face-starter){:target="_blank"}. The Raspberry Pi code editor will open in another browser tab.
 
 --- /task ---
 
@@ -45,7 +45,7 @@ language: python filename: main.py - setup() line_numbers: true line_number_star
 line_highlights: 7
 ---
 def setup():   
-size(400, 400) #400 by 400 works well for a round face
+size(400, 400)  # 400 by 400 works well for a round face
 
 --- /code ---
 
@@ -71,7 +71,7 @@ language: python filename: main.py - draw() line_numbers: true line_number_start
 line_highlights: 9
 ---
 
-    background(255, 255, 255) #Try different numbers to change the colour
+    background(255, 255, 255) #Rhowch gynnig ar wahanol rifau i newid y lliw
 
 --- /code ---
 
@@ -91,7 +91,7 @@ language: python
 filename: main.py - draw()
 ---
 
-    grid() #Shows grid
+    grid() #Dangos grid
 
 --- /code ---
 
@@ -101,7 +101,7 @@ language: python
 filename: main.py - draw()
 ---
 
-    #grid() #Hide grid by turning it into a comment
+    #grid() #Cuddio grid drwy ei droi'n sylw
 
 --- /code ---
 
@@ -112,7 +112,6 @@ filename: main.py - draw()
 **Profi:** Rhedwch eich prosiect i weld maint y sgrin a'r lliw cefndir o'ch dewis.
 
 --- /task ---
-
 
 --- task ---
 
