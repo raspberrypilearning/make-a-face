@@ -35,14 +35,15 @@
 
 <h2 spaces-before="0">filename: main.py - draw()</h2>
 
-<p spaces-before="2">fill(0, 0, 0) #Black — change to red, green, or blue up to 255
+<pre><code>fill(0, 0, 0) #أسود - قم بالتغيير إلى اللون الأحمر أو الأخضر أو الأزرق حتى 255
   eye_size = 50
-  ellipse(160, 180, eye_size, eye_size) #x, y, width, height
-  ellipse(240, 180, eye_size, eye_size)</p>
+  ellipse(160, 180, eye_size, eye_size) #x ، y ، العرض ، الارتفاع
+  ellipse(240, 180, eye_size, eye_size)
+`</pre>
 
-<p spaces-before="0">--- /code --- </p>
+--- /code ---
 
-<p spaces-before="0"><strong x-id="1">نصيحة:</strong> إذا كنت تريد عيونًا مستديرة ، فإن استخدام متغير <code>eye_size` يجعل من السهل تغيير عرض وارتفاع كلتا العينين في مكان واحد.
+**نصيحة:** إذا كنت تريد عيونًا مستديرة ، فإن استخدام متغير `eye_size` يجعل من السهل تغيير عرض وارتفاع كلتا العينين في مكان واحد.
 
 [[[processing-python-ellipse]]]
 
@@ -52,7 +53,7 @@
 title: حساب المراكز على أساس العرض
 ---
 
-يقع مركز الرسم في الموضع `عرض / 2` أو نصف العرض. يمكنك استخدام هذا لوضع العينين عن طريق طرح عرض العين للعين اليسرى وإضافته للعين اليمنى:
+يقع مركز الرسم في الموضع `width / 2` أو نصف العرض. يمكنك استخدام هذا لوضع العينين عن طريق طرح عرض العين للعين اليسرى وإضافته للعين اليمنى:
 
 --- code ---
 ---
@@ -60,7 +61,10 @@ language: python
 filename: main.py - draw()
 ---
 
-  fill(0, 0, 0) #Black — change to red, green, or blue up to 255 eye_size = 50 ellipse( (width / 2) - 40, 180, eye_size, eye_size) #x, y, width, height ellipse( (width / 2) + 40 , 180, eye_size, eye_size)
+    fill(0, 0, 0) #أسود - قم بالتغيير إلى اللون الأحمر أو الأخضر أو الأزرق حتى 255
+      eye_size = 50
+      ellipse( (width / 2) - 40, 180, eye_size, eye_size) #x ، y ، العرض ، الارتفاع
+      ellipse( (width / 2) + 40 , 180, eye_size, eye_size)
 
 --- /code ---
 
@@ -72,7 +76,9 @@ language: python
 filename: main.py - draw()
 ---
 
-  fill(0, 0, 0) #Black — change to red, green, or blue up to 255 ellipse( (width / 2) - (width / 10) , 180, eye_size, eye_size) #x, y, width, height ellipse( (width / 2) + (width / 10) , 180, eye_size, eye_size)
+    fill(0, 0, 0) #أسود - قم بالتغيير إلى اللون الأحمر أو الأخضر أو الأزرق حتى 255
+      ellipse( (width / 2) - (width / 10) , 180, eye_size, eye_size) #x ، y ، العرض ، الارتفاع
+      ellipse( (width / 2) + (width / 10) , 180, eye_size, eye_size)
 
 --- /code ---
 
@@ -86,7 +92,7 @@ filename: main.py - draw()
 
 **اختبار:** استمر في تغيير شكل وموضع العينين حتى تعجبك الطريقة التي تبدو بها.
 
-**نصيحة:** إذا قمت بتعيين حد لرسم الوجه ولا تريد رسمًا للعين ، فستحتاج إلى استدعاء `no_stroke ()` قبل رسم العيون.
+**نصيحة:** إذا قمت بتعيين حد لرسم الوجه ولا تريد رسمًا للعين ، فستحتاج إلى استدعاء `()no_stroke` قبل رسم العيون.
 
 [[[processing-stroke]]]
 
