@@ -39,10 +39,10 @@ language: python
 filename: main.py - draw()
 ---
 
-    fill(0, 0, 0) #A black mouth
+    fill(0, 0, 0)  # A black mouth
     ellipse(200, 240, 15, 15)
-    fill(255, 165, 0) #An orange face
-    ellipse(200, 235, 15, 15) #Higher circle
+    fill(255, 165, 0)  # An orange face
+    ellipse(200, 235, 15, 15)  # Higher circle
 
 --- /code ---
 
@@ -54,10 +54,10 @@ language: python
 filename: main.py - draw()
 ---
 
-    fill(0, 0, 0) #A black mouth
+    fill(0, 0, 0)  # A black mouth
     ellipse(200, 240, 15, 15)
-    fill(255, 165, 0) #An orange face
-    ellipse(200, 245, 15, 15) #Lower circle
+    fill(255, 165, 0)  # An orange face
+    ellipse(200, 245, 15, 15)  # Lower circle
 
 --- /code ---
 
@@ -82,16 +82,17 @@ Agrega el código para un `rectángulo`, luego crea un `rectángulo` más peque�
 language: python
 filename: main.py - draw()
 ---
-# Máscara
-no_fill()    
-stroke(255, 255, 255)     
-ellipse(150, 250, 30, 30) #Left ear loop    
-ellipse(250, 250, 30, 30) #Right ear loop    
-fill(255, 255, 255)    
-no_stroke()     
-rect(150, 230, 100, 40) #Large white rectangle    
-fill(108, 200, 206)    
-rect(152, 235, 96, 30) #Smaller blue rectangle
+
+    # Face mask
+    no_fill()
+    stroke(255, 255, 255)
+    ellipse(150, 250, 30, 30)  # Left ear loop
+    ellipse(250, 250, 30, 30)  # Right ear loop
+    fill(255, 255, 255)
+    no_stroke()
+    rect(150, 230, 100, 40)  # Large white rectangle
+    fill(108, 200, 206)
+    rect(152, 235, 96, 30)  # Smaller blue rectangle
 
 --- /code ---
 
@@ -103,7 +104,7 @@ rect(152, 235, 96, 30) #Smaller blue rectangle
 
 --- task ---
 
-**Elige:** También puedes agregar varios dientes a tu boca usando `transladar` para cambiar la coordenada `x` después de dibujar cada diente.
+**Elige:** También puedes agregar varios dientes a tu boca usando `translate` para cambiar la coordenada `x` después de dibujar cada diente.
 
 --- collapse ---
 
@@ -111,11 +112,11 @@ rect(152, 235, 96, 30) #Smaller blue rectangle
 title: Usa un ciclo para agregar una fila de dientes
 ---
 
-Agrega código para crear un ciclo llamado `por` que se repite para crear la cantidad de dientes que necesitas.
+Agrega código para crear un ciclo llamado `for` que se repite para crear la cantidad de dientes que necesitas.
 
 ![El área de salida que muestra una cara de robot con una fila de dientes rectangulares de diferentes colores.](images/robot-teeth.png)
 
-Después de dibujar cada diente, agrega código para `trasladar()` el diente por el ancho de cada uno.
+Después de dibujar cada diente, agrega código para `translate()` el diente por el ancho de cada uno.
 
 También puedes agregar código para cambiar el color de cada diente.
 
@@ -125,17 +126,17 @@ language: python
 filename: main.py - draw()
 ---
 
-# Boca
-fill(90, 110, 184)     
-red = 90 #Starting amount of red   
-green = 110 #Starting amount of green    
-blue = 180 #Starting amount of blue    
-for i in range (0,6):     
-rect(100, 300, 33, 50)     
-fill(red, green, blue) #Uses variables to control the colour change each loop    
-red = red+40     
-blue = blue-30     
-translate(33, 0) #Move along the x coordinate by the width of a tooth
+    # Mouth
+    fill(90, 110, 184)
+    red = 90  # Starting amount of red
+    green = 110  # Starting amount of green
+    blue = 180  # Starting amount of blue
+    for i in range (0,6):
+        rect(100, 300, 33, 50)
+        fill(red, green, blue)  # Uses variables to control the colour change each loop
+        red = red+40
+        blue = blue-30
+        translate(33, 0)  # Move along the x coordinate by the width of a tooth
 
 
 --- /code ---
@@ -161,12 +162,13 @@ Agrega dos formas de `triángulo` para crear los colmillos. Cambia las coordenad
 language: python
 filename: main.py - draw()
 ---
-# Boca
-  fill(0)    
-rect(170, 260, 60, 5) #Mouth line    
-fill(0)    
-triangle(170, 260, 180, 280, 190, 260) #Left tooth    
-triangle(210, 260, 220, 280, 230, 260) #Right tooth    
+
+    fill(0)<br x-id="4" />
+      rect(170, 260, 60, 5) #Línea de la boca<br x-id="4" />
+      fill(0)<br x-id="4" />
+      triangle(170, 260, 180, 280, 190, 260) #Diente izquierdo<br x-id="4" />
+      triangle(210, 260, 220, 280, 230, 260) #Diente derecho<br x-id="4" />
+    --- /code ---
 --- /code ---
 
 --- /collapse ---
@@ -194,7 +196,7 @@ Si usas dos formas superpuestas para crear una boca, debes asegurarte de que la 
 title: Tengo demasiados dientes
 ---
 
-No olvides que `rango()` crea una secuencia de números a partir de 0, no de 1. Esto puede hacer la diferencia en tu código dependiendo de cómo hayas colocado tus dientes.
+No olvides que `range()` crea una secuencia de números a partir de 0, no de 1. Esto puede hacer la diferencia en tu código dependiendo de cómo hayas colocado tus dientes.
 
 --- /collapse ---
 
