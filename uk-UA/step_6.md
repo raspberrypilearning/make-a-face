@@ -40,14 +40,14 @@ language: python
 filename: main.py - draw()
 ---
 
-  #Highlights    
-fill(255, 255, 255, 70) #70 is transparency/opacity here    
-ellipse(170, 150, 35, 35)   
-ellipse(150, 160, 25, 25)
+    # Highlights    
+    fill(255, 255, 255, 70)  # 70 is transparency/opacity here    
+    ellipse(170, 150, 35, 35)   
+    ellipse(150, 160, 25, 25)
 
 --- /code ---
 
-![Зображення милого фрукта з відблисками, які мають різну прозорість: 30, 70, 150, 255. Нижче значення, 30 - більш прозоре, а 255 - менш прозоре.](images/opacity.png)
+![Kawaii fruit image with highlights at different opacities: 30, 70, 150, 255. The lower value, 30, is more opaque and 255 is less opaque.](images/opacity.png)
 
 --- /task ---
 
