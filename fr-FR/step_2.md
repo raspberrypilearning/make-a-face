@@ -11,7 +11,7 @@ As-tu une idée du type de visage ou de masque que tu souhaites réaliser ? Util
 
 --- task ---
 
-Ouvre le [projet de démarrage](https://trinket.io/library/trinkets/54d15b9cdf){:target="_blank"}. Trinket s'ouvrira dans un autre onglet du navigateur.
+Ouvre le [projet de démarrage](https://trinket.io/library/trinkets/5badd92b46){:target="_blank"}. Trinket s'ouvrira dans un autre onglet du navigateur.
 
 --- /task ---
 
@@ -45,7 +45,7 @@ language: python filename: main.py - setup() line_numbers: true line_number_star
 line_highlights: 7
 ---
 def setup():   
-size(400, 400) #400 by 400 works well for a round face
+size(400, 400) #400 par 400 fonctionne bien pour un visage rond
 
 --- /code ---
 
@@ -71,7 +71,7 @@ language: python filename: main.py - draw() line_numbers: true line_number_start
 line_highlights: 9
 ---
 
-    background(255, 255, 255) #Try different numbers to change the colour
+    background(255, 255, 255) #Essaie différents nombres pour changer la couleur
 
 --- /code ---
 
@@ -91,7 +91,7 @@ language: python
 filename: main.py - draw()
 ---
 
-    grid() #Shows grid
+    grid() #Affiche la grille
 
 --- /code ---
 
@@ -101,7 +101,7 @@ language: python
 filename: main.py - draw()
 ---
 
-    #grid() #Hide grid by turning it into a comment
+    #grid() #Cacher la grille en la transformant en commentaire
 
 --- /code ---
 
@@ -112,7 +112,6 @@ filename: main.py - draw()
 **Test :** Exécute ton projet pour voir la taille d'écran et la couleur d'arrière-plan que tu as choisies.
 
 --- /task ---
-
 
 --- task ---
 
