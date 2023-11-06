@@ -22,30 +22,21 @@
 
 --- task ---
 <div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
+<div style="flex-basis: 175px; flex-grow: 1">
 
-これらの例を見て、それらが円、楕円、正方形、長方形、および三角形からどのように作成されているかを考えてください。
+これらの例を見て、それらが円、楕円、正方形、長方形、および三角形からどのように作成されているかを考えてください。 **カワイイフルーツ**：\[中を見る\](https://trinket.io/python/ebd29f3f2e){:target="_blank"}
 
-**カワイイフルーツ**：[中を見る] (https://trinket.io/python/6bad88800b){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/6bad88800b?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+**Kawaii fruit**:
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/fruit-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> [Python 1: 顔を作る — 例](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"}のサンプルプロジェクトの内部を参照してくださいスクラッチスタジオ。
 
-**積み上げ面**：[中を見る] (https://trinket.io/python/f90794771c){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/f90794771c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+**Stacked faces**:
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/stacked-faces-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> **積み上げ面**：\[中を見る\](https://trinket.io/python/63cbe6a122){:target="_blank"}
 
-**部族マスク**：[中を見る]( https://trinket.io/python/b876d500ab){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/b876d500ab?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
-
-</div>
-</div>
+**Tribal mask**:
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/tribal-mask-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> **部族マスク**：\[中を見る\](https://trinket.io/python/d2f4181695){:target="_blank"}
 
 --- /task ---
 
@@ -57,7 +48,7 @@
 
 どのような顔にするか、どのようにコードを使って欲しい効果を得るか、デザインしていくことになります。
 
-[Python 1: 顔を作る — 例](https://trinket.io/library/folder/make-a-face-examples)のサンプルプロジェクトの内部を参照してください{:target="_blank"}スクラッチスタジオ。
+Investigate the example projects above, see if you can identify the shapes used to make the faces. You can click **See inside** to view the code.
 
 ![カワイイフルーツプロジェクトの出力領域。](images/smile.png) ![積み上げ面プロジェクトからの出力領域。](images/stacked.png) ![部族マスクプロジェクトからの出力領域。](images/tribal.png)
 
