@@ -22,30 +22,21 @@
 
 --- task ---
 <div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
+<div style="flex-basis: 175px; flex-grow: 1">
 
-Κοίταξε αυτά τα παραδείγματα και σκέψου πώς έχουν κατασκευαστεί από κύκλους, ελλείψεις, τετράγωνα, ορθογώνια και τρίγωνα.
+Look at these examples and think about how they have been made from circles, ellipses, squares, rectangles, and triangles.
 
-**Φρούτο Kawaii**: [Δες μέσα](https://trinket.io/python/6bad88800b){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/6bad88800b?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+**Kawaii fruit**:
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/fruit-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> [See inside](https://editor.raspberrypi.org/en/projects/fruit-face-example){:target="_blank"}
 
-**Στοιβαγμένα πρόσωπα**: [Δες μέσα](https://trinket.io/python/f90794771c){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/f90794771c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+**Stacked faces**:
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/stacked-faces-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> [See inside](https://editor.raspberrypi.org/en/projects/stacked-faces-example){:target="_blank"}
 
-**Μάσκα Φυλής**: [Δες μέσα](https://trinket. io/python/b876d500ab){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/b876d500ab?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
-
-</div>
-</div>
+**Tribal mask**:
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/tribal-mask-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> [See inside](https://editor.raspberrypi.org/en/projects/tribal-mask-example){:target="_blank"}
 
 --- /task ---
 
@@ -53,13 +44,13 @@
 
 --- print-only ---
 
-### Πάρε έμπνευση
+### Get ideas 💭
 
-Θα λάβεις κάποιες σχεδιαστικές αποφάσεις σχετικά με το είδος του προσώπου που θα κάνεις και πώς θα χρησιμοποιήσεις κώδικα για να έχεις τα εφέ που θέλεις.
+You are going to make some design decisions about the kind of face you will make and how you will use code to get the effect you want.
 
-Δες παραδείγματα έργων στο [Python 1: Φτιάξε ένα πρόσωπο - Παραδείγματα](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"} Scratch studio.
+Investigate the example projects above, see if you can identify the shapes used to make the faces. You can click **See inside** to view the code.
 
-![Η περιοχή εξόδου για το έργο Φρούτο Kawaii.](images/smile.png) ![Η περιοχή εξόδου για το έργο Στοιβαγμένα πρόσωπα.](images/stacked.png) ![Η περιοχή εξόδου για το έργο Μάσκα Φυλής.](images/tribal.png)
+![The output area from the Kawaii fruit project.](images/smile.png) ![The output area from the Stacked faces project.](images/stacked.png) ![The output area from the Tribal mask project.](images/tribal.png)
 
 --- /print-only ---
 
