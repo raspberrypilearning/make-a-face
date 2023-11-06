@@ -32,7 +32,11 @@ Dans cet exemple, `160` et `240` sont tous les deux à `40` pixels de 200, ce qu
 language: python
 filename: main.py - draw()
 ---
-  fill(0, 0, 0) #Black — change to red, green, or blue up to 255 eye_size = 50 ellipse(160, 180, eye_size, eye_size) #x, y, width, height ellipse(240, 180, eye_size, eye_size)
+
+    fill(0, 0, 0) #Noir - passe au rouge, au vert ou au bleu jusqu'à 255
+      taille-yeux = 50
+      ellipse(160, 180, taille-yeux, taille-yeux) #x, y, largeur, hauteur
+      ellipse(240, 180, taille-yeux, taille-yeux)
 
 --- /code ---
 
@@ -46,7 +50,7 @@ filename: main.py - draw()
 title: Calcul des positions en fonction de la largeur
 ---
 
-Le centre d'un dessin est à la position `largeur / 2` ou la moitié de la largeur. Tu peux l'utiliser pour positionner les yeux en soustrayant la largeur des yeux pour l'œil gauche et en l'ajoutant pour l'œil droit :
+Le centre d'un dessin est à la position `width / 2` ou la moitié de la largeur. Tu peux l'utiliser pour positionner les yeux en soustrayant la largeur des yeux pour l'œil gauche et en l'ajoutant pour l'œil droit :
 
 --- code ---
 ---
@@ -54,7 +58,10 @@ language: python
 filename: main.py - draw()
 ---
 
-  fill(0, 0, 0) #Black — change to red, green, or blue up to 255 eye_size = 50 ellipse( (width / 2) - 40, 180, eye_size, eye_size) #x, y, width, height ellipse( (width / 2) + 40 , 180, eye_size, eye_size)
+    fill(0, 0, 0) #Noir - passe au rouge, au vert ou au bleu jusqu'à 255
+      taille-yeux = 50
+      ellipse( (width / 2) - 40, 180, taille-yeux, taille-yeux) #x, y, largeur, hauteur
+      ellipse( (width / 2) + 40 , 180, taille-yeux, taille-yeux)
 
 --- /code ---
 
@@ -66,7 +73,9 @@ language: python
 filename: main.py - draw()
 ---
 
-  fill(0, 0, 0) #Black — change to red, green, or blue up to 255 ellipse( (width / 2) - (width / 10) , 180, eye_size, eye_size) #x, y, width, height ellipse( (width / 2) + (width / 10) , 180, eye_size, eye_size)
+    fill(0, 0, 0) #Noir - passe au rouge, au vert ou au bleu jusqu'à 255
+      ellipse( (width / 2) - (width / 10) , 180, taille-yeux, taille-yeux) #x, y, largeur, hauteur
+      ellipse( (width / 2) + (width / 10) , 180, taille-yeux, taille-yeux)
 
 --- /code ---
 
@@ -123,7 +132,7 @@ Ton dessin commence à ressembler à un visage ?
 title: Les yeux ne sont pas centrés
 ---
 
-Tu peux utiliser `hauteur / 2` pour les placer au centre.
+Tu peux utiliser `height / 2` pour les placer au centre.
 
 --- /collapse ---
 
