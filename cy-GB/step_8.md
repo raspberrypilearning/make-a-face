@@ -8,17 +8,13 @@ Dyma rai syniadau eraill gallech chi roi cynnig arnyn nhw:
 - Ychwanegu rhyngweithioldeb — rhowch gynnig ar **Rhyngweithiol: Masg Theatr**, beth sy'n digwydd pan fyddwch chi'n symud eich llygoden ar draws y sgrin?
 - Ychwanegu animeiddiad — rhowch gynnig ar **Animeiddiad: Frida**, beth sy'n digwydd i fand gwallt Frida pan fyddwch chi'n rhedeg y prosiect?
 
-**Rhyngweithiol: Masg Theatr**: [Gweld tu mewn](https://trinket.io/python/86d89fad13){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/86d89fad13?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+**Rhyngweithiol: Masg Theatr**: [Gweld tu mewn](https://trinket.io/python/32025d3e5a){:target="_blank"}
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/interactive-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> [See inside](https://editor.raspberrypi.org/en/projects/interactive-face-example){:target="_blank"}
 
-**Animeiddiad: Frida**: [Gweld tu mewn](https://trinket.io/python/3d69be294a){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/3d69be294a?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+**Animeiddiad: Frida**: [Gweld tu mewn](https://trinket.io/python/aebb2aeb8b){:target="_blank"}
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/animated-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe> [See inside](https://editor.raspberrypi.org/en/projects/animated-face-example){:target="_blank"}
 
 Tarwch olwg ar [Make a face - Community library](https://wke.lt/w/s/8sVH4f){:target="_blank"} i weld prosiectau wedi'u creu gan aelodau o'r gymuned.
 
