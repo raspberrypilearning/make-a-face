@@ -27,15 +27,15 @@
 これらの例を見て、それらが円、楕円、正方形、長方形、および三角形からどのように作成されているかを考えてください。 **カワイイフルーツ**：\[中を見る\](https://trinket.io/python/ebd29f3f2e){:target="_blank"}
 
 **Kawaii fruit**:
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/fruit-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/fruit-face-example" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe> [Python 1: 顔を作る — 例](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"}のサンプルプロジェクトの内部を参照してくださいスクラッチスタジオ。
 
 **Stacked faces**:
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/stacked-faces-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/stacked-faces-example" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe> **積み上げ面**：\[中を見る\](https://trinket.io/python/63cbe6a122){:target="_blank"}
 
 **Tribal mask**:
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/tribal-mask-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/tribal-mask-example" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe> **部族マスク**：\[中を見る\](https://trinket.io/python/d2f4181695){:target="_blank"}
 
 --- /task ---
