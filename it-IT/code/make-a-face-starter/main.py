@@ -5,12 +5,12 @@ from grid import *
 
 
 def setup():
-    # Put code to run once here
-    size(400, 400)  # width and height
+    # Metti qui sotto il codice che verrà eseguito una sola volta
+    size(400, 400)  # larghezza e altezza
 
 
 def draw():
-    # Put code to run every frame here
+    # Metti qui sotto il codice che verrà eseguito ad ogni cambio di frame
     background(255, 255, 255)
     # Add code to draw your face here
 
