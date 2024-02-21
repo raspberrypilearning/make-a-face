@@ -134,6 +134,8 @@ Nez
 
 Marques sur le visage
 
+Add code to draw your face here
+
 Cheveux
 
 ajouter un # au début de cette ligne pour cacher la grille
