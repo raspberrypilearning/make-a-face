@@ -134,6 +134,8 @@ Nariz
 
 Marcas faciais
 
+Add code to draw your face here
+
 Cabelo
 
 adicione um # ao início desta linha para ocultar a grade
