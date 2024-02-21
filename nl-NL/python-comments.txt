@@ -134,6 +134,8 @@ Neus
 
 Gezichtsmarkeringen
 
+Add code to draw your face here
+
 Haar
 
 voeg een # toe aan het begin van deze regel om het raster te verbergen
