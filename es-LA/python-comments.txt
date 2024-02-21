@@ -134,6 +134,8 @@ Nariz
 
 Marcas faciales
 
+Add code to draw your face here
+
 Cabello
 
 agrega un # al comienzo de esta línea para ocultar la cuadrícula
