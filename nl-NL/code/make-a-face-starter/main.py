@@ -5,14 +5,14 @@ from grid import *
 
 
 def setup():
-    # Put code to run once here
-    size(400, 400)  # width and height
+    # Zet de code om eenmalig uit te voeren hier onder
+    size(400, 400) # breedte en hoogte
 
 
 def draw():
-    # Put code to run every frame here
+    # Zet hier code om bij elk frame uit te voeren
     background(255, 255, 255)
-    # Add code to draw your face here
+    # Voeg hier code toe om je gezicht te tekenen
 
     grid()  # add a # to the beginning of this line to hide the grid
 
