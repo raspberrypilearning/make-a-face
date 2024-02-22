@@ -1,10 +1,10 @@
-## Quick quiz
+## Snelle quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Beantwoord de drie vragen. Je wordt naar het juiste antwoord geleid.
 
 Druk na elke vraag op **indienen**. Je wordt naar het juiste antwoord geleid.
 
-Have fun!
+Veel plezier!
 
 Veel plezier!
 
