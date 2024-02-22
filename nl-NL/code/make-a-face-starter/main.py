@@ -14,8 +14,8 @@ def draw():
     background(255, 255, 255)
     # Voeg hier code toe om je gezicht te tekenen
 
-    grid()  # add a # to the beginning of this line to hide the grid
+    grid() # voeg een # toe aan het begin van deze regel om het raster te verbergen
 
 
-# Keep this to run your code
+# Bewaar dit om je code uit te voeren
 run()
