@@ -134,7 +134,7 @@ Neus
 
 Gezichtsmarkeringen
 
-Add code to draw your face here
+Voeg hier code toe om je gezicht te tekenen
 
 Haar
 
