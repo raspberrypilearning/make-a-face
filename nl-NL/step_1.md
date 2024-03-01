@@ -16,7 +16,7 @@ Je gaat:
 
 --- no-print ---
 
-### Doe inspiratie op
+### Doe inspiratie op 💭
 
 Je gaat wat ontwerpbeslissingen nemen over het soort gezicht dat je gaat maken en hoe je code gaat gebruiken om het gewenste effect te krijgen.
 
@@ -26,17 +26,17 @@ Je gaat wat ontwerpbeslissingen nemen over het soort gezicht dat je gaat maken e
 
 Bekijk deze voorbeelden en bedenk hoe ze zijn gemaakt van cirkels, ellipsen, vierkanten, rechthoeken en driehoeken.
 
-**Kawaiifruit**:
+**Kawaii fruit**:
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/fruit-face-example" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe> Zie in voorbeeldprojecten in [Python 1: Maak een gezicht — voorbeelden](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"} Scratch studio.
+</iframe> [Kijk binnenin](https://editor.raspberrypi.org/en/projects/fruit-face-example){:target="_blank"}
 
 **Gestapelde gezichten**:
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/stacked-faces-example" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe> **Gestapelde gezichten**: \[Bekijk van binnen\](https://trinket.io/python/02aa2f9f05){:target="_blank"}
+</iframe> [Kijk binnenin](https://editor.raspberrypi.org/en/projects/stacked-faces-example){:target="_blank"}
 
 **Stammenmasker**:
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/tribal-mask-example" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe> **Stammenmasker**: \[Bekijk van binnen\](https://trinket.io/python/b08029f2bd){:target="_blank"}
+</iframe> [Bekijk vanbinnen](https://editor.raspberrypi.org/en/projects/tribal-mask-example){:target="_blank"}
 
 --- /task ---
 
@@ -44,13 +44,13 @@ Bekijk deze voorbeelden en bedenk hoe ze zijn gemaakt van cirkels, ellipsen, vie
 
 --- print-only ---
 
-### Doe inspiratie op
+### Doe inspiratie op 💭
 
 Je gaat wat ontwerpbeslissingen nemen over het soort gezicht dat je gaat maken en hoe je code gaat gebruiken om het gewenste effect te krijgen.
 
 Onderzoek de voorbeeldprojecten hierboven en kijk of je de vormen kunt ontdekken die zijn gebruikt om de gezichten te maken. Je kunt op **Bekijk vanbinnen** klikken om de code te bekijken.
 
-![Het output gebied van het Kawaii-fruitproject.](images/smile.png) ![Het uitvoergebied van de gestapelde gezichtenproject.](images/stacked.png) ![Het output gebied van het stammenmasker project.](images/tribal.png)
+![Het uitvoergebied van het Kawaii-fruitproject.](images/smile.png) ![Het uitvoergebied van de gestapelde gezichtenproject.](images/stacked.png) ![Het uitvoergebied van het stammenmasker project.](images/tribal.png)
 
 --- /print-only ---
 
