@@ -134,7 +134,7 @@ Nariz
 
 Marcas faciales
 
-Add code to draw your face here
+Oculta la cuadrícula convirtiéndola en un comentario
 
 Cabello
 
