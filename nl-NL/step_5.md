@@ -54,10 +54,10 @@ language: python
 filename: main.py - draw()
 ---
 
-    fill(0, 0, 0) #Een zwarte mond
+    fill(0, 0, 0)  # A black mouth
     ellipse(200, 240, 15, 15)
-    fill(255, 165, 0) #Een oranje gezicht
-    ellipse(200, 245, 15, 15) #Onderste cirkel
+    fill(255, 165, 0)  # An orange face
+    ellipse(200, 245, 15, 15)  # Lower circle
 
 --- /code ---
 
@@ -162,12 +162,12 @@ language: python
 filename: main.py - draw()
 ---
 
-    fill(0)<br x-id="4" />
-      rect(170, 260, 60, 5) #Mondlijn<br x-id="4" />
-      fill(0)<br x-id="4" />
-      triangle(170, 260, 180, 280, 190, 260) #Linker tand<br x-id="3" />
-      triangle(210, 260, 220, 280, 230, 260) #Rechter tand<br x-id="4" />
-    --- /code ---
+    # Mouth
+    fill(0)
+    rect(170, 260, 60, 5)  # Mouth line
+    fill(0)
+    triangle(170, 260, 180, 280, 190, 260)  # Left tooth
+    triangle(210, 260, 220, 280, 230, 260)  # Right tooth
 --- /code ---
 
 --- /collapse ---
