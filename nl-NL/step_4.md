@@ -33,10 +33,10 @@ language: python
 filename: main.py - draw()
 ---
 
-    fill(0, 0, 0) #Zwart: Verander naar rood, groen of blauw tot 255
-      ooggrootte = 50 
-      ellipse(160, 180, ooggrootte, ooggrootte) #x, y, breedte, hoogte 
-      ellipse(240, 180, ooggrootte, ooggrootte)
+    fill(0, 0, 0)  # Black — change to red, green, or blue up to 255
+    eye_size = 50
+    ellipse(160, 180, eye_size, eye_size)  # x, y, width, height
+    ellipse(240, 180, eye_size, eye_size)
 
 --- /code ---
 
@@ -58,10 +58,10 @@ language: python
 filename: main.py - draw()
 ---
 
-    fill(0, 0, 0) #Zwart: Verander naar rood, groen of blauw tot 255
-      ooggrootte = 50 
-      ellipse( (width / 2) - 40, 180, ooggrootte, ooggrootte) #x, y, breedte, hoogte 
-      ellipse( (width / 2) + 40 , 180, ooggrootte, ooggrootte)
+    fill(0, 0, 0)  # Black — change to red, green, or blue up to 255
+    eye_size = 50
+    ellipse( (width / 2) - 40, 180, eye_size, eye_size)  # x, y, width, height
+    ellipse( (width / 2) + 40 , 180, eye_size, eye_size)
 
 --- /code ---
 
@@ -73,9 +73,9 @@ language: python
 filename: main.py - draw()
 ---
 
-    fill(0, 0, 0) #Zwart: Verander naar rood, groen of blauw tot 255
-      ellipse( (width / 2) - (width / 10) , 180, ooggrootte, ooggrootte) #x, y, breedte, hoogte 
-      ellipse( (width / 2) + (width / 10) , 180, ooggrootte, ooggrootte)
+    fill(0, 0, 0)  # Black — change to red, green, or blue up to 255
+    ellipse( (width / 2) - (width / 10) , 180, eye_size, eye_size)  # x, y, width, height
+    ellipse( (width / 2) + (width / 10) , 180, eye_size, eye_size)
 
 --- /code ---
 
