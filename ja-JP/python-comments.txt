@@ -1,5 +1,7 @@
 400x400は丸い顔に適しています
 
+Change to your background colour
+
 色を変えるために別の数字を試してください
 
 グリッドを表示
