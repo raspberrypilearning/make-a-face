@@ -2,7 +2,7 @@
 
 Beantwoord de drie vragen. Je wordt naar het juiste antwoord geleid.
 
-Druk na elke vraag op **indienen**. Je wordt naar het juiste antwoord geleid.
+Klik na het beantwoorden van elke vraag op **Controleer mijn antwoord**.
 
 Veel plezier!
 
