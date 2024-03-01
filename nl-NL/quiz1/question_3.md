@@ -37,8 +37,6 @@ Waar, maar dat helpt niet om veel verschillende ontwerpen te maken.
 
   --- /feedback ---
 
---- /choices ---
-
 - ( ) Variabelen hebben elke keer dat je je programma uitvoert verschillende waarden.
 
   --- feedback ---

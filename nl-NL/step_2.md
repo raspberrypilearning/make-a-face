@@ -11,7 +11,7 @@ Heb je een idee over het soort gezicht of masker dat je wilt maken? Gebruik deze
 
 --- task ---
 
-Open het [startproject](https://trinket.io/library/trinkets/694f65f944){:target="_blank"}. Trinket wordt geopend in een ander browsertabblad.
+Open het [start project](https://editor.raspberrypi.org/nl-NL/projects/make-face-starter){:target="_blank"}. De code-editor wordt geopend in een ander browsertabblad.
 
 --- /task ---
 
@@ -41,9 +41,9 @@ title: De schermgrootte instellen wanneer het programma wordt gestart
 
 --- code ---
 ---
-language: python 
-filename: main.py - setup() 
-line_numbers: true 
+language: python
+filename: main.py - setup()
+line_numbers: true
 line_number_start: 6
 line_highlights: 7
 ---
@@ -70,9 +70,9 @@ title: De achtergrondkleur instellen wanneer het programma start
 
 --- code ---
 ---
-language: python 
-filename: main.py - draw() 
-line_numbers: true 
+language: python
+filename: main.py - draw()
+line_numbers: true
 line_number_start: 9
 line_highlights: 9
 ---
@@ -118,7 +118,6 @@ filename: main.py - draw()
 **Test:** Voer je project uit om de gekozen schermgrootte en achtergrondkleur te zien.
 
 --- /task ---
-
 
 --- task ---
 

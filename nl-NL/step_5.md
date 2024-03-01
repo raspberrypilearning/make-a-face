@@ -82,28 +82,28 @@ Voeg de code toe voor een `rechthoek` en maak er vervolgens een kleinere `rechth
 language: python
 filename: main.py - draw()
 ---
-#Gezichtsmasker
-no_fill()    
-stroke(255, 255, 255)     
-ellipse(150, 250, 30, 30) #Linker oorlus    
-ellipse(250, 250, 30, 30) #Rechter oorlus    
-fill(255, 255, 255)    
-no_stroke()     
-rect(150, 230, 100, 40) #Grote witte rechthoek    
-fill(108, 200, 206)    
-rect(152, 235, 96, 30) #Kleinere blauwe rechthoek
+    # Gezichtsmasker
+    no_fill()
+    stroke(255, 255, 255)
+    ellipse(150, 250, 30, 30)  # Linker oorlus
+    ellipse(250, 250, 30, 30)  # Rechter oorlus
+    fill(255, 255, 255)
+    no_stroke()
+    rect(150, 230, 100, 40)  # Grote witte rechthoek
+    fill(108, 200, 206)
+    rect(152, 235, 96, 30)  # Kleinere blauwe rechthoek
 
 --- /code ---
 
 --- /collapse ---
 
-**Tip:** Voeg een `#mond` opmerking toe voor code die je mond maakt om je te helpen deze code gemakkelijk terug te vinden.
+**Tip:** Voeg een `#Mond` opmerking toe voor code die je mond maakt om je te helpen deze code gemakkelijk terug te vinden.
 
 --- /task ---
 
 --- task ---
 
-**Kies:** je kunt ook meerdere tanden aan je mond toevoegen met `translate` om de `x` cordinaat te veranderen nadat elke tand is getekend.
+**Kies:** je kunt ook meerdere tanden aan je mond toevoegen met `translate` om de `x` coördinaat te veranderen na het tekenen van elke tand.
 
 --- collapse ---
 
@@ -113,7 +113,7 @@ title: Gebruik een lus om een rij tanden toe te voegen
 
 Voeg code toe om een `for` lus te maken die wordt herhaald om het aantal tanden te maken dat je nodig hebt.
 
-![Het outputgebied toont een robotgezicht met een rij rechthoekige tanden in verschillende kleuren.](images/robot-teeth.png)
+![Het uitvoergebied toont een robotgezicht met een rij rechthoekige tanden in verschillende kleuren.](images/robot-teeth.png)
 
 Voeg code toe om na elke getekende tand een `translate()` met de breedte van de tand uit te voeren.
 
@@ -125,17 +125,17 @@ language: python
 filename: main.py - draw()
 ---
 
-#Mond
-fill(90, 110, 184)     
-  rood = 90 #Beginhoeveelheid rood   
-  groen = 110 #Beginhoeveelheid groen    
-  blauw = 180 #Beginhoeveelheid blauw    
-  for i in range (0,6):     
-    rect(100, 300, 33, 50)     
-    fill(rood, groen, blauw) #Gebruikt variabelen om de kleurverandering van elke lus te regelen   
-    rood = rood+40     
-    blauw = blauw-30     
-    translate(33, 0) #Beweeg langs de x-coördinaat met de breedte van een tand
+    # Mond
+    fill(90, 110, 184)
+    rood = 90  # Beginhoeveelheid rood
+    groen = 110  # Beginhoeveelheid groen
+    blauw = 180  # Beginhoeveelheid blauw
+    for i in range (0,6):
+        rect(100, 300, 33, 50)
+        fill(rood, groen, blauw)  # Gebruikt variabelen om de kleurverandering van elke lus te regelen
+        rood = rood+40
+        blauw = blauw-30
+        translate(33, 0)  # Beweeg langs de x-coördinaat met de breedte van een tand
 
 
 --- /code ---
@@ -154,19 +154,19 @@ Maak een `rechthoek` om als mondlijn te gebruiken.
 
 Voeg twee `driehoek`-vormen toe om de hoektanden te maken. Wijzig de `x`-coördinaten voor elke hoek om de tanden aan de tegenoverliggende uiteinden van de mondlijn te plaatsen.
 
-![Het output gebied toont een vampiergezicht met een rechthoekige mond en twee driehoekige tanden.](images/vampire.png)
+![Het uitvoergebied toont een vampiergezicht met een rechthoekige mond en twee driehoekige tanden.](images/vampire.png)
 
 --- code ---
 ---
 language: python
 filename: main.py - draw()
 ---
-#Mond
-  fill(0)    
-  rect(170, 260, 60, 5) #Mondlijn    
-  fill(0)    
-  triangle(170, 260, 180, 280, 190, 260) #Linker tand   
-  triangle(210, 260, 220, 280, 230, 260) #Rechter tand    
+    # Mond
+    fill(0)
+    rect(170, 260, 60, 5)  # Mondlijn
+    fill(0)
+    triangle(170, 260, 180, 280, 190, 260)  # Linker tand
+    triangle(210, 260, 220, 280, 230, 260)  # Rechter tand
 --- /code ---
 
 --- /collapse ---

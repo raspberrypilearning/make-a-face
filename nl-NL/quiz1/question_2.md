@@ -22,14 +22,14 @@ def draw():
   ellipse(200, 200, 200, 190)
   no_stroke()
   
-  #Eyes
+  #Ogen
   fill(0, 255, 0) #Groen
   ellipse(160, 180, 60, 60)
   ellipse(240, 180, 60, 60)
   fill(0) #Zwart
   ellipse(160, 180, 30, 30)
   ellipse(240, 180, 30, 30)
-  
+
 run()
 
 --- /code ---
@@ -42,7 +42,7 @@ run()
 
  --- feedback ---
 
- Niet helemaal, kijk naar de volgorde van de `ellipse()` en de `stroke()` functies.
+ Niet helemaal, kijk naar de volgorde van de `ellips()` en de `stroke()` functies.
 
  --- /feedback ---
 
@@ -72,7 +72,7 @@ run()
 
  --- feedback ---
 
- Niet helemaal, kijk naar de volgorde van de `ellipse()` functies.
+ Niet helemaal, kijk naar de volgorde van de `ellips()` functies.
 
  --- /feedback ---
 

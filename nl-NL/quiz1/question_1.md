@@ -1,10 +1,10 @@
-## Reflectie
+## Snelle quiz
 
-Goed gedaan, je hebt veel geleerd! Nu is het tijd om te reflecteren - reflecteren is een belangrijk onderdeel van leren, omdat het helpt om nieuwe verbindingen in je hersenen te maken.
+Beantwoord de drie vragen. Je wordt naar het juiste antwoord geleid.
 
-Beantwoord de drie onderstaande vragen om terug te kijken op wat je hebt geleerd.
+Klik na het beantwoorden van elke vraag op **Controleer mijn antwoord**.
 
-Druk na elke vraag op **indienen**. Je wordt naar het juiste antwoord geleid. Je kunt deze activiteit zo vaak doen als je wilt.
+Veel plezier!
 
 Veel plezier!
 
@@ -61,7 +61,7 @@ def draw():
 
   --- feedback ---
 
-De code tekent geen rechthoeken. De functie `ellipse` tekent cirkels.
+De code tekent geen rechthoeken. De functie `ellips` tekent cirkels.
 
   --- /feedback ---
 
