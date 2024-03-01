@@ -40,7 +40,7 @@ filename: main.py - draw()
 
 --- /code ---
 
-**Tip:** als je ronde ogen wilt, kun je met behulp van een `ooggrootte` variabele de breedte en hoogte van beide ogen op één plek gemakkelijker wijzigen.
+**Tip:** Als je ronde ogen wilt, kun je met behulp van een `ooggrootte` variabele gemakkelijker de breedte en hoogte van beide ogen op één plek wijzigen.
 
 [[[processing-python-ellipse]]]
 
@@ -87,7 +87,7 @@ Wijzig het tweede getal in de functieaanroep `ellipse` om de `y` (verticale) pos
 
 --- task ---
 
-**Test:** Blijf de vorm en positie van de ogen veranderen totdat je tevreden bent.
+**Test:** Blijf de vorm en positie van de ogen veranderen totdat je tevreden bent over hoe ze er uitzien.
 
 **Tip:** als je een rand instelt om het gezicht te tekenen en er geen wilt voor de ogen, moet je `no_stroke()` aanroepen voordat je de ogen tekent.
 
@@ -105,7 +105,7 @@ Je kunt meer cirkels gebruiken voor:
 + Witte catchlights
 + Of iets anders
 
-Dit oog heeft een gekleurde iris, zwarte pupil en witte catchlights met gewijzigde doorzichtigheid: ![Het outputgebied toont een oog met catchlights over de pupil en iris.](images/catchlights.png)
+Dit oog heeft een gekleurde iris, zwarte pupil en witte lichtinval met gewijzigde doorzichtigheid: ![Het uitvoergebied toont een oog met lichtinval in de pupil en iris.](images/catchlights.png)
 
 \[[[generic-theory-simple-colours]]\] \[[[processing-opacity\]]]
 
