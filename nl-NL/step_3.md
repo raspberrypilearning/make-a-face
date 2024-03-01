@@ -5,7 +5,7 @@
 Teken en kleur een vorm voor je gezicht of masker. Voeg de andere elementen nog niet toe, die komen later.
 </div>
 <div>
-![Afbeelding van een robot met een vierkant gezicht.](afbeeldingen/robot-tanden.png){:width="200px"}
+![Afbeelding van een robot met een vierkant gezicht.](images/robot-teeth.png){:width="200px"}
 </div>
 </div>
 
@@ -25,8 +25,10 @@ line_highlights: 14, 15
 
 def draw(): # Put code to run every frame here background(255, 255, 255)  # Change to your background colour
 
-    def draw():<br x-id="3" />
-      ellipse(width/2, height/2, 200, 200) #Cirkel in het midden
+    # Add code to draw your face here
+    ellipse(width/2, height/2, 200, 200)  # Circle in the middle
+    
+    grid()  # add a # to the beginning of this line to hide the grid
 
 --- /code ---
 
@@ -58,14 +60,13 @@ Als je geen omtrek wilt, gebruik dan `no_stroke()`.
 
 --- code ---
 ---
-language: python filename: main.py - draw() line_numbers: true line_number_start: 11
-line_highlights: 13
+language: python filename: main.py - draw() line_numbers: true line_number_start: 13
+line_highlights: 14
 ---
 
-    def draw(): 
-      stroke(0) #Je kunt ook no_stroke() gebruiken
-      fill(255, 255, 0) #Fel geel 
-      ellipse(width/2, height/2, 200, 200) #Cirkel in het midden
+    # Add code to draw your face here
+    fill(255, 255, 0)  # Bright yellow
+    ellipse(width/2, height/2, 200, 200)
 
 --- /code ---
 
