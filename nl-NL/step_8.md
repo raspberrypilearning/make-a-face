@@ -8,11 +8,11 @@ Hier zijn een paar andere ideeën die je zou kunnen proberen:
 - Voeg interactiviteit toe — probeer ons **Interactief: Theatermasker**, wat gebeurt er als je je muis over het scherm beweegt?
 - Animatie toevoegen — probeer onze **Geanimeerd: Frida**, wat gebeurt er met Frida's hoofdband als je het project uitvoert?
 
-**Interactief: Theatermasker**: [Bekijk van binnen](https://trinket.io/python/83b782d950){:target="_blank"}
+**Interactief: Theatermasker**:
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/interactive-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe> [Bekijk vanbinnen](https://editor.raspberrypi.org/en/projects/interactive-face-example){:target="_blank"}
 
-**Geanimeerd: Frida**: [Bekijk van binnen](https://trinket.io/python/5b86285ad0){:target="_blank"}
+**Geanimeerd: Frida**:
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/animated-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe> [Bekijk vanbinnen](https://editor.raspberrypi.org/en/projects/animated-face-example){:target="_blank"}
 
