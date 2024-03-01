@@ -1,5 +1,7 @@
 400 by 400 works well for a round face
 
+Change to your background colour
+
 Try different numbers to change the colour
 
 Shows grid
