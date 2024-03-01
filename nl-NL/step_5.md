@@ -97,13 +97,13 @@ filename: main.py - draw()
 
 --- /collapse ---
 
-**Tip:** Voeg een `#mond` opmerking toe voor code die je mond maakt om je te helpen deze code gemakkelijk terug te vinden.
+**Tip:** Voeg een `#Mond` opmerking toe voor code die je mond maakt om je te helpen deze code gemakkelijk terug te vinden.
 
 --- /task ---
 
 --- task ---
 
-**Kies:** je kunt ook meerdere tanden aan je mond toevoegen met `translate` om de `x` cordinaat te veranderen nadat elke tand is getekend.
+**Kies:** je kunt ook meerdere tanden aan je mond toevoegen met `translate` om de `x` coördinaat te veranderen na het tekenen van elke tand.
 
 --- collapse ---
 
@@ -113,7 +113,7 @@ title: Gebruik een lus om een rij tanden toe te voegen
 
 Voeg code toe om een `for` lus te maken die wordt herhaald om het aantal tanden te maken dat je nodig hebt.
 
-![Het outputgebied toont een robotgezicht met een rij rechthoekige tanden in verschillende kleuren.](images/robot-teeth.png)
+![Het uitvoergebied toont een robotgezicht met een rij rechthoekige tanden in verschillende kleuren.](images/robot-teeth.png)
 
 Voeg code toe om na elke getekende tand een `translate()` met de breedte van de tand uit te voeren.
 
@@ -154,7 +154,7 @@ Maak een `rechthoek` om als mondlijn te gebruiken.
 
 Voeg twee `driehoek`-vormen toe om de hoektanden te maken. Wijzig de `x`-coördinaten voor elke hoek om de tanden aan de tegenoverliggende uiteinden van de mondlijn te plaatsen.
 
-![Het output gebied toont een vampiergezicht met een rechthoekige mond en twee driehoekige tanden.](images/vampire.png)
+![Het uitvoergebied toont een vampiergezicht met een rechthoekige mond en twee driehoekige tanden.](images/vampire.png)
 
 --- code ---
 ---
