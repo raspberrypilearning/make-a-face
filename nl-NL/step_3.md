@@ -15,7 +15,7 @@ Kies de hoofdvorm van het gezicht voor je masker. Het kan een cirkel, een ellips
 
 Voeg code toe aan de `draw()` functie om een gezicht of masker te tekenen.
 
-In dit voorbeeld wordt een cirkel in het midden getekend, maar je kunt helemaal zelf bepalen welke vorm je wil gebruiken.
+In dit voorbeeld wordt een zwarte cirkel in het midden getekend, maar je kunt helemaal zelf bepalen welke vorm en kleur je wil gebruiken.
 
 --- code ---
 ---
@@ -30,7 +30,7 @@ def draw(): # Put code to run every frame here background(255, 255, 255)  # Chan
 
 --- /code ---
 
-![Het output gebied met een zwarte cirkel in het midden van het raster.](images/black-circle.png)
+![Het uitvoergebied met een zwarte cirkel in het midden van het raster.](images/black-circle.png)
 
 [[[processing-python-ellipse]]]
 
