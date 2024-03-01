@@ -1,5 +1,7 @@
 400 por 400 funciona bem para um rosto redondo
 
+Change to your background colour
+
 Tente números diferentes para mudar a cor
 
 Mostra a grade
