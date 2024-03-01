@@ -1,5 +1,7 @@
 Mae 400 wrth 400 yn gweithio'n dda ar gyfer wyneb crwn
 
+Change to your background colour
+
 Rhowch gynnig ar wahanol rifau i newid y lliw
 
 Dangos grid
