@@ -1,5 +1,7 @@
 400 por 400 funciona bien para una cara redonda
 
+Change to your background colour
+
 Prueba diferentes números para cambiar el color
 
 Muestra cuadrícula
