@@ -40,14 +40,14 @@ language: python
 filename: main.py - draw()
 ---
 
-  #Highlights    
-  fill(255, 255, 255, 70) #70 is hier de transparantie/doorzichtigheid    
-  ellipse(170, 150, 35, 35)   
-  ellipse(150, 160, 25, 25)
+    # Highlights    
+    fill(255, 255, 255, 70)  # 70 is hier de transparantie/doorzichtigheid
+    ellipse(170, 150, 35, 35)   
+    ellipse(150, 160, 25, 25)    
 
 --- /code ---
 
-![Kawaii fruit afbeelding met highlights bij verschillende doorzichtigheiden: 30, 70, 150, 255. De lagere waarde, 30, is meer doorzichtig en 255 is minder doorzichtig.](images/opacity.png)
+![Kawaii fruit afbeelding met highlights bij verschillende doorzichtigheden: 30, 70, 150, 255. De lagere waarde, 30, is meer doorzichtig en 255 is minder doorzichtig.](images/opacity.png)
 
 --- /task ---
 
