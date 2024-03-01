@@ -45,7 +45,7 @@ language: python filename: main.py - setup() line_numbers: true line_number_star
 line_highlights: 7
 ---
 def setup():   
-size(400, 400) #400 bij 400 werkt goed voor een rond gezicht
+size(400, 400)  # 400 by 400 works well for a round face
 
 --- /code ---
 
@@ -101,7 +101,7 @@ language: python
 filename: main.py - draw()
 ---
 
-    #grid() #Verberg raster door het te veranderen in een opmerking
+    #grid()  # Hide grid by turning it into a comment
 
 --- /code ---
 
