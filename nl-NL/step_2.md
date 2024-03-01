@@ -11,7 +11,7 @@ Heb je een idee over het soort gezicht of masker dat je wilt maken? Gebruik deze
 
 --- task ---
 
-Open het [startproject](https://trinket.io/library/trinkets/694f65f944){:target="_blank"}. Trinket wordt geopend in een ander browsertabblad.
+Open het [start project](https://editor.raspberrypi.org/en/projects/make-face-starter){:target="_blank"}. De code-editor wordt geopend in een ander browsertabblad.
 
 --- /task ---
 
