@@ -1,5 +1,7 @@
 400 par 400 fonctionne bien pour un visage rond
 
+Change to your background colour
+
 Essaie différents nombres pour changer la couleur
 
 Affiche la grille
