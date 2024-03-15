@@ -1,21 +1,21 @@
-## Face shape
+## Kształt ściany
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Draw and colour a shape for your face or mask. Don't add the other features just yet, they will come later.
+Narysuj i pokoloruj kształt twarzy lub maski. Nie dodawaj jeszcze innych funkcji, pojawią się później.
 </div>
 <div>
-![Image of a square-faced robot.](images/robot-teeth.png){:width="200px"}
+![Obraz robota o kwadratowej powierzchni.](images/robot-teeth.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-Decide on the main shape of the face for your mask. It could be a circle, an ellipse, a rectangle, or even a triangle.
+Zdecyduj o głównym kształcie twarzy dla swojej maski. Może to być okrąg, elipsa, prostokąt, a nawet trójkąt.
 
-Add code to the `draw()` function to draw a face or mask.
+Dodaj kod do funkcji ` draw()`, aby narysować twarz lub maskę.
 
-This example draws a black circle in the middle, but it's up to you which shape and colour to use.
+Ten przykład rysuje na środku czarny okrąg, ale to od Ciebie zależy, jaki kształt i kolor ma użyć.
 
 --- code ---
 ---
@@ -32,7 +32,7 @@ def draw(): # Put code to run every frame here background(255, 255, 255)  # Chan
 
 --- /code ---
 
-![The output area showing a black line circle in the middle of the grid.](images/black-circle.png)
+![Obszar wyjściowy pokazujący koło czarnej linii na środku siatki.](images/black-circle.png)
 
 [[[processing-python-ellipse]]]
 
@@ -46,17 +46,17 @@ def draw(): # Put code to run every frame here background(255, 255, 255)  # Chan
 
 --- task ---
 
-**Test:** Run your code and change it to get the face size and shape that you want.
+Test **:** Uruchom swój kod i zmień go, aby uzyskać żądany rozmiar i kształt twarzy.
 
 --- /task ---
 
 --- task ---
 
-Choose a stroke colour for the outline and a fill colour for the main part of the shape.
+Wybierz kolor obrysu i kolor wypełnienia dla głównej części kształtu.
 
 [[[processing-stroke]]]
 
-If you don't want an outline, then use `no_stroke()`.
+Jeśli nie chcesz konturu, użyj ` no_stroke()`.
 
 --- code ---
 ---
@@ -76,7 +76,7 @@ line_highlights: 14
 
 --- task ---
 
-**Test:** Run your code and change the colour until you are happy with it.
+Test **:** Uruchom swój kod i zmieniaj kolor, aż będziesz z niego zadowolony.
 
 --- /task ---
 
