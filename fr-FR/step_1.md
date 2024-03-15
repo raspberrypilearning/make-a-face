@@ -26,17 +26,17 @@ Tu vas prendre des décisions de conception concernant le type de visage que tu 
 
 Regarde ces exemples et réfléchis à la façon dont ils ont été créés à partir de cercles, d'ellipses, de carrés, de rectangles et de triangles.
 
-**Kawaii fruit**:
+**Fruits Kawaii** :
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/fruit-face-example" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe> **Visages empilés** : \[Voir à l'intérieur\](https://trinket.io/python/5afc474e8a){:target="_blank"}
+</iframe> [Voir à l'intérieur](https://editor.raspberrypi.org/en/projects/fruit-face-example){:target="_blank"}
 
-**Stacked faces**:
+**Visages empilés** :
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/stacked-faces-example" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe> Voir à l'intérieur des exemples de projets dans le studio Scratch [Python 1 : Faire un visage — Exemples](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"}.
+</iframe> [Voir à l'intérieur](https://editor.raspberrypi.org/en/projects/stacked-faces-example){:target="_blank"}
 
-**Tribal mask**:
+**Masque tribal** :
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/tribal-mask-example" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe> **Masque tribal** : \[Voir à l'intérieur\](https://trinket.io/python/af20662d9e){:target="_blank"}
+</iframe> [Voir à l'intérieur](https://editor.raspberrypi.org/en/projects/tribal-mask-example){:target="_blank"}
 
 --- /task ---
 
@@ -44,13 +44,13 @@ Regarde ces exemples et réfléchis à la façon dont ils ont été créés à p
 
 --- print-only ---
 
-### Trouve l'inspiration
+### Trouve l'inspiration 💭
 
 Tu vas prendre des décisions de conception concernant le type de visage que tu vas créer et la manière dont tu utiliseras le code pour obtenir l'effet souhaité.
 
-Investigate the example projects above, see if you can identify the shapes used to make the faces. You can click **See inside** to view the code.
+Examine les exemples de projets ci-dessus et vois si tu peux identifier les formes utilisées pour créer les visages. Tu peux cliquer sur **Voir à l'intérieur** pour afficher le code.
 
-![La zone de sortie du projet de fruits Kawaii.](images/smile.png) ![La zone de sortie du projet Visages empilés.](images/stacked.png) ![La zone de sortie du projet Masque tribal.](images/tribal.png)
+![La zone de sortie du projet Fruit Kawaii.](images/smile.png) ![La zone de sortie du projet Visages empilés.](images/stacked.png) ![La zone de sortie du projet Masque tribal.](images/tribal.png)
 
 --- /print-only ---
 
