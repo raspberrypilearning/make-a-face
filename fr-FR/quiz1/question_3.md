@@ -37,8 +37,6 @@ C'est vrai, mais cela n'aide pas à créer beaucoup de designs différents.
 
   --- /feedback ---
 
---- /choices ---
-
 - ( ) Les variables ont toujours des nombres différents à chaque fois que tu exécutes ton programme.
 
   --- feedback ---

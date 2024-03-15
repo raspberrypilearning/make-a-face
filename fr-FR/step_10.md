@@ -10,7 +10,8 @@ Si tu suis le parcours [Introduction à Python](https://projects.raspberrypi.org
 
 --- no-print ---
 
-<iframe src="https://trinket.io/embed/python/974800f4ef?outputOnly=true&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://editor.raspberrypi.org/fr-FR/embed/viewer/dont-pop-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
 
 
 --- /no-print ---
@@ -18,6 +19,7 @@ Si tu suis le parcours [Introduction à Python](https://projects.raspberrypi.org
 Si tu souhaites t'amuser davantage en explorant Python, tu peux essayer l'un [de ces projets](https://projects.raspberrypi.org/fr-FR/projects?software%5B%5D=python).
 
 ***
+
 Ce projet a été traduit par des bénévoles:
 
 Michel Arnols

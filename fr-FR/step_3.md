@@ -13,22 +13,28 @@ Dessine et colorie une forme pour ton visage ou ton masque. N'ajoute pas encore 
 
 Décide de la forme principale du visage pour ton masque. Il peut s'agir d'un cercle, d'une ellipse, d'un rectangle ou même d'un triangle.
 
-Ajoute du code à la fonction `draw()` pour dessiner un visage ou un masque. Assure-toi également de supprimer `pass` de l'intérieur de la fonction.
+Ajoute du code à la fonction `draw()` pour dessiner un visage ou un masque.
 
-Cet exemple dessine un cercle au milieu, mais c'est à toi de décider quelle forme utiliser.
+Cet exemple dessine un cercle noir au milieu, mais c'est à toi de choisir la forme et la couleur à utiliser.
 
 --- code ---
 ---
-language: python 
-filename: main.py - draw() 
-line_numbers: true 
-line_number_start: 11
-line_highlights: 12
+language: python
+filename: main.py - draw()
+line_numbers: true
+line_number_start: 10
+line_highlights: 14, 15
 ---
 
-def draw():   
-  ellipse(width/2, height/2, 200, 200) #Cercle au milieu
-
+def draw():
+    # Mettre le code pour exécuter chaque image ici
+    background(255, 255, 255)  # Change la couleur de ton arrière-plan
+    
+    # Ajoute du code pour dessiner ton visage ici
+    ellipse(width/2, height/2, 200, 200)  # Cercle au milieu
+    
+    grid()  # ajouter un # au début de cette ligne pour cacher la grille
+  
 --- /code ---
 
 ![La zone de sortie montrant un cercle noir au milieu de la grille.](images/black-circle.png)
@@ -45,7 +51,7 @@ def draw():
 
 --- task ---
 
-**Test :** Exécute ton code et modifie-le pour obtenir la taille et la forme de visage que tu souhaites.
+**Test :** exécute ton code et modifie-le pour obtenir la taille et la forme de visage que tu souhaites.
 
 --- /task ---
 
@@ -59,17 +65,16 @@ Si tu ne veux pas de contour, utilise `no_stroke()`.
 
 --- code ---
 ---
-language: python 
-filename: main.py - draw() 
-line_numbers: true 
-line_number_start: 11
-line_highlights: 13
+language: python
+filename: main.py - draw()
+line_numbers: true
+line_number_start: 13
+line_highlights: 14
 ---
 
-def draw(): 
-  stroke(0) #Tu peux aussi utiliser no_stroke() 
-  fill(255, 255, 0) #Jaune vif 
-  ellipse(width/2, height/2, 200, 200) #Cercle au milieu
+    # Ajoute du code pour dessiner ton visage ici
+    fill(255, 255, 0)  # Jaune vif
+    ellipse(width/2, height/2, 200, 200)
 
 --- /code ---
 
@@ -79,7 +84,7 @@ def draw():
 
 --- task ---
 
-**Test :** Exécute ton code et modifie la couleur jusqu'à ce que tu en sois satisfait.
+**Test :** exécute ton code et modifie la couleur jusqu'à ce que tu en sois satisfait.
 
 --- /task ---
 

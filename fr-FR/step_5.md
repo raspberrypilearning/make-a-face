@@ -19,7 +19,7 @@ Tu peux ajouter deux cercles qui se chevauchent pour créer un sourire ou un fro
 
 --- task ---
 
-Ajoute du code à ta fonction `draw()` pour ajouter une bouche.
+Ajoute du code à ta fonction `dessin()` pour ajouter une bouche.
 
 --- collapse ---
 
@@ -27,7 +27,7 @@ Ajoute du code à ta fonction `draw()` pour ajouter une bouche.
 title: Créer une bouche à partir de cercles superposés
 ---
 
-Définis la couleur de `remplissage (fill)` pour ta bouche puis dessine une `ellipse`. Définis à nouveau la couleur de `remplissage`, cette fois pour qu'elle corresponde à la couleur du visage, puis dessine une seconde `ellipse`.
+Définis la couleur de `remplissage` pour ta bouche puis dessine une `ellipse`. Définis à nouveau la couleur de `remplissage`, cette fois pour qu'elle corresponde à la couleur du visage, puis dessine une seconde `ellipse`.
 
 Change la coordonnée `y` de la seconde `ellipse` en une position légèrement plus haute pour un sourire ou une position légèrement plus basse pour un froncement de sourcils.
 
@@ -39,10 +39,10 @@ language: python
 filename: main.py - draw()
 ---
 
-    fill(0, 0, 0) #Une bouche noire
+    fill(0, 0, 0) # Une bouche noire
     ellipse(200, 240, 15, 15)
-    fill(255, 165, 0) #Un visage orange
-    ellipse(200, 235, 15, 15) #Cercle supérieur
+    fill(255, 165, 0) # Un visage orange
+    ellipse(200, 235, 15, 15) # Cercle supérieur
 
 --- /code ---
 
@@ -54,10 +54,10 @@ language: python
 filename: main.py - draw()
 ---
 
-    fill(0, 0, 0) #Une bouche noire
+    fill(0, 0, 0) # Une bouche noire
     ellipse(200, 240, 15, 15)
-    fill(255, 165, 0) #Un visage orange
-    ellipse(200, 245, 15, 15) #Cercle intérieur
+    fill(255, 165, 0) # Un visage orange
+    ellipse(200, 245, 15, 15) # Cercle intérieur
 
 --- /code ---
 
@@ -82,28 +82,28 @@ Ajoute le code d'un `rectangle`, puis crée un `rectangle` plus petit à l'inté
 language: python
 filename: main.py - draw()
 ---
-#Masque
-no_fill()    
-stroke(255, 255, 255)     
-ellipse(150, 250, 30, 30) #Boucle d'oreille gauche    
-ellipse(250, 250, 30, 30) #Boucle d'oreille droite    
-fill(255, 255, 255)    
-no_stroke()     
-rect(150, 230, 100, 40) #Grand rectangle blanc    
-fill(108, 200, 206)    
-rect(152, 235, 96, 30) #Petit rectangle bleu
+    # Masque
+    no_fill()
+    stroke(255, 255, 255)
+    ellipse(150, 250, 30, 30)  # Boucle d'oreille gauche
+    ellipse(250, 250, 30, 30)  # Boucle d'oreille droite
+    fill(255, 255, 255)
+    no_stroke()
+    rect(150, 230, 100, 40)  # Grand rectangle blanc
+    fill(108, 200, 206)
+    rect(152, 235, 96, 30)  # Petit rectangle bleu
 
 --- /code ---
 
 --- /collapse ---
 
-**Astuce :** Ajoute un commentaire `#Bouche` sur la ligne avant ton code de la bouche pour t'aider à trouver facilement le code de la bouche.
+**Astuce :** ajoute un commentaire `#Bouche` sur la ligne avant ton code pour la bouche pour t'aider à trouver facilement son code.
 
 --- /task ---
 
 --- task ---
 
-**Choisir :** Tu peux également ajouter plusieurs dents à ta bouche en utilisant `translation` pour modifier la coordonnée `x` après avoir dessiné chaque dent.
+**Choisir :** tu peux également ajouter plusieurs dents à ta bouche en utilisant `translate` pour modifier la coordonnée `x` après avoir dessiné chaque dent.
 
 --- collapse ---
 
@@ -125,17 +125,17 @@ language: python
 filename: main.py - draw()
 ---
 
-#Bouche
-fill(90, 110, 184)     
-  rouge = 90 #Quantité de départ de rouge   
-  vert = 110 #Quantité de départ de vert    
-  bleu = 180 #Quantité de départ de bleu   
-  for i in range (0,6):     
-    rect(100, 300, 33, 50)     
-    fill(rouge, vert, bleu) #Utilise des variables pour contrôler le changement de couleur à chaque boucle   
-    rouge = rouge+40     
-    bleu = bleu-30     
-    translate(33, 0) #Se déplacer le long de la coordonnée x de la largeur d'une dent
+    # Bouche
+    fill(90, 110, 184)
+    rouge = 90  # Quantité de départ de rouge
+    vert = 110  # Quantité de départ de vert
+    bleu = 180  # Quantité de départ de bleu
+    for i in range (0,6):
+        rect(100, 300, 33, 50)
+        fill(rouge, vert, bleu)  # Utilise des variables pour contrôler le changement de couleur à chaque boucle
+        rouge = rouge+40
+        bleu = bleu-30
+        translate(33, 0)  # Se déplacer le long de la coordonnée x de la largeur d'une dent
 
 
 --- /code ---
@@ -161,12 +161,12 @@ Ajoute deux formes de `triangle` pour créer les canines. Modifie les coordonné
 language: python
 filename: main.py - draw()
 ---
-#Bouche
-  fill(0)    
-  rect(170, 260, 60, 5) #Ligne de bouche  
-  fill(0)    
-  triangle(170, 260, 180, 280, 190, 260) #Dent gauche    
-  triangle(210, 260, 220, 280, 230, 260) #Dent droite   
+    # Bouche
+    fill(0)
+    rect(170, 260, 60, 5)  # Ligne de bouche
+    fill(0)
+    triangle(170, 260, 180, 280, 190, 260)  # Dent gauche
+    triangle(210, 260, 220, 280, 230, 260)  # Dent droite
 --- /code ---
 
 --- /collapse ---
@@ -175,7 +175,7 @@ filename: main.py - draw()
 
 --- task ---
 
-**Débogage :** Il est possible que tu trouves des bogues dans ton projet que tu dois corriger. Voici quelques bogues assez courants.
+**Débogage :** il est possible que tu trouves des bogues dans ton projet que tu dois corriger. Voici quelques bogues assez courants.
 
 --- collapse ---
 
