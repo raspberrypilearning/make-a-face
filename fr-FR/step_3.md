@@ -15,7 +15,7 @@ Décide de la forme principale du visage pour ton masque. Il peut s'agir d'un ce
 
 Ajoute du code à la fonction `draw()` pour dessiner un visage ou un masque.
 
-Cet exemple dessine un cercle au milieu, mais c'est à toi de décider quelle forme utiliser.
+Cet exemple dessine un cercle noir au milieu, mais c'est à toi de choisir la forme et la couleur à utiliser.
 
 --- code ---
 ---
@@ -46,7 +46,7 @@ def draw(): # Put code to run every frame here background(255, 255, 255)  # Chan
 
 --- task ---
 
-**Test :** Exécute ton code et modifie-le pour obtenir la taille et la forme de visage que tu souhaites.
+**Test :** exécute ton code et modifie-le pour obtenir la taille et la forme de visage que tu souhaites.
 
 --- /task ---
 
@@ -76,7 +76,7 @@ line_highlights: 13
 
 --- task ---
 
-**Test :** Exécute ton code et modifie la couleur jusqu'à ce que tu en sois satisfait.
+**Test :** exécute ton code et modifie la couleur jusqu'à ce que tu en sois satisfait.
 
 --- /task ---
 
