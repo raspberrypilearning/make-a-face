@@ -4,9 +4,9 @@
 legend: Pytanie 2 z 3
 ---
 
-In your project, you added code to draw a face with many features. The order of your code was extremely important to make the face look like your design.
+W swoim projekcie dodałeś kod, aby narysować ścianę z wieloma funkcjami. Kolejność kodu była niezwykle ważna, aby twarz wyglądała jak Twój projekt.
 
-If you ran this code, what would the face look like?
+Gdybyś uruchomił ten kod, jak wyglądałaby twarz?
 
 --- code ---
 ---
@@ -28,41 +28,41 @@ run()
 
 - ( )
 
-![A white face with black outline. There are two solid green eyes with black outlines.](images/face1.png)
+![Biała twarz z czarnym konturem. Istnieją dwa stałe zielone oczy z czarnymi konturami.](images/face1.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `ellipse()` and the `stroke()` functions.
+ Nie do końca, spójrz na kolejność funkcji ` elipse()` i ` stroke()`.
 
  --- /feedback ---
 
 - ( )
 
-![A white face with black outline. There are two green eyes with black pupils and both have a black outline.](images/face2.png)
+![Biała twarz z czarnym konturem. Istnieją dwa zielone oczy z czarnymi źrenicami i oba mają czarny kontur.](images/face2.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `stroke()` functions.
+ Nie do końca, spójrz na kolejność funkcji ` stroke()`.
 
  --- /feedback ---
 
 - (x)
 
-![A white face with black outline. There are two green eyes with black pupils and the eyes do not have an outline.](images/face3.png)
+![Biała twarz z czarnym konturem. Istnieją dwa zielone oczy z czarnymi źrenicami, a oczy nie mają konturu.](images/face3.png)
 
  --- feedback ---
 
- Correct, the code draws a face with a black stroke then turns off the stroke before drawing the circles. The green circles are drawn first with the black circles on top of them.
+ Poprawnie, kod rysuje twarz czarnym obrysem, a następnie wyłącza obrys przed narysowaniem okręgów. Zielone kółka są rysowane najpierw z czarnymi kółkami na górze.
 
  --- /feedback ---
 
 - ( )
 
-![A white face with black outline. There are two solid green eyes that do not have an outline.](images/face4.png)
+![Biała twarz z czarnym konturem. Istnieją dwa stałe zielone oczy, które nie mają konturu.](images/face4.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `ellipse()` functions.
+ Nie do końca, spójrz na kolejność funkcji ` elipse()`.
 
  --- /feedback ---
 
