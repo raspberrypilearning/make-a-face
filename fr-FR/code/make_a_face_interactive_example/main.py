@@ -4,59 +4,59 @@ from p5 import *
 from random import randint
 
 
-def sad(x_middle, y_eye, y_mouth):
-    ellipse(x_middle - 50, y_eye - 20, 60, 50)  # x, y, width, height
-    ellipse(x_middle + 50, y_eye - 20, 60, 50)
-    ellipse(x_middle, y_mouth + 30, 100, 65)
+def triste (milieu_x, yeux_y, bouche_y) :
+    ellipse(milieu_x - 50, yeux_y - 20, 60, 50) # x, y, largeur, hauteur
+    ellipse(milieu_x + 50, yeux_y - 20, 60, 50)
+    ellipse(milieu_x, bouche_y + 30, 100, 65)
 
 
-def happy(x_middle, y_eye, y_mouth):
-    ellipse(x_middle - 50, y_eye + 20, 60, 50)  # x, y, width, height
-    ellipse(x_middle + 50, y_eye + 20, 60, 50)
-    ellipse(x_middle, y_mouth - 30, 100, 65)
+def heureux (milieu_x, yeux_y, bouche_y) :
+    ellipse(milieu_x - 50, yeux_y + 20, 60, 50) # x, y, largeur, hauteur
+    ellipse(milieu_x + 50, yeux_y + 20, 60, 50)
+    ellipse(milieu_x, bouche_y - 30, 100, 65)
 
 
 def setup():
-    # Put code to run once here
-    size(400, 400)  # width and height
-    background(0, 0, 0)  # move under draw() to reset the drawing every frame
+    # Mets le code à exécuter une fois ici
+    size(400, 400) # largeur et hauteur
+    background(0, 0, 0) # se déplace sous dessiner() pour réinitialiser le dessin à chaque image
     rect_mode(CENTER)
     no_stroke()
 
 
 def draw():
-    # Put code to run every frame here
-    mask_width = width / 2
-    x_middle = width / 2
-    y_eye = 180
-    y_mouth = 255
-    # draw mask
-    fill(255, 255, 255)  # white
-    rect(200, 150, mask_width, mask_width)
-    ellipse(x_middle, 250, mask_width, 140)
-    # eyes and mouth
-    fill(0)  # black
-    ellipse(x_middle - 50, y_eye, 60, 50)  # x, y, width, height
-    ellipse(x_middle + 50, y_eye, 60, 50)
-    ellipse(x_middle, y_mouth, 100, 75)
-    # partly cover eyes and mouth
+    # Mets le code à exécuter à chaque image ici
+    largeur_masque = width / 2
+    milieu_x = width / 2
+    yeux_y = 180
+    bouche_y = 255
+    # dessiner un masque
+    fill(255, 255, 255)  # blanc
+    rect(200, 150, masque_largeur, masque_largeur)
+    ellipse(milieu_x, 250, masque_largeur, 140)
+    # yeux et bouche
+    fill(0)  # noir
+    ellipse(milieu_x - 50, yeux_y, 60, 50) # x, y, largeur, hauteur
+    ellipse(milieu_x + 50, yeux_y, 60, 50)
+    ellipse(milieu_x, bouche_y, 100, 75)
+    # couvrir partiellement les yeux et la bouche
     fill(255)
-    if mouse_x > x_middle:
-        happy(x_middle, y_eye, y_mouth)
+    if souris_x > milieu_x :
+        heureux(milieu_x, yeux_y, bouche_y)
     else:
-        sad(x_middle, y_eye, y_mouth)
-    # cover top of mask
+        triste(milieu_x, yeux_y, bouche_y)
+    # couvrir le haut du masque
     fill(0)
-    ellipse(x_middle, 60, 250, 90)
-    # shade half of the mask
+    ellipse(milieu_x, 60, 250, 90)
+    # ombrer la moitié du masque
     fill(0, 25)
     rect(300, 200, width/2, height)
 
 
 def mouse_pressed():
-    # Put code to run when the mouse is pressed here
-    print(mouse_x, mouse_y)
+    # Mets le code à exécuter lorsque la souris est pressée ici
+    print (souris_x, souris_y)
 
 
-# Keep this to run your code
+# Garde ceci pour exécuter ton code
 run()
