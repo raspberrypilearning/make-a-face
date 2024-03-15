@@ -1,6 +1,6 @@
 400 par 400 fonctionne bien pour un visage rond
 
-Change to your background colour
+Change la couleur de ton arrière-plan
 
 Essaie différents nombres pour changer la couleur
 
@@ -136,7 +136,7 @@ Nez
 
 Marques sur le visage
 
-Add code to draw your face here
+Ajoute du code pour dessiner ton visage ici
 
 Cheveux
 
