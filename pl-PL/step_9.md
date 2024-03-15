@@ -1,11 +1,11 @@
 ## Udostępnij
 
-If you are in a club, why not share your project with friends?
+Jeśli jesteś w klubie, dlaczego nie podzielić się swoim projektem z przyjaciółmi?
 
 --- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+Zainspiruj społeczność Raspberry Pi Foundation swoim projektem!
 
-To submit your project to our [Make a face - Community](https://wke.lt/w/s/8sVH4f){:target="_blank"} studio, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+Aby przesłać swój projekt do naszego studia [ Zbuduj twarz - Społeczność ](https://wke.lt/w/s/8sVH4f){:target="_blank"}, wypełnij [ ten formularz ](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
 
 --- /task ---
