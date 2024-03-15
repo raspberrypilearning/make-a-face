@@ -97,13 +97,13 @@ filename: main.py - draw()
 
 --- /collapse ---
 
-**Astuce :** Ajoute un commentaire `#Bouche` sur la ligne avant ton code de la bouche pour t'aider à trouver facilement le code de la bouche.
+**Astuce :** ajoute un commentaire `#Bouche` sur la ligne avant ton code pour la bouche pour t'aider à trouver facilement son code.
 
 --- /task ---
 
 --- task ---
 
-**Choisir :** Tu peux également ajouter plusieurs dents à ta bouche en utilisant `translation` pour modifier la coordonnée `x` après avoir dessiné chaque dent.
+**Choisir :** tu peux également ajouter plusieurs dents à ta bouche en utilisant `translate` pour modifier la coordonnée `x` après avoir dessiné chaque dent.
 
 --- collapse ---
 
@@ -175,7 +175,7 @@ filename: main.py - draw()
 
 --- task ---
 
-**Débogage :** Il est possible que tu trouves des bogues dans ton projet que tu dois corriger. Voici quelques bogues assez courants.
+**Débogage :** il est possible que tu trouves des bogues dans ton projet que tu dois corriger. Voici quelques bogues assez courants.
 
 --- collapse ---
 
