@@ -11,7 +11,7 @@ As-tu une idée du type de visage ou de masque que tu souhaites réaliser ? Util
 
 --- task ---
 
-Ouvre le [projet de démarrage](https://trinket.io/library/trinkets/5badd92b46){:target="_blank"}. Trinket s'ouvrira dans un autre onglet du navigateur.
+Ouvre le [projet de démarrage](https://editor.raspberrypi.org/en/projects/make-face-starter){:target="_blank"}. Le Code Editor Raspberry Pi s'ouvre dans un autre onglet du navigateur.
 
 --- /task ---
 
@@ -81,7 +81,7 @@ line_highlights: 9
 
 --- task ---
 
-**Astuce :** La fonction `draw` a un code `grid()`. Cela ajoute une grille de coordonnées sur ton arrière-plan qui t'aide à déterminer où positionner les traits sur ton visage.
+**Astuce :** la fonction `draw` a un code `grid()`. Cela ajoute une grille de coordonnées sur ton arrière-plan qui t'aide à déterminer où positionner les traits sur ton visage.
 
 Pour désactiver la grille, ajoute un `#` devant le code, pour la réactiver, supprime le `#`.
 
@@ -109,13 +109,13 @@ filename: main.py - draw()
 
 --- task ---
 
-**Test :** Exécute ton projet pour voir la taille d'écran et la couleur d'arrière-plan que tu as choisies.
+**Test :** exécute ton projet pour voir la taille d'écran et la couleur d'arrière-plan que tu as choisies.
 
 --- /task ---
 
 --- task ---
 
-**Débogage :** Il est possible que tu trouves des bogues dans ton projet que tu dois corriger. Voici quelques bogues assez courants.
+**Débogage :** il est possible que tu trouves des bogues dans ton projet que tu dois corriger. Voici quelques bogues assez courants.
 
 --- collapse ---
 
