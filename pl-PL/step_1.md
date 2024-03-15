@@ -1,42 +1,42 @@
-## You will make
+## Zrobisz to
 
-Write Python code to draw a face or mask using geometric shapes.
+Napisz kod Python, aby narysować twarz lub maskę za pomocą kształtów geometrycznych.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The creation of <span style="color: #0faeb0">**geometric art**</span> dates back to Ancient Greece where vases would be painted with patterns made up of shapes. Artists began using shapes to draw humans and animals with circles for heads, triangle bodies, and lines for legs and arms.
+Tworzenie <span style="color: #0faeb0">**sztuki geometrycznej**</span> sięga starożytnej Grecji, gdzie wazony byłyby malowane wzorami złożonymi z kształtów. Artyści zaczęli używać kształtów do rysowania ludzi i zwierząt z kółkami dla głów, ciał trójkąta i linii dla nóg i ramion.
 </p>
 
 Co zrobisz:
 
-+ Use code creatively to make a piece of digital art
-+ Draw and position your art using geometric shapes, coordinates, and layers
-+ Organise your code with functions
++ Kreatywnie używaj kodu, aby stworzyć dzieło sztuki cyfrowej
++ Narysuj i umieść swoją sztukę za pomocą geometrycznych kształtów, współrzędnych i warstw
++ Zorganizuj swój kod za pomocą funkcji
 
-![Examples of different faces.](images/strip.png)
+![Przykłady różnych ścian.](images/strip.png)
 
 --- no-print ---
 
-### Get ideas 💭
+### Masz pomysły?
 
-You are going to make some design decisions about the kind of face you will make and how you will use code to get the effect you want.
+Podejmiesz kilka decyzji projektowych dotyczących rodzaju twarzy, którą zrobisz i sposobu użycia kodu, aby uzyskać pożądany efekt.
 
 --- task ---
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">
 
-Look at these examples and think about how they have been made from circles, ellipses, squares, rectangles, and triangles.
+Spójrz na te przykłady i zastanów się, jak zostały one wykonane z okręgów, elips, kwadratów, prostokątów i trójkątów.
 
-**Kawaii fruit**:
+** Kawaii owocowy **:
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/fruit-face-example" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe> [See inside](https://editor.raspberrypi.org/en/projects/fruit-face-example){:target="_blank"}
+</iframe> [ Patrz wewnątrz ](https://editor.raspberrypi.org/en/projects/fruit-face-example){:target="_blank"}
 
-**Stacked faces**:
+** Stacked twarze **:
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/stacked-faces-example" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe> [See inside](https://editor.raspberrypi.org/en/projects/stacked-faces-example){:target="_blank"}
+</iframe> [ Patrz wewnątrz ](https://editor.raspberrypi.org/en/projects/stacked-faces-example){:target="_blank"}
 
-**Tribal mask**:
+** Maska plemienna **:
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/tribal-mask-example" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe> [See inside](https://editor.raspberrypi.org/en/projects/tribal-mask-example){:target="_blank"}
+</iframe> [ Patrz wewnątrz ](https://editor.raspberrypi.org/en/projects/tribal-mask-example){:target="_blank"}
 
 --- /task ---
 
@@ -44,13 +44,13 @@ Look at these examples and think about how they have been made from circles, ell
 
 --- print-only ---
 
-### Get ideas 💭
+### Masz pomysły?
 
-You are going to make some design decisions about the kind of face you will make and how you will use code to get the effect you want.
+Podejmiesz kilka decyzji projektowych dotyczących rodzaju twarzy, którą zrobisz i sposobu użycia kodu, aby uzyskać pożądany efekt.
 
-Investigate the example projects above, see if you can identify the shapes used to make the faces. You can click **See inside** to view the code.
+Zbadaj przykładowe projekty powyżej, sprawdź, czy możesz zidentyfikować kształty używane do tworzenia ścian. Możesz kliknąć ** Zajrzyj do środka **, aby wyświetlić kod.
 
-![The output area from the Kawaii fruit project.](images/smile.png) ![The output area from the Stacked faces project.](images/stacked.png) ![The output area from the Tribal mask project.](images/tribal.png)
+![Obszar wyjściowy z projektu owoce Kawaii.](images/smile.png) ![Obszar wyjściowy z projektu Stacked ściany.](images/stacked.png) ![Obszar wyjściowy z projektu maski plemiennej.](images/tribal.png)
 
 --- /print-only ---
 
