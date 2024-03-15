@@ -1,42 +1,42 @@
-## Choose a theme
+## Wybierz motyw
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Have you got an idea about the kind of face or mask you want to make? Use this step to plan your art and set up your canvas.
+Czy masz pomysł na rodzaj twarzy lub maski, którą chcesz zrobić? Użyj tego kroku, aby zaplanować swoją sztukę i skonfigurować swoje płótno.
 </div>
 <div>
-![The output area with a vampire-themed face.](images/vampire.png){:width="200px"}
+![Obszar wyjściowy z twarzą o tematyce wampira.](images/vampir.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-Open the [starter project](https://editor.raspberrypi.org/en/projects/make-face-starter){:target="_blank"}. The Raspberry Pi code editor will open in another browser tab.
+Otwórz projekt startowy [ ](https://editor.raspberrypi.org/en/projects/make-face-starter){:target="_blank"}. Edytor kodu Raspberry Pi otworzy się w innej karcie przeglądarki.
 
 --- /task ---
 
 --- task ---
 
-**Choose:** Think about the kind of face you want to make:
-+ Do you want to choose something from your heritage or popular culture?
-+ Will your art show a human, animal, something mythical, or perhaps a machine?
-+ You might even want to create a self-portrait!
-+ You could draw an emoji to share with your friends
+** Wybierz:** pomyśl o rodzaju twarzy, którą chcesz zrobić:
++ Czy chcesz wybrać coś ze swojego dziedzictwa lub kultury popularnej?
++ Czy Twoja sztuka pokaże człowieka, zwierzę, coś mitycznego, a może maszynę?
++ Możesz nawet chcieć stworzyć autoportret!
++ Możesz narysować emoji, aby udostępnić go znajomym
 
 --- /task ---
 
 --- task ---
 
-The first thing to do when creating art using the Python `Processing library` is to add `def setup():` to define a `setup` function that is run once at the beginning of your program.
+Pierwszą rzeczą do zrobienia podczas tworzenia sztuki przy użyciu biblioteki przetwarzania Pythona `.` jest dodanie ` DEF setup():`, aby zdefiniować funkcję ` `, która jest uruchamiana raz na początku programu.
 
-The starter project has a `setup` function that sets the `size` of your canvas to `400` width and `400` height.
+Projekt startowy ma funkcję ` <code> `, która ustawia rozmiar ` Twojego płótna na szerokość <code> 400 ` i wysokość </code> </code>.
 
-**Choose:** Experiment with the numbers and run your code to find a size that you are happy with.
+** Wybierz:** eksperymentuj z liczbami i uruchom swój kod, aby znaleźć rozmiar, z którego jesteś zadowolony.
 
 --- collapse ---
 
 ---
-title: Setting the screen size when your program starts
+Title: Ustawianie rozmiaru ekranu po uruchomieniu programu
 ---
 
 --- code ---
@@ -55,14 +55,14 @@ size(400, 400)  # 400 by 400 works well for a round face
 
 --- task ---
 
-**Choose:** Think about the colours you will use for your face and change the `background` colour values to set your screen to a complementary colour.
+** Wybierz:** pomyśl o kolorach użytych do twarzy i zmień wartości koloru tła ` `, aby ustawić ekran na kolor uzupełniający.
 
 [[[generic-theory-simple-colours]]]
 
 --- collapse ---
 
 ---
-title: Setting the background colour when your program starts
+Title: Ustawianie koloru tła po uruchomieniu programu
 ---
 
 --- code ---
@@ -81,9 +81,9 @@ line_highlights: 9
 
 --- task ---
 
-**Tip:** The `draw` function has `grid()` code. This adds a coordinates grid over your background that helps you work out where to position features on your face.
+** Wskazówka:** Funkcja ` ` ma kod ` grid()`. To dodaje siatkę współrzędnych nad tłem, która pomaga ustalić, gdzie umieścić operacje na twarzy.
 
-To turn the grid off add a `#` in front of the code, to turn it back on remove the `#`.
+Aby wyłączyć siatkę, dodaj `#` przed kodem, aby go włączyć, usuń `#`.
 
 --- code ---
 ---
@@ -109,7 +109,7 @@ filename: main.py - draw()
 
 --- task ---
 
-**Test:** Run your project to see your chosen screen size and background colour.
+** Test:** Uruchom swój projekt, aby zobaczyć wybrany rozmiar ekranu i kolor tła.
 
 --- /task ---
 
@@ -120,20 +120,20 @@ filename: main.py - draw()
 --- collapse ---
 
 ---
-title: I've updated my size and colour but the output area stays the same
+Title: Zaktualizowałem swój rozmiar i kolor, ale obszar wyjściowy pozostaje taki sam
 ---
 
-After changing the code, you will need to **`Run`** your project to see the changes in the output area.
+Po zmianie kodu, będziesz musiał uruchomić ** ` ` ** swój projekt, aby zobaczyć zmiany w obszarze wyjściowym.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: I've tried different numbers but the background colour doesn't change
+Title: Próbowałem różnych liczb, ale kolor tła się nie zmienia
 ---
 
-The maximum amount of red, green, or blue is `255`. Make sure all your `background` colour values are between `0` and `255`.
+Maksymalna ilość czerwonego, zielonego lub niebieskiego to ` 255 `. Upewnij się, że wszystkie wartości kolorów ` ` mieszczą się w przedziale ` 0 ` i ` 255 `.
 
 --- /collapse ---
 
