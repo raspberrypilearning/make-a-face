@@ -1,10 +1,10 @@
-## Quick quiz
+## Szybki quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Odpowiedz na trzy pytania. Istnieją wskazówki, które poprowadzą Cię do prawidłowej odpowiedzi.
 
-When you have answered each question, click on **Check my answer**.
+Po udzieleniu odpowiedzi na każde pytanie kliknij ** Sprawdź moją odpowiedź **.
 
-Have fun!
+Miłej zabawy!
 
 Miłej zabawy!
 
@@ -14,9 +14,9 @@ Miłej zabawy!
 legend: Pytanie 1 z 3
 ---
 
-In your project, you drew mouths using shapes.
+W swoim projekcie narysowałeś usta używając kształtów.
 
-What kind of mouth would this code draw?
+Jakie usta wyrysuje ten kod?
 
 --- code ---
 ---
@@ -33,7 +33,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-  Not quite, to create a sad mouth the second `ellipse` would need a **y_coordinate** that is lower than the first `ellipse`.
+  Nie do końca, aby stworzyć smutne usta, druga elipsa ` ` potrzebowałaby ** y_**, która jest niższa niż pierwsza elipsa ` `.
 
   --- /feedback ---
 
@@ -41,7 +41,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-  That's correct! The second `ellipse` is drawn with a **y_coordinate** that is higher than the first `ellipse`.
+  Zgadza się! Druga elipsa ` ` jest rysowana za pomocą ** y_**, która jest wyższa niż pierwsza elipsa ` `.
 
   --- /feedback ---
 
@@ -49,7 +49,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-   Not quite, the second circle has a white `fill(255, 255, 255)` and is positioned partially over the first black circle.
+   Nie do końca, drugie koło ma biały ` fill(255, 255, 255)` i jest częściowo umieszczone nad pierwszym czarnym kółkiem.
 
   --- /feedback ---
 
@@ -57,7 +57,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-The code does not draw rectangles. The `ellipse` function draws circles.
+Kod nie rysuje prostokątów. Funkcja ` ` rysuje okręgi.
 
   --- /feedback ---
 
