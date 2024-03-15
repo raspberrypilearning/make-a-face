@@ -1,21 +1,21 @@
 ## Ulepsz swój projekt
 
-If you have time you can upgrade to your project.
+Jeśli masz czas, możesz uaktualnić swój projekt.
 
-Each of the examples in the [Introduction](.) was created in Trinket and you can look at the code to get ideas and see how they work.
+Każdy z przykładów w [ Wprowadzenie ](.) został utworzony w Trinket i możesz spojrzeć na kod, aby uzyskać pomysły i zobaczyć, jak działają.
 
-Here are some other ideas you could try:
-- Add interactivity — try our **Interactive: Theatre Mask**, what happens when you move your mouse across the screen?
-- Add animation — try our **Animated: Frida**, what happens to Frida's headband when you run the project?
+Oto kilka innych pomysłów, które możesz wypróbować:
+- Dodaj interaktywność — wypróbuj nasz interaktywny **: Maska teatralna **, co się stanie, gdy przesuniesz mysz po ekranie?
+- Dodaj animację — wypróbuj nasz ** Animated: **, co dzieje się z pałąkiem Fridy po uruchomieniu projektu?
 
-**Interactive: Theatre Mask**:
+** Interaktywny: Maska teatralna **:
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/interactive-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe> [See inside](https://editor.raspberrypi.org/en/projects/interactive-face-example){:target="_blank"}
+</iframe> [ Patrz wewnątrz ](https://editor.raspberrypi.org/en/projects/interactive-face-example){:target="_blank"}
 
-**Animated: Frida**:
+** animowany: **:
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/animated-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe> [See inside](https://editor.raspberrypi.org/en/projects/animated-face-example){:target="_blank"}
+</iframe> [ Patrz wewnątrz ](https://editor.raspberrypi.org/en/projects/animated-face-example){:target="_blank"}
 
-Take a look at our [Make a face - Community library](https://wke.lt/w/s/8sVH4f){:target="_blank"} to see projects created by community members.
+Spójrz na nasz [ Zrób twarz - Biblioteka ](https://wke.lt/w/s/8sVH4f){:target="_blank"}, aby zobaczyć projekty stworzone przez członków społeczności.
 
 --- save ---
