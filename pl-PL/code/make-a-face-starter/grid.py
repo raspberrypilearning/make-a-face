@@ -4,34 +4,34 @@ def grid():
     push_matrix()
     stroke(200)
     fill(0)
-    line(0, height/2, width, height/2)
-    line(width/2, 0, width/2, height)
+    linia(0, wysokość/2, szerokość, wysokość/2)
+    linia(szerokość/2, 0, szerokość/2, wysokość)
     x_coords = [0, width/2, width]
-    y_coords = [0, height/2, height]
+    y_współrzędne = [0, height/2, height]
   
-    for x in x_coords:
+    dla x in x_coords:
         for y in y_coords:
-            show_coord(x, y)
+            pokaż_coord(x, y)
   
     pop_matrix()
 
 def show_coord(x, y):
-    if x == width:
-        x_align = RIGHT
+    if x == szerokość:
+        X_align = W PRAWO
     elif x == 0:
-        x_align = LEFT
-    else:
-        x_align = CENTER
+        X_align = LEWO
+    inne:
+        X_align = ŚRODEK
   
-    if y == height:
-        y_align = BASELINE
+    if y == wysokość:
+        y_align = LINIA BAZOWA
     elif y == 0:
-        y_align = TOP
-    else:
-        y_align = CENTER
+        y_align = GÓRA
+    inne:
+        y_align = ŚRODEK
   
     push_matrix()
-    fill(100)
+    wypełnienie(100)
     text_align(x_align, y_align)
-    text('(' + str(int(x)) + ', ' + str(int(y)) + ')', x, y)
+    text(' + str(int(x)) + ', ' + str(int(y)) + ')', x, y)
     pop_matrix()
