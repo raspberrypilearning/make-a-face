@@ -48,7 +48,7 @@ line_number_start: 6
 line_highlights: 7
 ---
 def setup():   
-    size(400, 400) #400 par 400 fonctionne bien pour un visage rond
+    size(400, 400) # 400 par 400 fonctionne bien pour un visage rond
 
 --- /code ---
 
@@ -97,7 +97,7 @@ language: python
 filename: main.py - draw()
 ---
 
-    grid() #Affiche la grille
+    grid() # Affiche la grille
 
 --- /code ---
 
