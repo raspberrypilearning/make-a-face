@@ -11,11 +11,11 @@ def grid():
   
     for x in x_coords:
         for y in y_coords:
-            show_coord(x, y)
+            montre_coord(x, y)
   
     pop_matrix()
 
-def show_coord(x, y):
+def montre_coord(x, y):
     if x == width:
         x_align = RIGHT
     elif x == 0:
