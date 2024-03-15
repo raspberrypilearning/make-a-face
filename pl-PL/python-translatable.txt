@@ -1,4 +1,4 @@
-eye_size
+rozmiar_oka
 
 red
 
