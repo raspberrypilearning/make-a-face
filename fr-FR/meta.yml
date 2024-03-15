@@ -2,12 +2,14 @@
 title: Faire un visage
 hero_image: images/banner.png
 description: Concevoir et dessiner un visage ou un masque à l'aide de formes géométriques
+meta_title: Projets de codage Python pour enfants et adolescents | Faire un visage
+meta_description: Apprends Python avec les projets de codage de la Raspberry Pi Foundation pour les enfants et les adolescents. Écris du code Python pour dessiner un visage ou un masque à l'aide de formes géométriques.
 version: 4
 listed: true
 copyedit: true
-last_tested: '2021-10-06'
+last_tested: "2021-10-06"
 steps:
-  - title: Introduction
+  - title: Ce que tu vas faire
   - title: Choisir un thème
   - title: Forme du visage
     completion:
@@ -17,7 +19,7 @@ steps:
   - title: Ajouter plus de détails
     completion:
       - internal
-  - title: Réflexion
+  - title: Questionnaire rapide
     knowledge_quiz:
       path: quiz1
       version: 1

@@ -1,10 +1,10 @@
-## Réflexion
+## Questionnaire rapide
 
-Bravo, tu as beaucoup appris ! Maintenant, il est temps de réfléchir - la réflexion est une partie importante de l'apprentissage, car elle aide à établir de nouvelles connexions dans ton cerveau.
+Réponds aux trois questions. Il y a des indices pour te guider vers la bonne réponse.
 
-Réponds aux trois questions ci-dessous pour réfléchir à ce que tu as appris.
+Lorsque tu as répondu à chaque question, clique sur **Vérifier ma réponse**.
 
-Après chaque question, appuie sur **soumettre**. Tu seras guidé vers la bonne réponse. Tu peux faire cette activité autant de fois que tu le souhaites.
+Amuse-toi bien !
 
 Amuse-toi bien !
 
@@ -24,9 +24,9 @@ language: python
 
 ---
 def draw():
-  fill(0, 0, 0) #Noir
+  fill(0, 0, 0) # Noir
   ellipse(160, 200, 150, 150)
-  fill(255, 255, 255) #Blanc
+  fill(255, 255, 255) # Blanc
   ellipse(160, 150, 150, 150)
 
 --- /code ---
@@ -53,7 +53,7 @@ def draw():
 
   --- feedback ---
 
-   Pas tout à fait, le deuxième cercle a un `fill(255, 255, 255)` blanc et est positionné partiellement sur le premier cercle noir.
+   Pas tout à fait, le deuxième cercle a un `fill(255, 255, 255) blanc` et est positionné partiellement sur le premier cercle noir.
 
   --- /feedback ---
 

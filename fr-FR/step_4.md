@@ -17,7 +17,7 @@ Tu peux ajouter des iris et des pupilles de différentes couleurs. Tu peux ajout
 
 --- /task ---
 
-Expérimente avec `ellipse` dans la fonction `draw` pour créer les yeux que tu veux.
+Expérimente avec `ellipse` dans la fonction `configuration` pour créer les yeux que tu veux.
 
 --- task ---
 
@@ -32,14 +32,15 @@ Dans cet exemple, `160` et `240` sont tous les deux à `40` pixels de 200, ce qu
 language: python
 filename: main.py - draw()
 ---
-  fill(0, 0, 0) #Noir - passe au rouge, au vert ou au bleu jusqu'à 255
-  taille-yeux = 50
-  ellipse(160, 180, taille-yeux, taille-yeux) #x, y, largeur, hauteur
-  ellipse(240, 180, taille-yeux, taille-yeux)
+
+    fill(0, 0, 0) # Noir - passe au rouge, au vert ou au bleu jusqu'à 255
+    taille-yeux = 50
+    ellipse(160, 180, taille-yeux, taille-yeux) # x, y, largeur, hauteur
+    ellipse(240, 180, taille-yeux, taille-yeux)
 
 --- /code --- 
 
-**Astuce :** Si tu veux des yeux ronds, l'utilisation d'une variable `taille_yeux` facilite la modification de la largeur et de la hauteur des deux yeux au même endroit.
+**Astuce :** si tu veux des yeux ronds, l'utilisation d'une variable `taille_yeux` facilite la modification de la largeur et de la hauteur des deux yeux au même endroit.
 
 [[[processing-python-ellipse]]]
 
@@ -57,10 +58,10 @@ language: python
 filename: main.py - draw()
 ---
 
-  fill(0, 0, 0) #Noir - passe au rouge, au vert ou au bleu jusqu'à 255
-  taille-yeux = 50
-  ellipse( (width / 2) - 40, 180, taille-yeux, taille-yeux) #x, y, largeur, hauteur
-  ellipse( (width / 2) + 40 , 180, taille-yeux, taille-yeux)
+    fill(0, 0, 0) # Noir - passe au rouge, au vert ou au bleu jusqu'à 255
+    taille-yeux = 50
+    ellipse( (width / 2) - 40, 180, taille-yeux, taille-yeux) # x, y, largeur, hauteur
+    ellipse( (width / 2) + 40 , 180, taille-yeux, taille-yeux)
 
 --- /code ---
 
@@ -72,9 +73,9 @@ language: python
 filename: main.py - draw()
 ---
 
-  fill(0, 0, 0) #Noir - passe au rouge, au vert ou au bleu jusqu'à 255
-  ellipse( (width / 2) - (width / 10) , 180, taille-yeux, taille-yeux) #x, y, largeur, hauteur
-  ellipse( (width / 2) + (width / 10) , 180, taille-yeux, taille-yeux)
+    fill(0, 0, 0) # Noir - passe au rouge, au vert ou au bleu jusqu'à 255
+    ellipse( (width / 2) - (width / 10) , 180, taille-yeux, taille-yeux) # x, y, largeur, hauteur
+    ellipse( (width / 2) + (width / 10) , 180, taille-yeux, taille-yeux)
 
 --- /code ---
 
@@ -86,9 +87,9 @@ Modifie le deuxième nombre dans l'appel de fonction `ellipse` pour déplacer la
 
 --- task ---
 
-**Test :** Continue à changer la forme et la position des yeux jusqu'à ce que tu aimes leur apparence.
+**Test :** continue à changer la forme et la position des yeux jusqu'à ce que tu aimes leur apparence.
 
-**Astuce :** Si tu définis un trait pour dessiner le visage et que tu n'en veux pas pour les yeux, tu devras alors appeler `no_stroke()` avant de dessiner les yeux.
+**Astuce :** si tu définis un trait pour dessiner le visage et que tu n'en veux pas pour les yeux, tu devras alors appeler `no_stroke()` avant de dessiner les yeux.
 
 [[[processing-stroke]]]
 
@@ -104,9 +105,11 @@ Tu peux utiliser d'autres cercles pour créer :
 + Des reflets blancs
 + Ou autre chose
 
-Cet œil a un iris coloré, une pupille noire et des reflets blancs avec une opacité modifiée : ![La zone de sortie montrant un œil avec des reflets au-dessus de la pupille et de l'iris.](images/catchlights.png)
+Cet œil a un iris coloré, une pupille noire et des reflets blancs avec une opacité modifiée :
+![La zone de sortie montrant un œil avec des reflets au-dessus de la pupille et de l'iris.](images/catchlights.png)
 
-[[[generic-theory-simple-colours]]] [[[processing-opacity]]]
+[[[generic-theory-simple-colours]]]
+[[[processing-opacity]]]
 
 Tu peux également animer les yeux en les faisant pivoter.
 
@@ -116,7 +119,7 @@ Tu peux également animer les yeux en les faisant pivoter.
 
 --- task ---
 
-**Test :** Continue à changer les yeux jusqu'à ce que tu aimes leur apparence.
+**Test :** continue à changer les yeux jusqu'à ce que tu aimes leur apparence.
 
 Ton dessin commence à ressembler à un visage ?
 
@@ -124,7 +127,7 @@ Ton dessin commence à ressembler à un visage ?
 
 --- task ---
 
-**Débogage :** Il est possible que tu trouves des bogues dans ton projet que tu dois corriger. Voici quelques bogues assez courants.
+**Débogage :** il est possible que tu trouves des bogues dans ton projet que tu dois corriger. Voici quelques bogues assez courants.
 
 --- collapse ---
 ---
@@ -164,7 +167,7 @@ title: Mes yeux ne sont pas ronds
 
 Les troisième et quatrième nombres dans `ellipse` sont la largeur et la hauteur des yeux.
 
-**Astuce :** Si tu les fais identiques, tu obtiendras des yeux ronds.
+**Astuce :** si tu les fais identiques, tu obtiendras des yeux ronds.
 
 --- /collapse ---
 
