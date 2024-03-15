@@ -40,7 +40,7 @@ filename: main.py - draw()
 
 --- /code ---
 
-**Astuce :** Si tu veux des yeux ronds, l'utilisation d'une variable `taille_yeux` facilite la modification de la largeur et de la hauteur des deux yeux au même endroit.
+**Astuce :** si tu veux des yeux ronds, l'utilisation d'une variable `taille_yeux` facilite la modification de la largeur et de la hauteur des deux yeux au même endroit.
 
 [[[processing-python-ellipse]]]
 
@@ -87,9 +87,9 @@ Modifie le deuxième nombre dans l'appel de fonction `ellipse` pour déplacer la
 
 --- task ---
 
-**Test :** Continue à changer la forme et la position des yeux jusqu'à ce que tu aimes leur apparence.
+**Test :** continue à changer la forme et la position des yeux jusqu'à ce que tu aimes leur apparence.
 
-**Astuce :** Si tu définis un trait pour dessiner le visage et que tu n'en veux pas pour les yeux, tu devras alors appeler `no_stroke()` avant de dessiner les yeux.
+**Astuce :** si tu définis un trait pour dessiner le visage et que tu n'en veux pas pour les yeux, tu devras alors appeler `no_stroke()` avant de dessiner les yeux.
 
 [[[processing-stroke]]]
 
@@ -117,7 +117,7 @@ Tu peux également animer les yeux en les faisant pivoter.
 
 --- task ---
 
-**Test :** Continue à changer les yeux jusqu'à ce que tu aimes leur apparence.
+**Test :** continue à changer les yeux jusqu'à ce que tu aimes leur apparence.
 
 Ton dessin commence à ressembler à un visage ?
 
@@ -125,7 +125,7 @@ Ton dessin commence à ressembler à un visage ?
 
 --- task ---
 
-**Débogage :** Il est possible que tu trouves des bogues dans ton projet que tu dois corriger. Voici quelques bogues assez courants.
+**Débogage :** il est possible que tu trouves des bogues dans ton projet que tu dois corriger. Voici quelques bogues assez courants.
 
 --- collapse ---
 ---
@@ -165,7 +165,7 @@ title: Mes yeux ne sont pas ronds
 
 Les troisième et quatrième nombres dans `ellipse` sont la largeur et la hauteur des yeux.
 
-**Astuce :** Si tu les fais identiques, tu obtiendras des yeux ronds.
+**Astuce :** si tu les fais identiques, tu obtiendras des yeux ronds.
 
 --- /collapse ---
 
