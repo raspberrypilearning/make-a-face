@@ -4,13 +4,13 @@ from p5 import *
 from random import randint
 
 
-def triste (milieu_x, yeux_y, bouche_y) :
+def triste (milieu_x, yeux_y, bouche_y):
     ellipse(milieu_x - 50, yeux_y - 20, 60, 50) # x, y, largeur, hauteur
     ellipse(milieu_x + 50, yeux_y - 20, 60, 50)
     ellipse(milieu_x, bouche_y + 30, 100, 65)
 
 
-def heureux (milieu_x, yeux_y, bouche_y) :
+def heureux (milieu_x, yeux_y, bouche_y):
     ellipse(milieu_x - 50, yeux_y + 20, 60, 50) # x, y, largeur, hauteur
     ellipse(milieu_x + 50, yeux_y + 20, 60, 50)
     ellipse(milieu_x, bouche_y - 30, 100, 65)
@@ -41,7 +41,7 @@ def draw():
     ellipse(milieu_x, bouche_y, 100, 75)
     # couvrir partiellement les yeux et la bouche
     fill(255)
-    if souris_x > milieu_x :
+    if mouse_x > milieu_x:
         heureux(milieu_x, yeux_y, bouche_y)
     else:
         triste(milieu_x, yeux_y, bouche_y)
@@ -55,7 +55,7 @@ def draw():
 
 def mouse_pressed():
     # Mets le code à exécuter lorsque la souris est pressée ici
-    print (souris_x, souris_y)
+    print(mouse_x, mouse_y)
 
 
 # Garde ceci pour exécuter ton code
