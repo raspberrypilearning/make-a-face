@@ -1,70 +1,70 @@
-400 by 400 works well for a round face
+400 na 400 działa dobrze dla okrągłej twarzy
 
-Change to your background colour
+Zmień kolor tła
 
-Try different numbers to change the colour
+Wypróbuj różne liczby, aby zmienić kolor
 
-Shows grid
+Pokazuje siatkę
 
-Hide grid by turning it into a comment
+Ukryj siatkę, zamieniając ją w komentarz
 
-Circle in the middle
+Okrąg pośrodku
 
-You can also use no_stroke()
+Możesz również użyć no_stroke()
 
-Bright yellow
+Jasnożółty
 
-Black — change to red, green, or blue up to 255
+Czarny — zmiana na czerwony, zielony lub niebieski do 255
 
-x, y, width, height
+x, y, szerokość, wysokość
 
-A black mouth
+Czarne usta
 
-An orange face
+Pomarańczowa twarz
 
-Higher circle
+Wyższe koło
 
-Lower circle
+Dolny okrąg
 
-Face mask
+Maska twarzy
 
-Left ear loop
+Pętla lewego ucha
 
-Right ear loop
+Pętla prawego ucha
 
-Large white rectangle
+Duży biały prostokąt
 
-Smaller blue rectangle
+Mniejszy niebieski prostokąt
 
-Mouth
+Usta
 
-Starting amount of red
+Początkowa ilość czerwonego
 
-Starting amount of green
+Początkowa ilość zieleni
 
-Starting amount of blue
+Początkowa ilość niebieskiego
 
-Uses variables to control the colour change each loop
+Używa zmiennych do kontrolowania zmiany koloru w każdej pętli
 
-Move along the x coordinate by the width of a tooth
+Przesuń się wzdłuż współrzędnej x o szerokość zęba
 
-Mouth line
+Linia ust
 
-Left tooth
+Lewy ząb
 
-Right tooth
+Prawy ząb
 
-Highlights
+Podświetlenie
 
-70 is transparency/opacity here
+70 to tutaj przezroczystość/nieprzezroczystość
 
-Black
+Czarny
 
-White
+Biały
 
-Eyes
+Oczy
 
-Face
+Ściana
 
 Zielony
 
@@ -74,7 +74,7 @@ width and height
 
 move under draw() to reset the drawing every frame
 
-Put code to run every frame here
+Umieść kod, aby uruchomić każdą klatkę
 
 draw mask
 
@@ -136,7 +136,7 @@ Nose
 
 Face markings
 
-Add code to draw your face here
+Dodaj kod, aby narysować twarz tutaj
 
 Hair
 
