@@ -1,38 +1,38 @@
-## Add more details
+## Dodaj więcej szczegółów
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Does your face or mask need more details to make it more interesting? 
+Czy Twoja twarz lub maska potrzebują więcej szczegółów, aby uczynić ją bardziej interesującą? 
 </div>
 <div>
-![Image showing a face as an example with a headband accessory.](images/frida.png){:width="200px"}
+![Obraz przedstawiający twarz jako przykład z dodatkiem pałąka na głowę.](images/frida.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-You can use more shapes to add more features to your face or mask.
+Możesz użyć więcej kształtów, aby dodać więcej operacji do swojej twarzy lub maski.
 
-How can you give the face more personality?
+Jak możesz nadać twarzy więcej osobowości?
 
-You could add:
+Możesz dodać:
 
-+ A nose
-+ Eyebrows
-+ Ears
-+ Cheeks
-+ Highlights / catchlights
-+ Whatever you like!
++ Nos
++ Brwi
++ Uszy
++ Policzki
++ Podświetlenie / podświetlenie
++ Co chcesz!
 
-Just add the extra details that make sense for your drawing.
+Wystarczy dodać dodatkowe szczegóły, które mają sens dla twojego rysunku.
 
 --- /task ---
 
 --- task ---
 
-You can make partly transparent colours by adding a fourth number to an RGB colour to give the **opacity**.
+Możesz stworzyć częściowo przezroczyste kolory, dodając czwartą liczbę do koloru RGB, aby nadać przezroczystość ** **.
 
-This code draws the overlapping highlights in the Kawaii fruit example:
+Ten kod rysuje nakładające się podświetlenia w przykładzie owocu Kawaii:
 
 --- code ---
 ---
@@ -47,7 +47,7 @@ filename: main.py - draw()
 
 --- /code ---
 
-![Kawaii fruit image with highlights at different opacities: 30, 70, 150, 255. The lower value, 30, is more opaque and 255 is less opaque.](images/opacity.png)
+![Obraz owocu Kawaii z podświetleniami o różnych nieprzezroczystościach: 30, 70, 150, 255. Niższa wartość, 30, jest bardziej nieprzezroczysta, a 255 mniej nieprzezroczysta.](images/opacity.png)
 
 --- /task ---
 
