@@ -2,7 +2,7 @@
 
 Jeśli masz czas, możesz uaktualnić swój projekt.
 
-Każdy z przykładów w [ Wprowadzenie ](.) został utworzony w Trinket i możesz spojrzeć na kod, aby uzyskać pomysły i zobaczyć, jak działają.
+Each of the examples in the [Introduction](.) was created in the Raspberry Pi Code Editor and you can look at the code to get ideas and see how they work.
 
 Oto kilka innych pomysłów, które możesz wypróbować:
 - Dodaj interaktywność — wypróbuj nasz interaktywny **: Maska teatralna **, co się stanie, gdy przesuniesz mysz po ekranie?
