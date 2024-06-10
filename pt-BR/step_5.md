@@ -98,13 +98,13 @@ filename: main.py - draw()
 
 --- /collapse ---
 
-**Tip:** Add a `#Mouth` comment on the line before your mouth code to help you easily find the mouth code.
+**Dica:** Adicione um comentário `#Mouth` na linha antes do código da boca para ajudá-lo a encontrar facilmente o código da boca.
 
 --- /task ---
 
 --- task ---
 
-**Choose:** You could also add multiple teeth to your mouth using `translate` to change the `x` coordinate after each tooth is drawn.
+**Escolha:** Você também pode adicionar vários dentes à sua boca usando `translate` para alterar a coordenada `x` após cada dente ser desenhado.
 
 --- collapse ---
 
@@ -112,13 +112,13 @@ filename: main.py - draw()
 título: Use um laço para adicionar uma fileira de dentes
 ---
 
-Add code to create a `for` loop that repeats in order to create the number of teeth you need.
+Adicione o código para criar um laço `for` que se repete para criar o número de dentes que você precisa.
 
-![The output area showing a robot face with a row of rectangle teeth in different colours.](images/robot-teeth.png)
+![A área de saída mostrando uma face de robô com uma fileira de dentes retangulares em cores diferentes.](images/robot-teeth.png)
 
-After each tooth has been drawn, add code to `translate()` it by the width of the tooth.
+Após cada dente ter sido desenhado, adicione o código `translate()` para a largura do dente.
 
-You can also add code to change the colour of each tooth.
+Você também pode adicionar código para alterar a cor de cada dente.
 
 --- code ---
 ---
@@ -151,11 +151,11 @@ filename: main.py - draw()
 título: Use triângulos para adicionar presas
 ---
 
-Create a `rectangle` to use as the line of the mouth.
+Crie um `retângulo` para usar como a linha da boca.
 
-Add two `triangle` shapes to create the fangs. Change the `x` coordinates for each corner to position the fangs at opposite ends of the mouth line.
+Adicione duas formas de `triângulo` para criar as presas. Altere as coordenadas `x` de cada canto para posicionar as presas em extremidades opostas da linha da boca.
 
-![The output area showing a vampire face with a rectangle mouth and two triangle teeth.](images/vampire.png)
+![A área de saída mostra um rosto de vampiro com uma boca retangular e dois dentes triangulares.](images/vampire.png)
 
 --- code ---
 ---
@@ -177,7 +177,7 @@ filename: main.py - draw()
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Debug:** Talvez você encontre alguns bugs em seu projeto que precisem de correção. Aqui estão alguns bugs comuns.
 
 --- collapse ---
 
@@ -185,7 +185,7 @@ filename: main.py - draw()
 título: Minha forma sobreposta sai do rosto
 ---
 
-If you use two overlapping shapes to create a mouth, then you need to make sure the shape that is the same colour as the face doesn't go outside the face. If it does, then change the width or height of the shape so that it's small enough to fit inside the face.
+Se você usar duas formas sobrepostas para criar uma boca, certifique-se de que a forma que tem a mesma cor do rosto não saia do rosto. Se isso acontecer, altere a largura ou a altura da forma para que ela fique pequena o suficiente para caber dentro do rosto.
 
 --- /collapse ---
 
@@ -196,7 +196,7 @@ If you use two overlapping shapes to create a mouth, then you need to make sure 
 título: Eu tenho muitos dentes
 ---
 
-Don't forget that `range()` creates a sequence of numbers starting from 0 not 1. This may make a difference to your code depending on how you have positioned your teeth.
+Não se esqueça que `range()` cria uma sequência de números começando em 0 e não em 1. Isso pode fazer diferença no seu código, dependendo de como você posicionou os dentes.
 
 --- /collapse ---
 
