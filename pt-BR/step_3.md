@@ -13,9 +13,9 @@ Desenhe e pinte uma forma para o seu rosto ou máscara. Não adicione os outros 
 
 Decida o formato principal do rosto para sua máscara. Pode ser um círculo, uma elipse, um retângulo ou até mesmo um triângulo.
 
-Add code to the `draw()` function to draw a face or mask.
+Adicione código à função `draw()` para desenhar um rosto ou máscara.
 
-This example draws a black circle in the middle, but it's up to you which shape and colour to use.
+Este exemplo desenha um círculo preto no meio, mas cabe a você decidir qual forma e cor usar.
 
 --- code ---
 ---
@@ -32,7 +32,7 @@ def draw(): # Put code to run every frame here background(255, 255, 255)  # Chan
 
 --- /code ---
 
-![The output area showing a black line circle in the middle of the grid.](images/black-circle.png)
+![A área de saída mostrando um círculo preto no meio da grade.](images/black-circle.png)
 
 [[[processing-python-ellipse]]]
 
@@ -76,7 +76,7 @@ line_highlights: 14
 
 --- task ---
 
-**Test:** Run your code and change the colour until you are happy with it.
+**Teste:** Execute seu código e mude a cor até ficar satisfeito com ele.
 
 --- /task ---
 
