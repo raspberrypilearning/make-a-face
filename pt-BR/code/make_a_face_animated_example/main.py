@@ -12,7 +12,7 @@ def setup():
 def draw():
     background(255)
 
-    # Hair and face
+    # Cabelo e rosto
     fill(0)
     ellipse(200, 220, 220, 230)
     fill(251, 233, 201)
@@ -26,7 +26,7 @@ def draw():
             90, 110), random.randint(100, 130))
         ellipse(random.randint(100, 300), random.randint(150, 210), 20, 20)
 
-    # Eyes
+    # Olhos
     fill(0)
     ellipse(160, 270, 85, 30)
     ellipse(240, 270, 85, 30)
@@ -40,7 +40,7 @@ def draw():
     ellipse(165, 285, 10, 10)
     ellipse(245, 285, 10, 10)
 
-    # Mouth
+    # Boca
     fill(0)
     rect(185, 320, 30, 5)
 
