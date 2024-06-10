@@ -5,17 +5,17 @@ from grid import *
 
 
 def setup():
-    # Put code to run once here
-    size(400, 400)  # width and height
+    # Coloque o código para ser executado uma vez aqui
+    size(400, 400) # largura e altura
 
 
 def draw():
-    # Put code to run every frame here
+    # Coloque o código para executar em cada quadro aqui
     background(255, 255, 255)
-    # Add code to draw your face here
+    # Adicione código para desenhar seu rosto aqui
 
-    grid()  # add a # to the beginning of this line to hide the grid
+    grid() # adicione um # ao início desta linha para ocultar a grade
 
 
-# Keep this to run your code
+# Mantenha isso para executar seu código
 run()
