@@ -28,15 +28,15 @@ Bekijk deze voorbeelden en bedenk hoe ze zijn gemaakt van cirkels, ellipsen, vie
 
 **Kawaii fruit**:
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/fruit-face-example" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe> [Kijk binnenin](https://editor.raspberrypi.org/en/projects/fruit-face-example){:target="_blank"}
+</iframe> [Bekijk van binnen](https://editor.raspberrypi.org/en/projects/fruit-face-example){:target="_blank"}
 
 **Gestapelde gezichten**:
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/stacked-faces-example" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe> [Kijk binnenin](https://editor.raspberrypi.org/en/projects/stacked-faces-example){:target="_blank"}
+</iframe> [Bekijk van binnen](https://editor.raspberrypi.org/en/projects/stacked-faces-example){:target="_blank"}
 
 **Stammenmasker**:
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/tribal-mask-example" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe> [Bekijk vanbinnen](https://editor.raspberrypi.org/en/projects/tribal-mask-example){:target="_blank"}
+</iframe> [Bekijk van binnen](https://editor.raspberrypi.org/en/projects/tribal-mask-example){:target="_blank"}
 
 --- /task ---
 
