@@ -24,19 +24,19 @@ Você tomará algumas decisões de desenho sobre o tipo de rosto que fará e com
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">
 
-Look at these examples and think about how they have been made from circles, ellipses, squares, rectangles, and triangles.
+Veja esses exemplos e pense em como eles foram feitos a partir de círculos, elipses, quadrados, retângulos e triângulos.
 
-**Kawaii fruit**:
+**Fruta Kawaii**:
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/fruit-face-example" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe> [See inside](https://editor.raspberrypi.org/en/projects/fruit-face-example){:target="_blank"}
+</iframe> [Ver o interior](https://editor.raspberrypi.org/en/projects/fruit-face-example){:target="_blank"}
 
-**Stacked faces**:
+**Rostos empilhados**:
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/stacked-faces-example" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe> [See inside](https://editor.raspberrypi.org/en/projects/stacked-faces-example){:target="_blank"}
+</iframe> [Ver o interior](https://editor.raspberrypi.org/en/projects/stacked-faces-example){:target="_blank"}
 
-**Tribal mask**:
+**Máscara tribal**:
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/tribal-mask-example" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe> [See inside](https://editor.raspberrypi.org/en/projects/tribal-mask-example){:target="_blank"}
+</iframe> [Ver o interior](https://editor.raspberrypi.org/en/projects/tribal-mask-example){:target="_blank"}
 
 --- /task ---
 
@@ -44,13 +44,13 @@ Look at these examples and think about how they have been made from circles, ell
 
 --- print-only ---
 
-### Get ideas 💭
+### Obtenha ideias 💭
 
-You are going to make some design decisions about the kind of face you will make and how you will use code to get the effect you want.
+Você tomará algumas decisões de design sobre o tipo de rosto que fará e como usará o código para obter o efeito desejado.
 
-Investigate the example projects above, see if you can identify the shapes used to make the faces. You can click **See inside** to view the code.
+Investigue os projetos de exemplo acima, veja se você consegue identificar as formas usadas para fazer os rostos. Você pode clicar em **Ver o interior** para visualizar o código.
 
-![The output area from the Kawaii fruit project.](images/smile.png) ![The output area from the Stacked faces project.](images/stacked.png) ![The output area from the Tribal mask project.](images/tribal.png)
+![A área de saída do projeto de frutas Kawaii.](images/smile.png) ![A área de saída do projeto Faces empilhadas.](images/stacked.png) ![A área de saída do projeto de máscara tribal.](images/tribal.png)
 
 --- /print-only ---
 
