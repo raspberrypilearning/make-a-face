@@ -1,72 +1,72 @@
-400 by 400 works well for a round face
+400 x 400 funziona bene per un viso rotondo
 
-Change to your background colour
+Cambia il colore dello sfondo
 
-Try different numbers to change the colour
+Prova numeri diversi per cambiare il colore
 
-Shows grid
+Mostra la griglia
 
-Hide grid by turning it into a comment
+Nascondi la griglia trasformandola in un commento
 
-Circle in the middle
+Cerchio nel mezzo
 
-You can also use no_stroke()
+Puoi anche usare no_stroke()
 
-Bright yellow
+Giallo acceso
 
-Black — change to red, green, or blue up to 255
+Nero: cambia in rosso, verde o blu fino a 255
 
-x, y, width, height
+x, y, larghezza, altezza
 
-A black mouth
+Una bocca nera
 
-An orange face
+Una faccia arancione
 
-Higher circle
+Cerchio più alto
 
-Lower circle
+Cerchio inferiore
 
-Face mask
+Mascherina
 
-Left ear loop
+Cerchio per l'orecchio sinistro
 
-Right ear loop
+Cerchio per l'orecchio destro
 
-Large white rectangle
+Grande rettangolo bianco
 
-Smaller blue rectangle
+Rettangolo blu più piccolo
 
-Mouth
+Bocca
 
-Starting amount of red
+Quantità iniziale di rosso
 
-Starting amount of green
+Quantità iniziale di verde
 
-Starting amount of blue
+Quantità iniziale di blu
 
-Uses variables to control the colour change each loop
+Utilizza le variabili per controllare il cambiamento di colore in ogni ciclo
 
-Move along the x coordinate by the width of a tooth
+Muoviti lungo la coordinata x in base alla larghezza di un dente
 
-Mouth line
+Linea della bocca
 
-Left tooth
+Dente sinistro
 
-Right tooth
+Dente destro
 
-Highlights
+Riflessi di luce
 
-70 is transparency/opacity here
+70 indica il valore di trasparenza/opacità
 
-Black
+Nero
 
-White
+Bianco
 
-Eyes
+Occhi
 
-Face
+Volto
 
-Green
+Verde
 
 Put code to run once here
 
@@ -74,7 +74,7 @@ width and height
 
 move under draw() to reset the drawing every frame
 
-Put code to run every frame here
+Metti qui sotto il codice che verrà eseguito ad ogni cambio di frame
 
 draw mask
 
@@ -136,8 +136,8 @@ Nose
 
 Face markings
 
-Add code to draw your face here
+Aggiungi qui il codice per disegnare la tua faccia
 
 Hair
 
-add a # to the beginning of this line to hide the grid
+aggiungi un # all'inizio di questa riga per nascondere la griglia
