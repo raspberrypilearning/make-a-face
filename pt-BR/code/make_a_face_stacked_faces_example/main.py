@@ -10,88 +10,88 @@ def setup():
 
 
 def draw():
-    blue = Color(92, 204, 206)
-    green = Color(149, 212, 122)
-    red = Color(239, 62, 91)
-    purple = Color(75, 37, 109)
-    brown = Color(178, 162, 150)
-    grey = Color(201, 201, 201)
-    lilac = Color(160, 158, 214)
+    azul = Color(92, 204, 206)
+    verde = Color(149, 212, 122)
+    vermelho = Color(239, 62, 91)
+    roxo = Color(75, 37, 109)
+    marrom = Color(178, 162, 150)
+    cinza = Color(201, 201, 201)
+    lilás = Color(160, 158, 214)
 
-    # Top face background
-    fill(blue)
+    # Fundo do rosto superior
+    fill(azul)
     rect(50, 100, 300, 200)
     fill(0)
 
-    # Top face Hair
-    fill(purple)
+    # Cabelo do rosto superior
+    fill(roxo)
     gap = 0
     for i in range(0, 5):
         triangle(100+gap, 140, 120+gap, 120, 140+gap, 140)
         gap = gap+40
 
-    # Top face Left Eye
-    fill(grey)
+    # Olho esquerdo no rosto superior
+    fill(cinza)
     rect(80, 190, 100, 50)
-    fill(red)
+    fill(vermelho)
     triangle(190, 250, 70, 150, 180, 160)
-    fill(green)
+    fill(verde)
     triangle(190, 250, 60, 160, 180, 170)
-    fill(lilac)
+    fill(lilás)
     ellipse(160, 200, 30, 30)
 
-    # Top face Right Eye
-    fill(grey)
+    # Olho direito do rosto superior
+    fill(cinza)
     rect(220, 190, 100, 50)
-    fill(red)
+    fill(vermelho)
     triangle(210, 250, 330, 150, 220, 160)
-    fill(green)
+    fill(verde)
     triangle(210, 250, 340, 160, 220, 170)
-    fill(lilac)
+    fill(lilás)
     ellipse(240, 200, 30, 30)
 
-    # Top face Mouth
-    fill(brown)
+    # Boca do rosto superior
+    fill(marrom)
     rect(100, 220, 200, 50)
-    fill(purple)
+    fill(roxo)
     rect(110, 240, 180, 10)
 
-  # Bottom face background
-    fill(purple)
+  # Fundo do rosto inferior
+    fill(roxo)
     rect(50, 300, 300, 200)
     fill(0)
 
-    # Bottom face Hair
-    fill(green)
+    # Cabelo do rosto inferior
+    fill(verde)
     gap = 0
     for i in range(0, 5):
         triangle(100+gap, 340, 120+gap, 320, 140+gap, 340)
         gap = gap+40
 
-    # Bottom face Left Eye
-    fill(red)
+    # Olho esquerdo do rosto inferior
+    fill(vermelho)
     rect(80, 390, 100, 50)
-    fill(lilac)
+    fill(lilás)
     triangle(190, 450, 70, 350, 180, 360)
-    fill(brown)
+    fill(marrom)
     triangle(190, 450, 60, 360, 180, 370)
-    fill(purple)
+    fill(roxo)
     ellipse(160, 400, 30, 30)
 
-    # Bottom face Right Eye
-    fill(red)
+    # Olho direito do rosto inferior
+    fill(vermelho)
     rect(220, 390, 100, 50)
-    fill(lilac)
+    fill(lilás)
     triangle(210, 450, 330, 350, 220, 360)
-    fill(brown)
+    fill(marrom)
     triangle(210, 450, 340, 360, 220, 370)
-    fill(purple)
+    fill(roxo)
     ellipse(240, 400, 30, 30)
 
-    # Bottom face Mouth
-    fill(green)
+    # Boca do rosto inferior
+    fill(verde)
     rect(100, 420, 200, 50)
-    fill(red)
+    fill(vermelho)
     rect(110, 440, 180, 10)
 
 
