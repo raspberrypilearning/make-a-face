@@ -1,6 +1,6 @@
 400 bij 400 werkt goed voor een rond gezicht
 
-Change to your background colour
+Verander in jouw achtergrondkleur
 
 Probeer andere getallen om de kleur te veranderen
 
