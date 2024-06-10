@@ -10,12 +10,12 @@ Hier zijn een paar andere ideeën die je zou kunnen proberen:
 
 **Interactief: Theatermasker**:
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/interactive-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe> [Bekijk vanbinnen](https://editor.raspberrypi.org/en/projects/interactive-face-example){:target="_blank"}
+</iframe> [Bekijk van binnen](https://editor.raspberrypi.org/en/projects/interactive-face-example){:target="_blank"}
 
 **Geanimeerd: Frida**:
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/animated-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe> [Bekijk vanbinnen](https://editor.raspberrypi.org/en/projects/animated-face-example){:target="_blank"}
+</iframe> [Bekijk van binnen](https://editor.raspberrypi.org/en/projects/animated-face-example){:target="_blank"}
 
-Bekijk onze [Make a face - Community library](https://wke.lt/w/s/8sVH4f){:target="_blank"} om projecten te bekijken die zijn gemaakt door community-leden.
+Bekijk onze [Maak een gezicht - Community library](https://wke.lt/w/s/8sVH4f){:target="_blank"} om projecten te bekijken die zijn gemaakt door community-leden.
 
 --- save ---
