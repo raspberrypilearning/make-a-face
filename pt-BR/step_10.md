@@ -4,7 +4,7 @@ Se você estiver seguindo a trilha [Introdução ao Python](https://projects.ras
 
 --- print-only ---
 
-![An example creation from the don't collide project showing a balloon floating in a desert with cacti](images/dont-collide.png)
+![Um exemplo de criação do projeto não colida mostrando um balão flutuando em um deserto com cactos](images/dont-collide.png)
 
 --- /print-only ---
 
