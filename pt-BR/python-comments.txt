@@ -1,6 +1,6 @@
 400 por 400 funciona bem para um rosto redondo
 
-Change to your background colour
+Mude para a cor de fundo
 
 Tente números diferentes para mudar a cor
 
@@ -136,7 +136,7 @@ Nariz
 
 Marcas faciais
 
-Add code to draw your face here
+Adicione código para desenhar seu rosto aqui
 
 Cabelo
 
