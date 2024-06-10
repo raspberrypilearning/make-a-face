@@ -11,7 +11,7 @@ Você tem uma ideia sobre o tipo de rosto ou máscara que deseja fazer? Use esta
 
 --- task ---
 
-Open the [starter project](https://editor.raspberrypi.org/en/projects/make-face-starter){:target="_blank"}. The Raspberry Pi code editor will open in another browser tab.
+Abra o [projeto inicial](https://editor.raspberrypi.org/en/projects/make-face-starter){:target="_blank"}. O editor de código Raspberry Pi será aberto em outra guia do navegador.
 
 --- /task ---
 
@@ -123,7 +123,7 @@ filename: main.py - draw()
 título: Atualizei o tamanho e cor, mas a janela do programa permanece a mesma
 ---
 
-After changing the code, you will need to **`Run`** your project to see the changes in the output area.
+Depois de alterar o código, você precisará **`Executar`** seu projeto para ver as alterações na área de saída.
 
 --- /collapse ---
 
