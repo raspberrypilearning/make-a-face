@@ -18,19 +18,19 @@ def draw():
     grey = Color(201, 201, 201)
     lilac = Color(160, 158, 214)
 
-    # Top face background
+    # Sfondo del viso
     fill(blue)
     rect(50, 100, 300, 200)
     fill(0)
 
-    # Top face Hair
+    # Capelli sulla parte superiore del viso
     fill(purple)
     gap = 0
     for i in range(0, 5):
         triangle(100+gap, 140, 120+gap, 120, 140+gap, 140)
         gap = gap+40
 
-    # Top face Left Eye
+    # Faccia occhio sinistro
     fill(grey)
     rect(80, 190, 100, 50)
     fill(red)
@@ -40,7 +40,7 @@ def draw():
     fill(lilac)
     ellipse(160, 200, 30, 30)
 
-    # Top face Right Eye
+    # Faccia occhio destro
     fill(grey)
     rect(220, 190, 100, 50)
     fill(red)
@@ -50,25 +50,25 @@ def draw():
     fill(lilac)
     ellipse(240, 200, 30, 30)
 
-    # Top face Mouth
+    # Bocca
     fill(brown)
     rect(100, 220, 200, 50)
     fill(purple)
     rect(110, 240, 180, 10)
 
-  # Bottom face background
+  # Sfondo del viso parte inferiore
     fill(purple)
     rect(50, 300, 300, 200)
     fill(0)
 
-    # Bottom face Hair
+    # Capelli sul viso parte inferiore
     fill(green)
     gap = 0
     for i in range(0, 5):
         triangle(100+gap, 340, 120+gap, 320, 140+gap, 340)
         gap = gap+40
 
-    # Bottom face Left Eye
+    # Faccia inferiore Occhio sinistro
     fill(red)
     rect(80, 390, 100, 50)
     fill(lilac)
@@ -78,7 +78,7 @@ def draw():
     fill(purple)
     ellipse(160, 400, 30, 30)
 
-    # Bottom face Right Eye
+    # Faccia inferiore Occhio sinistro
     fill(red)
     rect(220, 390, 100, 50)
     fill(lilac)
@@ -88,7 +88,7 @@ def draw():
     fill(purple)
     ellipse(240, 400, 30, 30)
 
-    # Bottom face Mouth
+    # bocca parte inferiore viso 
     fill(green)
     rect(100, 420, 200, 50)
     fill(red)
