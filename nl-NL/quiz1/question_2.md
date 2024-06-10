@@ -4,7 +4,7 @@
 legend: Vraag 2 van 3
 ---
 
-In je project heb je code toegevoegd om een gezicht te tekenen met veel functies. De volgorde van je code was erg belangrijk om het gezicht eruit te laten zien als je ontwerp.
+In je project heb je code toegevoegd om een gezicht te tekenen met veel kenmerken. De volgorde van je code was erg belangrijk om het gezicht er precies zo uit te laten zien als je ontwerp.
 
 Hoe zou het gezicht eruit zien als je deze code uitvoert?
 
