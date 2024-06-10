@@ -2,7 +2,7 @@
 
 Als je tijd hebt, kun je jouw project verbeteren.
 
-Elk van de voorbeelden in de [Inleiding](.) is gemaakt in Trinket en je kunt de code bekijken om ideeën op te doen en te zien hoe ze werken.
+Elk van de voorbeelden in de [Inleiding](.) is gemaakt in de Rapberry Pi Code Editor en je kunt de code bekijken om ideeën op te doen en te zien hoe ze werken.
 
 Hier zijn een paar andere ideeën die je zou kunnen proberen:
 - Voeg interactiviteit toe — probeer ons **Interactief: Theatermasker**, wat gebeurt er als je je muis over het scherm beweegt?
