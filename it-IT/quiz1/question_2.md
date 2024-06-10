@@ -1,12 +1,12 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Domanda 2 di 3
 ---
 
-In your project, you added code to draw a face with many features. The order of your code was extremely important to make the face look like your design.
+Nel tuo progetto hai aggiunto il codice per disegnare un volto con molte funzionalità. L'ordine del codice era estremamente importante per far sì che il volto assomigliasse al tuo disegno.
 
-If you ran this code, what would the face look like?
+Se eseguissi questo codice, come apparirebbe la faccia?
 
 --- code ---
 ---
@@ -28,41 +28,41 @@ run()
 
 - ( )
 
-![A white face with black outline. There are two solid green eyes with black outlines.](images/face1.png)
+![Una faccia bianca con contorno nero. Ci sono due occhi verdi con contorni neri.](images/face1.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `ellipse()` and the `stroke()` functions.
+ Non proprio, guarda l'ordine delle funzioni `ellipse()` e `stroke()` .
 
  --- /feedback ---
 
 - ( )
 
-![A white face with black outline. There are two green eyes with black pupils and both have a black outline.](images/face2.png)
+![Una faccia bianca con contorno nero. Ci sono due occhi verdi con pupille nere ed entrambi hanno un contorno nero.](images/face2.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `stroke()` functions.
+ Non proprio, guarda l'ordine delle funzioni `stroke()` .
 
  --- /feedback ---
 
 - (x)
 
-![A white face with black outline. There are two green eyes with black pupils and the eyes do not have an outline.](images/face3.png)
+![Una faccia bianca con contorno nero. Ci sono due occhi verdi con pupille nere e gli occhi non hanno un contorno.](images/face3.png)
 
  --- feedback ---
 
- Correct, the code draws a face with a black stroke then turns off the stroke before drawing the circles. The green circles are drawn first with the black circles on top of them.
+ Corretto, il codice disegna una faccia con un tratto nero, successivamente disattiva il tratto prima di disegnare i cerchi. I cerchi verdi vengono disegnati per primi con sopra i cerchi neri.
 
  --- /feedback ---
 
 - ( )
 
-![A white face with black outline. There are two solid green eyes that do not have an outline.](images/face4.png)
+![Una faccia bianca con contorno nero. Ci sono due occhi verdi senza contorno.](images/face4.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `ellipse()` functions.
+ Non proprio, guarda l'ordine delle funzioni `ellipse` .
 
  --- /feedback ---
 
