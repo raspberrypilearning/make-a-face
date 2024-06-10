@@ -40,7 +40,7 @@ filename: main.py - draw()
 
 --- /code ---
 
-**Tip:** If you want round eyes, then using an `eye_size` variable makes it easier to change the width and height of both eyes in one place.
+**Dica:** Se você quiser olhos redondos, usar uma variável `eye_size` facilita alterar a largura e a altura de ambos os olhos em um só lugar.
 
 [[[processing-python-ellipse]]]
 
@@ -50,7 +50,7 @@ filename: main.py - draw()
 title: Calculando posições com base na largura
 ---
 
-The centre of a drawing is at position `width / 2` or half the width. You can use this to position the eyes by subtracting the eye width for the left eye and adding it for the right eye:
+O centro de um desenho está na posição `largura / 2` ou metade da largura. Você pode usar isso para posicionar os olhos subtraindo a largura do olho para o olho esquerdo e adicionando-a para o olho direito:
 
 --- code ---
 ---
@@ -65,7 +65,7 @@ filename: main.py - draw()
 
 --- /code ---
 
-You could also calculate the width of the eyes based on the width of the drawing.
+Você também pode calcular a largura dos olhos com base na largura do desenho.
 
 --- code ---
 ---
@@ -81,15 +81,15 @@ filename: main.py - draw()
 
 --- /collapse ---
 
-Change the second number in the `ellipse` function call to move the `y` (vertical) position of the eyes.
+Altere o segundo número na chamada da `ellipse` para mover a posição `y` (vertical) dos olhos.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Keep changing the shape and position of the eyes until you like the way they look.
+**Teste:** Continue mudando a forma e a posição dos olhos até gostar da aparência deles.
 
-**Tip:** If you set a stroke for drawing the face and don't want one for the eyes, then you will need to call `no_stroke()` before drawing the eyes.
+**Dica:** Se você definir um traço para desenhar o rosto e não quiser um para os olhos, precisará chamar `no_stroke()` antes de desenhar os olhos.
 
 [[[processing-stroke]]]
 
@@ -99,17 +99,17 @@ Change the second number in the `ellipse` function call to move the `y` (vertica
 
 ### Adicione detalhes
 
-You can use more circles to create:
+Você pode usar mais círculos para criar:
 + Íris coloridas
 + Pupilas negras
 + Holofotes brancos
 + Ou alguma outra coisa
 
-This eye has a coloured iris, black pupil, and white catchlights with changed opacity: ![The output area showing an eye with catchlights over the pupil and iris.](images/catchlights.png)
+Este olho tem uma íris colorida, pupila preta e holofotes brancos com opacidade alterada: ![A área de saída mostrando um olho com holofotes sobre a pupila e a íris.](images/catchlights.png)
 
 \[[[generic-theory-simple-colours]]\] \[[[processing-opacity\]]]
 
-You can also animate the eyes by rotating them.
+Você também pode animar os olhos girando-os.
 
 [[[processing-rotation]]]
 
@@ -117,22 +117,22 @@ You can also animate the eyes by rotating them.
 
 --- task ---
 
-**Test:** Keep changing the eyes until you like the way they look.
+**Teste:** Continue mudando os olhos até gostar da aparência deles.
 
-Is your drawing starting to look like a face?
+Seu desenho está começando a se parecer a um rosto?
 
 --- /task ---
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Debug:** Talvez você encontre alguns bugs em seu projeto que precisem de correção. Aqui estão alguns bugs comuns.
 
 --- collapse ---
 ---
 título: Os olhos não estão centrados
 ---
 
-You could use `height / 2` to place them in the centre.
+Você pode usar `height / 2` para colocá-los no centro.
 
 --- /collapse ---
 
@@ -141,7 +141,7 @@ You could use `height / 2` to place them in the centre.
 título: Os olhos não estão alinhados entre si
 ---
 
-If you want the eyes to be aligned, then make sure you use the same number for the coordinates for both eyes. Try using a variable so that the values are always the same.
+Se quiser que os olhos fiquem alinhados, certifique-se de usar o mesmo número para as coordenadas de ambos os olhos. Tente usar uma variável para que os valores sejam sempre os mesmos.
 
 --- /collapse ---
 
@@ -151,9 +151,9 @@ If you want the eyes to be aligned, then make sure you use the same number for t
 título: Não consigo ver a pupila ou a íris
 ---
 
-The eye needs to be drawn first, then the iris, and finally the pupil. The order in which you draw things is very important.
+O olho precisa ser desenhado primeiro, depois a íris e, finalmente, a pupila. A ordem em que você desenhar as coisas é muito importante.
 
-Computer graphics are made of layers. In your eye, each ellipse is a layer. Objects on higher layers sit in front of objects on lower layers. Imagine cutting all the shapes out of paper. Depending on how you arrange and overlap that paper, the final result could look very different.
+Gráficos de computadores são feitos de camadas. Em seu olho, cada elipse é uma camada. Objetos em camadas superiores ficam na frente de objetos em camadas inferiores. Imagine recortar formas de papel. Dependendo de como você posiciona e sobrepõe esse papel, o resultado pode ser muito diferente.
 
 --- /collapse ---
 
@@ -163,9 +163,9 @@ Computer graphics are made of layers. In your eye, each ellipse is a layer. Obje
 título: Meus olhos não são redondos
 ---
 
-The third and fourth numbers in `ellipse` are the width and height of the eyes.
+O terceiro e quarto números em `ellipse` são a largura e a altura dos olhos.
 
-**Tip:** If you make them the same, you will get round eyes.
+**Dica:** Se você os fizer iguais, terá olhos redondos.
 
 --- /collapse ---
 
