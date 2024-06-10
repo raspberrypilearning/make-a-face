@@ -1,22 +1,22 @@
-## Quick quiz
+## Quiz veloce
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Rispondi alle tre domande. Ci sono alcuni suggerimenti per aiutarti a trovare la risposta corretta.
 
-When you have answered each question, click on **Check my answer**.
+Dopo aver risposto a ciascuna domanda, fai clic su **Controlla la mia risposta**.
 
-Have fun!
+Divertiti!
 
-Have fun!
+Divertiti!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Domanda 1 di 3
 ---
 
-In your project, you drew mouths using shapes.
+Nel tuo progetto hai disegnato delle bocche utilizzando delle forme.
 
-What kind of mouth would this code draw?
+Che tipo di bocca genererebbe questo codice?
 
 --- code ---
 ---
@@ -33,7 +33,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-  Not quite, to create a sad mouth the second `ellipse` would need a **y_coordinate** that is lower than the first `ellipse`.
+  Non proprio, per creare una bocca triste la seconda `ellisse` dovrebbe avere una  **coordinata Y ** più bassa della prima `ellisse`.
 
   --- /feedback ---
 
@@ -41,7 +41,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-  That's correct! The second `ellipse` is drawn with a **y_coordinate** that is higher than the first `ellipse`.
+  Corretto! La seconda `ellisse` è disegnata con una **coordinata Y** che è più alta della prima `ellisse`.
 
   --- /feedback ---
 
@@ -49,7 +49,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-   Not quite, the second circle has a white `fill(255, 255, 255)` and is positioned partially over the first black circle.
+   Non proprio, il secondo cerchio ha un `riempimento bianco(255, 255, 255)` ed è posizionato parzialmente sopra il primo cerchio nero.
 
   --- /feedback ---
 
@@ -57,7 +57,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-The code does not draw rectangles. The `ellipse` function draws circles.
+Il codice non disegna rettangoli. La funzione `ellisse` disegna cerchi.
 
   --- /feedback ---
 
