@@ -10,23 +10,23 @@ copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: You will make
+    title: Das wirst du machen
   - 
-    title: Choose a theme
+    title: Wähle ein Thema
   - 
-    title: Face shape
+    title: Gesichtsform
     completion:
       - engaged
   - 
-    title: Add eyes
+    title: Füge Augen hinzu
   - 
-    title: Add a mouth
+    title: Füge einen Mund hinzu
   - 
-    title: Add more details
+    title: Füge Details hinzu
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Kurzes Quiz
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -35,8 +35,8 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Mach dein Projekt noch cooler
   - 
-    title: Share
+    title: Teilen
   - 
-    title: What next?
+    title: Wie geht es weiter?
