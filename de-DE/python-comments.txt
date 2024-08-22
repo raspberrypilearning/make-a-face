@@ -28,27 +28,27 @@ Unterer Kreis
 
 Gesichtsmaske
 
-Left ear loop
+Linke Ohrschlaufe
 
-rechte Ohrhalterung
+Rechte Ohrschlaufe
 
-Large white rectangle
+Großes weißes Rechteck
 
-Smaller blue rectangle
+Kleineres blaues Rechteck
 
 Mund
 
-Starting amount of red
+Anfangs-Menge von Rot
 
-Starting amount of green
+Anfangs-Menge von Grün
 
-Starting amount of blue
+Anfangs-Menge von Blau
 
-Uses variables to control the colour change each loop
+Benutzt Variablen, um die Farbe in jedem Durchlauf zu ändern
 
-Move along the x coordinate by the width of a tooth
+Bewegung entlang der X-Achse für die Breite eines Zahns
 
-Mouth line
+Mund Linie
 
 Linker Zahn
 
@@ -74,7 +74,7 @@ width and height
 
 move under draw() to reset the drawing every frame
 
-Put code to run every frame here
+Code, der hier steht, wird jeden Frame ausgeführt
 
 draw mask
 
@@ -136,8 +136,8 @@ Nose
 
 Face markings
 
-Add code to draw your face here
+Füge hier Code hinzu, um dein Gesicht zu zeichnen
 
 Hair
 
-add a # to the beginning of this line to hide the grid
+füge am Anfang dieser Zeile ein # hinzu, um das Raster auszublenden
