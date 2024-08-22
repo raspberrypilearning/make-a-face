@@ -1,10 +1,10 @@
-eye_size
+augen_groesse
 
-red
+rot
 
-green
+gruen
 
-blue
+blau
 
 orange
 
