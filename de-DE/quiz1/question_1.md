@@ -1,22 +1,22 @@
-## Quick quiz
+## Kurzes Quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Beantworte die drei Fragen. Hinweise helfen dir beim Finden der richtigen Antwort.
 
-When you have answered each question, click on **Check my answer**.
+Nach dem Beantworten der Fragen wähle **Meine Antwort prüfen**.
 
-Have fun!
+Viel Spaß!
 
-Have fun!
+Viel Spaß!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Frage 1 von 3
 ---
 
-In your project, you drew mouths using shapes.
+In deinem Projekt hast du mithilfe von Formen Münder gezeichnet.
 
-What kind of mouth would this code draw?
+Welchen Mund würde dieser Code zeichnen?
 
 --- code ---
 ---
@@ -41,7 +41,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-  That's correct! The second `ellipse` is drawn with a **y_coordinate** that is higher than the first `ellipse`.
+  Richtig! The second `ellipse` is drawn with a **y_coordinate** that is higher than the first `ellipse`.
 
   --- /feedback ---
 
@@ -57,7 +57,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-The code does not draw rectangles. The `ellipse` function draws circles.
+Der Code zeichnet keine Rechtecke. Die Funktion `ellipse` zeichnet Kreise.
 
   --- /feedback ---
 
