@@ -1,42 +1,42 @@
-400 by 400 works well for a round face
+400 mal 400 eignet sich gut für ein rundes Gesicht
 
-Change to your background colour
+Ändere das zu deiner Hintergrund-Farbe
 
-Try different numbers to change the colour
+Probiere verschiedene Zahlen aus, um die Farbe zu ändern
 
-Shows grid
+Zeigt das Raster an
 
-Hide grid by turning it into a comment
+Versteckt das Raster, indem es zu einem Kommentar wird
 
-Circle in the middle
+Kreis in der Mitte
 
-You can also use no_stroke()
+Du kannst auch no_stroke() benutzen
 
-Bright yellow
+Helles Gelb
 
-Black — change to red, green, or blue up to 255
+Schwarz — du kannst Rot, Grün und Blau bis zu 255 ändern
 
-x, y, width, height
+x, y, Breite, Höhe
 
-A black mouth
+Ein schwarzer Mund
 
-An orange face
+Ein orangefarbenes Gesicht
 
-Higher circle
+Oberer Kreis
 
-Lower circle
+Unterer Kreis
 
-Face mask
+Gesichtsmaske
 
 Left ear loop
 
-Right ear loop
+rechte Ohrhalterung
 
 Large white rectangle
 
 Smaller blue rectangle
 
-Mouth
+Mund
 
 Starting amount of red
 
@@ -50,23 +50,23 @@ Move along the x coordinate by the width of a tooth
 
 Mouth line
 
-Left tooth
+Linker Zahn
 
-Right tooth
+Rechter Zahn
 
 Highlights
 
-70 is transparency/opacity here
+70 ist hier Transparenz/Deckkraft
 
-Black
+Schwarz
 
-White
+Weiß
 
-Eyes
+Augen
 
-Face
+Gesicht
 
-Green
+Grün
 
 Put code to run once here
 
