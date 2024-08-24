@@ -4,7 +4,7 @@
 legend: Frage 2 von 3
 ---
 
-In your project, you added code to draw a face with many features. Die Reihenfolge deines Codes war äußerst wichtig, damit dein Gesicht wie dein Design aussieht.
+In deinem Projekt hast du Code geschrieben, um ein Gesicht mit mehreren Merkmalen zu zeichnen. Die Reihenfolge deines Codes war äußerst wichtig, damit dein Gesicht wie dein Design aussieht.
 
 Wenn du diesen Code ausführen würdest, wie würde das Gesicht aussehen?
 
@@ -32,37 +32,37 @@ run()
 
  --- feedback ---
 
- Nicht ganz, achte auf die Reihenfolge der `ellipse()` und `stroke()` Funktionen.
+ Nicht ganz, schau dir die Reihenfolge der `ellipse()` und `stroke()` Funktionen an.
 
  --- /feedback ---
 
 - ( )
 
-![Ein weißes Gesicht mit schwarzer Umrandung. There are two green eyes with black pupils and both have a black outline.](images/face2.png)
+![Ein weißes Gesicht mit schwarzer Umrandung. Es gibt zwei grüne Augen mit schwarzen Pupillen. Beide haben eine schwarze Umrandung.](images/face2.png)
 
  --- feedback ---
 
- Nicht ganz, achte auf die Reihenfolge der `stroke()` Funktionen.
+ Nicht ganz, schau dir die Reihenfolge der `stroke()` Funktionen an.
 
  --- /feedback ---
 
 - (x)
 
-![Ein weißes Gesicht mit schwarzer Umrandung. There are two green eyes with black pupils and the eyes do not have an outline.](images/face3.png)
+![Ein weißes Gesicht mit schwarzer Umrandung. Es gibt zwei grüne Augen mit schwarzen Pupillen. Die Augen haben außerdem keine Umrandung.](images/face3.png)
 
  --- feedback ---
 
- Correct, the code draws a face with a black stroke then turns off the stroke before drawing the circles. The green circles are drawn first with the black circles on top of them.
+ Richtig! Der Code zeichnet ein Gesicht mit einer schwarzen Linie und schaltet dann die Linie aus, bevor er die Kreise zeichnet. Die grünen Kreise werden zuerst gezeichnet und die schwarzen Kreise dann obendrauf.
 
  --- /feedback ---
 
 - ( )
 
-![A white face with black outline. Es gibt zwei grüne Augen, die keine Umrandung haben.](images/face4.png)
+![Ein weißes Gesicht mit schwarzer Umrandung. Es gibt zwei grüne Augen, die keine Umrandung haben.](images/face4.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `ellipse()` functions.
+ Nicht ganz, schau dir die Reihenfolge der `ellipse()` Funktionen an.
 
  --- /feedback ---
 
