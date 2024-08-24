@@ -1,12 +1,12 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Frage 2 von 3
 ---
 
-In your project, you added code to draw a face with many features. The order of your code was extremely important to make the face look like your design.
+In your project, you added code to draw a face with many features. Die Reihenfolge deines Codes war äußerst wichtig, damit dein Gesicht wie dein Design aussieht.
 
-If you ran this code, what would the face look like?
+Wenn du diesen Code ausführen würdest, wie würde das Gesicht aussehen?
 
 --- code ---
 ---
@@ -28,27 +28,27 @@ run()
 
 - ( )
 
-![A white face with black outline. There are two solid green eyes with black outlines.](images/face1.png)
+![Ein weißes Gesicht mit schwarzer Umrandung. Es gibt zwei grüne Augen mit schwarzen Umrandungen.](images/face1.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `ellipse()` and the `stroke()` functions.
+ Nicht ganz, achte auf die Reihenfolge der `ellipse()` und `stroke()` Funktionen.
 
  --- /feedback ---
 
 - ( )
 
-![A white face with black outline. There are two green eyes with black pupils and both have a black outline.](images/face2.png)
+![Ein weißes Gesicht mit schwarzer Umrandung. There are two green eyes with black pupils and both have a black outline.](images/face2.png)
 
  --- feedback ---
 
- Not quite, look at the order of the `stroke()` functions.
+ Nicht ganz, achte auf die Reihenfolge der `stroke()` Funktionen.
 
  --- /feedback ---
 
 - (x)
 
-![A white face with black outline. There are two green eyes with black pupils and the eyes do not have an outline.](images/face3.png)
+![Ein weißes Gesicht mit schwarzer Umrandung. There are two green eyes with black pupils and the eyes do not have an outline.](images/face3.png)
 
  --- feedback ---
 
@@ -58,7 +58,7 @@ run()
 
 - ( )
 
-![A white face with black outline. There are two solid green eyes that do not have an outline.](images/face4.png)
+![A white face with black outline. Es gibt zwei grüne Augen, die keine Umrandung haben.](images/face4.png)
 
  --- feedback ---
 
