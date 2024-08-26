@@ -10,88 +10,88 @@ def setup():
 
 
 def draw():
-    blue = Color(92, 204, 206)
-    green = Color(149, 212, 122)
-    red = Color(239, 62, 91)
-    purple = Color(75, 37, 109)
-    brown = Color(178, 162, 150)
-    grey = Color(201, 201, 201)
-    lilac = Color(160, 158, 214)
+    blau = Color(92, 204, 206)
+    gruen = Color(149, 212, 122)
+    rot = Color(239, 62, 91)
+    lila = Color(75, 37, 109)
+    braun = Color(178, 162, 150)
+    grau = Color(201, 201, 201)
+    helllila = Color(160, 158, 214)
 
     # Top face background
-    fill(blue)
+    fill(blau)
     rect(50, 100, 300, 200)
     fill(0)
 
     # Top face Hair
-    fill(purple)
-    gap = 0
+    fill(helllila)
+    luecke = 0
     for i in range(0, 5):
-        triangle(100+gap, 140, 120+gap, 120, 140+gap, 140)
-        gap = gap+40
+        triangle(100+luecke, 140, 120+luecke, 120, 140+luecke, 140)
+        luecke = luecke+40
 
     # Top face Left Eye
-    fill(grey)
+    fill(gruen)
     rect(80, 190, 100, 50)
-    fill(red)
+    fill(rot)
     triangle(190, 250, 70, 150, 180, 160)
-    fill(green)
+    fill(gruen)
     triangle(190, 250, 60, 160, 180, 170)
-    fill(lilac)
+    fill(lila)
     ellipse(160, 200, 30, 30)
 
     # Top face Right Eye
-    fill(grey)
+    fill(gruen)
     rect(220, 190, 100, 50)
-    fill(red)
+    fill(rot)
     triangle(210, 250, 330, 150, 220, 160)
-    fill(green)
+    fill(helllila)
     triangle(210, 250, 340, 160, 220, 170)
-    fill(lilac)
+    fill(lila)
     ellipse(240, 200, 30, 30)
 
     # Top face Mouth
-    fill(brown)
+    fill(braun)
     rect(100, 220, 200, 50)
-    fill(purple)
+    fill(helllila)
     rect(110, 240, 180, 10)
 
   # Bottom face background
-    fill(purple)
+    fill(grau)
     rect(50, 300, 300, 200)
     fill(0)
 
     # Bottom face Hair
-    fill(green)
-    gap = 0
+    fill(lila)
+    luecke = 0
     for i in range(0, 5):
-        triangle(100+gap, 340, 120+gap, 320, 140+gap, 340)
-        gap = gap+40
+        triangle(100+luecke, 340, 120+luecke, 320, 140+luecke, 340)
+        luecke = luecke+40
 
     # Bottom face Left Eye
-    fill(red)
+    fill(rot)
     rect(80, 390, 100, 50)
-    fill(lilac)
+    fill(lila)
     triangle(190, 450, 70, 350, 180, 360)
-    fill(brown)
+    fill(braun)
     triangle(190, 450, 60, 360, 180, 370)
-    fill(purple)
+    fill(grau)
     ellipse(160, 400, 30, 30)
 
     # Bottom face Right Eye
-    fill(red)
+    fill(rot)
     rect(220, 390, 100, 50)
-    fill(lilac)
+    fill(lila)
     triangle(210, 450, 330, 350, 220, 360)
-    fill(brown)
+    fill(braun)
     triangle(210, 450, 340, 360, 220, 370)
-    fill(purple)
+    fill(helllila)
     ellipse(240, 400, 30, 30)
 
     # Bottom face Mouth
-    fill(green)
+    fill(gruen)
     rect(100, 420, 200, 50)
-    fill(red)
+    fill(rot)
     rect(110, 440, 180, 10)
 
 
