@@ -1,42 +1,42 @@
-## You will make
+## Quello che farai
 
-Write Python code to draw a face or mask using geometric shapes.
+Scrivi il codice Python per disegnare una faccia o una maschera usando forme geometriche.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The creation of <span style="color: #0faeb0">**geometric art**</span> dates back to Ancient Greece where vases would be painted with patterns made up of shapes. Artists began using shapes to draw humans and animals with circles for heads, triangle bodies, and lines for legs and arms.
+La creazione di <span style="color: #0faeb0"> **arte geometrica** </span> risale all'antica Grecia, dove i vasi venivano dipinti con motivi costituiti da forme. Gli artisti hanno iniziato a usare forme per disegnare esseri umani e animali con cerchi come teste, triangoli come corpi e linee come gambe e braccia.
 </p>
 
-You will:
+Cosa farai:
 
-+ Use code creatively to make a piece of digital art
-+ Draw and position your art using geometric shapes, coordinates, and layers
-+ Organise your code with functions
++ Userai il codice in modo creativo per creare un pezzo di arte digitale
++ Disegnerai e posizionerai la tua opera usando forme geometriche, coordinate e livelli (layer)
++ Organizzerai il tuo codice con le funzioni
 
-![Examples of different faces.](images/strip.png)
+![Esempi di vari volti.](images/strip.png)
 
 --- no-print ---
 
-### Get ideas 💭
+### Lasciati ispirare 💭
 
-You are going to make some design decisions about the kind of face you will make and how you will use code to get the effect you want.
+Farai scelte di progettazione sul tipo di volto che disegnerai e su come utilizzare il codice per ottenere l'effetto che desideri.
 
 --- task ---
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">
 
-Look at these examples and think about how they have been made from circles, ellipses, squares, rectangles, and triangles.
+Guarda questi esempi e cerca di capire come sono stati realizzati partendo da cerchi, ellissi, quadrati, rettangoli e triangoli.
 
-**Kawaii fruit**:
+**Frutta kawaii**:
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/fruit-face-example" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe> [See inside](https://editor.raspberrypi.org/en/projects/fruit-face-example){:target="_blank"}
+</iframe> [Guarda dentro](https://editor.raspberrypi.org/en/projects/fruit-face-example){:target="_blank"}
 
-**Stacked faces**:
+**Facce impilate**:
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/stacked-faces-example" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe> [See inside](https://editor.raspberrypi.org/en/projects/stacked-faces-example){:target="_blank"}
+</iframe> [Guarda dentro](https://editor.raspberrypi.org/en/projects/stacked-faces-example){:target="_blank"}
 
-**Tribal mask**:
+**Maschera tribale**:
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/tribal-mask-example" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe> [See inside](https://editor.raspberrypi.org/en/projects/tribal-mask-example){:target="_blank"}
+</iframe> [Guarda dentro](https://editor.raspberrypi.org/en/projects/tribal-mask-example){:target="_blank"}
 
 --- /task ---
 
@@ -44,13 +44,13 @@ Look at these examples and think about how they have been made from circles, ell
 
 --- print-only ---
 
-### Get ideas 💭
+### Lasciati ispirare 💭
 
-You are going to make some design decisions about the kind of face you will make and how you will use code to get the effect you want.
+Farai scelte di progettazione sul tipo di volto che disegnerai e su come utilizzare il codice per ottenere l'effetto che desideri.
 
-Investigate the example projects above, see if you can identify the shapes used to make the faces. You can click **See inside** to view the code.
+Studia questi progetti di esempio, vedi se riesci a identificare le forme utilizzate per realizzare i volti. Puoi cliccare su **Guarda dentro** per visualizzare il codice.
 
-![The output area from the Kawaii fruit project.](images/smile.png) ![The output area from the Stacked faces project.](images/stacked.png) ![The output area from the Tribal mask project.](images/tribal.png)
+![L'output del progetto Frutta Kawaii.](images/smile.png) ![L'output del progetto Facce impilate.](images/stacked.png) ![L'output del progetto della maschera tribale.](images/tribal.png)
 
 --- /print-only ---
 
