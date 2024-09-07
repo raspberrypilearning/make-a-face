@@ -11,15 +11,15 @@ Hai già idea del tipo di faccia o maschera che vuoi disegnare? Usa questo passa
 
 --- task ---
 
-Apri il [Progetto iniziale](https://editor.raspberrypi.org/en/projects/make-face-starter){:target="_blank"}. L'editor di codice Raspberry Pi si aprirà in un'altra scheda del browser.
+Apri il [progetto iniziale](https://editor.raspberrypi.org/en/projects/make-face-starter){:target="_blank"}. L'editor di codice Raspberry Pi si aprirà in un'altra scheda del browser.
 
 --- /task ---
 
 --- task ---
 
 **Scegli:** Pensa al tipo di faccia che vuoi realizzare:
-+ Vuoi scegliere qualcosa della tua cultura o proveniente dalla cultura popolare?
-+ La tua opera mostrerà un essere umano, animale, qualcosa di mitico o forse una macchina?
++ Vuoi scegliere qualcosa della tua tradizione o proveniente dalla cultura popolare?
++ La tua opera mostrerà un essere umano, un animale, creature mitologiche o forse una macchina?
 + Potresti anche voler creare un autoritratto!
 + Potresti disegnare un'emoji da condividere con i tuoi amici
 
@@ -29,14 +29,14 @@ Apri il [Progetto iniziale](https://editor.raspberrypi.org/en/projects/make-face
 
 La prima cosa da fare quando si crea arte usando la libreria `Processing` di Pytohn è aggiungere `def setup():` per definire una funzione `setup` che viene eseguita una volta all'inizio del programma.
 
-Il progetto di partenza ha una funzione `setup (inizializzazione)` che imposta la `size (dimensione)` della tua tela alla larghezza di `400` e altezza`400` pixel.
+Il progetto iniziale ha una funzione `setup` (inizializzazione) che imposta la `size` (dimensione) della tua tela alla larghezza di `400` e altezza`400` pixel.
 
-**Scegli:** Sperimenta i numeri ed esegui il tuo codice per trovare una dimensione che ti va bene.
+**Scegli:** Sperimenta i numeri ed esegui il tuo codice per trovare una dimensione che ti soddisfa.
 
 --- collapse ---
 
 ---
-title: Impostazione le dimensioni dello schermo all'avvio del programma
+title: Impostazione delle dimensioni dello schermo all'avvio del programma
 ---
 
 --- code ---
@@ -55,7 +55,7 @@ size(400, 400)  # 400 by 400 works well for a round face
 
 --- task ---
 
-**Scegli:** Pensa ai colori che utilizzerai per il tuo viso e cambia i valori del colore del `background (sfondo)` per impostare lo schermo ad un colore complementare.
+**Scegli:** Pensa ai colori che utilizzerai per il tuo viso e cambia i valori del colore del `background` (sfondo) per assegnare un colore complementare al tuo schermo.
 
 [[[generic-theory-simple-colours]]]
 
