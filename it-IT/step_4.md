@@ -105,7 +105,7 @@ Puoi usare più cerchi per creare:
 + Riflessi bianchi
 + O qualcos'altro
 
-Questo occhio ha un'iride colorata, pupilla nera e luci riflesse con opacità modificata: ![L'output mostra un occhio con i riflessi sopra la pupilla e l'iride.](images/catchlights.png)
+Questo occhio ha un'iride colorata, pupilla nera e luci riflesse con opacità modificata: ![L'output che mostra un occhio con i riflessi sopra la pupilla e l'iride.](images/catchlights.png)
 
 \[[[generic-theory-simple-colours]]\] \[[[processing-opacity\]]]
 
@@ -165,7 +165,7 @@ title: I miei occhi non sono rotondi
 
 Il terzo e il quarto numero in `ellipse` sono la larghezza e l'altezza degli occhi.
 
-**Suggerimento:** Se scrivi lo stesso valore, otterrai occhi rotondi.
+**Suggerimento:** Se usi lo stesso valore, otterrai occhi rotondi.
 
 --- /collapse ---
 
