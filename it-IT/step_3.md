@@ -1,21 +1,21 @@
-## Face shape
+## Forma del viso
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Draw and colour a shape for your face or mask. Don't add the other features just yet, they will come later.
+Disegna e colora una forma per il viso o la maschera. Non aggiungere ancora le altre funzionalità, verranno più tardi.
 </div>
 <div>
-![Image of a square-faced robot.](images/robot-teeth.png){:width="200px"}
+![Immagine della faccia quadrata di un robot.](images/robot-teeth.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-Decide on the main shape of the face for your mask. It could be a circle, an ellipse, a rectangle, or even a triangle.
+Decidi la forma principale del viso per la tua maschera. Potrebbe essere un cerchio, un'ellisse, un rettangolo o persino un triangolo.
 
-Add code to the `draw()` function to draw a face or mask.
+Aggiungi il codice alla funzione `draw()` per disegnare una faccia o una maschera.
 
-This example draws a black circle in the middle, but it's up to you which shape and colour to use.
+Questo esempio disegna un cerchio nero nel mezzo, ma sta a te scegliere quale forma e colore usare.
 
 --- code ---
 ---
@@ -32,7 +32,7 @@ def draw(): # Put code to run every frame here background(255, 255, 255)  # Chan
 
 --- /code ---
 
-![The output area showing a black line circle in the middle of the grid.](images/black-circle.png)
+![L'output che mostra una circonferenza con bordo nero al centro della griglia.](images/black-circle.png)
 
 [[[processing-python-ellipse]]]
 
@@ -46,17 +46,17 @@ def draw(): # Put code to run every frame here background(255, 255, 255)  # Chan
 
 --- task ---
 
-**Test:** Run your code and change it to get the face size and shape that you want.
+**Test:** Esegui il codice e cambialo per ottenere la dimensione e la forma del viso che desideri.
 
 --- /task ---
 
 --- task ---
 
-Choose a stroke colour for the outline and a fill colour for the main part of the shape.
+Scegli un colore per il contorno e un colore di riempimento per la parte principale della forma.
 
 [[[processing-stroke]]]
 
-If you don't want an outline, then use `no_stroke()`.
+Se non vuoi un contorno, inserisci il comando `no_stroke ()`.
 
 --- code ---
 ---
@@ -76,7 +76,7 @@ line_highlights: 14
 
 --- task ---
 
-**Test:** Run your code and change the colour until you are happy with it.
+**Test:** Esegui il tuo codice e cambia il colore fino a quando non ne sei soddisfatto.
 
 --- /task ---
 
