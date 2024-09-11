@@ -2,7 +2,7 @@
 
 Se você tiver tempo, você pode melhorar o seu projeto.
 
-Each of the examples in the [Introduction](.) was created in the Raspberry Pi Code Editor and you can look at the code to get ideas and see how they work.
+Cada um dos exemplos na [Introdução](.) foi criado no Editor de Código Raspberry Pi e você pode olhar o código para ter ideias e ver como eles funcionam.
 
 Aqui estão algumas ideias que você pode tentar:
 - Adicione interatividade - experimente nosso **Interativo: Máscara de Teatro**, o que acontece quando você move o mouse pela tela?
