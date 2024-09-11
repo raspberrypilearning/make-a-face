@@ -1,0 +1,143 @@
+400 por 400 funciona bem para um rosto redondo
+
+Mude para a cor de fundo
+
+Tente números diferentes para mudar a cor
+
+Mostra a grade
+
+Oculte a grade transformando-a em um comentário
+
+Círculo no meio
+
+Você também pode usar no_stroke()
+
+Amarelo brilhante
+
+Preto — mude para vermelho, verde ou azul até 255
+
+x, y, largura, altura
+
+Uma boca negra
+
+Um rosto laranja
+
+Círculo superior
+
+Círculo inferior
+
+Máscara facial
+
+Laço da orelha esquerda
+
+Laço da orelha direita
+
+Grande retângulo branco
+
+Retângulo azul menor
+
+Boca
+
+Quantidade inicial de vermelho
+
+Quantidade inicial de verde
+
+Quantidade inicial de azul
+
+Usa variáveis para controlar a mudança de cor em cada laço
+
+Mover ao longo da coordenada x pela largura de um dente
+
+Linha da boca
+
+Dente esquerdo
+
+Dente direito
+
+Realces
+
+70 é a transparência/opacidade aqui
+
+Preto
+
+Branco
+
+Olhos
+
+Face
+
+Verde
+
+Coloque o código para ser executado uma vez aqui
+
+largura e altura
+
+mova sob draw() para reiniciar o desenho a cada quadro
+
+Coloque o código para executar em cada quadro aqui
+
+desenhe máscara
+
+olhos e boca
+
+cubra parcialmente os olhos e a boca
+
+cubra o topo da máscara
+
+sombreie metade da máscara
+
+Coloque o código para ser executado quando o mouse for pressionado aqui
+
+Mantenha isso para executar seu código
+
+Definições para compatibilidade com a biblioteca de processamento p5py
+
+Forma
+
+Fontes
+
+Texto
+
+Cor
+
+Imagens
+
+Ambiente
+
+Transforme
+
+Teclado
+
+Cabelo e rosto
+
+talo
+
+Fundo da face superior
+
+Cabelo do topo da face
+
+Olho esquerdo no topo do rosto
+
+Olho direito no topo do rosto
+
+Boca no topo do rosto
+
+Fundo da parte inferior do rosto
+
+Cabelo da parte inferior do rosto
+
+Olho esquerdo da parte inferior do rosto
+
+Olho direito da parte inferior do rosto
+
+Boca da parte inferior do rosto
+
+Nariz
+
+Marcas faciais
+
+Adicione código para desenhar seu rosto aqui
+
+Cabelo
+
+adicione um # ao início desta linha para ocultar a grade
