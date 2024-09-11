@@ -6,14 +6,14 @@ from random import randint
 
 def triste(x_meio, y_olho, y_boca):
     ellipse(x_meio - 50, y_olho - 20, 60, 50) # x, y, largura, altura
-    ellipse (x_meio + 50, y_olho - 20, 60, 50)
-    ellipse (x_meio, y_boca + 30, 100, 65)
+    ellipse(x_meio + 50, y_olho - 20, 60, 50)
+    ellipse(x_meio, y_boca + 30, 100, 65)
 
 
 def feliz(x_meio, y_olho, y_boca):
     ellipse(x_meio - 50, y_olho + 20, 60, 50) # x, y, largura, altura
-    ellipse (x_meio + 50, y_olho + 20, 60, 50)
-    ellipse (x_meio, y_boca - 30, 100, 65)
+    ellipse(x_meio + 50, y_olho + 20, 60, 50)
+    ellipse(x_meio, y_boca - 30, 100, 65)
 
 
 def setup():
