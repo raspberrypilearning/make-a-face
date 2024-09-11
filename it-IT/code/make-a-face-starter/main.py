@@ -10,12 +10,12 @@ def setup():
 
 
 def draw():
-    # Metti qui sotto il codice che verrà eseguito ad ogni cambio di frame
+    # Metti qui sotto il codice che verrà eseguito ad ogni frame
     background(255, 255, 255)
-    # Add code to draw your face here
+    # Aggiungi il codice per disegnare la tua faccia qui
 
-    grid()  # add a # to the beginning of this line to hide the grid
+    grid() # aggiungi un # all'inizio di questa riga per nascondere la griglia
 
 
-# Keep this to run your code
+# Non cancellare quest'ultima istruzione, serve ad eseguire il codice
 run()
