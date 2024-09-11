@@ -1,21 +1,21 @@
-## Upgrade your project
+## Migliora il tuo progetto
 
-If you have time you can upgrade to your project.
+Se hai tempo, puoi migliorare il tuo progetto.
 
-Each of the examples in the [Introduction](.) was created in the Raspberry Pi Code Editor and you can look at the code to get ideas and see how they work.
+Ognuno degli esempi dell'[Introduzione](.) sono stati creati nell'editor di codice di Raspberry Pi, quindi puoi leggere il codice per traovare delle idee e capire come funzionano.
 
-Here are some other ideas you could try:
-- Add interactivity — try our **Interactive: Theatre Mask**, what happens when you move your mouse across the screen?
-- Add animation — try our **Animated: Frida**, what happens to Frida's headband when you run the project?
+Ecco alcune altre idee che potresti provare:
+- Aggiungi interattività - Prova la nostra **Interattività: Maschera teatrale**, cosa succede quando muovi il mouse sullo schermo?
+- Aggiungi animazione - Prova la nostra **Animazione: Frida**, cosa succede alla fascia di Frida quando esegui il progetto?
 
-**Interactive: Theatre Mask**:
+**Interattività: Maschera teatrale**:
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/interactive-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe> [See inside](https://editor.raspberrypi.org/en/projects/interactive-face-example){:target="_blank"}
+</iframe> [Guarda dentro](https://editor.raspberrypi.org/en/projects/interactive-face-example){:target="_blank"}
 
-**Animated: Frida**:
+**Animazione: Frida**:
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/animated-face-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe> [See inside](https://editor.raspberrypi.org/en/projects/animated-face-example){:target="_blank"}
+</iframe> [Guarda dentro](https://editor.raspberrypi.org/en/projects/animated-face-example){:target="_blank"}
 
-Take a look at our [Make a face - Community library](https://wke.lt/w/s/8sVH4f){:target="_blank"} to see projects created by community members.
+Dai un'occhiata alla nostra [biblioteca del Community - Disegna una faccia](https://wke.lt/w/s/8sVH4f){:target="_blank"} per guardare i progetti creati dai membri della comunità.
 
 --- save ---
