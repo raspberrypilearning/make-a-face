@@ -78,7 +78,7 @@ def draw():
     fill(purple)
     ellipse(160, 400, 30, 30)
 
-    # Faccia inferiore Occhio sinistro
+    # Faccia inferiore Occhio destro
     fill(red)
     rect(220, 390, 100, 50)
     fill(lilac)
