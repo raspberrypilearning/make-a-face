@@ -1,4 +1,4 @@
-400 x 400 funziona bene per un viso rotondo
+400 x 400 è un ottimo valore per un viso rotondo
 
 Cambia il colore dello sfondo
 
@@ -22,7 +22,7 @@ Una bocca nera
 
 Una faccia arancione
 
-Cerchio più alto
+Cerchio superiore
 
 Cerchio inferiore
 
@@ -46,7 +46,7 @@ Quantità iniziale di blu
 
 Utilizza le variabili per controllare il cambiamento di colore in ogni ciclo
 
-Muoviti lungo la coordinata x in base alla larghezza di un dente
+Muoviti lungo la coordinata x della larghezza di un dente
 
 Linea della bocca
 
@@ -64,7 +64,7 @@ Bianco
 
 Occhi
 
-Volto
+Faccia
 
 Verde
 
