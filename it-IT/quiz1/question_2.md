@@ -4,7 +4,7 @@
 legend: Domanda 2 di 3
 ---
 
-Nel tuo progetto hai aggiunto il codice per disegnare un volto con molte funzionalità. L'ordine del codice era estremamente importante per far sì che il volto assomigliasse al tuo disegno.
+Nel tuo progetto hai aggiunto il codice per disegnare un volto con molte funzionalità. L'ordine con cui hai scritto il codice era fondamentale per far sì che il volto assomigliasse al tuo disegno.
 
 Se eseguissi questo codice, come apparirebbe la faccia?
 
@@ -32,7 +32,7 @@ run()
 
  --- feedback ---
 
- Non proprio, guarda l'ordine delle funzioni `ellipse()` e `stroke()` .
+ Non proprio, guarda l'ordine delle funzioni `ellipse()` e dello spessore `stroke()`.
 
  --- /feedback ---
 
@@ -42,7 +42,7 @@ run()
 
  --- feedback ---
 
- Non proprio, guarda l'ordine delle funzioni `stroke()` .
+ Non proprio, guarda l'ordine delle funzioni per lo spessore `stroke()`.
 
  --- /feedback ---
 
@@ -52,7 +52,7 @@ run()
 
  --- feedback ---
 
- Corretto, il codice disegna una faccia con un tratto nero, successivamente disattiva il tratto prima di disegnare i cerchi. I cerchi verdi vengono disegnati per primi con sopra i cerchi neri.
+ Corretto, il codice disegna una faccia con un tratto nero, successivamente disattiva il tratto prima di aggiungere i cerchi. I cerchi verdi vengono disegnati per primi e poi, sopra, i cerchi neri.
 
  --- /feedback ---
 
@@ -62,7 +62,7 @@ run()
 
  --- feedback ---
 
- Non proprio, guarda l'ordine delle funzioni `ellipse` .
+ Non proprio, guarda l'ordine delle funzioni `ellipse()`.
 
  --- /feedback ---
 
