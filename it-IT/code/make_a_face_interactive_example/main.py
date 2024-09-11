@@ -19,13 +19,13 @@ def happy(x_middle, y_eye, y_mouth):
 def setup():
     # Metti qui sotto il codice che verrà eseguito una sola volta
     size(400, 400)  # larghezza e altezza
-    background(0, 0, 0) # spostati sotto draw() per ripristinare il disegno ad ogni fotogramma
+    background(0, 0, 0) # sposta questo comando sotto draw() se vuoi ripristinare il disegno ad ogni frame
     rect_mode(CENTER)
     no_stroke()
 
 
 def draw():
-    # Metti qui sotto il codice che verrà eseguito ad ogni cambio di frame
+    # Metti qui sotto il codice che verrà eseguito ogni ad ogni frame
     mask_width = width / 2
     x_middle = width / 2
     y_eye = 180
@@ -39,16 +39,16 @@ def draw():
     ellipse(x_middle - 50, y_eye, 60, 50)  # x, y, larghezza, altezza
     ellipse(x_middle + 50, y_eye, 60, 50)
     ellipse(x_middle, y_mouth, 100, 75)
-    # coprire parzialmente occhi e bocca
+    # copre parzialmente occhi e bocca
     fill(255)
     if mouse_x > x_middle:
         happy(x_middle, y_eye, y_mouth)
     else:
         sad(x_middle, y_eye, y_mouth)
-    # coprire la parte superiore della maschera
+    # copre la parte superiore della maschera
     fill(0)
     ellipse(x_middle, 60, 250, 90)
-    # ombreggiare metà della maschera
+    # ombreggia metà della maschera
     fill(0, 25)
     rect(300, 200, width/2, height)
 
@@ -58,5 +58,5 @@ def mouse_pressed():
     print(mouse_x, mouse_y)
 
 
-# Conserva questa parte per eseguire il codice
+# Non cancellare quest'ultima istruzione, serve ad eseguire il codice
 run()
