@@ -133,7 +133,7 @@ Depois de alterar o código, você precisará **`Executar`** seu projeto para ve
 --- collapse ---
 
 ---
-título: Eu tentei diferentes números, mas a cor de fundo não se altera
+title: Eu tentei diferentes números, mas a cor de fundo não se altera
 ---
 
 O valor máximo de vermelho, verde ou azul é `255`. Tenha certeza de que todos os valores de cor de `fundo` estejam entre `0` e `255`.
