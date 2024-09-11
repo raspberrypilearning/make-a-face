@@ -33,7 +33,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-  Non proprio, per creare una bocca triste la seconda `ellisse` dovrebbe avere una  **coordinata Y ** più bassa della prima `ellisse`.
+  Non proprio, per creare una bocca triste la seconda `ellisse` dovrebbe avere una **coordinata Y ** più piccola della prima `ellisse`.
 
   --- /feedback ---
 
@@ -41,7 +41,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-  Corretto! La seconda `ellisse` è disegnata con una **coordinata Y** che è più alta della prima `ellisse`.
+  Corretto! La seconda `ellisse` è disegnata con una **coordinata Y** che è più maggiore della prima `ellisse`.
 
   --- /feedback ---
 
