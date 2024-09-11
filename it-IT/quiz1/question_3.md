@@ -5,11 +5,11 @@
 legend: Domanda 3 di 3
 ---
 
-Eli è stato incaricato di disegnare un volto da utilizzare su una maglietta. Eli ha scritto il codice utilizzando variabili per tutte le diverse posizioni, dimensioni e colori dei loro disegni.
+Eli è stato incaricato di disegnare un volto da utilizzare su una maglietta. Eli ha scritto il codice utilizzando variabili per tutte le diverse posizioni, dimensioni e colori.
 
 All'azienda è piaciuto molto! Hanno chiesto a Eli di creare molti altri disegni simili.
 
-Perché realizzare il progetto con il codice ha reso più veloce per Eli realizzare molti nuovi progetti?
+Perché realizzare il progetto, usando del codice, ha reso più veloce per Eli realizzare molti nuovi progetti?
 
 --- choices ---
 
@@ -25,7 +25,7 @@ Perché realizzare il progetto con il codice ha reso più veloce per Eli realizz
 
   --- feedback ---
 
-Corretto! Eli è stato in grado di realizzare rapidamente molte versioni leggermente diverse del loro progetto modificando i numeri memorizzati nelle variabili.
+Corretto! Eli è stato in grado di realizzare rapidamente molte versioni leggermente diverse del progetto iniziale, modificando i numeri memorizzati nelle variabili.
 
   --- /feedback ---
 
