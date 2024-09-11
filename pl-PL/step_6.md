@@ -47,7 +47,7 @@ filename: main.py - draw()
 
 --- /code ---
 
-![Obraz owocu Kawaii z podświetleniami o różnych nieprzezroczystościach: 30, 70, 150, 255. Niższa wartość, 30, jest bardziej nieprzezroczysta, a 255 mniej nieprzezroczysta.](images/opacity.png)
+![Obraz owocu Kawaii z podświetleniami o różnych nieprzezroczystościach: 30, 70, 150, 255. The lower value, 30, is less opaque and 255 is fully opaque.](images/opacity.png)
 
 --- /task ---
 
