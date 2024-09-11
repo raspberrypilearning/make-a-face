@@ -1,32 +1,32 @@
 ---
-title: Make a face
+title: Disegna una faccia
 hero_image: images/banner.png
-description: Design and draw a face or mask using geometric shapes
-meta_title: Python coding projects for kids and teens | Make a face
-meta_description: Learn Python with the Raspberry Pi Foundation's coding projects for kids and teens. Write Python code to draw a face or mask using geometric shapes.
+description: Progetta e disegna un volto o una maschera utilizzando forme geometriche
+meta_title: Progetti di coding con Python per bambini e adolescenti | Disegnare una faccia
+meta_description: Impara Python con i progetti di coding della Raspberry Pi Foundation per bambini e adolescenti. Scrivi il codice Python per disegnare una faccia o una maschera utilizzando forme geometriche.
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: You will make
+    title: Quello che farai
   - 
-    title: Choose a theme
+    title: Scegli un tema
   - 
-    title: Face shape
+    title: Forma del viso
     completion:
       - engaged
   - 
-    title: Add eyes
+    title: Aggiungi gli occhi
   - 
-    title: Add a mouth
+    title: Aggiungi una bocca
   - 
-    title: Add more details
+    title: Aggiungi ulteriori dettagli
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Quiz veloce
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -35,8 +35,8 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Migliora il tuo progetto
   - 
-    title: Share
+    title: Condividi
   - 
-    title: What next?
+    title: E adesso?
