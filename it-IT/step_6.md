@@ -1,38 +1,38 @@
-## Add more details
+## Aggiungi ulteriori dettagli
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Does your face or mask need more details to make it more interesting? 
+Il tuo viso o la tua maschera hanno bisogno di maggiori dettagli per diventare più interessanti? 
 </div>
 <div>
-![Image showing a face as an example with a headband accessory.](images/frida.png){:width="200px"}
+![Immagine che mostra un volto come esempio con una fascia per capelli.](images/frida.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-You can use more shapes to add more features to your face or mask.
+Puoi utilizzare più forme per aggiungere più funzionalità al tuo viso o alla tua maschera.
 
-How can you give the face more personality?
+Come dare più personalità al viso?
 
-You could add:
+Potresti aggiungere:
 
-+ A nose
-+ Eyebrows
-+ Ears
-+ Cheeks
-+ Highlights / catchlights
-+ Whatever you like!
++ Un naso
++ Sopracciglia
++ Orecchie
++ Guance
++ Riflessi/lucchichio
++ Qualunque cosa ti piaccia!
 
-Just add the extra details that make sense for your drawing.
+Aggiungi ulteriori dettagli che abbiano senso per il tuo disegno.
 
 --- /task ---
 
 --- task ---
 
-You can make partly transparent colours by adding a fourth number to an RGB colour to give the **opacity**.
+Puoi rendere i colori parzialmente trasparenti, aggiungendo un quarto valore al colore RGB, per impostare l'**opacità**.
 
-This code draws the overlapping highlights in the Kawaii fruit example:
+Questo codice disegna i riflessi sovrapposti, nell'esempio del frutto Kawaii:
 
 --- code ---
 ---
@@ -47,7 +47,7 @@ filename: main.py - draw()
 
 --- /code ---
 
-![Kawaii fruit image with highlights at different opacities: 30, 70, 150, 255. The lower value, 30, is more opaque and 255 is less opaque.](images/opacity.png)
+![Immagine di frutta kawaii con riflessi a differenti valori di opacità: 30, 70, 150, 255. Il valore più basso, 30, è meno opaco mentre 255 è completamente opaco.](images/opacity.png)
 
 --- /task ---
 
