@@ -47,7 +47,7 @@ filename: main.py - draw()
 
 --- /code ---
 
-![Imagen de fruta kawaii con reflejos en diferentes opacidades: 30, 70, 150, 255. El valor más bajo, 30, es más opaco y 255 es menos opaco.](images/opacity.png)
+![Imagen de fruta kawaii con reflejos en diferentes opacidades: 30, 70, 150, 255. The lower value, 30, is less opaque and 255 is fully opaque.](images/opacity.png)
 
 --- /task ---
 
