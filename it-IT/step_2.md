@@ -29,7 +29,7 @@ Apri il [progetto iniziale](https://editor.raspberrypi.org/en/projects/make-face
 
 La prima cosa da fare quando si crea arte usando la libreria `Processing` di Pytohn è aggiungere `def setup():` per definire una funzione `setup` che viene eseguita una volta all'inizio del programma.
 
-Il progetto iniziale ha una funzione `setup` (inizializzazione) che imposta la `size` (dimensione) della tua tela alla larghezza di `400` e altezza`400` pixel.
+Il progetto iniziale ha una funzione `setup` (inizializzazione) che imposta la `size` (dimensione) della tua tela alla larghezza di `400` e altezza di `400` pixel.
 
 **Scegli:** Sperimenta i numeri ed esegui il tuo codice per trovare una dimensione che ti soddisfa.
 
