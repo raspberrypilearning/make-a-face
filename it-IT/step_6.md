@@ -1,11 +1,11 @@
-## Aggiungi ulteriori dettagli
+## Aggiungi altri dettagli
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Il tuo viso o la tua maschera hanno bisogno di maggiori dettagli per diventare più interessanti? 
+Il tuo viso o la tua maschera hanno bisogno di altri dettagli per diventare più interessanti? 
 </div>
 <div>
-![Immagine che mostra un volto come esempio con una fascia per capelli.](images/frida.png){:width="200px"}
+![Immagine di esempio che mostra un volto con una fascia per capelli.](images/frida.png){:width="200px"}
 </div>
 </div>
 
@@ -24,15 +24,15 @@ Potresti aggiungere:
 + Riflessi/lucchichio
 + Qualunque cosa ti piaccia!
 
-Aggiungi ulteriori dettagli che abbiano senso per il tuo disegno.
+Aggiungi altri dettagli che abbiano senso per il tuo disegno.
 
 --- /task ---
 
 --- task ---
 
-Puoi rendere i colori parzialmente trasparenti, aggiungendo un quarto valore al colore RGB, per impostare l'**opacità**.
+Puoi rendere i colori parzialmente trasparenti aggiungendo un quarto valore al colore RGB per impostare l'**opacità**.
 
-Questo codice disegna i riflessi sovrapposti, nell'esempio del frutto Kawaii:
+Questo codice disegna i riflessi sovrapposti nell'esempio del frutto Kawaii:
 
 --- code ---
 ---
