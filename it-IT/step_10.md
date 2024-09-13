@@ -1,6 +1,6 @@
 ## E adesso?
 
-Se stai seguendo il percorso [Introduzione a Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro), puoi passare al progetto [Non scontrarti!](https://projects.raspberrypi.org/en/projects/dont-collide). In questo progetto realizzerai un gioco a ostacoli a scorrimento in cui il tuo personaggio deve raggiungere un punto finale senza scontrarsi con gli ostacoli.
+Se stai seguendo il percorso [Introduzione a Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro), puoi passare al progetto [Non scontrarti!](https://projects.raspberrypi.org/en/projects/dont-collide). In questo progetto realizzerai un gioco di corsa ad ostacoli in cui il tuo personaggio deve raggiungere un punto finale senza scontrarsi con gli ostacoli.
 
 --- print-only ---
 
