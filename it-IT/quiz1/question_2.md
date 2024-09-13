@@ -32,7 +32,7 @@ run()
 
  --- feedback ---
 
- Non proprio, guarda l'ordine delle funzioni `ellipse()` e dello spessore `stroke()`.
+ Non proprio, guarda l'ordine delle funzioni `ellipse()` e `stroke()` .
 
  --- /feedback ---
 
@@ -42,7 +42,7 @@ run()
 
  --- feedback ---
 
- Non proprio, guarda l'ordine delle funzioni per lo spessore `stroke()`.
+ Non proprio, guarda l'ordine delle funzioni `stroke()` .
 
  --- /feedback ---
 
@@ -52,7 +52,7 @@ run()
 
  --- feedback ---
 
- Corretto, il codice disegna una faccia con un tratto nero, successivamente disattiva il tratto prima di aggiungere i cerchi. I cerchi verdi vengono disegnati per primi e poi, sopra, i cerchi neri.
+ Corretto, il codice disegna una faccia con un tratto nero, successivamente disattiva il tratto prima di disegnare i cerchi. I cerchi verdi vengono disegnati per primi con sopra i cerchi neri.
 
  --- /feedback ---
 
