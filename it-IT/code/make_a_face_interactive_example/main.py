@@ -17,15 +17,15 @@ def happy(x_middle, y_eye, y_mouth):
 
 
 def setup():
-    # Metti qui sotto il codice che verrà eseguito una sola volta
+    # Metti qui il codice che verrà eseguito una sola volta
     size(400, 400)  # larghezza e altezza
-    background(0, 0, 0) # sposta questo comando sotto draw() se vuoi ripristinare il disegno ad ogni frame
+    background(0, 0, 0) # sposta questo comando sotto draw() se vuoi ripristinare il disegno a ogni frame
     rect_mode(CENTER)
     no_stroke()
 
 
 def draw():
-    # Metti qui sotto il codice che verrà eseguito ogni ad ogni frame
+    # Metti qui sotto il codice che verrà eseguito ogni per ogni frame
     mask_width = width / 2
     x_middle = width / 2
     y_eye = 180
@@ -54,9 +54,9 @@ def draw():
 
 
 def mouse_pressed():
-    # Inserisci qui il codice da eseguire quando si preme il mouse
+    # Inserisci qui il codice da eseguire quando viene premuto il mouse
     print(mouse_x, mouse_y)
 
 
-# Non cancellare quest'ultima istruzione, serve ad eseguire il codice
+# Non cancellare quest'ultima istruzione, serve a eseguire il codice
 run()
