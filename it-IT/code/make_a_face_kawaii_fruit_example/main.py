@@ -27,7 +27,7 @@ def draw():
     ellipse(200, 240, 15, 15)
     fill(orange)
     ellipse(200, 235, 15, 15)
-    # Riflessi di luce
+    # Riflessi
     fill(255, 70)
     ellipse(170, 150, 35, 35)
     ellipse(150, 160, 25, 25)
