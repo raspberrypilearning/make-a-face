@@ -1,4 +1,4 @@
-400 x 400 è un ottimo valore per un viso rotondo
+400 x 400 funziona bene per un viso rotondo
 
 Cambia il colore dello sfondo
 
@@ -14,7 +14,7 @@ Puoi anche usare no_stroke()
 
 Giallo acceso
 
-Nero: cambia in rosso, verde o blu fino a 255
+Nero - cambia in rosso, verde o blu fino a 255
 
 x, y, larghezza, altezza
 
@@ -74,7 +74,7 @@ width and height
 
 move under draw() to reset the drawing every frame
 
-Metti qui sotto il codice che verrà eseguito ad ogni cambio di frame
+Metti qui sotto il codice che verrà eseguito per ogni frame
 
 draw mask
 
