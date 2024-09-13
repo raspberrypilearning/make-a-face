@@ -13,7 +13,7 @@ Perché realizzare il progetto, usando del codice, ha reso più veloce per Eli r
 
 --- choices ---
 
-- ( ) La programmazione è divertente.
+- ( ) Programmare è divertente.
 
   --- feedback ---
 
