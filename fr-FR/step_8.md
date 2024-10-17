@@ -2,7 +2,7 @@
 
 Si tu as le temps, tu peux perfectionner ton projet.
 
-Chacun des exemples de l'[Introduction](.) a été créé dans Trinket et tu peux regarder le code pour avoir des idées et voir comment ils fonctionnent.
+Chacun des exemples de l'[Introduction](.) a été créé dans Raspberry Pi Code Editor et tu peux regarder le code pour avoir des idées et voir comment ils fonctionnent.
 
 Voici quelques idées que tu pourrais essayer :
 - Ajoute de l'interactivité — essaie notre **Interactif : Masque de théâtre**, que se passe-t-il lorsque tu déplaces ta souris sur l'écran ?
