@@ -47,7 +47,7 @@ filename: main.py - draw()
 
 --- /code ---
 
-![Kawaii fruit afbeelding met highlights bij verschillende doorzichtigheden: 30, 70, 150, 255. The lower value, 30, is less opaque and 255 is fully opaque.](images/opacity.png)
+![Kawaii fruit afbeelding met highlights bij verschillende doorzichtigheden: 30, 70, 150, 255. De lagere waarde, 30, is minder doorzichtig en 255 is volledig doorzichtig.](images/opacity.png)
 
 --- /task ---
 
