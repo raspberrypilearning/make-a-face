@@ -1,0 +1,32 @@
+---
+title: Disegna una faccia
+hero_image: images/banner.png
+description: Progetta e disegna un volto o una maschera utilizzando forme geometriche
+meta_title: Progetti di coding con Python per bambini e adolescenti | Disegnare una faccia
+meta_description: Impara Python con i progetti di coding della Raspberry Pi Foundation per bambini e adolescenti. Scrivi il codice Python per disegnare una faccia o una maschera utilizzando forme geometriche.
+version: 4
+listed: true
+copyedit: true
+last_tested: "2021-10-06"
+steps:
+  - title: Quello che farai
+  - title: Scegli un tema
+  - title: Forma del viso
+    completion:
+      - engaged
+  - title: Aggiungi gli occhi
+  - title: Aggiungi una bocca
+  - title: Aggiungi ulteriori dettagli
+    completion:
+      - internal
+  - title: Quiz veloce
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Migliora il tuo progetto
+  - title: Condividi
+  - title: E adesso?
