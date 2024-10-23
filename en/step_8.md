@@ -2,7 +2,7 @@
 
 If you have time you can upgrade to your project. 
 
-Each of the examples in the [Introduction](.) was created in Trinket and you can look at the code to get ideas and see how they work.
+Each of the examples in the [Introduction](.) was created in the Raspberry Pi Code Editor and you can look at the code to get ideas and see how they work.
 
 Here are some other ideas you could try:
 - Add interactivity — try our **Interactive: Theatre Mask**, what happens when you move your mouse across the screen?  
