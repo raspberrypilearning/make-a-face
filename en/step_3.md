@@ -13,8 +13,8 @@ Then, draw a circle in this colour.
 ---
 language: python
 line_numbers: true
-line_number_start: 10
-line_highlights: 14-20
+line_number_start: 11
+line_highlights: 15-21
 ---
 
 def draw():
@@ -34,7 +34,7 @@ def draw():
 --- /task ---
 
 --- task ---
-**Test:** Run your code and you should see a coloured circle. Make sure that the fill colour of your ellipse is not the same colour as your background!
+**Test:** Run your code and you should see a coloured circle. 
 
 --- /task ---
 
@@ -58,17 +58,19 @@ def draw():
     ellipse(
         screen_size/2, 
         screen_size/2, 
-        100, 
-        50
+        100, # width
+        50   # height
     )  
   
 --- /code ---
+
+![A yellow ellipse which is wider than it is tall.](images/change_shape.png)
 
 --- /task ---
 
 --- task ---
 
-Before the code where you draw the ellipse, you can choose to set a colour and thickness. Or, if you prefer, you can remove the stroke and have no outline.
+Before the code where you draw the ellipse, you can choose to set a colour and thickness. 
 
 
 --- code ---
@@ -89,6 +91,8 @@ line_highlights: 15-16
     )  
     
 --- /code ---
+
+Or, if you prefer, you can remove the stroke and have no outline.
 
 --- code ---
 ---
