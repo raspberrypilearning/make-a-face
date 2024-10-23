@@ -36,6 +36,6 @@ def draw():
 
 --- task ---
 
-**Test:** Run your code and you should see a coloured square. 
+**Test:** Run your code and you should see a coloured square as your background.
 
 --- /task ---
