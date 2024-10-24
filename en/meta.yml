@@ -17,6 +17,7 @@ steps:
   - title: Rectangles
   - title: Triangles
   - title: Overlap shapes
+  - title: Create your face
     completion:
       - internal
   - title: Quick quiz
