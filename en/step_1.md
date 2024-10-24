@@ -1,4 +1,4 @@
-## You will make
+## What you will make
 
 Write Python code to draw a face or mask using geometric shapes. 
  

@@ -1,4 +1,4 @@
-## Face shape
+## Circles and ovals
 
 Draw and colour a shape for your face or mask. 
 

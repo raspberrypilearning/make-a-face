@@ -9,14 +9,14 @@ listed: true
 copyedit: true
 last_tested: "2021-10-06"
 steps:
-  - title: You will make
+  - title: What you will make
   - title: Choose a background
-  - title: Face shape
     completion:
       - engaged
-  - title: Add eyes
-  - title: Add a mouth
-  - title: Add more details
+  - title: Circles and ovals
+  - title: Rectangles
+  - title: Triangles
+  - title: Overlap shapes
     completion:
       - internal
   - title: Quick quiz
