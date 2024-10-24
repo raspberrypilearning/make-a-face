@@ -22,8 +22,8 @@ The three numbers in `background(0, 0, 0)` are red, green and blue values. Exper
 ---
 language: python
 line_numbers: true
-line_number_start: 10
-line_highlights: 12
+line_number_start: 12
+line_highlights: 14
 ---
  
 def draw():   

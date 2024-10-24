@@ -6,15 +6,16 @@ An **ellipse** is an oval shape. If you specify the same width and height, you w
 
 --- task ---
 
-Add code to the `draw()` function to set the fill colour in the same way as before using red, green and blue values. 
+Add code to the `draw()` function to set the fill colour using red, green and blue values, just like you did for the background. 
+
 Then, draw a circle in this colour.
 
 --- code ---
 ---
 language: python
 line_numbers: true
-line_number_start: 11
-line_highlights: 15-21
+line_number_start: 12
+line_highlights: 16-22
 ---
 
 def draw():

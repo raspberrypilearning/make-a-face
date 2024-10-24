@@ -31,13 +31,13 @@ def draw():
 --- /task ---
 
 --- task ---
-**Test:** Change the function name, then run your code to see a rectangle instead of an ellipse.
+**Test:** Run your code to see a rectangle instead of an ellipse.
 
 --- /task ---
 
-The first two values for `rectangle` and `ellipse` represent the x, y coordinates of its centre. 
+The first two values for `rectangle` and `ellipse` represent the x, y coordinates of the centre of the shape. At the moment they are set to `screen_size/2` to position the shape in the centre of the screen.
 
-The top left corner of the screen is coordinate 0,0. Increasing the `x` value will move the shape to the right. Increasing the `y` value will move the shape downwards.  
+The top left corner of the screen is coordinate `0`,`0`. Increasing the `x` value will move the shape to the right. Increasing the `y` value will move the shape downwards.  
 
 
 --- task ---
