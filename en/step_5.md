@@ -10,8 +10,8 @@ Add code to draw a `triangle`.
 ---
 language: python
 line_numbers: true
-line_number_start: 10
-line_highlights: 15-19
+line_number_start: 12
+line_highlights: 17-21
 ---
 
 def draw():

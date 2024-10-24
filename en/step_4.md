@@ -10,8 +10,8 @@ Change the function `ellipse` to instead call the function `rect`.
 ---
 language: python
 line_numbers: true
-line_number_start: 10
-line_highlights: 15
+line_number_start: 12
+line_highlights: 17
 ---
 
 def draw():
@@ -42,14 +42,14 @@ The top left corner of the screen is coordinate `0`,`0`. Increasing the `x` valu
 
 --- task ---
 
-Change the position values to alter where it appears on the screen. 
+Change the position values to alter where the shape appears on the screen. 
 
 --- code ---
 ---
 language: python
 line_numbers: true
-line_number_start: 11
-line_highlights: 17-18
+line_number_start: 12
+line_highlights: 18-19
 ---
 
 def draw():
