@@ -1,19 +1,18 @@
-## E adesso?
+## What can you do now?
 
-Se stai seguendo il percorso [Introduzione a Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro), puoi passare al progetto [Non scontrarti!](https://projects.raspberrypi.org/en/projects/dont-collide). In questo progetto realizzerai un gioco di corsa ad ostacoli in cui il tuo personaggio deve raggiungere un punto finale senza scontrarsi con gli ostacoli.
+If you are following the [Introduction to Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro) pathway, you can move on to the [Don't collide](https://projects.raspberrypi.org/en/projects/dont-collide) project. In this project, you will make a scrolling obstacle game where your character has to reach a finishing point without colliding with obstacles.
 
---- print-only ---
+\--- print-only ---
 
-![Un esempio di creazione del progetto Non scontrarti! che mostra un pallone che vola in un deserto con dei cactus](images/dont-collide.png)
+![An example creation from the don't collide project showing a balloon floating in a desert with cacti](images/dont-collide.png)
 
---- /print-only ---
+\--- /print-only ---
 
---- no-print ---
+\--- no-print ---
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/dont-pop-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
 
+\--- /no-print ---
 
---- /no-print ---
-
-Se vuoi divertirti di più esplorando Python, puoi provare uno qualsiasi di [questi progetti](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
+If you want to have more fun exploring Python, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
