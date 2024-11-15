@@ -1,20 +1,18 @@
-#!/bin/python3
-
 from p5 import *
-from grid import *
+
+screen_size = 400
 
 
 def setup():
     # Metti qui sotto il codice che verrà eseguito una sola volta
-    size(400, 400)  # larghezza e altezza
+    size(screen_size, screen_size)
+    rect_mode(CENTER)
 
 
 def draw():
     # Metti qui sotto il codice che verrà eseguito per ogni frame
-    background(255, 255, 255)
+    background(0, 0, 0)
     # Aggiungi qui il codice per disegnare la tua faccia
-
-    grid() # aggiungi un # all'inizio di questa riga per nascondere la griglia
 
 
 # Non cancellare quest'ultima istruzione, serve a eseguire il codice
