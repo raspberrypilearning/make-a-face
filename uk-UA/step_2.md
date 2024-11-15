@@ -1,4 +1,4 @@
-## Вибір теми
+## Choose a background colour
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -11,97 +11,20 @@
 
 --- task ---
 
-Open the [starter project](https://editor.raspberrypi.org/en/projects/make-face-starter){:target="_blank"}. The Raspberry Pi code editor will open in another browser tab.
+Open the [starter project](https://editor.raspberrypi.org/en/projects/make-face-starter){:target="_blank"}.
 
 --- /task ---
 
---- task ---
-
-**Обирай:** Обміркуй, яке обличчя ти хочеш створити:
-+ Хочеш вибрати щось зі своєї культурної спадщини або з іншої популярної культури?
-+ Чи буде у твоєму мистецтві зображена людина, тварина, щось міфічне, чи, можливо, машина?
-+ Можливо, тобі навіть захочеться створити автопортрет!
-+ Ти можеш намалювати емодзі, щоб поділитися ним з друзями
-
---- /task ---
-
---- task ---
-
-Перше, що необхідно зробити при створенні мистецтва за допомогою Python `Processing library`, додати `def setup():`, щоб визначити функцію `setup`, яка виконується один раз на початку твоєї програми.
-
-У стартовому проєкті використовується функція `setup`, яка задає `розмір (size)` твого полотна на `400` - ширина, та `400` - висота.
-
-**Обирай:** Експериментуй з числами та запускай код, щоб знайти розмір, який буде тобі до вподоби.
-
---- collapse ---
-
----
-title: Налаштування розміру екрана при запуску програми
----
+--- task --- The three numbers in `background(0, 0, 0)` are red, green and blue values. Experiment with changing the numbers to any whole number between 0 and 255 to change the background colour.
 
 --- code ---
 ---
-language: python filename: main.py - setup() line_numbers: true line_number_start: 6
-line_highlights: 7
----
-def setup():   
-size(400, 400)  # 400 by 400 works well for a round face
-
---- /code ---
-
---- /collapse ---
-
---- /task ---
-
---- task ---
-
-**Обирай:** Подумай, які кольори ти будеш використовувати для твого обличчя, та зміни значення кольору фону `background`, щоб налаштувати екран на додатковий колір.
-
-[[[generic-theory-simple-colours]]]
-
---- collapse ---
-
----
-title: Налаштування кольору фону при запуску програми
+language: python line_numbers: true line_number_start: 12
+line_highlights: 14
 ---
 
---- code ---
----
-language: python filename: main.py - draw() line_numbers: true line_number_start: 9
-line_highlights: 9
----
-
-    background(255, 255, 255) #Спробуй різні числа, щоб змінити колір
-
---- /code ---
-
---- /collapse ---
-
---- /task ---
-
---- task ---
-
-**Порада:** Функція `draw` має код `grid()`. Це додасть сітку координат поверх фону, яка допоможе тобі розташувати елементи на твоєму обличчі.
-
-Щоб вимкнути сітку, додай перед кодом `#`. Щоб увімкнути сітку знову, видали `#`.
-
---- code ---
----
-language: python
-filename: main.py - draw()
----
-
-    grid() #Показати сітку
-
---- /code ---
-
---- code ---
----
-language: python
-filename: main.py - draw()
----
-
-    #grid() #Приховати сітку, перетворивши її в коментар
+def draw():   
+# Put code to run every frame here background(0, 0, 0)
 
 --- /code ---
 
@@ -109,34 +32,6 @@ filename: main.py - draw()
 
 --- task ---
 
-**Тест:** Запусти свій проєкт, щоб побачити розмір екрана та колір фону, які були обрані тобою.
+**Test:** Run your code and you should see a coloured square as your background.
 
 --- /task ---
-
---- task ---
-
-**Налагодження:** Можливо, у твоєму проєкті знайдуться помилки, які потрібно буде виправити. Ось деякі поширені помилки.
-
---- collapse ---
-
----
-title: Я змінив(-ла) розмір та колір, але область виводу залишилася такою самою
----
-
-Після внесення змін до коду, тобі потрібно зробити `run` (запуск) свого проєкту, щоб побачити зміни в області виводу.
-
---- /collapse ---
-
---- collapse ---
-
----
-title: Я спробував (ла) різні значення, але колір фону не змінюється
----
-
-Максимальне значення для червоного, зеленого, або синього - `255`. Переконайся, що всі значення кольору для твого фону `background` знаходяться між `0` та `255`.
-
---- /collapse ---
-
---- /task ---
-
---- save ---
