@@ -10,23 +10,25 @@ copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: Zrobisz to
+    title: What you will make
   - 
-    title: Wybierz motyw
-  - 
-    title: Kształt ściany
+    title: Choose a background
     completion:
       - engaged
   - 
-    title: Dodaj oczy
+    title: Circles and ovals
   - 
-    title: Dodaj usta
+    title: Rectangles
   - 
-    title: Dodaj więcej szczegółów
+    title: Triangles
+  - 
+    title: Overlap shapes
+  - 
+    title: Create your face
     completion:
       - internal
   - 
-    title: Szybki quiz
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -35,8 +37,7 @@ steps:
     completion:
       - external
   - 
-    title: Ulepsz swój projekt
+    title: Challenge
+    challenge: true
   - 
-    title: Udostępnij
-  - 
-    title: Co dalej?
+    title: What can you do now?
