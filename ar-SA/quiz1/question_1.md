@@ -6,8 +6,6 @@ Answer the three questions. سيتم توجيهك نحو الإجابة الصح
 
 Have fun!
 
-إستمتع!
-
 --- question ---
 
 ---
