@@ -1,11 +1,11 @@
-## مشاركة
+--- challenge ---
 
-إذا كنت في نادٍ ، فلماذا لا تشارك مشروعك مع الأصدقاء؟
+## Challenge
 
---- task ---
 
-ألهم مجتمع Raspberry Pi Foundation بمشروعك!
+Take a look at these [faces created by community members](https://wke.lt/w/s/8sVH4f){:target="_blank"}.
 
-لإرسال مشروعك إلى الاستوديو ['Don't Collide - Community'](https://wke.lt/w/s/8sVH4f){:target="_blank"} الاستوديو ، يرجى إكمال [هذا النموذج](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+[Send us your face](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"} to display too.
 
---- /task ---
+
+--- /challenge ---
