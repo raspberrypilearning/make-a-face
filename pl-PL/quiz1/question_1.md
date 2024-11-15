@@ -6,8 +6,6 @@ Po udzieleniu odpowiedzi na każde pytanie kliknij ** Sprawdź moją odpowiedź 
 
 Miłej zabawy!
 
-Miłej zabawy!
-
 --- question ---
 
 ---
