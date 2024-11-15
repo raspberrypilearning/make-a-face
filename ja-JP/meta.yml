@@ -10,23 +10,25 @@ copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: はじめに
+    title: What you will make
   - 
-    title: テーマを選択してください
-  - 
-    title: 顔の形
+    title: Choose a background
     completion:
       - engaged
   - 
-    title: 目を追加する
+    title: Circles and ovals
   - 
-    title: 口を追加
+    title: Rectangles
   - 
-    title: 詳細を追加
+    title: Triangles
+  - 
+    title: Overlap shapes
+  - 
+    title: Create your face
     completion:
       - internal
   - 
-    title: ふりかえり
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -35,8 +37,7 @@ steps:
     completion:
       - external
   - 
-    title: プロジェクトをアップグレードする
+    title: Challenge
+    challenge: true
   - 
-    title: 共有
-  - 
-    title: 次は何をしますか？
+    title: What can you do now?
