@@ -10,23 +10,25 @@ copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: المقدمة
+    title: What you will make
   - 
-    title: اختر شكلاً
-  - 
-    title: شكل الوجه
+    title: Choose a background
     completion:
       - engaged
   - 
-    title: أضف العيون
+    title: Circles and ovals
   - 
-    title: أضف فم
+    title: Rectangles
   - 
-    title: أضف المزيد من التفاصيل
+    title: Triangles
+  - 
+    title: Overlap shapes
+  - 
+    title: Create your face
     completion:
       - internal
   - 
-    title: تفكير
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -35,8 +37,7 @@ steps:
     completion:
       - external
   - 
-    title: قم بترقية او تطوير مشروعك
+    title: Challenge
+    challenge: true
   - 
-    title: مشاركة
-  - 
-    title: ماهو التالي؟
+    title: What can you do now?
