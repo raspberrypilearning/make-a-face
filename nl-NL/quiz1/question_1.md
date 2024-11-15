@@ -6,8 +6,6 @@ Klik na het beantwoorden van elke vraag op **Controleer mijn antwoord**.
 
 Veel plezier!
 
-Veel plezier!
-
 --- question ---
 
 ---
