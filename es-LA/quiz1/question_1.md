@@ -6,8 +6,6 @@ Cuando hayas respondido a cada pregunta, haz clic en **Revisar mi respuesta**.
 
 ¡Qué te diviertas!
 
-¡Que te diviertas!
-
 --- question ---
 
 ---
