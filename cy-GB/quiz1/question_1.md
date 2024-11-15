@@ -6,8 +6,6 @@ Atebwch y tri chwestiwn isod i fyfyrio ar yr hyn rydych chi wedi'i ddysgu.
 
 Ar ôl bob cwestiwn, pwyswch **cyflwyno**. Byddwch chi'n cael eich tywys i'r ateb cywir. Fe allwch chi wneud y gweithgaredd hwn cymaint ag y mynnwch.
 
-Mwynhewch!
-
 --- question ---
 
 ---
