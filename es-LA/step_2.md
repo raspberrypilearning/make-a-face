@@ -1,4 +1,4 @@
-## Elige un tema
+## Choose a background colour
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -11,97 +11,20 @@
 
 --- task ---
 
-Abre el [proyecto inicial](https://trinket.io/library/trinkets/a68341f248){:target="_blank"}. Trinket se abrirá en otra pestaña del navegador.
+Open the [starter project](https://editor.raspberrypi.org/en/projects/make-face-starter){:target="_blank"}.
 
 --- /task ---
 
---- task ---
-
-**Elige:** Piensa en el tipo de cara que quieres hacer:
-+ ¿Quieres elegir algo de tu propia tradición o cultura popular?
-+ ¿Tu arte mostrará un ser humano, un animal, algo mítico o quizás una máquina?
-+ ¡Incluso podrías crear un autorretrato!
-+ Podrías dibujar un emoji para compartir con tus amigos
-
---- /task ---
-
---- task ---
-
-Lo primero que debes hacer al crear arte utilizando la `biblioteca de procesamiento` de Python es agregar `def setup():` para definir una función `setup` que se ejecuta una vez al comienzo de tu programa.
-
-El proyecto inicial tiene una función `setup` que establece el `tamaño` de tu lienzo en `400` de ancho y `400` de alto.
-
-**Elige:** Experimenta con los números y ejecuta tu código para encontrar el tamaño que más te guste.
-
---- collapse ---
-
----
-title: Configurar el tamaño de la pantalla cuando se inicia el programa
----
+--- task --- The three numbers in `background(0, 0, 0)` are red, green and blue values. Experiment with changing the numbers to any whole number between 0 and 255 to change the background colour.
 
 --- code ---
 ---
-language: python filename: main.py - setup() line_numbers: true line_number_start: 6
-line_highlights: 7
----
-def setup():   
-size(400, 400)  # 400 by 400 works well for a round face
-
---- /code ---
-
---- /collapse ---
-
---- /task ---
-
---- task ---
-
-**Elige:** Piensa en los colores que usarás para la cara y cambia los valores de color del `fondo` para configurar tu pantalla con un color complementario.
-
-[[[generic-theory-simple-colours]]]
-
---- collapse ---
-
----
-title: Configurar el color de fondo cuando se inicia el programa
+language: python line_numbers: true line_number_start: 12
+line_highlights: 14
 ---
 
---- code ---
----
-language: python filename: main.py - draw() line_numbers: true line_number_start: 9
-line_highlights: 9
----
-
-    background(255, 255, 255)  # Try different numbers to change the colour
-
---- /code ---
-
---- /collapse ---
-
---- /task ---
-
---- task ---
-
-**Sugerencia:** La función `dibujar` tiene el código `cuadrícula()`. Esto agrega una cuadrícula de coordenadas sobre tu fondo que te ayuda a determinar dónde colocar las características en tu cara.
-
-Para quitar la cuadrícula, agrega un `#` delante del código, para volver a ponerla, elimina el `#`.
-
---- code ---
----
-language: python
-filename: main.py - draw()
----
-
-    grid()  # Shows grid
-
---- /code ---
-
---- code ---
----
-language: python
-filename: main.py - draw()
----
-
-    #grid()  # Hide grid by turning it into a comment
+def draw():   
+# Put code to run every frame here background(0, 0, 0)
 
 --- /code ---
 
@@ -109,34 +32,6 @@ filename: main.py - draw()
 
 --- task ---
 
-**Prueba:** Ejecuta tu proyecto para ver el tamaño de pantalla y el color de fondo elegidos.
+**Test:** Run your code and you should see a coloured square as your background.
 
 --- /task ---
-
---- task ---
-
-**Depurar:** Es posible que encuentres algunos errores en tu proyecto que necesites corregir. A continuación, se muestran algunos errores comunes.
-
---- collapse ---
-
----
-title: Actualicé el tamaño y el color, pero el resultado permanece igual
----
-
-Después de cambiar el código, deberás `ejecutar (run)` tu proyecto para poder visualizar los cambios.
-
---- /collapse ---
-
---- collapse ---
-
----
-title: Probé con diferentes números, pero el color de fondo no cambia
----
-
-La cantidad máxima de rojo, verde o azul es `255`. Asegúrate de que todos los valores de `fondo` estén entre `0` y `255`.
-
---- /collapse ---
-
---- /task ---
-
---- save ---
