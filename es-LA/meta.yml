@@ -10,23 +10,25 @@ copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: Lo que harás
+    title: What you will make
   - 
-    title: Elige un tema
-  - 
-    title: Forma de la cara
+    title: Choose a background
     completion:
       - engaged
   - 
-    title: Agrega los ojos
+    title: Circles and ovals
   - 
-    title: Agrega una boca
+    title: Rectangles
   - 
-    title: Agrega más detalles
+    title: Triangles
+  - 
+    title: Overlap shapes
+  - 
+    title: Create your face
     completion:
       - internal
   - 
-    title: Examen rápido
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -35,8 +37,7 @@ steps:
     completion:
       - external
   - 
-    title: Mejora tu proyecto
+    title: Challenge
+    challenge: true
   - 
-    title: Comparte
-  - 
-    title: '¿Qué sigue?'
+    title: What can you do now?
