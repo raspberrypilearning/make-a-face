@@ -6,8 +6,6 @@ Após responder cada pergunta, clique em **Verificar minha resposta**.
 
 Divirta-se!
 
-Divirta-se!
-
 --- question ---
 
 ---
