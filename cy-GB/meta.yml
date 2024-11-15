@@ -10,23 +10,25 @@ copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: Cyflwyniad
+    title: What you will make
   - 
-    title: Dewis thema
-  - 
-    title: Siâp y wyneb
+    title: Choose a background
     completion:
       - engaged
   - 
-    title: Ychwanegu llygaid
+    title: Circles and ovals
   - 
-    title: Ychwanegu ceg
+    title: Rectangles
   - 
-    title: Ychwanegu mwy o fanylion
+    title: Triangles
+  - 
+    title: Overlap shapes
+  - 
+    title: Create your face
     completion:
       - internal
   - 
-    title: Myfyrio
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -35,8 +37,7 @@ steps:
     completion:
       - external
   - 
-    title: Uwchraddio dy brosiect
+    title: Challenge
+    challenge: true
   - 
-    title: Rhannu
-  - 
-    title: Beth nesaf?
+    title: What can you do now?
