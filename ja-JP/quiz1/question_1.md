@@ -6,8 +6,6 @@ Answer the three questions. 正しい答えが表示されます。
 
 Have fun!
 
-お楽しみください!
-
 --- question ---
 
 ---
