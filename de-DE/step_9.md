@@ -1,11 +1,11 @@
-## Teilen
+--- challenge ---
 
-Wenn du Mitglied in einem Club bist, warum teilst du dein Projekt nicht mit Freunden?
+## Challenge
 
---- task ---
 
-Begeistere die Raspberry Pi Foundation Community mit deinem Projekt!
+Take a look at these [faces created by community members](https://wke.lt/w/s/8sVH4f){:target="_blank"}.
 
-Um dein Projekt unserem [Ein Gesicht zeichnen - Community](https://wke.lt/w/s/8sVH4f){:target="_blank"} studio einzureichen, fülle bitte [dieses Formular](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"} aus.
+[Send us your face](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"} to display too.
 
---- /task ---
+
+--- /challenge ---
