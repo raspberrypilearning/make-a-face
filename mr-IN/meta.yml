@@ -10,19 +10,21 @@ copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: You will make
+    title: What you will make
   - 
-    title: Choose a theme
-  - 
-    title: Face shape
+    title: Choose a background
     completion:
       - engaged
   - 
-    title: Add eyes
+    title: Circles and ovals
   - 
-    title: Add a mouth
+    title: Rectangles
   - 
-    title: Add more details
+    title: Triangles
+  - 
+    title: Overlap shapes
+  - 
+    title: Create your face
     completion:
       - internal
   - 
@@ -35,8 +37,7 @@ steps:
     completion:
       - external
   - 
-    title: तुमचा प्रोजेक्ट अपग्रेड करा
+    title: Challenge
+    challenge: true
   - 
-    title: शेअर करा
-  - 
-    title: पुढे काय?
+    title: What can you do now?
