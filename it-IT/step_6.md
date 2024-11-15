@@ -1,54 +1,65 @@
-## Aggiungi altri dettagli
+## Overlap shapes
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Il tuo viso o la tua maschera hanno bisogno di altri dettagli per diventare più interessanti? 
+A mouth is a great way of showing emotion. Will your character have a smile, frown, or something else? 
 </div>
 <div>
-![Immagine di esempio che mostra un volto con una fascia per capelli.](images/frida.png){:width="200px"}
+![Image showing a robot face as an example of a face with a mouth.](images/mask.png){:width="200px"}
 </div>
 </div>
 
---- task ---
-
-Puoi utilizzare più forme per aggiungere più funzionalità al tuo viso o alla tua maschera.
-
-Come dare più personalità al viso?
-
-Potresti aggiungere:
-
-+ Un naso
-+ Sopracciglia
-+ Orecchie
-+ Guance
-+ Riflessi/lucchichio
-+ Qualunque cosa ti piaccia!
-
-Aggiungi altri dettagli che abbiano senso per il tuo disegno.
-
---- /task ---
+You can make shapes you couldn't otherwise create by overlapping shapes, for example you could add two overlapping circles to create a smile.
 
 --- task ---
 
-Puoi rendere i colori parzialmente trasparenti aggiungendo un quarto valore al colore RGB per impostare l'**opacità**.
+Start with an ellipse to represent the face.
 
-Questo codice disegna i riflessi sovrapposti nell'esempio del frutto Kawaii:
 
 --- code ---
 ---
-language: python
-filename: main.py - draw()
+language: python line_numbers: true line_number_start: 12
+line_highlights: 17-18
 ---
-
-    # Highlights    
-    fill(255, 255, 255, 70)  # 70 is transparency/opacity here    
-    ellipse(170, 150, 35, 35)   
-    ellipse(150, 160, 25, 25)
-
---- /code ---
-
-![Immagine di frutta kawaii con riflessi a differenti valori di opacità: 30, 70, 150, 255. Il valore più basso, 30, è meno opaco mentre 255 è completamente opaco.](images/opacity.png)
+def draw(): # Put code to run every frame here background(255, 255, 255) # Add code to draw your face here no_stroke() fill(125, 75, 0) # Brown ellipse(200, 220, 150, 150) # Face --- /code ---
 
 --- /task ---
 
---- save ---
+--- task ---
+
+Set the `fill` colour for your mouth then draw an `ellipse`.
+
+--- code ---
+---
+language: python line_numbers: true line_number_start: 12
+line_highlights: 19-22
+---
+def draw(): # Put code to run every frame here background(255, 255, 255) # Add code to draw your face here no_stroke() fill(125, 75, 0) # Brown ellipse(200, 220, 150, 150) # Face fill(255, 0, 0)  # Red ellipse(200, 240, 40, 40) # Mouth
+
+--- /code ---
+
+--- /task ---
+
+--- task --- Set the `fill` colour to match the face colour, then draw a second `ellipse`.
+
+Change the `y` coordinate of the second `ellipse` to a slightly higher position for a smile.
+
+
+--- code ---
+---
+language: python line_numbers: true line_number_start: 18
+line_highlights: 20-21
+---
+
+    fill(255, 0, 0)  # Red
+    ellipse(200, 240, 40, 40) # Mouth
+    fill(125, 75, 0) # Brown
+    ellipse(200, 235, 40, 40) # Overlap
+
+--- /code ---
+
+![A brown circle with a red crescent positioned near the bottom like a smile](images/brown-circle-smile.png)
+
+--- /task ---
+
+--- task --- **Test:** Experiment with changing the fill colours and sizes of the ellipses. Run your program to see the results. --- /task ---
