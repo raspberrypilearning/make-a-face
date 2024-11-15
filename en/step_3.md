@@ -1,91 +1,120 @@
-## Face shape
+## Circles and ovals
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Draw and colour a shape for your face or mask. Don't add the other features just yet, they will come later.
-</div>
-<div>
-![Image of a square-faced robot.](images/robot-teeth.png){:width="200px"}
-</div>
-</div>
+Draw and colour a shape for your face or mask. 
+
+An **ellipse** is an oval shape. If you specify the same width and height, you will draw a circle.  
 
 --- task ---
 
-Decide on the main shape of the face for your mask. It could be a circle, an ellipse, a rectangle, or even a triangle.
+Add code to the `draw()` function to set the fill colour using red, green and blue values, just like you did for the background. 
 
-Add code to the `draw()` function to draw a face or mask.
-
-This example draws a black circle in the middle, but it's up to you which shape and colour to use.
+Then, draw a circle in this colour.
 
 --- code ---
 ---
 language: python
-filename: main.py - draw()
 line_numbers: true
-line_number_start: 10
-line_highlights: 14, 15
+line_number_start: 12
+line_highlights: 16-22
 ---
 
 def draw():
     # Put code to run every frame here
-    background(255, 255, 255)  # Change to your background colour
-    
+    background(255, 255, 255)  
     # Add code to draw your face here
-    ellipse(width/2, height/2, 200, 200)  # Circle in the middle
-    
-    grid()  # add a # to the beginning of this line to hide the grid
+    fill(255, 255, 0) 
+    ellipse(
+        screen_size/2, 
+        screen_size/2, 
+        200, 
+        200
+    )  
   
 --- /code ---
 
-![The output area showing a black line circle in the middle of the grid.](images/black-circle.png)
+--- /task ---
 
-[[[processing-python-ellipse]]]
-
-
-[[[processing-python-rect]]]
-
-
-[[[processing-python-triangle]]]
+--- task ---
+**Test:** Run your code and you should see a coloured circle. 
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code and change it to get the face size and shape that you want.
-
---- /task ---
-
---- task ---
-
-Choose a stroke colour for the outline and a fill colour for the main part of the shape.
-
-[[[processing-stroke]]]
-
-If you don't want an outline, then use `no_stroke()`.
+Change the width and height values to see the ellipse change shape. 
 
 --- code ---
 ---
 language: python
-filename: main.py - draw()
 line_numbers: true
-line_number_start: 13
-line_highlights: 14
+line_number_start: 10
+line_highlights: 18-19
 ---
 
+def draw():
+    # Put code to run every frame here
+    background(255, 255, 255)  
     # Add code to draw your face here
-    fill(255, 255, 0)  # Bright yellow
-    ellipse(width/2, height/2, 200, 200)
+    fill(255, 255, 0) 
+    ellipse(
+        screen_size/2, 
+        screen_size/2, 
+        100, # width
+        50   # height
+    )  
   
 --- /code ---
 
-[[[generic-theory-simple-colours]]]
+![A yellow ellipse which is wider than it is tall.](images/change_shape.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code and change the colour until you are happy with it.
+Before the code where you draw the ellipse, you can choose to set a colour and thickness. 
+
+
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 14
+line_highlights: 15-16
+---
+    fill(255, 255, 0) 
+    stroke(255, 255, 255)  
+    stroke_weight(3)
+    ellipse(
+        screen_size/2, 
+        screen_size/2, 
+        100, 
+        50
+    )  
+    
+--- /code ---
+
+Or, if you prefer, you can remove the stroke and have no outline.
+
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 14
+line_highlights: 15
+---
+    fill(255, 255, 0) 
+    no_stroke()
+    ellipse(
+        screen_size/2, 
+        screen_size/2, 
+        100, 
+        50
+    )  
+  
+--- /code ---
 
 --- /task ---
 
---- save ---
+--- task ---
+**Test:** Experiment with changing the stroke colour and thickness or removing it, then run your code to see the results. 
+--- /task ---

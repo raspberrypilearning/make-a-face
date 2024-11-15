@@ -9,14 +9,15 @@ listed: true
 copyedit: true
 last_tested: "2021-10-06"
 steps:
-  - title: You will make
-  - title: Choose a theme
-  - title: Face shape
+  - title: What you will make
+  - title: Choose a background
     completion:
       - engaged
-  - title: Add eyes
-  - title: Add a mouth
-  - title: Add more details
+  - title: Circles and ovals
+  - title: Rectangles
+  - title: Triangles
+  - title: Overlap shapes
+  - title: Create your face
     completion:
       - internal
   - title: Quick quiz
@@ -27,6 +28,6 @@ steps:
       passing_score: 3
     completion:
       - external
-  - title: Upgrade your project
-  - title: Share
-  - title: What next?
+  - title: Challenge
+    challenge: true
+  - title: What can you do now?

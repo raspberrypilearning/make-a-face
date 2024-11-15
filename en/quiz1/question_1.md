@@ -6,8 +6,6 @@ When you have answered each question, click on **Check my answer**.
 
 Have fun!
 
-Have fun!
-
 --- question ---
 
 ---
