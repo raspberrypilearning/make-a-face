@@ -1,11 +1,11 @@
-## शेअर करा
+--- challenge ---
 
-If you are in a club, why not share your project with friends?
+## Challenge
 
---- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+Take a look at these [faces created by community members](https://wke.lt/w/s/8sVH4f){:target="_blank"}.
 
-To submit your project to our [Make a face - Community](https://wke.lt/w/s/8sVH4f){:target="_blank"} studio, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+[Send us your face](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"} to display too.
 
---- /task ---
+
+--- /challenge ---
