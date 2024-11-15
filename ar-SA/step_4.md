@@ -1,178 +1,50 @@
-## أضف العيون
+## Rectangles
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-العيون تجعل الشكل يبدأ ليبدو كوجه.
-</div>
-<div>
-! [منطقة المخرجات تظهر هدفًا بخمس دوائر.](images/five_circles.png){:width="300px"}
-</div>
-</div>
+Rectangles are drawn in almost the same way as an ellipse.
 
 --- task ---
 
-فكر في نوع العيون التي يحتاجها وجهك. أبسط العيون عبارة عن دائرتين فقط.
-
-يمكنك إضافة قزحية ملونة مختلفة والتلاميذ. يمكنك إضافة الضوء / الأضواء الخاطفة بلون مختلف.
-
---- /task ---
-
-جرب `اشكال بيضوية` في دالة `draw` لإنشاء العيون التي تريدها.
-
---- task ---
-
-### ضع العيون
-
-الرقم الأول في `الشكل البيضوي` هو مركز العين. يجب وضع العينين على نفس المسافة من مركز الرسم.
-
-في هذا المثال ، `160` و</code> 240 `يبعدان بمقدار ` 40 ` عن 200، وهو ما يصلح لرسم بعرض 400. </p>
-
-<p spaces-before="0">--- code ---</p>
-
-<hr />
-
-<p spaces-before="0">language: python</p>
-
-<h2 spaces-before="0">filename: main.py - draw()</h2>
-
-<pre><code>fill(0, 0, 0) #أسود - قم بالتغيير إلى اللون الأحمر أو الأخضر أو الأزرق حتى 255
-  eye_size = 50
-  ellipse(160, 180, eye_size, eye_size) #x ، y ، العرض ، الارتفاع
-  ellipse(240, 180, eye_size, eye_size)
-`</pre>
-
---- /code ---
-
-**نصيحة:** إذا كنت تريد عيونًا مستديرة ، فإن استخدام متغير `eye_size` يجعل من السهل تغيير عرض وارتفاع كلتا العينين في مكان واحد.
-
-[[[processing-python-ellipse]]]
-
---- collapse ---
-
----
-title: حساب المراكز على أساس العرض
----
-
-يقع مركز الرسم في الموضع `width / 2` أو نصف العرض. يمكنك استخدام هذا لوضع العينين عن طريق طرح عرض العين للعين اليسرى وإضافته للعين اليمنى:
+Change the function `ellipse` to instead call the function `rect`.
 
 --- code ---
 ---
-language: python
-filename: main.py - draw()
+language: python line_numbers: true line_number_start: 12
+line_highlights: 17
 ---
 
-    fill(0, 0, 0) #أسود - قم بالتغيير إلى اللون الأحمر أو الأخضر أو الأزرق حتى 255
-      eye_size = 50
-      ellipse( (width / 2) - 40, 180, eye_size, eye_size) #x ، y ، العرض ، الارتفاع
-      ellipse( (width / 2) + 40 , 180, eye_size, eye_size)
+def draw(): # Put code to run every frame here background(255, 255, 255)  
+# Add code to draw your face here fill(255, 255, 0) rect( screen_size/2, screen_size/2, 100, 50 )
 
 --- /code ---
 
-يمكنك أيضًا حساب عرض العيون بناءً على عرض الرسم.
+--- /task ---
+
+--- task --- **Test:** Run your code to see a rectangle instead of an ellipse.
+
+--- /task ---
+
+The first two values for `rectangle` and `ellipse` represent the x, y coordinates of the centre of the shape. At the moment they are set to `screen_size/2` to position the shape in the centre of the screen.
+
+The top left corner of the screen is coordinate `0`,`0`. Increasing the `x` value will move the shape to the right. Increasing the `y` value will move the shape downwards.
+
+
+--- task ---
+
+Change the position values to alter where the shape appears on the screen.
 
 --- code ---
 ---
-language: python
-filename: main.py - draw()
+language: python line_numbers: true line_number_start: 12
+line_highlights: 18-19
 ---
 
-    fill(0, 0, 0) #أسود - قم بالتغيير إلى اللون الأحمر أو الأخضر أو الأزرق حتى 255
-      ellipse( (width / 2) - (width / 10) , 180, eye_size, eye_size) #x ، y ، العرض ، الارتفاع
-      ellipse( (width / 2) + (width / 10) , 180, eye_size, eye_size)
+def draw(): # Put code to run every frame here background(255, 255, 255)  
+# Add code to draw your face here fill(255, 255, 0) rect( 80, # x coordinate 60, # y coordinate 100, 50 )
 
---- /code ---
-
---- /collapse ---
-
-قم بتغيير الرقم الثاني في استدعاء دالة `ellipse` لتحريك موضع `y` (رأسيًا) للعينين.
-
---- /task ---
+--- /code --- --- /task ---
 
 --- task ---
 
-**اختبار:** استمر في تغيير شكل وموضع العينين حتى تعجبك الطريقة التي تبدو بها.
-
-**نصيحة:** إذا قمت بتعيين حد لرسم الوجه ولا تريد رسمًا للعين ، فستحتاج إلى استدعاء `()no_stroke` قبل رسم العيون.
-
-[[[processing-stroke]]]
+**Test:** Experiment with changing the coordinates, then run your code to see where the ellipse or rectangle is displayed.
 
 --- /task ---
-
---- task ---
-
-### أضف التفاصيل
-
-يمكنك استخدام المزيد من الدوائر لإنشاء:
-+ قزحية ملونة
-+ بؤبؤ عين اسود
-+ الأضواء البيضاء
-+ أو أي شيء آخر
-
-تحتوي هذه العين على قزحية ملونة ، وبؤبؤ أسود ، وأضواء بيضاء متغيرة التعتيم: ![تُظهر منطقة الإخراج عينًا بها أضواء خاطفة على التلميذ والقزحية.](images/catchlights.png)
-
-\[[[generic-theory-simple-colours]]\] \[[[processing-opacity\]]]
-
-يمكنك أيضًا تحريك العيون عن طريق تدويرها.
-
-[[[processing-rotation]]]
-
---- /task ---
-
---- task ---
-
-**اختبار:** استمر في تغيير شكل وموضع العينين حتى تعجبك الطريقة التي تبدو بها.
-
-هل بدأ رسمك يبدو كوجه؟
-
---- /task ---
-
---- task ---
-
-**تصحيح:** قد تجد بعض الأخطاء في مشروعك والتي تحتاج إلى إصلاحها. فيما يلي بعض الأخطاء الشائعة.
-
---- collapse ---
----
-title: العيون ليست في المنتصف
----
-
-يمكنك استخدام `height / 2` في المركز.
-
---- /collapse ---
-
---- collapse ---
----
-title: العيون غير محاذية لبعضها البعض
----
-
-إذا كنت تريد محاذاة العينين ، فتأكد من استخدام نفس الرقم للإحداثيات لكلتا العينين. حاول استخدام متغير بحيث تكون القيم هي نفسها دائمًا.
-
---- /collapse ---
-
---- collapse ---
-
----
-title: لا أستطيع رؤية بؤبؤ العين أو قزحية العين
----
-
-يجب رسم العين أولاً ، ثم القزحية ، وأخيراً التلميذ. الترتيب الذي ترسم به الأشياء مهم جدًا.
-
-تتكون رسومات الكمبيوتر من طبقات. في عينك ، كل قطع ناقص عبارة عن طبقة. تقع الكائنات الموجودة في الطبقات العليا أمام الكائنات الموجودة في الطبقات السفلية. تخيل قص كل الأشكال من الورق. اعتمادًا على كيفية ترتيب وتداخل تلك الورقة، قد تبدو النتيجة النهائية مختلفة تمامًا.
-
---- /collapse ---
-
---- collapse ---
-
----
-title: عيني ليست مستديرة
----
-
-الرقمان الثالث والرابع في `الشكل البيضوي` هما عرض وارتفاع العينين.
-
-**نصيحة:** إذا جعلتها متشابهة ، فستحصل على عيون مستديرة.
-
---- /collapse ---
-
-
---- /task ---
-
---- save ---
