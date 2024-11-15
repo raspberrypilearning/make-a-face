@@ -10,23 +10,25 @@ copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: Wat ga je maken
+    title: What you will make
   - 
-    title: Kies een thema
-  - 
-    title: Vorm van het gezicht
+    title: Choose a background
     completion:
       - engaged
   - 
-    title: Voeg ogen toe
+    title: Circles and ovals
   - 
-    title: Voeg een mond toe
+    title: Rectangles
   - 
-    title: Voeg meer details toe
+    title: Triangles
+  - 
+    title: Overlap shapes
+  - 
+    title: Create your face
     completion:
       - internal
   - 
-    title: Snelle quiz
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -35,8 +37,7 @@ steps:
     completion:
       - external
   - 
-    title: Verbeter je project
+    title: Challenge
+    challenge: true
   - 
-    title: Deel je project
-  - 
-    title: Wat kun je verder nog doen?
+    title: What can you do now?
