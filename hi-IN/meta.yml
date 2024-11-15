@@ -10,19 +10,21 @@ copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: You will make
+    title: What you will make
   - 
-    title: एक थीम चुनें
-  - 
-    title: चेहरे की आकृति
+    title: Choose a background
     completion:
       - engaged
   - 
-    title: आँखें जोड़ें
+    title: Circles and ovals
   - 
-    title: मुँह जोड़ें
+    title: Rectangles
   - 
-    title: अधिक विवरण जोड़ें
+    title: Triangles
+  - 
+    title: Overlap shapes
+  - 
+    title: Create your face
     completion:
       - internal
   - 
@@ -35,8 +37,7 @@ steps:
     completion:
       - external
   - 
-    title: अपने प्रोजेक्ट को अपग्रेड करें
+    title: Challenge
+    challenge: true
   - 
-    title: शेयर करें
-  - 
-    title: आगे क्या?
+    title: What can you do now?
