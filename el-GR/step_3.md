@@ -1,84 +1,93 @@
-## Σχήμα προσώπου
+## Circles and ovals
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Σχεδίασε και ζωγράφισε ένα σχήμα για την φάτσα ή την μάσκα σου. Μην προσθέσεις ακόμα τις άλλες δυνατότητες, θα μπουν αργότερα.
-</div>
-<div>
-![Εικόνα ρομπότ με τετράγωνο πρόσωπο.](images/robot-teeth.png){:width="200px"}
-</div>
-</div>
+Draw and colour a shape for your face or mask.
+
+An **ellipse** is an oval shape. If you specify the same width and height, you will draw a circle.
 
 --- task ---
 
-Αποφάσισε για το κύριο σχήμα του προσώπου για την μάσκα σου. Θα μπορούσε να είναι ένας κύκλος, μια έλλειψη, ένα ορθογώνιο ή ακόμα και ένα τρίγωνο.
+Add code to the `draw()` function to set the fill colour using red, green and blue values, just like you did for the background.
 
-Add code to the `draw()` function to draw a face or mask.
-
-Αυτό το παράδειγμα σχεδιάζει έναν κύκλο στη μέση, αλλά εξαρτάται από εσένα ποιο σχήμα θα χρησιμοποιήσεις.
+Then, draw a circle in this colour.
 
 --- code ---
 ---
-language: python filename: main.py - draw() line_numbers: true line_number_start: 11
-line_highlights: 12
+language: python line_numbers: true line_number_start: 12
+line_highlights: 16-22
 ---
 
-def draw():   
-ellipse(width/2, height/2, 200, 200) #Κύκλος στη μέση
-
-    # Add code to draw your face here
-    ellipse(width/2, height/2, 200, 200)  # Circle in the middle
-    
-    grid()  # add a # to the beginning of this line to hide the grid
+def draw(): # Put code to run every frame here background(255, 255, 255)  
+# Add code to draw your face here fill(255, 255, 0) ellipse( screen_size/2, screen_size/2, 200, 200 )
 
 --- /code ---
 
-![Η περιοχή εξόδου δείχνει έναν μαύρο κύκλο στη μέση του πλέγματος.](images/black-circle.png)
+--- /task ---
 
-[[[processing-python-ellipse]]]
-
-
-[[[processing-python-rect]]]
-
-
-[[[processing-python-triangle]]]
+--- task --- **Test:** Run your code and you should see a coloured circle.
 
 --- /task ---
 
 --- task ---
 
-**Δοκιμή:** Εκτέλεσε τον κώδικα σου και άλλαξε τον για να αποκτήσεις το μέγεθος και το σχήμα προσώπου που θέλεις.
-
---- /task ---
-
---- task ---
-
-Επίλεξε ένα χρώμα περιγράμματος για το περίγραμμα και ένα χρώμα γεμίσματος για το κύριο μέρος του σχήματος.
-
-[[[processing-stroke]]]
-
-Εάν δεν θες ένα περίγραμμα, χρησιμοποίησε το `no_stroke()`.
+Change the width and height values to see the ellipse change shape.
 
 --- code ---
 ---
-language: python filename: main.py - draw() line_numbers: true line_number_start: 11
-line_highlights: 13
+language: python line_numbers: true line_number_start: 10
+line_highlights: 18-19
 ---
 
-    # Add code to draw your face here
-    fill(255, 255, 0)  # Bright yellow
-    ellipse(width/2, height/2, 200, 200)
+def draw(): # Put code to run every frame here background(255, 255, 255)  
+# Add code to draw your face here fill(255, 255, 0) ellipse( screen_size/2, screen_size/2, 100, # width 50   # height )
 
 --- /code ---
 
-[[[generic-theory-simple-colours]]]
+![A yellow ellipse which is wider than it is tall.](images/change_shape.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code and change the colour until you are happy with it.
+Before the code where you draw the ellipse, you can choose to set a colour and thickness.
+
+
+--- code ---
+---
+language: python line_numbers: true line_number_start: 14
+line_highlights: 15-16
+---
+
+    fill(255, 255, 0) 
+    stroke(255, 255, 255)  
+    stroke_weight(3)
+    ellipse(
+        screen_size/2, 
+        screen_size/2, 
+        100, 
+        50
+    )
+
+--- /code ---
+
+Or, if you prefer, you can remove the stroke and have no outline.
+
+--- code ---
+---
+language: python line_numbers: true line_number_start: 14
+line_highlights: 15
+---
+
+    fill(255, 255, 0) 
+    no_stroke()
+    ellipse(
+        screen_size/2, 
+        screen_size/2, 
+        100, 
+        50
+    )
+
+--- /code ---
 
 --- /task ---
 
---- save ---
+--- task --- **Test:** Experiment with changing the stroke colour and thickness or removing it, then run your code to see the results. --- /task ---
