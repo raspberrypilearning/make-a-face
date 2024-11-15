@@ -1,19 +1,18 @@
-## Et ensuite ?
+## What can you do now?
 
-Si tu suis le parcours [Introduction à Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro), tu peux passer au projet [Pas de collision !](https://projects.raspberrypi.org/en/projects/dont-collide). Dans ce projet, tu vas créer un jeu d'obstacles à défilement où ton personnage doit atteindre un point d'arrivée sans entrer en collision avec des obstacles.
+If you are following the [Introduction to Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro) pathway, you can move on to the [Don't collide](https://projects.raspberrypi.org/en/projects/dont-collide) project. In this project, you will make a scrolling obstacle game where your character has to reach a finishing point without colliding with obstacles.
 
---- print-only ---
+\--- print-only ---
 
-![Un exemple de création du projet Pas de collision ! montrant un ballon flottant dans un désert avec des cactus](images/dont-collide.png)
+![An example creation from the don't collide project showing a balloon floating in a desert with cacti](images/dont-collide.png)
 
---- /print-only ---
+\--- /print-only ---
 
---- no-print ---
+\--- no-print ---
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/dont-pop-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
 
+\--- /no-print ---
 
---- /no-print ---
-
-Si tu souhaites t'amuser davantage en explorant Python, tu peux essayer l'un [de ces projets](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
+If you want to have more fun exploring Python, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
