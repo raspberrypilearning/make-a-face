@@ -1,20 +1,18 @@
-#!/bin/python3
-
 from p5 import *
-from grid import *
+
+screen_size = 400
 
 
 def setup():
     # Code, der hier steht, wird einmal ausgeführt
-    size(400, 400)  # Breite und Höhe
+    size(screen_size, screen_size)
+    rect_mode(CENTER)
 
 
 def draw():
     # Code, der hier steht, wird jeden Frame ausgeführt
-    background(255, 255, 255)
+    background(0, 0, 0)
     # Füge hier Code hinzu, um dein Gesicht zu zeichnen
-
-    grid()  # füge am Anfang dieser Zeile ein # hinzu, um das Raster auszublenden
 
 
 # Lass dies so stehen, um deinen Code auszuführen
