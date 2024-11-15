@@ -1,11 +1,11 @@
-## Compartilhar
+--- challenge ---
 
-Se você faz parte de um clube, por que não compartilhar seu projeto com amigos e colegas?
+## Challenge
 
---- task ---
 
-Inspire a comunidade da Raspberry Pi Foundation com seu projeto!
+Take a look at these [faces created by community members](https://wke.lt/w/s/8sVH4f){:target="_blank"}.
 
-Para enviar seu projeto para nosso estúdio [Crie um Rosto - Comunidade](https://wke.lt/w/s/8sVH4f){:target="_blank"}, preencha [este formulário](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}.
+[Send us your face](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"} to display too.
 
---- /task ---
+
+--- /challenge ---
