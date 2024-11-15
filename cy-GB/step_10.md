@@ -1,19 +1,18 @@
-## Beth nesaf?
+## What can you do now?
 
-Os ydych chi'n dilyn y llwybr [Cyflwyniad i Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro), fe allwch chi symud ymlaen i'r prosiect [Osgoi'r rhwystrau](https://projects.raspberrypi.org/en/projects/dont-collide). Yn y prosiect hwn, byddwch chi'n gwneud gêm rhwystrau sy'n sgrolio lle mae'n rhaid i'ch cymeriad gyrraedd pwynt terfyn heb daro mewn i rwystrau.
+If you are following the [Introduction to Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro) pathway, you can move on to the [Don't collide](https://projects.raspberrypi.org/en/projects/dont-collide) project. In this project, you will make a scrolling obstacle game where your character has to reach a finishing point without colliding with obstacles.
 
---- print-only ---
+\--- print-only ---
 
-![Enghraifft o greadigaeth o'r prosiect osgoi'r rhwystrau yn dangos balŵn yn hofran mewn anialwch gyda chacti](images/dont-collide.png)
+![An example creation from the don't collide project showing a balloon floating in a desert with cacti](images/dont-collide.png)
 
---- /print-only ---
+\--- /print-only ---
 
---- no-print ---
+\--- no-print ---
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/dont-pop-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
 
+\--- /no-print ---
 
---- /no-print ---
-
-Os hoffech chi gael mwy o hwyl yn archwilio Python, gallech chi roi cynnig ar unrhyw rai o'r [prosiectau hyn](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
+If you want to have more fun exploring Python, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
