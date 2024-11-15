@@ -6,8 +6,6 @@ Nach dem Beantworten der Fragen wähle **Meine Antwort prüfen**.
 
 Viel Spaß!
 
-Viel Spaß!
-
 --- question ---
 
 ---
