@@ -1,84 +1,93 @@
-## Forma de la cara
+## Circles and ovals
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Dibuja y colorea una forma para tu cara o máscara. No agregues las otras características todavía, vendrán más tarde.
-</div>
-<div>
-![Imagen de un robot de cara cuadrada.](images/robot-teeth.png){:width="200px"}
-</div>
-</div>
+Draw and colour a shape for your face or mask.
+
+An **ellipse** is an oval shape. If you specify the same width and height, you will draw a circle.
 
 --- task ---
 
-Decide la forma principal de la cara para tu máscara. Puede ser un círculo, una elipse, un rectángulo o incluso un triángulo.
+Add code to the `draw()` function to set the fill colour using red, green and blue values, just like you did for the background.
 
-Agrega código a la función `draw()` para dibujar una cara o una máscara.
-
-Este ejemplo dibuja un círculo en el medio, pero depende de ti qué forma usar.
+Then, draw a circle in this colour.
 
 --- code ---
 ---
-language: python filename: main.py - draw() line_numbers: true line_number_start: 10
-line_highlights: 14, 15
+language: python line_numbers: true line_number_start: 12
+line_highlights: 16-22
 ---
 
-def draw(): # Put code to run every frame here background(255, 255, 255)  # Change to your background colour
-
-    # Add code to draw your face here
-    ellipse(width/2, height/2, 200, 200)  # Circle in the middle
-    
-    grid()  # add a # to the beginning of this line to hide the grid
+def draw(): # Put code to run every frame here background(255, 255, 255)  
+# Add code to draw your face here fill(255, 255, 0) ellipse( screen_size/2, screen_size/2, 200, 200 )
 
 --- /code ---
 
-![El área de salida que muestra un círculo negro en el medio de la cuadrícula.](images/black-circle.png)
+--- /task ---
 
-[[[processing-python-ellipse]]]
-
-
-[[[processing-python-rect]]]
-
-
-[[[processing-python-triangle]]]
+--- task --- **Test:** Run your code and you should see a coloured circle.
 
 --- /task ---
 
 --- task ---
 
-**Prueba:** Ejecuta tu código y cámbialo para obtener el tamaño y la forma de la cara que deseas.
-
---- /task ---
-
---- task ---
-
-Elige un color de trazo para el contorno y un color de relleno para la parte principal de la forma.
-
-[[[processing-stroke]]]
-
-Si no deseas un contorno utiliza `sin_contorno()`.
+Change the width and height values to see the ellipse change shape.
 
 --- code ---
 ---
-language: python filename: main.py - draw() line_numbers: true line_number_start: 13
-line_highlights: 14
+language: python line_numbers: true line_number_start: 10
+line_highlights: 18-19
 ---
 
-    def draw(): 
-      stroke(0) #También puedes usar no_stroke() 
-      fill(255, 255, 0) #Amarillo brillante 
-      ellipse(width/2, height/2, 200, 200) #Círculo en medio
+def draw(): # Put code to run every frame here background(255, 255, 255)  
+# Add code to draw your face here fill(255, 255, 0) ellipse( screen_size/2, screen_size/2, 100, # width 50   # height )
 
 --- /code ---
 
-[[[generic-theory-simple-colours]]]
+![A yellow ellipse which is wider than it is tall.](images/change_shape.png)
 
 --- /task ---
 
 --- task ---
 
-**Prueba:** Ejecuta tu código y cambia el color hasta que encuentres el que más te guste.
+Before the code where you draw the ellipse, you can choose to set a colour and thickness.
+
+
+--- code ---
+---
+language: python line_numbers: true line_number_start: 14
+line_highlights: 15-16
+---
+
+    fill(255, 255, 0) 
+    stroke(255, 255, 255)  
+    stroke_weight(3)
+    ellipse(
+        screen_size/2, 
+        screen_size/2, 
+        100, 
+        50
+    )
+
+--- /code ---
+
+Or, if you prefer, you can remove the stroke and have no outline.
+
+--- code ---
+---
+language: python line_numbers: true line_number_start: 14
+line_highlights: 15
+---
+
+    fill(255, 255, 0) 
+    no_stroke()
+    ellipse(
+        screen_size/2, 
+        screen_size/2, 
+        100, 
+        50
+    )
+
+--- /code ---
 
 --- /task ---
 
---- save ---
+--- task --- **Test:** Experiment with changing the stroke colour and thickness or removing it, then run your code to see the results. --- /task ---
