@@ -1,19 +1,18 @@
-## 次は何をしますか？
+## What can you do now?
 
-[Python入門](https://projects.raspberrypi.org/en/raspberrypi/python-intro)パスに沿って進めている方は、[射的](https://projects.raspberrypi.org/en/projects/dont-collide)プロジェクトに進みましょう。 このプロジェクトでは、キャラクターが障害物に衝突することなく終点に到達する必要があるスクロール障害物ゲームを作成します。
+If you are following the [Introduction to Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro) pathway, you can move on to the [Don't collide](https://projects.raspberrypi.org/en/projects/dont-collide) project. In this project, you will make a scrolling obstacle game where your character has to reach a finishing point without colliding with obstacles.
 
---- print-only ---
+\--- print-only ---
 
-![サボテンと一緒に砂漠に浮かぶ風船を示す、衝突しないプロジェクトからの作成例](images/dont-collide.png)
+![An example creation from the don't collide project showing a balloon floating in a desert with cacti](images/dont-collide.png)
 
---- /print-only ---
+\--- /print-only ---
 
---- no-print ---
+\--- no-print ---
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/dont-pop-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
 
+\--- /no-print ---
 
---- /no-print ---
-
-Pythonのさまざまな機能を触ってみたい場合は[これらのプロジェクト](https://projects.raspberrypi.org/en/projects?software%5B%5D=python)を試してみてください。
+If you want to have more fun exploring Python, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
