@@ -1,19 +1,18 @@
-## Що далі?
+## What can you do now?
 
-Якщо ти йдеш по мануалу [Знайомство з Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro), можеш перейти до проєкту [Не зіткнись](https://projects.raspberrypi.org/en/projects/dont-collide). У цьому проєкті ти зробиш скролл-гру з перешкодами, де твій персонаж повинен дістатися до фінішної точки, не зіткнувшись з перешкодами.
+If you are following the [Introduction to Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro) pathway, you can move on to the [Don't collide](https://projects.raspberrypi.org/en/projects/dont-collide) project. In this project, you will make a scrolling obstacle game where your character has to reach a finishing point without colliding with obstacles.
 
---- print-only ---
+\--- print-only ---
 
-![Приклад проєкту "Не зіткнись", який демонструє повітряну кулю, що летить у пустелі з кактусами](images/dont-collide.png)
+![An example creation from the don't collide project showing a balloon floating in a desert with cacti](images/dont-collide.png)
 
---- /print-only ---
+\--- /print-only ---
 
---- no-print ---
+\--- no-print ---
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/dont-pop-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
 
+\--- /no-print ---
 
---- /no-print ---
-
-Якщо ти хочеш отримати більше задоволення від вивчення Python, спробуй один з [цих проєктів](https://projects.raspberrypi.org/uk-UA/projects?software%5B%5D=python).
+If you want to have more fun exploring Python, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
