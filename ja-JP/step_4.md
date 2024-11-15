@@ -1,175 +1,50 @@
-## 目を追加する
+## Rectangles
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-目は形を顔のように見せ始めます。
-</div>
-<div>
-！[目で顔を表示する出力領域。](images/eyes.png){:width="200px"}
-</div>
-</div>
+Rectangles are drawn in almost the same way as an ellipse.
 
 --- task ---
 
-あなたの顔にどんな目が必要か考えてみてください。 最も単純な目は2つの円です。
-
-さまざまな色の虹彩と瞳孔を追加できます。 別の色のライトハイライト/キャッチライトを追加できます。
-
---- /task ---
-
-`draw`関数で`ellipses`を試して、必要な目を作成します。
-
---- task ---
-
-### 目を配置する
-
-`ellipse`の最初の数字は、目の中心です。 目は、図面の中心から同じ距離に配置する必要があります。
-
-この例では、`160`と`240` はどちらも `40`ピクセルから200離れており、400幅の図面で機能します。
+Change the function `ellipse` to instead call the function `rect`.
 
 --- code ---
 ---
-language: python
-filename: main.py - draw()
+language: python line_numbers: true line_number_start: 12
+line_highlights: 17
 ---
 
-    fill(0, 0, 0) #黒— 255までの赤、緑、または青に変更します
-      eye_size = 50
-      ellipse(160, 180, eye_size, eye_size) #x、y、幅、高さ
-      ellipse(240, 180, eye_size, eye_size)
+def draw(): # Put code to run every frame here background(255, 255, 255)  
+# Add code to draw your face here fill(255, 255, 0) rect( screen_size/2, screen_size/2, 100, 50 )
 
 --- /code ---
 
-**ヒント：** 丸い目をしたい場合は、 `eye_size` 変数を使用すると、両方の目の幅と高さを1か所で簡単に変更できます。
+--- /task ---
 
-[[[processing-python-ellipse]]]
+--- task --- **Test:** Run your code to see a rectangle instead of an ellipse.
 
---- collapse ---
+--- /task ---
 
----
-タイトル：幅に基づいて位置を計算する
----
+The first two values for `rectangle` and `ellipse` represent the x, y coordinates of the centre of the shape. At the moment they are set to `screen_size/2` to position the shape in the centre of the screen.
 
-図面の中心は、`width / 2` の位置、すなわち半分の幅の位置にあります。 これを使用して、左目の目の幅を減算し、右目の目の幅を加算することで、目を配置できます。
+The top left corner of the screen is coordinate `0`,`0`. Increasing the `x` value will move the shape to the right. Increasing the `y` value will move the shape downwards.
+
+
+--- task ---
+
+Change the position values to alter where the shape appears on the screen.
 
 --- code ---
 ---
-language: python
-filename: main.py - draw()
+language: python line_numbers: true line_number_start: 12
+line_highlights: 18-19
 ---
 
-    fill(0, 0, 0) #黒— 255までの赤、緑、または青に変更します
-      eye_size = 50
-      ellipse( (width / 2) - 40, 180, eye_size, eye_size) #x、y、幅、高さ
-      ellipse( (width / 2) + 40 , 180, eye_size, eye_size)
+def draw(): # Put code to run every frame here background(255, 255, 255)  
+# Add code to draw your face here fill(255, 255, 0) rect( 80, # x coordinate 60, # y coordinate 100, 50 )
 
---- /code ---
-
-図面の幅に基づいて目の幅を計算することもできます。
-
---- code ---
----
-language: python
-filename: main.py - draw()
----
-
-    fill(0, 0, 0) #黒— 255までの赤、緑、または青に変更します
-      ellipse( (width / 2) - (width / 10) , 180, eye_size, eye_size) #x、y、幅、高さ
-      ellipse( (width / 2) + (width / 10) , 180, eye_size, eye_size)
-
---- /code ---
-
---- /collapse ---
-
-`ellipse`関数呼び出しの2番目の数値を変更して、目の `y` （垂直）位置を移動します。
-
---- /task ---
+--- /code --- --- /task ---
 
 --- task ---
 
-**テスト：** 見た目が気に入るまで、目の形と位置を変え続けます。
-
-**ヒント：** 顔を描画するためのストロークを設定し、目にストロークを設定したくない場合は、目を描画する前に `no_stroke()` を呼び出す必要があります。
-
-[[[processing-stroke]]]
+**Test:** Experiment with changing the coordinates, then run your code to see where the ellipse or rectangle is displayed.
 
 --- /task ---
-
---- task ---
-
-### 詳細を追加
-
-より多くの円を使用して作成できます:
-+ 着色された虹彩
-+ 黒い瞳
-+ 白いキャッチライト
-+ または、他の何か
-
-この目には、色付きの虹彩、黒い瞳孔、および不透明度が変更された白いキャッチライトがあります： ![瞳孔と虹彩の上にキャッチライトが付いた目を示す出力領域。](images/catchlights.png)
-
-\[[[generic-theory-simple-colours]]\] \[[[processing-opacity\]]]
-
-目を回転させてアニメートすることもできます。
-
-[[[processing-rotation]]]
-
---- /task ---
-
---- task ---
-
-**テスト：** 見た目が気に入るまで、目を変え続けます。
-
-あなたの絵は顔のように見え始めていますか？
-
---- /task ---
-
---- task ---
-
-**デバッグ：** プロジェクトに修正が必要なバグが見つかる場合があります。 一般的なバグは次のとおりです。
-
---- collapse ---
----
-タイトル：目が中央に配置されていません
----
-
-`height / 2` 使用して、それらを中央に配置できます。
-
---- /collapse ---
-
---- collapse ---
----
-タイトル：目が合っていない
----
-
-目を揃えたい場合は、両方の目の座標に同じ番号を使用していることを確認してください。 値が常に同じになるように変数を使用してみてください。
-
---- /collapse ---
-
---- collapse ---
-
----
-タイトル：瞳孔や虹彩が見えない
----
-
-最初に目を描き、次に虹彩、最後に瞳孔を描く必要があります。 描く順序は、とても大切です。
-
-コンピュータグラフィックスはレイヤー構造になっています。 あなたの目では、各楕円はレイヤーです。 上位層のオブジェクトは、下位層のオブジェクトの前に配置されます。 紙からすべての形を切り取ると想像してみてください。 その紙をどう並べ、どう重ねるかによって、最終的な仕上がりは大きく変わってきます。
-
---- /collapse ---
-
---- collapse ---
-
----
-タイトル: 目が丸くない
----
-
-`ellipse`の3番目と4番目の数字は、目の幅と高さです。
-
-**ヒント：** 同じにすると、目が丸くなります。
-
---- /collapse ---
-
-
---- /task ---
-
---- save ---
