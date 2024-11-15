@@ -10,23 +10,25 @@ copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: Εισαγωγή
+    title: What you will make
   - 
-    title: Επίλεξε το θέμα σου
-  - 
-    title: Σχήμα προσώπου
+    title: Choose a background
     completion:
       - engaged
   - 
-    title: Πρόσθεσε μάτια
+    title: Circles and ovals
   - 
-    title: Πρόσθεσε ένα στόμα
+    title: Rectangles
   - 
-    title: Πρόσθεσε λεπτομέρειες
+    title: Triangles
+  - 
+    title: Overlap shapes
+  - 
+    title: Create your face
     completion:
       - internal
   - 
-    title: Αναστοχασμός
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -35,8 +37,7 @@ steps:
     completion:
       - external
   - 
-    title: Αναβάθμιση του έργου σου
+    title: Challenge
+    challenge: true
   - 
-    title: Μοιράσου
-  - 
-    title: Και τώρα;
+    title: What can you do now?
