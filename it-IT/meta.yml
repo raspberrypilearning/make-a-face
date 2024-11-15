@@ -10,23 +10,25 @@ copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: Quello che farai
+    title: What you will make
   - 
-    title: Scegli un tema
-  - 
-    title: Forma del viso
+    title: Choose a background
     completion:
       - engaged
   - 
-    title: Aggiungi gli occhi
+    title: Circles and ovals
   - 
-    title: Aggiungi una bocca
+    title: Rectangles
   - 
-    title: Aggiungi ulteriori dettagli
+    title: Triangles
+  - 
+    title: Overlap shapes
+  - 
+    title: Create your face
     completion:
       - internal
   - 
-    title: Quiz veloce
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -35,8 +37,7 @@ steps:
     completion:
       - external
   - 
-    title: Migliora il tuo progetto
+    title: Challenge
+    challenge: true
   - 
-    title: Condividi
-  - 
-    title: E adesso?
+    title: What can you do now?
