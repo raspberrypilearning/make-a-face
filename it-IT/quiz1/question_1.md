@@ -6,8 +6,6 @@ Dopo aver risposto a ciascuna domanda, fai clic su **Controlla la mia risposta**
 
 Divertiti!
 
-Divertiti!
-
 --- question ---
 
 ---
