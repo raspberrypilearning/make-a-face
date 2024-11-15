@@ -1,84 +1,93 @@
-## 顔の形
+## Circles and ovals
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-顔やマスクの形を描いて色を付けます。 他の機能はまだ追加しないでください。後で追加されます。
-</div>
-<div>
-！[四角いロボットの画像。](images/robot-teeth.png){:width="200px"}
-</div>
-</div>
+Draw and colour a shape for your face or mask.
+
+An **ellipse** is an oval shape. If you specify the same width and height, you will draw a circle.
 
 --- task ---
 
-マスクの顔の主な形を決定します。 円、楕円、長方形、さらには三角形の場合もあります。
+Add code to the `draw()` function to set the fill colour using red, green and blue values, just like you did for the background.
 
-`draw()`関数にコードを追加して、顔またはマスクを描画します。
-
-この例では、中央に円を描きますが、どの形状を使用するかはあなた次第です。
+Then, draw a circle in this colour.
 
 --- code ---
 ---
-language: python filename: main.py - draw() line_numbers: true line_number_start: 11
-line_highlights: 12
+language: python line_numbers: true line_number_start: 12
+line_highlights: 16-22
 ---
 
-def draw(): # Put code to run every frame here background(255, 255, 255)  # Change to your background colour
-
-    # Add code to draw your face here
-    ellipse(width/2, height/2, 200, 200)  # Circle in the middle
-    
-    grid()  # add a # to the beginning of this line to hide the grid
+def draw(): # Put code to run every frame here background(255, 255, 255)  
+# Add code to draw your face here fill(255, 255, 0) ellipse( screen_size/2, screen_size/2, 200, 200 )
 
 --- /code ---
 
-![グリッドの中央に黒い円が表示されている出力領域。](images/black-circle.png)
+--- /task ---
 
-[[[processing-python-ellipse]]]
-
-
-[[[processing-python-rect]]]
-
-
-[[[processing-python-triangle]]]
+--- task --- **Test:** Run your code and you should see a coloured circle.
 
 --- /task ---
 
 --- task ---
 
-**テスト：** コードを実行して変更し、必要な顔のサイズと形状を取得します。
-
---- /task ---
-
---- task ---
-
-アウトラインにはストロークの色を選択し、シェイプの主要部分には塗りつぶしの色を選択します。
-
-[[[processing-stroke]]]
-
-アウトラインが必要ない場合は、`no_stroke()`を使用します。
+Change the width and height values to see the ellipse change shape.
 
 --- code ---
 ---
-language: python filename: main.py - draw() line_numbers: true line_number_start: 11
-line_highlights: 13
+language: python line_numbers: true line_number_start: 10
+line_highlights: 18-19
 ---
 
-    def draw():
-      stroke(0) #no_stroke()を使用することもできます 
-      fill(255, 255, 0) #鮮明な黄色
-      ellipse(width/2, height/2, 200, 200) #真ん中の円
+def draw(): # Put code to run every frame here background(255, 255, 255)  
+# Add code to draw your face here fill(255, 255, 0) ellipse( screen_size/2, screen_size/2, 100, # width 50   # height )
 
 --- /code ---
 
-[[[generic-theory-simple-colours]]]
+![A yellow ellipse which is wider than it is tall.](images/change_shape.png)
 
 --- /task ---
 
 --- task ---
 
-**テスト：** コードを実行し、満足するまで色を変更します。
+Before the code where you draw the ellipse, you can choose to set a colour and thickness.
+
+
+--- code ---
+---
+language: python line_numbers: true line_number_start: 14
+line_highlights: 15-16
+---
+
+    fill(255, 255, 0) 
+    stroke(255, 255, 255)  
+    stroke_weight(3)
+    ellipse(
+        screen_size/2, 
+        screen_size/2, 
+        100, 
+        50
+    )
+
+--- /code ---
+
+Or, if you prefer, you can remove the stroke and have no outline.
+
+--- code ---
+---
+language: python line_numbers: true line_number_start: 14
+line_highlights: 15
+---
+
+    fill(255, 255, 0) 
+    no_stroke()
+    ellipse(
+        screen_size/2, 
+        screen_size/2, 
+        100, 
+        50
+    )
+
+--- /code ---
 
 --- /task ---
 
---- save ---
+--- task --- **Test:** Experiment with changing the stroke colour and thickness or removing it, then run your code to see the results. --- /task ---
