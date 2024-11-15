@@ -1,20 +1,18 @@
-#!/bin/python3
-
 from p5 import *
-from grid import *
+
+screen_size = 400
 
 
 def setup():
     # Wstaw kod, aby uruchomić go raz tutaj
-    rozmiar(400, 400) # szerokość i wysokość
+    size(screen_size, screen_size)
+    rect_mode(CENTER)
 
 
 def draw():
     # Wstaw kod, aby uruchomić każdą klatkę tutaj
-    background(255, 255, 255)
+    background(0, 0, 0)
     # Dodaj kod, aby narysować tutaj twarz
-
-    grid() # dodaj # na początku tej linii, aby ukryć siatkę
 
 
 # Zatrzymaj to, aby uruchomić swój kod
