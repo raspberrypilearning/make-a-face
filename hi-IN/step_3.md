@@ -23,7 +23,9 @@ def draw(): # Put code to run every frame here background(255, 255, 255)
 
 --- /task ---
 
---- task --- **Test:** Run your code and you should see a coloured circle.
+--- task ---
+
+**Test:** Run your code and you should see a coloured circle.
 
 --- /task ---
 
@@ -90,4 +92,8 @@ line_highlights: 15
 
 --- /task ---
 
---- task --- **Test:** Experiment with changing the stroke colour and thickness or removing it, then run your code to see the results. --- /task ---
+--- task ---
+
+**Test:** Experiment with changing the stroke colour and thickness or removing it, then run your code to see the results.
+
+--- /task ---
