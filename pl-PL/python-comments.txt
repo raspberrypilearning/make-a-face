@@ -1,62 +1,36 @@
-400 na 400 działa dobrze dla okrągłej twarzy
+A face with ninja eyes
 
-Zmień kolor tła
+A face that looks like Frida Kahlo
 
-Wypróbuj różne liczby, aby zmienić kolor
+A face that looks like a robot with teeth
 
-Pokazuje siatkę
+A face that looks like a tribal mask
 
-Ukryj siatkę, zamieniając ją w komentarz
+A face wearing a face mask
 
-Okrąg pośrodku
+A face that looks like a vampire
 
-Możesz również użyć no_stroke()
+Umieść kod, aby uruchomić każdą klatkę
 
-Jasnożółty
+Dodaj kod, aby narysować twarz tutaj
 
-Czarny — zmiana na czerwony, zielony lub niebieski do 255
+width
 
-x, y, szerokość, wysokość
+height
 
-Czarne usta
+x coordinate
 
-Pomarańczowa twarz
+y coordinate
 
-Wyższe koło
+Brown
 
-Dolny okrąg
+Ściana
 
-Maska twarzy
-
-Pętla lewego ucha
-
-Pętla prawego ucha
-
-Duży biały prostokąt
-
-Mniejszy niebieski prostokąt
+Red
 
 Usta
 
-Początkowa ilość czerwonego
-
-Początkowa ilość zieleni
-
-Początkowa ilość niebieskiego
-
-Używa zmiennych do kontrolowania zmiany koloru w każdej pętli
-
-Przesuń się wzdłuż współrzędnej x o szerokość zęba
-
-Linia ust
-
-Lewy ząb
-
-Prawy ząb
-
-Podświetlenie
-
-70 to tutaj przezroczystość/nieprzezroczystość
+Overlap
 
 Czarny
 
@@ -64,80 +38,4 @@ Biały
 
 Oczy
 
-Ściana
-
 Zielony
-
-Put code to run once here
-
-width and height
-
-move under draw() to reset the drawing every frame
-
-Umieść kod, aby uruchomić każdą klatkę
-
-draw mask
-
-eyes and mouth
-
-partly cover eyes and mouth
-
-cover top of mask
-
-shade half of the mask
-
-Put code to run when the mouse is pressed here
-
-Keep this to run your code
-
-Definitions for compatibility with the p5py processing library
-
-Shape
-
-Fonts
-
-Text
-
-Kolor
-
-Images
-
-Environment
-
-Transform
-
-Klawiatura
-
-Hair and face
-
-stalk
-
-Top face background
-
-Top face hair
-
-Top face left eye
-
-Top face right eye
-
-Top face mouth
-
-Bottom face background
-
-Bottom face hair
-
-Bottom face left eye
-
-Bottom face right eye
-
-Bottom face mouth
-
-Nose
-
-Face markings
-
-Dodaj kod, aby narysować twarz tutaj
-
-Hair
-
-add a # to the beginning of this line to hide the grid
