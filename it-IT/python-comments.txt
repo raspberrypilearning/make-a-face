@@ -1,62 +1,36 @@
-400 x 400 funziona bene per un viso rotondo
+A face with ninja eyes
 
-Cambia il colore dello sfondo
+A face that looks like Frida Kahlo
 
-Prova numeri diversi per cambiare il colore
+A face that looks like a robot with teeth
 
-Mostra la griglia
+A face that looks like a tribal mask
 
-Nascondi la griglia trasformandola in un commento
+A face wearing a face mask
 
-Cerchio nel mezzo
+A face that looks like a vampire
 
-Puoi anche usare no_stroke()
+Metti qui sotto il codice che verrà eseguito per ogni frame
 
-Giallo acceso
+Aggiungi qui il codice per disegnare la tua faccia
 
-Nero - cambia in rosso, verde o blu fino a 255
+width
 
-x, y, larghezza, altezza
+height
 
-Una bocca nera
+x coordinate
 
-Una faccia arancione
+y coordinate
 
-Cerchio superiore
+Brown
 
-Cerchio inferiore
+Faccia
 
-Mascherina
-
-Cerchio per l'orecchio sinistro
-
-Cerchio per l'orecchio destro
-
-Grande rettangolo bianco
-
-Rettangolo blu più piccolo
+Red
 
 Bocca
 
-Quantità iniziale di rosso
-
-Quantità iniziale di verde
-
-Quantità iniziale di blu
-
-Utilizza le variabili per controllare il cambiamento di colore in ogni ciclo
-
-Muoviti lungo la coordinata x della larghezza di un dente
-
-Linea della bocca
-
-Dente sinistro
-
-Dente destro
-
-Riflessi di luce
-
-70 indica il valore di trasparenza/opacità
+Overlap
 
 Nero
 
@@ -64,80 +38,4 @@ Bianco
 
 Occhi
 
-Faccia
-
 Verde
-
-Put code to run once here
-
-width and height
-
-move under draw() to reset the drawing every frame
-
-Metti qui sotto il codice che verrà eseguito per ogni frame
-
-draw mask
-
-eyes and mouth
-
-partly cover eyes and mouth
-
-cover top of mask
-
-shade half of the mask
-
-Put code to run when the mouse is pressed here
-
-Keep this to run your code
-
-Definitions for compatibility with the p5py processing library
-
-Shape
-
-Fonts
-
-Text
-
-Colour
-
-Images
-
-Environment
-
-Transform
-
-Keyboard
-
-Hair and face
-
-stalk
-
-Top face background
-
-Top face hair
-
-Top face left eye
-
-Top face right eye
-
-Top face mouth
-
-Bottom face background
-
-Bottom face hair
-
-Bottom face left eye
-
-Bottom face right eye
-
-Bottom face mouth
-
-Nose
-
-Face markings
-
-Aggiungi qui il codice per disegnare la tua faccia
-
-Hair
-
-aggiungi un # all'inizio di questa riga per nascondere la griglia
