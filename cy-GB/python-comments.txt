@@ -1,62 +1,36 @@
-Mae 400 wrth 400 yn gweithio'n dda ar gyfer wyneb crwn
+A face with ninja eyes
 
-Change to your background colour
+A face that looks like Frida Kahlo
 
-Rhowch gynnig ar wahanol rifau i newid y lliw
+A face that looks like a robot with teeth
 
-Dangos grid
+A face that looks like a tribal mask
 
-Cuddio grid drwy ei droi'n sylw
+A face wearing a face mask
 
-Cylch yn y canol
+A face that looks like a vampire
 
-Fe allwch chi ddefnyddio no_stroke() hefyd
+Rhowch god i redeg ym mhob ffrâm yma
 
-Melyn llachar
+Add code to draw your face here
 
-Du — newid i goch, gwyrdd neu las hyd at 255
+width
 
-x, y, lled, uchder
+height
 
-Ceg ddu
+x coordinate
 
-Wyneb oren
+y coordinate
 
-Cylch uwch
+Brown
 
-Cylch is
+Wyneb
 
-Masg wyneb
-
-Dolen clust chwith
-
-Dolen clust dde
-
-Petryal mawr gwyn
-
-Petryal glas llai
+Red
 
 Ceg
 
-Faint o goch i ddechrau
-
-Faint o wyrdd i ddechrau
-
-Faint o las i ddechrau
-
-Yn defnyddio newidynnau i reoli'r newid lliw bob dolen
-
-Symud ar hyd y cyfesuryn x o led dant
-
-Llinell ceg
-
-Dant chwith
-
-Dant dde
-
-Aroleuadau
-
-70 yw tryloywder/afloywder yma
+Overlap
 
 Du
 
@@ -64,80 +38,4 @@ Gwyn
 
 Llygaid
 
-Wyneb
-
 Gwyrdd
-
-Rhowch god i redeg unwaith yma
-
-lled ac uchder
-
-symudwch o dan draw() i ailosod y lluniad bob ffrâm
-
-Rhowch god i redeg ym mhob ffrâm yma
-
-llunio masg
-
-llygaid a cheg
-
-gorchuddio llygaid a cheg yn rhannol
-
-gorchuddio top y masg
-
-cysgodi hanner y masg
-
-Rhowch god i redeg pan fydd y llygoden yn cael ei phwyso yma
-
-Cadwch hwn i redeg eich cod
-
-Diffiniadau ar gyfer cydnawsedd â'r llyfrgell brosesu p5py
-
-Siâp
-
-Ffontiau
-
-Testun
-
-Lliw
-
-Delweddau
-
-Amgylchedd
-
-Trawsnewid
-
-Bysellfwrdd
-
-Gwallt a wyneb
-
-coesyn
-
-Cefndir wyneb uchaf
-
-Gwallt wyneb uchaf
-
-Llygad chwith wyneb uchaf
-
-Llygad dde wyneb uchaf
-
-Ceg wyneb uchaf
-
-Cefndir wyneb isaf
-
-Gwallt wyneb isaf
-
-Llygad chwith wyneb isaf
-
-Llygad dde wyneb isaf
-
-Ceg wyneb isaf
-
-Trwyn
-
-Marciau wyneb
-
-Add code to draw your face here
-
-Gwallt
-
-ychwanegwch # at ddechrau'r llinell hon i guddio'r grid
