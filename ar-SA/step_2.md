@@ -16,7 +16,9 @@ Open the [starter project](https://editor.raspberrypi.org/en/projects/make-face-
 
 --- /task ---
 
---- task --- The three numbers in `background(0, 0, 0)` are red, green and blue values. Experiment with changing the numbers to any whole number between 0 and 255 to change the background colour.
+--- task ---
+
+The three numbers in `background(0, 0, 0)` are red, green and blue values. Experiment with changing the numbers to any whole number between 0 and 255 to change the background colour.
 
 --- code ---
 ---
