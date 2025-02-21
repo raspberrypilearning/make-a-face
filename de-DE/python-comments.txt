@@ -1,62 +1,36 @@
-400 mal 400 eignet sich gut für ein rundes Gesicht
+A face with ninja eyes
 
-Ändere das zu deiner Hintergrund-Farbe
+A face that looks like Frida Kahlo
 
-Probiere verschiedene Zahlen aus, um die Farbe zu ändern
+A face that looks like a robot with teeth
 
-Zeigt das Raster an
+A face that looks like a tribal mask
 
-Versteckt das Raster, indem es zu einem Kommentar wird
+A face wearing a face mask
 
-Kreis in der Mitte
+A face that looks like a vampire
 
-Du kannst auch no_stroke() benutzen
+Code, der hier steht, wird jeden Frame ausgeführt
 
-Helles Gelb
+Füge hier Code hinzu, um dein Gesicht zu zeichnen
 
-Schwarz — du kannst Rot, Grün und Blau bis zu 255 ändern
+width
 
-x, y, Breite, Höhe
+height
 
-Ein schwarzer Mund
+x coordinate
 
-Ein orangefarbenes Gesicht
+y coordinate
 
-Oberer Kreis
+Brown
 
-Unterer Kreis
+Gesicht
 
-Gesichtsmaske
-
-Linke Ohrschlaufe
-
-Rechte Ohrschlaufe
-
-Großes weißes Rechteck
-
-Kleineres blaues Rechteck
+Red
 
 Mund
 
-Anfangs-Menge von Rot
-
-Anfangs-Menge von Grün
-
-Anfangs-Menge von Blau
-
-Benutzt Variablen, um die Farbe in jedem Durchlauf zu ändern
-
-Bewegung entlang der X-Achse für die Breite eines Zahns
-
-Mund Linie
-
-Linker Zahn
-
-Rechter Zahn
-
-Highlights
-
-70 ist hier Transparenz/Deckkraft
+Overlap
 
 Schwarz
 
@@ -64,80 +38,4 @@ Weiß
 
 Augen
 
-Gesicht
-
 Grün
-
-Put code to run once here
-
-width and height
-
-move under draw() to reset the drawing every frame
-
-Code, der hier steht, wird jeden Frame ausgeführt
-
-draw mask
-
-eyes and mouth
-
-partly cover eyes and mouth
-
-cover top of mask
-
-shade half of the mask
-
-Put code to run when the mouse is pressed here
-
-Keep this to run your code
-
-Definitions for compatibility with the p5py processing library
-
-Shape
-
-Fonts
-
-Text
-
-Colour
-
-Images
-
-Environment
-
-Transform
-
-Keyboard
-
-Hair and face
-
-stalk
-
-Top face background
-
-Top face hair
-
-Top face left eye
-
-Top face right eye
-
-Top face mouth
-
-Bottom face background
-
-Bottom face hair
-
-Bottom face left eye
-
-Bottom face right eye
-
-Bottom face mouth
-
-Nose
-
-Face markings
-
-Füge hier Code hinzu, um dein Gesicht zu zeichnen
-
-Hair
-
-füge am Anfang dieser Zeile ein # hinzu, um das Raster auszublenden
