@@ -19,7 +19,9 @@ def draw(): # Put code to run every frame here background(255, 255, 255)
 
 --- /task ---
 
---- task --- **Test:** Run your code to see a rectangle instead of an ellipse.
+--- task ---
+
+**Test:** Run your code to see a rectangle instead of an ellipse.
 
 --- /task ---
 
@@ -41,7 +43,9 @@ line_highlights: 18-19
 def draw(): # Put code to run every frame here background(255, 255, 255)  
 # Add code to draw your face here fill(255, 255, 0) rect( 80, # x coordinate 60, # y coordinate 100, 50 )
 
---- /code --- --- /task ---
+--- /code ---
+
+--- /task ---
 
 --- task ---
 
