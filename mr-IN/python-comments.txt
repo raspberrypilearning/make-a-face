@@ -1,62 +1,36 @@
-400 by 400 works well for a round face
+A face with ninja eyes
 
-Change to your background colour
+A face that looks like Frida Kahlo
 
-Try different numbers to change the colour
+A face that looks like a robot with teeth
 
-Shows grid
+A face that looks like a tribal mask
 
-Hide grid by turning it into a comment
+A face wearing a face mask
 
-Circle in the middle
+A face that looks like a vampire
 
-You can also use no_stroke()
+Put code to run every frame here
 
-Bright yellow
+Add code to draw your face here
 
-Black — change to red, green, or blue up to 255
+width
 
-x, y, width, height
+height
 
-A black mouth
+x coordinate
 
-An orange face
+y coordinate
 
-Higher circle
+Brown
 
-Lower circle
+Face
 
-Face mask
-
-Left ear loop
-
-Right ear loop
-
-Large white rectangle
-
-Smaller blue rectangle
+Red
 
 Mouth
 
-Starting amount of red
-
-Starting amount of green
-
-Starting amount of blue
-
-Uses variables to control the colour change each loop
-
-Move along the x coordinate by the width of a tooth
-
-Mouth line
-
-Left tooth
-
-Right tooth
-
-Highlights
-
-70 is transparency/opacity here
+Overlap
 
 Black
 
@@ -64,80 +38,4 @@ White
 
 Eyes
 
-Face
-
 हिरवा
-
-Put code to run once here
-
-width and height
-
-move under draw() to reset the drawing every frame
-
-Put code to run every frame here
-
-draw mask
-
-eyes and mouth
-
-partly cover eyes and mouth
-
-cover top of mask
-
-shade half of the mask
-
-Put code to run when the mouse is pressed here
-
-Keep this to run your code
-
-Definitions for compatibility with the p5py processing library
-
-Shape
-
-Fonts
-
-मजकूर
-
-Colour
-
-Images
-
-Environment
-
-Transform
-
-कीबोर्ड
-
-Hair and face
-
-stalk
-
-Top face background
-
-Top face hair
-
-Top face left eye
-
-Top face right eye
-
-Top face mouth
-
-Bottom face background
-
-Bottom face hair
-
-Bottom face left eye
-
-Bottom face right eye
-
-Bottom face mouth
-
-Nose
-
-Face markings
-
-Add code to draw your face here
-
-Hair
-
-add a # to the beginning of this line to hide the grid
