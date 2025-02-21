@@ -19,4 +19,8 @@ def draw(): # Put code to run every frame here background(255, 255, 255)
 
 --- /task ---
 
---- task --- **Test:** Experiment with changing the coordinates, then run your code to see a triangle displayed by joining the dots at those coordinates. --- /task ---
+--- task ---
+
+**Test:** Experiment with changing the coordinates, then run your code to see a triangle displayed by joining the dots at those coordinates.
+
+--- /task ---
