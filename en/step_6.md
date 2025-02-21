@@ -30,6 +30,7 @@ def draw():
     no_stroke()
     fill(125, 75, 0) # Brown
     ellipse(200, 220, 150, 150) # Face
+
 --- /code ---
 
 --- /task ---
@@ -60,6 +61,7 @@ def draw():
 --- /task ---
 
 --- task ---
+
 Set the `fill` colour to match the face colour, then draw a second `ellipse`.
 
 Change the `y` coordinate of the second `ellipse` to a slightly higher position for a smile.
@@ -84,5 +86,7 @@ line_highlights: 20-21
 --- /task ---
 
 --- task ---
+
 **Test:** Experiment with changing the fill colours and sizes of the ellipses. Run your program to see the results.
+
 --- /task ---

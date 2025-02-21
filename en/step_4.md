@@ -31,6 +31,7 @@ def draw():
 --- /task ---
 
 --- task ---
+
 **Test:** Run your code to see a rectangle instead of an ellipse.
 
 --- /task ---
@@ -65,6 +66,7 @@ def draw():
     )  
   
 --- /code ---
+
 --- /task ---
 
 --- task ---
