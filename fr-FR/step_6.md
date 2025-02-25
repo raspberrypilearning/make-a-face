@@ -1,19 +1,19 @@
-## Overlap shapes
+## Formes superposées
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-A mouth is a great way of showing emotion. Will your character have a smile, frown, or something else? 
+Une bouche est un excellent moyen de montrer une émotion. Ton personnage aura-t-il un sourire, un froncement de sourcils ou autre chose ? 
 </div>
 <div>
-![Image showing a robot face as an example of a face with a mouth.](images/mask.png){:width="200px"}
+![Image montrant un visage de robot comme exemple de visage avec une bouche.](images/mask.png){:width="200px"}
 </div>
 </div>
 
-You can make shapes you couldn't otherwise create by overlapping shapes, for example you could add two overlapping circles to create a smile.
+Tu peux créer des formes que tu ne pourrais pas créer autrement en superposant des formes, par exemple, tu peux ajouter deux cercles superposés pour créer un sourire.
 
 --- task ---
 
-Start with an ellipse to represent the face.
+Commence par une ellipse pour représenter le visage.
 
 
 --- code ---
@@ -29,7 +29,7 @@ def draw(): # Put code to run every frame here background(255, 255, 255) # Add c
 
 --- task ---
 
-Set the `fill` colour for your mouth then draw an `ellipse`.
+Définis la couleur de `remplissage` pour ta bouche puis dessine une `ellipse`.
 
 --- code ---
 ---
@@ -44,9 +44,9 @@ def draw(): # Put code to run every frame here background(255, 255, 255) # Add c
 
 --- task ---
 
-Set the `fill` colour to match the face colour, then draw a second `ellipse`.
+Définis la couleur de `remplissage` pour qu'elle corresponde à la couleur du visage, puis dessine une deuxième `ellipse`.
 
-Change the `y` coordinate of the second `ellipse` to a slightly higher position for a smile.
+Modifie la coordonnée `y` de la deuxième ellipse `` à une position légèrement plus haute pour un sourire.
 
 
 --- code ---
@@ -62,12 +62,12 @@ line_highlights: 20-21
 
 --- /code ---
 
-![A brown circle with a red crescent positioned near the bottom like a smile](images/brown-circle-smile.png)
+![Un cercle brun avec un croissant rouge positionné près du bas comme un sourire](images/brown-circle-smile.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Experiment with changing the fill colours and sizes of the ellipses. Run your program to see the results.
+**Test :** expérimente en modifiant les couleurs de remplissage et les tailles des ellipses. Exécute ton programme pour voir les résultats.
 
 --- /task ---
