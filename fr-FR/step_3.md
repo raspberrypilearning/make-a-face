@@ -8,7 +8,7 @@ Une **ellipse** est une forme ovale. Si tu spécifies la même largeur et la mê
 
 Ajoute du code à la fonction `draw()` pour définir la couleur de remplissage en utilisant les valeurs rouge, verte et bleue, comme tu l'as fait pour l'arrière-plan.
 
-Ensuite, dessine un cercle de cette couleur.
+Ensuite, dessine un cercle dans cette couleur.
 
 --- code ---
 ---
