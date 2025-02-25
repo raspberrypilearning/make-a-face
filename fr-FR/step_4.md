@@ -1,10 +1,10 @@
 ## Rectangles
 
-Rectangles are drawn in almost the same way as an ellipse.
+Les rectangles sont dessinés presque de la même manière qu'une ellipse.
 
 --- task ---
 
-Change the function `ellipse` to instead call the function `rect`.
+Modifie la fonction `ellipse` pour appeler à la place la fonction `rect`.
 
 --- code ---
 ---
@@ -21,18 +21,18 @@ def draw(): # Put code to run every frame here background(255, 255, 255)
 
 --- task ---
 
-**Test:** Run your code to see a rectangle instead of an ellipse.
+**Test :** exécute ton code pour voir un rectangle au lieu d’une ellipse.
 
 --- /task ---
 
-The first two values for `rectangle` and `ellipse` represent the x, y coordinates of the centre of the shape. At the moment they are set to `screen_size/2` to position the shape in the centre of the screen.
+Les deux premières valeurs pour `rectangle` et `ellipse` représentent les coordonnées x, y du centre de la forme. Pour le moment, ils sont définis sur `taille_ecran/2` pour positionner la forme au centre de l'écran.
 
-The top left corner of the screen is coordinate `0`,`0`. Increasing the `x` value will move the shape to the right. Increasing the `y` value will move the shape downwards.
+Le coin supérieur gauche de l'écran a pour coordonnées `0`,`0`. L'augmentation de la valeur `x` déplacera la forme vers la droite. L'augmentation de la valeur `y` déplacera la forme vers le bas.
 
 
 --- task ---
 
-Change the position values to alter where the shape appears on the screen.
+Modifie les valeurs de position pour modifier l’endroit où la forme apparaît sur l’écran.
 
 --- code ---
 ---
@@ -49,6 +49,6 @@ def draw(): # Put code to run every frame here background(255, 255, 255)
 
 --- task ---
 
-**Test:** Experiment with changing the coordinates, then run your code to see where the ellipse or rectangle is displayed.
+**Test :** expérimente en modifiant les coordonnées, puis exécute ton code pour voir où l'ellipse ou le rectangle est affiché.
 
 --- /task ---
