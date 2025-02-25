@@ -1,10 +1,10 @@
 ## Triangles
 
-To draw a triangle, you need to give three pairs of values. Each pair is an x,y coordinate for one of the points of the triangle.
+Pour dessiner un triangle, tu dois donner trois paires de valeurs. Chaque paire est une coordonnée x, y pour l'un des points du triangle.
 
 --- task ---
 
-Add code to draw a `triangle`.
+Ajoute du code pour dessiner un `triangle`.
 
 --- code ---
 ---
@@ -21,6 +21,6 @@ def draw(): # Put code to run every frame here background(255, 255, 255)
 
 --- task ---
 
-**Test:** Experiment with changing the coordinates, then run your code to see a triangle displayed by joining the dots at those coordinates.
+**Test :** expérimente en modifiant les coordonnées, puis exécute ton code pour voir un triangle affiché en joignant les points à ces coordonnées.
 
 --- /task ---
