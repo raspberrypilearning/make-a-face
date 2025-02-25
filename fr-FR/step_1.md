@@ -1,6 +1,6 @@
-## What you will make
+## Ce que tu vas faire
 
-Écrire du code Python pour dessiner un visage ou un masque à l'aide de formes géométriques.
+Écris du code Python pour dessiner un visage ou un masque à l'aide de formes géométriques.
 
 ![Exemples de visages différents.](images/strip.png)
 
