@@ -1,11 +1,11 @@
 from p5 import *
 
-screen_size = 400
+taille_ecran = 400
 
 
 def setup():
     # Mets le code à exécuter une fois ici
-    size(screen_size, screen_size)
+    size(taille_ecran, taille_ecran)
     rect_mode(CENTER)
 
 
