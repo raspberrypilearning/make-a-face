@@ -1,11 +1,11 @@
 --- challenge ---
 
-## Challenge
+## Défi
 
 
-Take a look at these [faces created by community members](https://wke.lt/w/s/8sVH4f){:target="_blank"}.
+Jette un œil à ces [visages créés par les membres de la communauté](https://wke.lt/w/s/8sVH4f){:target="_blank"}.
 
-[Send us your face](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"} to display too.
+[Envoie-nous ton visage](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"} pour l'afficher également.
 
 
 --- /challenge ---
