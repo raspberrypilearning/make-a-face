@@ -1,4 +1,4 @@
-## Choose a background colour
+## Choisir une couleur d'arrière-plan
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -11,13 +11,13 @@ As-tu une idée du type de visage ou de masque que tu souhaites réaliser ? Util
 
 --- task ---
 
-Open the [starter project](https://editor.raspberrypi.org/en/projects/make-face-starter){:target="_blank"}.
+Ouvre le [projet de démarrage](https://editor.raspberrypi.org/en/projects/make-face-starter){:target="_blank"}.
 
 --- /task ---
 
 --- task ---
 
-The three numbers in `background(0, 0, 0)` are red, green and blue values. Experiment with changing the numbers to any whole number between 0 and 255 to change the background colour.
+Les trois nombres dans `background(0, 0, 0)` sont les valeurs rouge, verte et bleue. Expérimente en remplaçant les nombres par n'importe quel nombre entier compris entre 0 et 255 pour modifier la couleur d'arrière-plan.
 
 --- code ---
 ---
@@ -34,6 +34,6 @@ def draw():
 
 --- task ---
 
-**Test:** Run your code and you should see a coloured square as your background.
+**Test :** exécute ton code et tu devrais voir un carré coloré comme arrière-plan.
 
 --- /task ---
