@@ -1,14 +1,14 @@
-## Circles and ovals
+## Cercles et ovales
 
-Draw and colour a shape for your face or mask.
+Dessine et colorie une forme pour ton visage ou ton masque.
 
-An **ellipse** is an oval shape. If you specify the same width and height, you will draw a circle.
+Une **ellipse** est une forme ovale. Si tu spécifies la même largeur et la même hauteur, tu dessineras un cercle.
 
 --- task ---
 
-Add code to the `draw()` function to set the fill colour using red, green and blue values, just like you did for the background.
+Ajoute du code à la fonction `draw()` pour définir la couleur de remplissage en utilisant les valeurs rouge, verte et bleue, comme tu l'as fait pour l'arrière-plan.
 
-Then, draw a circle in this colour.
+Ensuite, dessine un cercle de cette couleur.
 
 --- code ---
 ---
@@ -25,13 +25,13 @@ def draw(): # Put code to run every frame here background(255, 255, 255)
 
 --- task ---
 
-**Test:** Run your code and you should see a coloured circle.
+**Test :** exécute ton code et tu devrais voir un cercle coloré.
 
 --- /task ---
 
 --- task ---
 
-Change the width and height values to see the ellipse change shape.
+Modifie les valeurs de largeur et de hauteur pour voir l'ellipse changer de forme.
 
 --- code ---
 ---
@@ -44,13 +44,13 @@ def draw(): # Put code to run every frame here background(255, 255, 255)
 
 --- /code ---
 
-![A yellow ellipse which is wider than it is tall.](images/change_shape.png)
+![Une ellipse jaune plus large que haute.](images/change_shape.png)
 
 --- /task ---
 
 --- task ---
 
-Before the code where you draw the ellipse, you can choose to set a colour and thickness.
+Avant le code où tu dessines l'ellipse, tu peux choisir de définir une couleur et une épaisseur.
 
 
 --- code ---
@@ -71,7 +71,7 @@ line_highlights: 15-16
 
 --- /code ---
 
-Or, if you prefer, you can remove the stroke and have no outline.
+Ou, si tu préfères, tu peux supprimer le trait et ne pas avoir de contour.
 
 --- code ---
 ---
@@ -94,6 +94,6 @@ line_highlights: 15
 
 --- task ---
 
-**Test:** Experiment with changing the stroke colour and thickness or removing it, then run your code to see the results.
+**Test :** expérimente en modifiant la couleur et l'épaisseur du trait ou en le supprimant, puis exécute ton code pour voir les résultats.
 
 --- /task ---
