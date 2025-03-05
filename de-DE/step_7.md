@@ -1,14 +1,14 @@
-## Create your face
+## Erstelle dein Gesicht
 
 --- task ---
 
-Now it is over to you! Use the skills you have learned to draw shapes and create a face.
+Jetzt liegt es an dir! Nutze die erlernten Fähigkeiten, um Formen zu zeichnen und ein Gesicht zu erstellen.
 
 --- /task ---
 
-Here are some examples for inspiration
+Hier einige Beispiele zur Inspiration
 
-![A face with ninja eyes](images/eyes.png){:width="150px"}
+![Ein Gesicht mit Ninjaaugen](images/eyes.png){:width="150px"}
 ![A face that looks like Frida Kahlo](images/frida.png){:width="150px"}
 ![A face that looks like a robot with teeth](images/robot-teeth.png){:width="150px"}
 ![A face that looks like a tribal mask](images/tribal.png){:width="150px"}
