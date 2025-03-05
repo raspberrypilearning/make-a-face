@@ -10,25 +10,25 @@ copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: What you will make
+    title: Wat ga je maken
   - 
-    title: Choose a background
+    title: Kies een achtergrond
     completion:
       - engaged
   - 
-    title: Circles and ovals
+    title: Cirkels en ovalen
   - 
-    title: Rectangles
+    title: Rechthoeken
   - 
-    title: Triangles
+    title: Driehoeken
   - 
-    title: Overlap shapes
+    title: Overlappende vormen
   - 
-    title: Create your face
+    title: Maak je gezicht
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Snelle quiz
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -37,7 +37,7 @@ steps:
     completion:
       - external
   - 
-    title: Challenge
+    title: Uitdaging
     challenge: true
   - 
-    title: What can you do now?
+    title: Wat kun je verder nog doen?
