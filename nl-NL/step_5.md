@@ -1,10 +1,10 @@
-## Triangles
+## Driehoeken
 
-To draw a triangle, you need to give three pairs of values. Each pair is an x,y coordinate for one of the points of the triangle.
+Om een driehoek te tekenen, moet je drie waardeparen opgeven. Elk paar is een x,y-coördinaat voor een van de punten van de driehoek.
 
 --- task ---
 
-Add code to draw a `triangle`.
+Voeg code toe om een `driehoek`te tekenen.
 
 --- code ---
 ---
@@ -21,6 +21,6 @@ def draw(): # Put code to run every frame here background(255, 255, 255)
 
 --- task ---
 
-**Test:** Experiment with changing the coordinates, then run your code to see a triangle displayed by joining the dots at those coordinates.
+**Test:** Experimenteer met het veranderen van de coördinaten en voer vervolgens jouw code uit om te zien hoe een driehoek wordt weergegeven door de punten op die coördinaten met elkaar te verbinden.
 
 --- /task ---
