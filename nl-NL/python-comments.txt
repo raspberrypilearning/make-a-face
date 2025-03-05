@@ -1,32 +1,32 @@
-A face with ninja eyes
+Een gezicht met ninja-ogen
 
-A face that looks like Frida Kahlo
+Een gezicht dat lijkt op Frida Kahlo
 
-A face that looks like a robot with teeth
+Een gezicht dat lijkt op een robot met tanden
 
-A face that looks like a tribal mask
+Een gezicht dat lijkt op een stammenmasker
 
-A face wearing a face mask
+Een gezicht met een gezichtsmasker
 
-A face that looks like a vampire
+Een gezicht dat op een vampier lijkt
 
 Zet hier code om bij elk frame uit te voeren
 
 Voeg hier code toe om je gezicht te tekenen
 
-width
+breedte
 
-height
+hoogte
 
-x coordinate
+x-coördinaat
 
-y coordinate
+y-coördinaat
 
-Brown
+Bruin
 
 Gezicht
 
-Red
+Rood
 
 Mond
 
