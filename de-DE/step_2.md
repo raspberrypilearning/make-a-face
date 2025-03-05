@@ -1,23 +1,23 @@
-## Choose a background colour
+## Wähle eine Hintergrundfarbe
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Have you got an idea about the kind of face or mask you want to make? Use this step to plan your art and set up your canvas.
+Hast du eine Vorstellung davon, was für ein Gesicht oder welche Maske du machen möchtest? Verwende diesen Schritt, um deine Kunst zu planen und deine Leinwand einzurichten.
 </div>
 <div>
-![The output area with a vampire-themed face.](images/vampire.png){:width="200px"}
+![Der Ausgabebereich mit einem Vampirgesicht.](images/vampire.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-Open the [starter project](https://editor.raspberrypi.org/en/projects/make-face-starter){:target="_blank"}.
+Öffne das [-Starterprojekt](https://editor.raspberrypi.org/en/projects/make-face-starter){:target="_blank"}.
 
 --- /task ---
 
 --- task ---
 
-The three numbers in `background(0, 0, 0)` are red, green and blue values. Experiment with changing the numbers to any whole number between 0 and 255 to change the background colour.
+Die drei Zahlen in `background(0, 0, 0)` sind Werte für Rot, Grün und Blau. Experimentiere mit beliebigen ganzen Zahlen zwischen 0 und 255, um die Hintergrundfarbe zu ändern.
 
 --- code ---
 ---
@@ -34,6 +34,6 @@ def draw():
 
 --- task ---
 
-**Test:** Run your code and you should see a coloured square as your background.
+**Test:** Führe deinen Code aus und du solltest ein farbiges Quadrat als Hintergrund sehen.
 
 --- /task ---
