@@ -31,7 +31,7 @@ def draw():
     fill(255, 70)
     ellipse(170, 150, 35, 35)
     ellipse(150, 160, 25, 25)
-    # stalk
+    # Stiel
     fill(braun)
     triangle(200, 130, 220, 60, 240, 60)
     fill(gruen)
