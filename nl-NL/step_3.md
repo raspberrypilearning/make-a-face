@@ -1,14 +1,14 @@
-## Circles and ovals
+## Cirkels en ovalen
 
-Draw and colour a shape for your face or mask.
+Teken en kleur een vorm voor je gezicht of masker.
 
-An **ellipse** is an oval shape. If you specify the same width and height, you will draw a circle.
+Een **ellips** is een ovale vorm. Als je dezelfde breedte en hoogte opgeeft, dan teken je een cirkel.
 
 --- task ---
 
-Add code to the `draw()` function to set the fill colour using red, green and blue values, just like you did for the background.
+Voeg code toe aan de `draw()` functie om de opvulkleur in te stellen met rode, groene en blauwe waarden, net zoals je voor de achtergrond hebt gedaan.
 
-Then, draw a circle in this colour.
+Teken vervolgens een cirkel in deze kleur.
 
 --- code ---
 ---
@@ -25,13 +25,13 @@ def draw(): # Put code to run every frame here background(255, 255, 255)
 
 --- task ---
 
-**Test:** Run your code and you should see a coloured circle.
+**Test:** Voer je code uit, je zou een gekleurde cirkel moeten zien.
 
 --- /task ---
 
 --- task ---
 
-Change the width and height values to see the ellipse change shape.
+Wijzig de waarden voor breedte en hoogte om te zien hoe de ellips van vorm verandert.
 
 --- code ---
 ---
@@ -44,13 +44,13 @@ def draw(): # Put code to run every frame here background(255, 255, 255)
 
 --- /code ---
 
-![A yellow ellipse which is wider than it is tall.](images/change_shape.png)
+![Een gele ellips die breder is dan hij hoog is.](images/change_shape.png)
 
 --- /task ---
 
 --- task ---
 
-Before the code where you draw the ellipse, you can choose to set a colour and thickness.
+Vóór de code waarin je de ellips tekent, kun je een kleur en dikte instellen.
 
 
 --- code ---
@@ -71,7 +71,7 @@ line_highlights: 15-16
 
 --- /code ---
 
-Or, if you prefer, you can remove the stroke and have no outline.
+Of, als je dat liever wilt, kun je de lijn verwijderen, zodat er geen omtrek meer overblijft.
 
 --- code ---
 ---
@@ -94,6 +94,6 @@ line_highlights: 15
 
 --- task ---
 
-**Test:** Experiment with changing the stroke colour and thickness or removing it, then run your code to see the results.
+**Test:** Experimenteer met het wijzigen van de kleur en dikte van de lijn of deze te verwijderen, voer vervolgens je code uit om de resultaten te bekijken.
 
 --- /task ---
