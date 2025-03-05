@@ -1,19 +1,19 @@
-## Overlap shapes
+## Overlappende vormen
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-A mouth is a great way of showing emotion. Will your character have a smile, frown, or something else? 
+Een mond is een geweldige manier om emotie te tonen. Zal je gezicht een glimlach, frons of iets anders hebben? 
 </div>
 <div>
-![Image showing a robot face as an example of a face with a mouth.](images/mask.png){:width="200px"}
+![Afbeelding met een robotgezicht als voorbeeld van een gezicht met een mond.](images/mask.png){:width="200px"}
 </div>
 </div>
 
-You can make shapes you couldn't otherwise create by overlapping shapes, for example you could add two overlapping circles to create a smile.
+Door vormen te overlappen, kun je vormen maken die je anders niet zou kunnen maken, je kunt bijvoorbeeld twee overlappende cirkels toevoegen om een glimlach te creëren.
 
 --- task ---
 
-Start with an ellipse to represent the face.
+Begin met een ellips om het gezicht weer te geven.
 
 
 --- code ---
@@ -29,7 +29,7 @@ def draw(): # Put code to run every frame here background(255, 255, 255) # Add c
 
 --- task ---
 
-Set the `fill` colour for your mouth then draw an `ellipse`.
+Stel de `vul`-kleur in voor je mond en teken vervolgens een `ellips`.
 
 --- code ---
 ---
@@ -44,9 +44,9 @@ def draw(): # Put code to run every frame here background(255, 255, 255) # Add c
 
 --- task ---
 
-Set the `fill` colour to match the face colour, then draw a second `ellipse`.
+Stel de `vul`-kleur in, zodat deze overenkomt met de gezichtskleur, en teken vervolgens een tweede `ellips`.
 
-Change the `y` coordinate of the second `ellipse` to a slightly higher position for a smile.
+Verander de `y` coördinaat van de tweede `ellips` naar een iets hogere positie voor een glimlach.
 
 
 --- code ---
@@ -62,12 +62,12 @@ line_highlights: 20-21
 
 --- /code ---
 
-![A brown circle with a red crescent positioned near the bottom like a smile](images/brown-circle-smile.png)
+![Een bruine cirkel met een rode halve maan onderaan, als een glimlach](images/brown-circle-smile.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Experiment with changing the fill colours and sizes of the ellipses. Run your program to see the results.
+**Test:** Experimenteer met het wijzigen van de vulkleuren en -groottes van de ellipsen. Voer jouw programma uit om de resultaten te bekijken.
 
 --- /task ---
