@@ -1,14 +1,14 @@
-## Create your face
+## Maak je gezicht
 
 --- task ---
 
-Now it is over to you! Use the skills you have learned to draw shapes and create a face.
+Nu ben jij aan de beurt! Gebruik de vaardigheden die je hebt geleerd om vormen te tekenen en een gezicht te maken.
 
 --- /task ---
 
-Here are some examples for inspiration
+Hier zijn enkele voorbeelden om je te helpen
 
-![A face with ninja eyes](images/eyes.png){:width="150px"}
+![Een gezicht met ninja-ogen](images/eyes.png){:width="150px"}
 ![A face that looks like Frida Kahlo](images/frida.png){:width="150px"}
 ![A face that looks like a robot with teeth](images/robot-teeth.png){:width="150px"}
 ![A face that looks like a tribal mask](images/tribal.png){:width="150px"}
