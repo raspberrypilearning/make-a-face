@@ -1,10 +1,10 @@
-## Rectangles
+## Rechthoeken
 
-Rectangles are drawn in almost the same way as an ellipse.
+Rechthoeken worden op bijna dezelfde manier getekend als ellipsen.
 
 --- task ---
 
-Change the function `ellipse` to instead call the function `rect`.
+Wijzig de functie `ellipse` zodat deze de functie `rect`aanroept.
 
 --- code ---
 ---
@@ -21,18 +21,18 @@ def draw(): # Put code to run every frame here background(255, 255, 255)
 
 --- task ---
 
-**Test:** Run your code to see a rectangle instead of an ellipse.
+**Test:** Voer je code uit om een rechthoek te zien in plaats van een ellips.
 
 --- /task ---
 
-The first two values for `rectangle` and `ellipse` represent the x, y coordinates of the centre of the shape. At the moment they are set to `screen_size/2` to position the shape in the centre of the screen.
+De eerste twee waarden voor `rechthoek` en `ellips` zijn de x-, y-coördinaten van het middelpunt van de vorm. Op dit moment zijn ze ingesteld op `screen_size/2` om de vorm in het midden van het scherm te positioneren.
 
-The top left corner of the screen is coordinate `0`,`0`. Increasing the `x` value will move the shape to the right. Increasing the `y` value will move the shape downwards.
+De linkerbovenhoek van het scherm is de coördinaat `0`,`0`. Als je de waarde van `x` verhoogt, wordt de vorm naar rechts verplaatst. Als je de waarde van `y` verhoogt, wordt de vorm naar beneden verplaatst.
 
 
 --- task ---
 
-Change the position values to alter where the shape appears on the screen.
+Wijzig de positiewaarden om te bepalen waar de vorm op het scherm verschijnt.
 
 --- code ---
 ---
@@ -49,6 +49,6 @@ def draw(): # Put code to run every frame here background(255, 255, 255)
 
 --- task ---
 
-**Test:** Experiment with changing the coordinates, then run your code to see where the ellipse or rectangle is displayed.
+**Test:** Experimenteer met het wijzigen van de coördinaten en voer vervolgens jouw code uit om te zien waar de ellips of rechthoek wordt weergegeven.
 
 --- /task ---
