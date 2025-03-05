@@ -1,4 +1,4 @@
-## Choose a background colour
+## Kies een achtergrondkleur
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -11,13 +11,13 @@ Heb je een idee over het soort gezicht of masker dat je wilt maken? Gebruik deze
 
 --- task ---
 
-Open the [starter project](https://editor.raspberrypi.org/en/projects/make-face-starter){:target="_blank"}.
+Open het [startproject](https://editor.raspberrypi.org/en/projects/make-face-starter){:target="_blank"}.
 
 --- /task ---
 
 --- task ---
 
-The three numbers in `background(0, 0, 0)` are red, green and blue values. Experiment with changing the numbers to any whole number between 0 and 255 to change the background colour.
+De drie getallen in `background(0, 0, 0)` zijn de rode, groene en blauwe waarden. Experimenteer met het veranderen van de getallen in een geheel getal tussen 0 en 255 om de achtergrondkleur te veranderen.
 
 --- code ---
 ---
@@ -34,6 +34,6 @@ def draw():
 
 --- task ---
 
-**Test:** Run your code and you should see a coloured square as your background.
+**Test:** Voer je code out en je zou een gekleurd vierkant moeten zien als je achtergrond.
 
 --- /task ---
