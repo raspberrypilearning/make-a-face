@@ -1,36 +1,36 @@
-A face with ninja eyes
+Ein Gesicht mit Ninjaaugen
 
-A face that looks like Frida Kahlo
+Ein Gesicht, das wie Frida Kahlo aussieht
 
-A face that looks like a robot with teeth
+Ein Gesicht, das wie ein Roboter mit Zähnen aussieht
 
-A face that looks like a tribal mask
+Ein Gesicht, das wie eine Stammesmaske aussieht
 
-A face wearing a face mask
+Ein Gesicht mit einer Maske
 
-A face that looks like a vampire
+Ein Gesicht, das wie ein Vampir aussieht
 
 Code, der hier steht, wird jeden Frame ausgeführt
 
 Füge hier Code hinzu, um dein Gesicht zu zeichnen
 
-width
+Breite
 
-height
+Höhe
 
-x coordinate
+x-Koordinate
 
-y coordinate
+y-Koordinate
 
-Brown
+Braun
 
 Gesicht
 
-Red
+Rot
 
 Mund
 
-Overlap
+Überlappe
 
 Schwarz
 
