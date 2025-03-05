@@ -10,25 +10,25 @@ copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: What you will make
+    title: Das wirst du machen
   - 
-    title: Choose a background
+    title: Wähle einen Hintergrund
     completion:
       - engaged
   - 
-    title: Circles and ovals
+    title: Kreise und Ovale
   - 
-    title: Rectangles
+    title: Rechtecke
   - 
-    title: Triangles
+    title: Dreiecke
   - 
-    title: Overlap shapes
+    title: Überlappende Formen
   - 
-    title: Create your face
+    title: Erstelle dein Gesicht
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Kurzes Quiz
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -40,4 +40,4 @@ steps:
     title: Challenge
     challenge: true
   - 
-    title: What can you do now?
+    title: Was kannst du jetzt tun?
