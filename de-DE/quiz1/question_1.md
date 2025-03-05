@@ -31,7 +31,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-  Not quite, to create a sad mouth the second `ellipse` would need a **y_coordinate** that is lower than the first `ellipse`.
+  Nicht ganz. Um einen traurigen Mund zu erzeugen, würde die zweite `ellipse` eine **y-Koordinate** benötigen, die niedriger ist als die erste `ellipse`.
 
   --- /feedback ---
 
@@ -39,7 +39,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-  Richtig! The second `ellipse` is drawn with a **y_coordinate** that is higher than the first `ellipse`.
+  Richtig! Die zweite `ellipse` wird mit einer **y-Koordinate** gezeichnet, die höher ist als die erste `ellipse`.
 
   --- /feedback ---
 
@@ -47,7 +47,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-   Not quite, the second circle has a white `fill(255, 255, 255)` and is positioned partially over the first black circle.
+   Nicht ganz, der zweite Kreis hat eine weiße `fill(255, 255, 255)` und ist teilweise über dem ersten schwarzen Kreis positioniert.
 
   --- /feedback ---
 
