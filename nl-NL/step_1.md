@@ -1,4 +1,4 @@
-## What you will make
+## Wat ga je maken
 
 Schrijf Python-code om een gezicht of masker te tekenen met behulp van geometrische vormen.
 
