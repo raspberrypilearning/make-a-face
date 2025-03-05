@@ -1,10 +1,10 @@
-## What can you do now?
+## Wat kun je verder nog doen?
 
-If you are following the [Introduction to Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro) pathway, you can move on to the [Don't collide](https://projects.raspberrypi.org/en/projects/dont-collide) project. In this project, you will make a scrolling obstacle game where your character has to reach a finishing point without colliding with obstacles.
+Als je het [Inleiding tot Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro) pad volgt, kun je doorgaan naar het [Niet botsen](https://projects.raspberrypi.org/en/projects/dont-collide) project. In dit project maak je een scrollend obstakelspel waarin je personage een eindpunt moet bereiken zonder tegen obstakels aan te botsen.
 
 \--- print-only ---
 
-![An example creation from the don't collide project showing a balloon floating in a desert with cacti](images/dont-collide.png)
+![Een voorbeeldproject van een niet botsen-project met een ballon die in een woestijn met cactussen zweeft](images/dont-collide.png)
 
 \--- /print-only ---
 
@@ -15,4 +15,4 @@ If you are following the [Introduction to Python](https://projects.raspberrypi.o
 
 \--- /no-print ---
 
-If you want to have more fun exploring Python, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
+Als je nog meer plezier wilt beleven aan het verkennen van Python, kun je een van [deze projecten](https://projects.raspberrypi.org/en/projects?software%5B%5D=python) uitproberen.
