@@ -3,9 +3,9 @@
 ## Challenge
 
 
-Take a look at these [faces created by community members](https://wke.lt/w/s/8sVH4f){:target="_blank"}.
+Schau dir diese [Gesichter an, die von Community-Mitgliedern](https://wke.lt/w/s/8sVH4f){:target="_blank"} erstellt wurden.
 
-[Send us your face](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"} to display too.
+[Schick uns auch dein Gesicht](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}, damit wir es ebenfalls zeigen können.
 
 
 --- /challenge ---
