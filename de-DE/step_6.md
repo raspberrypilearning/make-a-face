@@ -1,19 +1,19 @@
-## Overlap shapes
+## Überlappende Formen
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-A mouth is a great way of showing emotion. Will your character have a smile, frown, or something else? 
+Mit dem Mund kann man großartig Emotionen ausdrücken. Wird deine Figur lächeln, die Stirn runzeln, oder etwas anderes machen? 
 </div>
 <div>
-![Image showing a robot face as an example of a face with a mouth.](images/mask.png){:width="200px"}
+![Bild, das ein Robotergesicht als Beispiel für ein Gesicht mit Mund zeigt.](images/mask.png){:width="200px"}
 </div>
 </div>
 
-You can make shapes you couldn't otherwise create by overlapping shapes, for example you could add two overlapping circles to create a smile.
+Durch Überlappen von Formen kannst du Formen erstellen, die sonst nicht möglich wären. Du kannst zum Beispiel zwei überlappende Kreise hinzufügen, um ein Lächeln zu erzeugen.
 
 --- task ---
 
-Start with an ellipse to represent the face.
+Beginne mit einer Ellipse, die das Gesicht darstellt.
 
 
 --- code ---
@@ -29,7 +29,7 @@ def draw(): # Put code to run every frame here background(255, 255, 255) # Add c
 
 --- task ---
 
-Set the `fill` colour for your mouth then draw an `ellipse`.
+Stelle die Füllfarbe für Ihren Mund mit `fill` (englisch: füllen) ein und zeichne dann eine `ellipse`.
 
 --- code ---
 ---
@@ -44,9 +44,9 @@ def draw(): # Put code to run every frame here background(255, 255, 255) # Add c
 
 --- task ---
 
-Set the `fill` colour to match the face colour, then draw a second `ellipse`.
+Stelle `fill` so ein, dass sie zur Gesichtsfarbe passt, und zeichne dann eine zweite `ellipse`.
 
-Change the `y` coordinate of the second `ellipse` to a slightly higher position for a smile.
+Ändere die `y`-Koordinate der zweiten `ellipse` zu einem Lächeln in einer etwas höheren Position.
 
 
 --- code ---
@@ -62,12 +62,12 @@ line_highlights: 20-21
 
 --- /code ---
 
-![A brown circle with a red crescent positioned near the bottom like a smile](images/brown-circle-smile.png)
+![Ein brauner Kreis mit einer roten Mondsichel am unteren Rand, wie ein Lächeln](images/brown-circle-smile.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Experiment with changing the fill colours and sizes of the ellipses. Run your program to see the results.
+**Test:** Experimentiere mit den Füllfarben und Größen der Ellipsen. Führe dein Programm aus, um die Ergebnisse anzuzeigen.
 
 --- /task ---
