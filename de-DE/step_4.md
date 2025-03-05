@@ -1,10 +1,10 @@
-## Rectangles
+## Rechtecke
 
-Rectangles are drawn in almost the same way as an ellipse.
+Rechtecke werden fast auf die gleiche Weise wie Ellipsen gezeichnet.
 
 --- task ---
 
-Change the function `ellipse` to instead call the function `rect`.
+Ändere die Funktion `ellipse`, um stattdessen die Funktion `rect`aufzurufen.
 
 --- code ---
 ---
@@ -21,18 +21,18 @@ def draw(): # Put code to run every frame here background(255, 255, 255)
 
 --- task ---
 
-**Test:** Run your code to see a rectangle instead of an ellipse.
+**Test:** Führe deinen Code aus, um ein Rechteck statt einer Ellipse anzuzeigen.
 
 --- /task ---
 
-The first two values for `rectangle` and `ellipse` represent the x, y coordinates of the centre of the shape. At the moment they are set to `screen_size/2` to position the shape in the centre of the screen.
+Die ersten beiden Werte für `rect` und `ellipse` stellen die x- und y-Koordinaten des Mittelpunkts der Form dar. Momentan sind sie auf `bildschirm_groesse/2` eingestellt, um die Form in der Bildschirmmitte zu positionieren.
 
-The top left corner of the screen is coordinate `0`,`0`. Increasing the `x` value will move the shape to the right. Increasing the `y` value will move the shape downwards.
+Die obere linke Ecke des Bildschirms hat die Koordinate `0`,`0`. Wenn du den Wert für `x` erhöhst, wird die Form nach rechts verschoben. Wenn Sie den Wert für `y` erhöhst, wird die Form nach unten verschoben.
 
 
 --- task ---
 
-Change the position values to alter where the shape appears on the screen.
+Ändere die Positionswerte, um zu verändern, wo die Form auf dem Bildschirm erscheint.
 
 --- code ---
 ---
@@ -49,6 +49,6 @@ def draw(): # Put code to run every frame here background(255, 255, 255)
 
 --- task ---
 
-**Test:** Experiment with changing the coordinates, then run your code to see where the ellipse or rectangle is displayed.
+**Test:** Experimentiere mit der Änderung der Koordinaten und führe dann deinen Code aus, um zu sehen, wo die Ellipse oder das Rechteck angezeigt wird.
 
 --- /task ---
