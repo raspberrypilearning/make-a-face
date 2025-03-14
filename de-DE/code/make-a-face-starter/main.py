@@ -4,15 +4,15 @@ bildschirm_groesse = 400
 
 
 def setup():
-    # Code, der hier steht, wird einmal ausgeführt
+    # Füge hier den Code ein, der einmal ausgeführt werden soll
     size(bildschirm_groesse, bildschirm_groesse)
     rect_mode(CENTER)
 
 
 def draw():
-    # Code, der hier steht, wird jeden Frame ausgeführt
+    # Füge hier den Code ein, der bei jedem Frame ausgeführt werden soll
     background(0, 0, 0)
-    # Füge hier Code hinzu, um dein Gesicht zu zeichnen
+    # Füge hier den Code hinzu, um dein Gesicht zu zeichnen
 
 
 # Lass dies so stehen, um deinen Code auszuführen
