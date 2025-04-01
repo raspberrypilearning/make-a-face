@@ -10,7 +10,7 @@ Ein Gesicht mit einer Maske
 
 Ein Gesicht, das wie ein Vampir aussieht
 
-Code, der hier steht, wird jeden Frame ausgeführt
+Füge hier den Code ein, der bei jedem Frame ausgeführt werden soll
 
 Füge hier Code hinzu, um dein Gesicht zu zeichnen
 
