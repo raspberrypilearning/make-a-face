@@ -12,7 +12,7 @@ Ein Gesicht, das wie ein Vampir aussieht
 
 Füge hier den Code ein, der bei jedem Frame ausgeführt werden soll
 
-Füge hier Code hinzu, um dein Gesicht zu zeichnen
+Füge hier den Code hinzu, um dein Gesicht zu zeichnen
 
 Breite
 
@@ -30,7 +30,7 @@ Rot
 
 Mund
 
-Überlappe
+Überlappung
 
 Schwarz
 
