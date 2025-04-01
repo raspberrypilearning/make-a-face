@@ -28,7 +28,7 @@ run()
 
 - ( )
 
-![Ein weißes Gesicht mit schwarzer Umrandung. Es gibt zwei grüne Augen mit schwarzen Umrandungen.](images/face1.png)
+![Ein weißes Gesicht mit schwarzer Umrandung. Da sind zwei grüne Augen mit schwarzen Umrandungen.](images/face1.png)
 
  --- feedback ---
 
@@ -38,7 +38,7 @@ run()
 
 - ( )
 
-![Ein weißes Gesicht mit schwarzer Umrandung. Es gibt zwei grüne Augen mit schwarzen Pupillen. Beide haben eine schwarze Umrandung.](images/face2.png)
+![Ein weißes Gesicht mit schwarzer Umrandung. Da sind zwei grüne Augen mit schwarzen Pupillen. Beide haben eine schwarze Umrandung.](images/face2.png)
 
  --- feedback ---
 
@@ -48,17 +48,17 @@ run()
 
 - (x)
 
-![Ein weißes Gesicht mit schwarzer Umrandung. Es gibt zwei grüne Augen mit schwarzen Pupillen. Die Augen haben außerdem keine Umrandung.](images/face3.png)
+![Ein weißes Gesicht mit schwarzer Umrandung. Da sind zwei grüne Augen mit schwarzen Pupillen. Die Augen haben außerdem keine Umrandung.](images/face3.png)
 
  --- feedback ---
 
- Richtig! Der Code zeichnet ein Gesicht mit einer schwarzen Linie und schaltet dann die Linie aus, bevor er die Kreise zeichnet. Die grünen Kreise werden zuerst gezeichnet und die schwarzen Kreise dann obendrauf.
+ Richtig! Der Code zeichnet ein Gesicht mit einer schwarzen Linie und schaltet dann die Linie aus, bevor er die Kreise zeichnet. Die grünen Kreise werden zuerst gezeichnet mit den schwarzen Kreisen obendrauf.
 
  --- /feedback ---
 
 - ( )
 
-![Ein weißes Gesicht mit schwarzer Umrandung. Es gibt zwei grüne Augen, die keine Umrandung haben.](images/face4.png)
+![Ein weißes Gesicht mit schwarzer Umrandung. Da sind zwei grüne Augen, die keine Umrandung haben.](images/face4.png)
 
  --- feedback ---
 
