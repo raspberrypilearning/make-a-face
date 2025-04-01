@@ -24,14 +24,14 @@ def draw():
     fill(0)
 
     # Haare im oberen Gesicht
-    fill(flieder)
-    luecke = 0
+    fill(lila)
+    abstand = 0
     for i in range(0, 5):
-        triangle(100+luecke, 140, 120+luecke, 120, 140+luecke, 140)
-        luecke = luecke+40
+        triangle(100+abstand, 140, 120+abstand, 120, 140+abstand, 140)
+        abstand = abstand+40
 
     # Oberes Gesicht, linkes Auge
-    fill(gruen)
+    fill(grau)
     rect(80, 190, 100, 50)
     fill(rot)
     triangle(190, 250, 70, 150, 180, 160)
@@ -41,7 +41,7 @@ def draw():
     ellipse(160, 200, 30, 30)
 
     # Oberes Gesicht, rechtes Auge
-    fill(gruen)
+    fill(grau)
     rect(220, 190, 100, 50)
     fill(rot)
     triangle(210, 250, 330, 150, 220, 160)
@@ -63,10 +63,10 @@ def draw():
 
     # Haare im unteren Gesicht
     fill(gruen)
-    luecke = 0
+    abstand = 0
     for i in range(0, 5):
-        triangle(100+luecke, 340, 120+luecke, 320, 140+luecke, 340)
-        luecke = luecke+40
+        triangle(100+abstand, 340, 120+abstand, 320, 140+abstand, 340)
+        abstand = abstand+40
 
     # Unteres Gesicht, linkes Auge
     fill(rot)
