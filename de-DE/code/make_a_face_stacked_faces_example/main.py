@@ -18,12 +18,12 @@ def draw():
     grau = Color(201, 201, 201)
     flieder = Color(160, 158, 214)
 
-    # Hintergrund des oberen Gesichts
+    # Oberes Gesicht, Hintergrund
     fill(blau)
     rect(50, 100, 300, 200)
     fill(0)
 
-    # Haare im oberen Gesicht
+    # Oberes Gesicht, Haare
     fill(lila)
     abstand = 0
     for i in range(0, 5):
@@ -56,12 +56,12 @@ def draw():
     fill(lila)
     rect(110, 240, 180, 10)
 
-  # Hintergrund des unteren Gesichts
+  # Unteres Gesicht, Hintergrund
     fill(lila)
     rect(50, 300, 300, 200)
     fill(0)
 
-    # Haare im unteren Gesicht
+    # Unteres Gesicht, Haare
     fill(gruen)
     abstand = 0
     for i in range(0, 5):
