@@ -2,7 +2,7 @@
 
 Beantworte die drei Fragen. Hinweise helfen dir beim Finden der richtigen Antwort.
 
-Nach dem Beantworten der Fragen wähle **Meine Antwort prüfen**.
+Nach dem Beantworten jeder Frage wähle **Meine Antwort prüfen**.
 
 Viel Spaß!
 
@@ -47,7 +47,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-   Nicht ganz. Der zweite Kreis hat ein weißes `fill(255, 255, 255)` und ist teilweise über dem ersten schwarzen Kreis positioniert.
+   Nicht ganz, der zweite Kreis hat eine weiße `fill(255, 255, 255)` und ist teilweise über dem ersten schwarzen Kreis positioniert.
 
   --- /feedback ---
 
