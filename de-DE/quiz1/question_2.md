@@ -4,7 +4,7 @@
 legend: Frage 2 von 3
 ---
 
-In deinem Projekt hast du Code geschrieben, um ein Gesicht mit mehreren Merkmalen zu zeichnen. Die Reihenfolge deines Codes war äußerst wichtig, damit dein Gesicht wie dein Design aussieht.
+In deinem Projekt hast du Code geschrieben, um ein Gesicht mit vielen Merkmalen zu zeichnen. Die Reihenfolge deines Codes war äußerst wichtig, damit dein Gesicht wie dein Design aussieht.
 
 Wenn du diesen Code ausführen würdest, wie würde das Gesicht aussehen?
 
