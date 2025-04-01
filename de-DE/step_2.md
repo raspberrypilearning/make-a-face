@@ -17,7 +17,7 @@ Hast du eine Vorstellung davon, was für ein Gesicht oder welche Maske du machen
 
 --- task ---
 
-Die drei Zahlen in `background(0, 0, 0)` sind Werte für Rot, Grün und Blau. Experimentiere mit beliebigen ganzen Zahlen zwischen 0 und 255, um die Hintergrundfarbe zu ändern.
+Die drei Zahlen in `background(0, 0, 0)` sind Werte für Rot, Grün und Blau. Experimentiere und ändere die Zahlen auf beliebige ganze Zahlen zwischen 0 und 255, um die Hintergrundfarbe zu ändern.
 
 --- code ---
 ---
