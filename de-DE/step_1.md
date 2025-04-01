@@ -22,7 +22,7 @@ Schreibe Python Code, um mit geometrischen Formen ein Gesicht oder eine Maske zu
 
 --- print-only ---
 
-![Der Ausgabebereich des Kawaii-Obstprojekts.](images/smile.png) ![Der Ausgabebereich des Gestapelte Gesichter Projekts.](images/stacked.png) ![Der Ausgabebereich des Stammesmaske Projekts.](images/tribal.png)
+![Der Ausgabebereich des Projekts Kawaii-Frucht.](images/smile.png) ![Der Ausgabebereich des Projekts Gestapelte Gesichter.](images/stacked.png) ![Der Ausgabebereich des Projekts Stammesmaske.](images/tribal.png)
 
 --- /print-only ---
 
