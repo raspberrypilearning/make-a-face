@@ -50,7 +50,7 @@ def draw(): # Put code to run every frame here background(255, 255, 255)
 
 --- task ---
 
-Vor dem Code, in dem du die Ellipse zeichnest, könnest du eine Farbe und Dicke festlegen.
+Vor dem Code, in dem du die Ellipse zeichnest, kannst du eine Farbe und Dicke festlegen.
 
 
 --- code ---
@@ -71,7 +71,7 @@ line_highlights: 15-16
 
 --- /code ---
 
-Oder, wenn du magst, kannst du auch den Strich entfernen und auf die Kontur verzichten.
+Alternativ kannst du den Strich auch entfernen, sodass du keine Kontur hast.
 
 --- code ---
 ---
