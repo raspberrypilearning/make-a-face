@@ -1,10 +1,10 @@
-## Was kannst du jetzt tun?
+## Wie geht es weiter?
 
 Wenn du dem Pfad [Einführung in Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro) folgst, kannst du mit dem Projekt [Nicht kollidieren](https://projects.raspberrypi.org/en/projects/dont-collide) fortfahren. In diesem Projekt erstellst du ein Scroller-Hindernisspiel, bei dem deine Figur einen Zielpunkt erreichen muss, ohne mit Hindernissen zu kollidieren.
 
 \--- print-only ---
 
-![Eine Beispielkreation aus dem Projekt „Nicht Kollidieren“, die einen Ballon zeigt, der in einer Wüste mit Kakteen schwebt](images/dont-collide.png)
+![Eine Beispielkreation aus dem Projekt „Nicht kollidieren“, die einen Ballon zeigt, der in einer Wüste mit Kakteen schwebt](images/dont-collide.png)
 
 \--- /print-only ---
 
@@ -15,4 +15,4 @@ Wenn du dem Pfad [Einführung in Python](https://projects.raspberrypi.org/en/ras
 
 \--- /no-print ---
 
-Wenn du mehr Spaß beim Erkunden von Python haben willst, kannst du eines dieser [Projekte](https://projects.raspberrypi.org/en/projects?software%5B%5D=python) ausprobieren.
+Wenn du mehr Spaß beim Erkunden von Python haben willst, kannst du eines [dieser Projekte](https://projects.raspberrypi.org/en/projects?software%5B%5D=python) ausprobieren.
