@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Mit dem Mund kann man großartig Emotionen ausdrücken. Wird deine Figur lächeln, die Stirn runzeln, oder etwas anderes machen? 
+Der Mund ist eine gute Möglichkeit, Emotionen darzustellen. Wird deine Figur lächeln, die Stirn runzeln, oder etwas anderes machen? 
 </div>
 <div>
 ![Bild, das ein Robotergesicht als Beispiel für ein Gesicht mit Mund zeigt.](images/mask.png){:width="200px"}
@@ -29,7 +29,7 @@ def draw(): # Put code to run every frame here background(255, 255, 255) # Add c
 
 --- task ---
 
-Stelle die Füllfarbe für Ihren Mund mit `fill` (englisch: füllen) ein und zeichne dann eine `ellipse`.
+Lege die Füllfarbe für deinen Mund mit `fill` (englisch: füllen) fest und zeichne dann eine Ellipse mit `ellipse`.
 
 --- code ---
 ---
@@ -46,7 +46,7 @@ def draw(): # Put code to run every frame here background(255, 255, 255) # Add c
 
 Stelle `fill` so ein, dass sie zur Gesichtsfarbe passt, und zeichne dann eine zweite `ellipse`.
 
-Ändere die `y`-Koordinate der zweiten `ellipse` zu einem Lächeln in einer etwas höheren Position.
+Ändere die `y`-Koordinate der zweiten `ellipse` zu einer etwas höheren Position, um ein Lächeln zu zeichnen.
 
 
 --- code ---
