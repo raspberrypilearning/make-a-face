@@ -6,8 +6,6 @@ Dopo aver risposto a ciascuna domanda, fai clic su **Controlla la mia risposta**
 
 Divertiti!
 
-Divertiti!
-
 --- question ---
 
 ---
@@ -45,7 +43,7 @@ def draw():
 
   --- feedback ---
 
-  Corretto! La seconda `ellisse` è disegnata con una **coordinata Y** che è più maggiore della prima `ellisse`.
+  Corretto! La seconda `ellisse` è disegnata con una **coordinata Y** che è maggiore della prima `ellisse`.
 
   --- /feedback ---
 
