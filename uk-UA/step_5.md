@@ -1,10 +1,10 @@
-## Triangles
+## Трикутники
 
-To draw a triangle, you need to give three pairs of values. Each pair is an x,y coordinate for one of the points of the triangle.
+Щоб намалювати трикутник, потрібно вказати три пари значень. Кожна пара — це координати x й y для кожної з вершин трикутника.
 
 --- task ---
 
-Add code to draw a `triangle`.
+Додай код, який намалює `трикутник`.
 
 --- code ---
 ---
@@ -21,6 +21,6 @@ def draw(): # Put code to run every frame here background(255, 255, 255)
 
 --- task ---
 
-**Test:** Experiment with changing the coordinates, then run your code to see a triangle displayed by joining the dots at those coordinates.
+**Протестуй:** спробуй змінити координати, а потім запусти свій код і поглянь на трикутник, створений зʼєднанням лініями трьох вершин за вказаними координатами.
 
 --- /task ---
