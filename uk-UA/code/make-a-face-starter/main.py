@@ -4,16 +4,16 @@ screen_size = 400
 
 
 def setup():
-    # Put code to run once here
+    # Тут розмісти код, який запускається один раз
     size(screen_size, screen_size)
     rect_mode(CENTER)
 
 
 def draw():
-    # Put code to run every frame here
+    # Тут розмісти код, який запускається на кожному кадрі
     background(0, 0, 0)
-    # Add code to draw your face here
+    # Тут додай код, який малюватиме обличчя
 
 
-# Keep this to run your code
+# Цей рядок запускає код
 run()
