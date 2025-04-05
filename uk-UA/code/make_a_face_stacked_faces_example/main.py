@@ -18,19 +18,19 @@ def draw():
     grey = Color(201, 201, 201)
     lilac = Color(160, 158, 214)
 
-    # Top face background
+    # Тло верхнього обличчя
     fill(blue)
     rect(50, 100, 300, 200)
     fill(0)
 
-    # Top face Hair
+    # Волосся на верхньому обличчі
     fill(purple)
     gap = 0
     for i in range(0, 5):
         triangle(100+gap, 140, 120+gap, 120, 140+gap, 140)
         gap = gap+40
 
-    # Top face Left Eye
+    # Ліве око верхнього обличчя
     fill(grey)
     rect(80, 190, 100, 50)
     fill(red)
@@ -40,7 +40,7 @@ def draw():
     fill(lilac)
     ellipse(160, 200, 30, 30)
 
-    # Top face Right Eye
+    # Праве око верхнього обличчя
     fill(grey)
     rect(220, 190, 100, 50)
     fill(red)
@@ -50,25 +50,25 @@ def draw():
     fill(lilac)
     ellipse(240, 200, 30, 30)
 
-    # Top face Mouth
+    # Рот верхнього обличчя
     fill(brown)
     rect(100, 220, 200, 50)
     fill(purple)
     rect(110, 240, 180, 10)
 
-  # Bottom face background
+  # Тло нижнього обличчя
     fill(purple)
     rect(50, 300, 300, 200)
     fill(0)
 
-    # Bottom face Hair
+    # Волосся на нижньому обличчі
     fill(green)
     gap = 0
     for i in range(0, 5):
         triangle(100+gap, 340, 120+gap, 320, 140+gap, 340)
         gap = gap+40
 
-    # Bottom face Left Eye
+    # Ліве око нижнього обличчя
     fill(red)
     rect(80, 390, 100, 50)
     fill(lilac)
@@ -78,7 +78,7 @@ def draw():
     fill(purple)
     ellipse(160, 400, 30, 30)
 
-    # Bottom face Right Eye
+    # Праве око нижнього обличчя
     fill(red)
     rect(220, 390, 100, 50)
     fill(lilac)
@@ -88,7 +88,7 @@ def draw():
     fill(purple)
     ellipse(240, 400, 30, 30)
 
-    # Bottom face Mouth
+    # Рот нижнього обличчя
     fill(green)
     rect(100, 420, 200, 50)
     fill(red)
