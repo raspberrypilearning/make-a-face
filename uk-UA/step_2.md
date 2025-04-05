@@ -1,23 +1,23 @@
-## Choose a background colour
+## Вибери колір тла
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Ти вже маєш уявлення про те, яке обличчя або маску ти хочеш створити? Скористайся цим етапом, щоб спланувати свою роботу та підготувати полотно.
+Ти вже маєш уявлення про те, яке обличчя або маску хочеш створити? На цьому етапі ти можеш спланувати свою роботу та підготувати своє полотно.
 </div>
 <div>
-![Область виводу з обличчям на вампірську тематику.](images/vampire.png){:width="200px"}
+![Область виводу з обличчям-вампіром.](images/vampire.png){:width="200px"}
 </div>
 </div>
 
 --- task ---
 
-Open the [starter project](https://editor.raspberrypi.org/en/projects/make-face-starter){:target="_blank"}.
+Відкрий [початковий проєкт](https://editor.raspberrypi.org/en/projects/make-face-starter){:target="_blank"}.
 
 --- /task ---
 
 --- task ---
 
-The three numbers in `background(0, 0, 0)` are red, green and blue values. Experiment with changing the numbers to any whole number between 0 and 255 to change the background colour.
+Три числа у функції тла ` background(0, 0, 0)` — це значення червоного, зеленого та синього кольорів. Поекспериментуй з різними цілими числами від 0 до 255 і зміни колір тла.
 
 --- code ---
 ---
@@ -34,6 +34,6 @@ def draw():
 
 --- task ---
 
-**Test:** Run your code and you should see a coloured square as your background.
+**Протестуй:** запусти свій код. Ти побачиш своє тло у вигляді кольорового квадрата.
 
 --- /task ---
