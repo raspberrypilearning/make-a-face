@@ -10,7 +10,7 @@ def setup():
 def draw():
     background(255)
 
-    # Hair and face
+    # Волосся й обличчя
     fill(0)
     ellipse(200, 220, 220, 230)
     fill(251, 233, 201)
