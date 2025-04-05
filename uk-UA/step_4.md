@@ -1,10 +1,10 @@
-## Rectangles
+## Прямокутники
 
-Rectangles are drawn in almost the same way as an ellipse.
+Прямокутники малюються майже так само, як еліпси.
 
 --- task ---
 
-Change the function `ellipse` to instead call the function `rect`.
+Заміни функцію `ellipse` на функцію `rect`.
 
 --- code ---
 ---
@@ -21,18 +21,18 @@ def draw(): # Put code to run every frame here background(255, 255, 255)
 
 --- task ---
 
-**Test:** Run your code to see a rectangle instead of an ellipse.
+**Протестуй:** запусти свій код, щоб побачити прямокутник замість еліпса.
 
 --- /task ---
 
-The first two values for `rectangle` and `ellipse` represent the x, y coordinates of the centre of the shape. At the moment they are set to `screen_size/2` to position the shape in the centre of the screen.
+Перші два значення у функціях прямокутника (`rect`) та еліпса (`ellipse`) представляють координати x й y центру фігури. Зараз вони встановлені на `screen_size/2` (розмір_екрана/2), що розташовує фігуру в центрі екрана.
 
-The top left corner of the screen is coordinate `0`,`0`. Increasing the `x` value will move the shape to the right. Increasing the `y` value will move the shape downwards.
+Верхній лівий кут екрана відповідає координатам `0`,`0`. Якщо збільшити значення `x`, фігура переміститься праворуч. Якщо збільшити значення `y`, фігура переміститься вниз.
 
 
 --- task ---
 
-Change the position values to alter where the shape appears on the screen.
+Зміни значення координат, щоб змінити розташування фігури на екрані.
 
 --- code ---
 ---
@@ -49,6 +49,6 @@ def draw(): # Put code to run every frame here background(255, 255, 255)
 
 --- task ---
 
-**Test:** Experiment with changing the coordinates, then run your code to see where the ellipse or rectangle is displayed.
+**Протестуй:** спробуй змінити координати, а потім запусти код і подивись, де знаходиться еліпс або прямокутник.
 
 --- /task ---
