@@ -1,34 +1,34 @@
 ---
-title: Обличчя
+title: Намалюй обличчя
 hero_image: images/banner.png
-description: Проєктування та малювання обличчя або маски за допомогою геометричних фігур
-meta_title: Python coding projects for kids and teens | Make a face
-meta_description: Learn Python with the Raspberry Pi Foundation's coding projects for kids and teens. Write Python code to draw a face or mask using geometric shapes.
+description: Придумай та намалюй обличчя або маску за допомогою геометричних фігур
+meta_title: Проєкти з кодування для дітей і підлітків | Намалюй обличчя
+meta_description: Вивчай Python за допомогою проєктів програмування Raspberry Pi Foundation для дітей і підлітків. За допомогою Python намалюй обличчя або маску, використовуючи геометричні фігури.
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: What you will make
+    title: Що ти зробиш
   - 
-    title: Choose a background
+    title: Вибери тло
     completion:
       - engaged
   - 
-    title: Circles and ovals
+    title: Кола й овали
   - 
-    title: Rectangles
+    title: Прямокутники
   - 
-    title: Triangles
+    title: Трикутники
   - 
-    title: Overlap shapes
+    title: Взаємодія фігур
   - 
-    title: Create your face
+    title: Створи своє обличчя
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Швидкий тест
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -37,7 +37,7 @@ steps:
     completion:
       - external
   - 
-    title: Challenge
+    title: Додаткове завдання
     challenge: true
   - 
-    title: What can you do now?
+    title: Що робити далі?
