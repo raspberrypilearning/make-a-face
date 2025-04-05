@@ -17,46 +17,46 @@ def happy(x_middle, y_eye, y_mouth):
 
 
 def setup():
-    # Put code to run once here
-    size(400, 400)  # width and height
-    background(0, 0, 0)  # move under draw() to reset the drawing every frame
+    # Тут розмісти код, який запускається один раз
+    size(400, 400)  # ширина і висота
+    background(0, 0, 0)  # перемісти у draw(), щоб малюнок оновлювався на кожному кадрі
     rect_mode(CENTER)
     no_stroke()
 
 
 def draw():
-    # Put code to run every frame here
+    # Тут розмісти код, який запускається на кожному кадрі
     mask_width = width / 2
     x_middle = width / 2
     y_eye = 180
     y_mouth = 255
-    # draw mask
-    fill(255, 255, 255)  # white
+    # малювання маски
+    fill(255, 255, 255)  # білий
     rect(200, 150, mask_width, mask_width)
     ellipse(x_middle, 250, mask_width, 140)
-    # eyes and mouth
-    fill(0)  # black
-    ellipse(x_middle - 50, y_eye, 60, 50)  # x, y, width, height
+    # очі та рот
+    fill(0) # чорний
+    ellipse(x_middle - 50, y_eye, 60, 50) # x, y, ширина, висота
     ellipse(x_middle + 50, y_eye, 60, 50)
     ellipse(x_middle, y_mouth, 100, 75)
-    # partly cover eyes and mouth
+    # частково закривати очі та рот
     fill(255)
     if mouse_x > x_middle:
         happy(x_middle, y_eye, y_mouth)
     else:
         sad(x_middle, y_eye, y_mouth)
-    # cover top of mask
+    # закрити верхню частину маски
     fill(0)
     ellipse(x_middle, 60, 250, 90)
-    # shade half of the mask
+    # затінити половину маски
     fill(0, 25)
     rect(300, 200, width/2, height)
 
 
 def mouse_pressed():
-    # Put code to run when the mouse is pressed here
+    # Тут розмісти код, який запускається при натисканні миші
     print(mouse_x, mouse_y)
 
 
-# Keep this to run your code
+# Цей рядок запускає код
 run()
