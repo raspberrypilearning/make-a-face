@@ -1,14 +1,14 @@
-## Circles and ovals
+## Кола й овали
 
-Draw and colour a shape for your face or mask.
+Намалюй та пофарбуй фігуру для обличчя або маски.
 
-An **ellipse** is an oval shape. If you specify the same width and height, you will draw a circle.
+Функція **ellipse** створює овальну фігуру (еліпс). Якщо ти вкажеш однакову ширину й висоту, отримаєш коло.
 
 --- task ---
 
-Add code to the `draw()` function to set the fill colour using red, green and blue values, just like you did for the background.
+Додай код до функції `draw()`, щоб установити колір заливки за допомогою значень червоного, зеленого та синього, як під час створення тла.
 
-Then, draw a circle in this colour.
+Потім намалюй коло цим кольором.
 
 --- code ---
 ---
@@ -25,13 +25,13 @@ def draw(): # Put code to run every frame here background(255, 255, 255)
 
 --- task ---
 
-**Test:** Run your code and you should see a coloured circle.
+**Протестуй:** запусти код. Ти маєш побачити кольорове коло.
 
 --- /task ---
 
 --- task ---
 
-Change the width and height values to see the ellipse change shape.
+Зміни значення ширини та висоти, і форма еліпса теж зміниться.
 
 --- code ---
 ---
@@ -44,13 +44,13 @@ def draw(): # Put code to run every frame here background(255, 255, 255)
 
 --- /code ---
 
-![A yellow ellipse which is wider than it is tall.](images/change_shape.png)
+![Жовтий еліпс, ширина якого більше за висоту.](images/change_shape.png)
 
 --- /task ---
 
 --- task ---
 
-Before the code where you draw the ellipse, you can choose to set a colour and thickness.
+Перед кодом, який малює еліпс, можна вибрати колір і товщину лінії.
 
 
 --- code ---
@@ -71,7 +71,7 @@ line_highlights: 15-16
 
 --- /code ---
 
-Or, if you prefer, you can remove the stroke and have no outline.
+Якщо хоче, можеш видалити контур (функція no_stroke).
 
 --- code ---
 ---
@@ -94,6 +94,6 @@ line_highlights: 15
 
 --- task ---
 
-**Test:** Experiment with changing the stroke colour and thickness or removing it, then run your code to see the results.
+**Протестуй:** поекспериментуй зі зміною кольору й товщиною лінії (або взагалі видали контур), а потім запусти свій код і подивись, що вийшло.
 
 --- /task ---
