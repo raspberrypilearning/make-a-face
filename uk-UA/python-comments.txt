@@ -1,36 +1,36 @@
-A face with ninja eyes
+Обличчя з очима ніндзя
 
-A face that looks like Frida Kahlo
+Обличчя, схоже на Фріду Кало
 
-A face that looks like a robot with teeth
+Обличчя, схоже на робота з зубами
 
-A face that looks like a tribal mask
+Обличчя, схоже на племінну маску
 
-A face wearing a face mask
+Обличчя в масці
 
-A face that looks like a vampire
+Обличчя, схоже на вампіра
 
-Помісти тут код для запуску на кожному кадрі
+Тут розмісти код, який запускається на кожному кадрі
 
-Add code to draw your face here
+Тут додай код, який малюватиме обличчя
 
-width
+ширина
 
-height
+висота
 
-x coordinate
+координата x
 
-y coordinate
+координата y
 
-Brown
+Коричневий
 
 Обличчя
 
-Red
+Червоний
 
 Рот
 
-Overlap
+Перекриття
 
 Чорний
 
