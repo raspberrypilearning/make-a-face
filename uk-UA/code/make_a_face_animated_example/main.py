@@ -25,7 +25,7 @@ def draw():
         )
         ellipse(random.randint(100, 300), random.randint(150, 210), 20, 20)
 
-    # Eyes
+    # Очі
     fill(0)
     ellipse(160, 270, 85, 30)
     ellipse(240, 270, 85, 30)
@@ -39,7 +39,7 @@ def draw():
     ellipse(165, 285, 10, 10)
     ellipse(245, 285, 10, 10)
 
-    # Mouth
+    # Рот
     fill(0)
     rect(185, 320, 30, 5)
 
