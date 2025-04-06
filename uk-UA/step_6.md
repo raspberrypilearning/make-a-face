@@ -1,19 +1,19 @@
-## Overlap shapes
+## Накладання фігур
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-A mouth is a great way of showing emotion. Will your character have a smile, frown, or something else? 
+Рот може виражати безліч емоції. Твій персонаж буде посміхатися, хмуритися або робити щось інше? 
 </div>
 <div>
-![Image showing a robot face as an example of a face with a mouth.](images/mask.png){:width="200px"}
+![Зображення обличчя робота як приклад обличчя з ротом.](images/mask.png){:width="200px"}
 </div>
 </div>
 
-You can make shapes you couldn't otherwise create by overlapping shapes, for example you could add two overlapping circles to create a smile.
+За допомогою накладання фігур одна на одну ти можеш створити фігури, які неможливо було б намалювати інакше. Наприклад, ти можеш накласти одне коло на інше і зробити усмішку.
 
 --- task ---
 
-Start with an ellipse to represent the face.
+Спочатку намалюй еліпс для обличчя.
 
 
 --- code ---
@@ -29,7 +29,7 @@ def draw(): # Put code to run every frame here background(255, 255, 255) # Add c
 
 --- task ---
 
-Set the `fill` colour for your mouth then draw an `ellipse`.
+Встанови колір заливки (`fill`) для рота, потім намалюй еліпс (`ellipse`).
 
 --- code ---
 ---
@@ -44,9 +44,9 @@ def draw(): # Put code to run every frame here background(255, 255, 255) # Add c
 
 --- task ---
 
-Set the `fill` colour to match the face colour, then draw a second `ellipse`.
+Встанови колір заливки (`fill`), який відповідає кольору обличчя. Потім намалюй другий еліпс (`ellipse`).
 
-Change the `y` coordinate of the second `ellipse` to a slightly higher position for a smile.
+Встанови трохи вищу координату `y` другого еліпса, щоб отримати усмішку.
 
 
 --- code ---
@@ -62,12 +62,12 @@ line_highlights: 20-21
 
 --- /code ---
 
-![A brown circle with a red crescent positioned near the bottom like a smile](images/brown-circle-smile.png)
+![Коричневе коло з червоним півмісяцем у нижній частині — усмішкою.](images/brown-circle-smile.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Experiment with changing the fill colours and sizes of the ellipses. Run your program to see the results.
+**Протестуй:** спробуй різні кольори заливки та розміри еліпсів. Запусти програму, щоб побачити результат.
 
 --- /task ---
