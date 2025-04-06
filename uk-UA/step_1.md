@@ -1,67 +1,33 @@
-## Ти зробиш
+## Що ти зробиш
 
-Напишеш код на Python, щоб намалювати обличчя або маску за допомогою геометричних фігур.
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Історія <span style="color: #0faeb0">**геометричного мистецтва**</span> бере свій початок у Стародавній Греції, де вази розписували візерунками, які складалися з фігур. Художники почали використовувати фігури для малювання людей та тварин: кола для голови, трикутники для тіла, лінії для ніг та рук.
-</p>
-
-Зможеш:
-
-+ Скористатися кодом творчо, щоб створити витвір цифрового мистецтва
-+ Намалювати та оформити своє мистецтво, використовуючи геометричні фігури, координати та слої
-+ Організувати свій код за допомогою функцій
+Ти напишеш код на Python, який малюватиме обличчя або маску за допомогою геометричних фігур.
 
 ![Приклади різних облич.](images/strip.png)
 
 --- no-print ---
 
-### Отримай ідеї 💭
+**Кавайний фрукт**:
+<iframe src="https://editor.raspberrypi.org/uk-UA/embed/viewer/fruit-face-example" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
+[Переглянути код](https://editor.raspberrypi.org/uk-UA/projects/fruit-face-example){:target="_blank"}
 
-Ти будеш приймати деякі дизайнерські рішення щодо того, яке обличчя ти будеш робити та як ти будеш використовувати код, щоб отримати бажаний результат.
+**Декілька облич**:
+<iframe src="https://editor.raspberrypi.org/uk-UA/embed/viewer/stacked-faces-example" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
+[Переглянути код](https://editor.raspberrypi.org/uk-UA/projects/stacked-faces-example){:target="_blank"}
 
---- task ---
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
-
-Зверни увагу на ці приклади та подумай, як вони були зроблені з кругів, овалів, квадратів, прямокутників та трикутників.
-
-**Милий фрукт**: [Подивитись код](https://trinket.io/python/ac105fb21b){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/ac105fb21b?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
-
-**Складені обличчя**: [Подивитись код](https://trinket.io/python/838511507b){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/838511507b?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
-
-**Маска племені**: [Подивитись код](https://trinket.io/python/953f53b5d2){:target="_blank"}
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/953f53b5d2?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
-
-</div>
-</div>
-
---- /task ---
+**Племінна маска**:
+<iframe src="https://editor.raspberrypi.org/uk-UA/embed/viewer/tribal-mask-example" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
+[Переглянути код](https://editor.raspberrypi.org/uk-UA/projects/tribal-mask-example){:target="_blank"}
 
 --- /no-print ---
 
 --- print-only ---
 
-### Отримай ідеї 💭
-
-Ти будеш приймати деякі дизайнерські рішення щодо того, яке обличчя ти будеш робити та як ти будеш використовувати код, щоб отримати бажаний результат.
-
-Переглянь приклади проєктів у студії Trinket [Python 1: Обличчя — Приклади](https://trinket.io/library/folder/make-a-face-examples){:target="_blank"}.
-
-![Область виводу проєкту Милий фрукт.](images/smile.png) 
-![Область виводу проєкту Складені обличчя.](images/stacked.png) 
-![Область виводу проєкту Маска племені.](images/tribal.png)
+![Область виводу проєкту «Кавайний фрукт».](images/smile.png)
+![Область виводу проєкту «Декілька облич».](images/stacked.png)
+![Область виводу проєкту «Племінна маска».](images/tribal.png)
 
 --- /print-only ---
 
