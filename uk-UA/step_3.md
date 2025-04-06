@@ -60,8 +60,8 @@ def draw():
     ellipse(
         screen_size/2, 
         screen_size/2, 
-        100, # width
-        50   # height
+        100, # ширина
+        50   # висота
     )  
   
 --- /code ---
