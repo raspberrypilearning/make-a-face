@@ -29,7 +29,7 @@ def draw(): # Put code to run every frame here background(255, 255, 255) # Add c
 
 --- task ---
 
-Встанови колір заливки (`fill`) для рота, потім намалюй еліпс (`ellipse`).
+Встанови колір заливки (`fill`) для рота, а потім намалюй еліпс (`ellipse`).
 
 --- code ---
 ---
