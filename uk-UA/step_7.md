@@ -1,14 +1,14 @@
-## Create your face
+## Створи своє обличчя
 
 --- task ---
 
-Now it is over to you! Use the skills you have learned to draw shapes and create a face.
+Тепер твоя черга! Використовуй свої нові навички малювання фігур і створи обличчя.
 
 --- /task ---
 
-Here are some examples for inspiration
+Ось кілька прикладів для натхнення.
 
-![A face with ninja eyes](images/eyes.png){:width="150px"}
+![Обличчя з очима ніндзя](images/eyes.png){:width="150px"}
 ![A face that looks like Frida Kahlo](images/frida.png){:width="150px"}
 ![A face that looks like a robot with teeth](images/robot-teeth.png){:width="150px"}
 ![A face that looks like a tribal mask](images/tribal.png){:width="150px"}
