@@ -19,7 +19,7 @@ def gluecklich(x_mitte, y_auge, y_mund):
 def setup():
     # Füge hier den Code ein, der einmal ausgeführt werden soll
     size(400, 400)  # Breite und Höhe
-    background(0, 0, 0)  # verschiebe unter draw(), um die Zeichnung jeden Frame zurückzusetzen
+    background(0, 0, 0)  #  Verschiebe dies unter draw(), um die Zeichnung bei jedem Frame zurückzusetzen
     rect_mode(CENTER)
     no_stroke()
 
@@ -45,7 +45,7 @@ def draw():
         gluecklich(x_mitte, y_auge, y_mund)
     else:
         traurig(x_mitte, y_auge, y_mund)
-    # oberen Teil der Maske abdecken
+    # Oberen Teil der Maske abdecken
     fill(0)
     ellipse(x_mitte, 60, 250, 90)
     # Hälfte der Maske schattieren
