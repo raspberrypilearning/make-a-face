@@ -32,7 +32,7 @@ run()
 
  --- feedback ---
 
- Niet helemaal, kijk naar de volgorde van de `ellips()` en de `stroke()` functies.
+ Niet helemaal, kijk naar de volgorde van de `ellipse()` en de `stroke()` functies.
 
  --- /feedback ---
 
@@ -62,7 +62,7 @@ run()
 
  --- feedback ---
 
- Niet helemaal, kijk naar de volgorde van de `ellips()` functies.
+ Niet helemaal, kijk naar de volgorde van de `ellipse()` functies.
 
  --- /feedback ---
 
