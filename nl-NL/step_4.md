@@ -25,7 +25,7 @@ def draw(): # Put code to run every frame here background(255, 255, 255)
 
 --- /task ---
 
-De eerste twee waarden voor `rechthoek` en `ellips` zijn de x-, y-coördinaten van het middelpunt van de vorm. Op dit moment zijn ze ingesteld op `screen_size/2` om de vorm in het midden van het scherm te positioneren.
+De eerste twee waarden voor `rect` en `ellipse` zijn de x-, y-coördinaten van het middelpunt van de vorm. Op dit moment zijn ze ingesteld op `screen_size/2` om de vorm in het midden van het scherm te positioneren.
 
 De linkerbovenhoek van het scherm is de coördinaat `0`,`0`. Als je de waarde van `x` verhoogt, wordt de vorm naar rechts verplaatst. Als je de waarde van `y` verhoogt, wordt de vorm naar beneden verplaatst.
 
