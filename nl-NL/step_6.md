@@ -29,7 +29,7 @@ def draw(): # Put code to run every frame here background(255, 255, 255) # Add c
 
 --- task ---
 
-Stel de `vul`-kleur in voor je mond en teken vervolgens een `ellips`.
+Stel de `fill`-kleur in voor je mond en teken vervolgens een `ellipse`.
 
 --- code ---
 ---
@@ -44,9 +44,9 @@ def draw(): # Put code to run every frame here background(255, 255, 255) # Add c
 
 --- task ---
 
-Stel de `vul`-kleur in, zodat deze overenkomt met de gezichtskleur, en teken vervolgens een tweede `ellips`.
+Stel de `fill`-kleur in, zodat deze overenkomt met de gezichtskleur, en teken vervolgens een tweede `ellipse`.
 
-Verander de `y` coördinaat van de tweede `ellips` naar een iets hogere positie voor een glimlach.
+Verander de `y` coördinaat van de tweede `ellipse` naar een iets hogere positie voor een glimlach.
 
 
 --- code ---
