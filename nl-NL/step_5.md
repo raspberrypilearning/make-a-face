@@ -4,7 +4,7 @@ Om een driehoek te tekenen, moet je drie waardeparen opgeven. Elk paar is een x,
 
 --- task ---
 
-Voeg code toe om een `driehoek`te tekenen.
+Voeg code toe om een `triangle` te tekenen.
 
 --- code ---
 ---
