@@ -34,6 +34,6 @@ def draw():
 
 --- task ---
 
-**Test:** Voer je code out en je zou een gekleurd vierkant moeten zien als je achtergrond.
+**Test:** Voer je code uit en je zou een gekleurd vierkant moeten zien als je achtergrond.
 
 --- /task ---
