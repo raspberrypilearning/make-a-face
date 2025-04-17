@@ -31,7 +31,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-  Niet helemaal, om een droevige mond te maken zou de tweede `ellips` een **y-coordinaat** nodig hebben die lager is dan de eerste `ellips`.
+  Niet helemaal, om een droevige mond te maken zou de tweede `ellipse` een **y-coordinaat** nodig hebben die lager is dan de eerste `ellipse`.
 
   --- /feedback ---
 
@@ -39,7 +39,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-  Dat klopt! De tweede `ellips` wordt getekend met een **y-coordinaat** die hoger is dan de eerste `ellips`.
+  Dat klopt! De tweede `ellipse` wordt getekend met een **y-coordinaat** die hoger is dan de eerste `ellipse`.
 
   --- /feedback ---
 
@@ -55,7 +55,7 @@ def draw(): fill(0, 0, 0) #Black ellipse(160, 200, 150, 150) fill(255, 255, 255)
 
   --- feedback ---
 
-De code tekent geen rechthoeken. De functie `ellips` tekent cirkels.
+De code tekent geen rechthoeken. De functie `ellipse` tekent cirkels.
 
   --- /feedback ---
 
