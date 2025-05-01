@@ -32,8 +32,8 @@ def draw():
     bouche_y = 255
     # dessiner un masque
     fill(255, 255, 255)  # blanc
-    rect(200, 150, largeur_masque, largeur_masque)
-    ellipse(milieu_x, 250, largeur_masque, 140)
+    rect(200, 150, masque_largeur, masque_largeur)
+    ellipse(milieu_x, 250, masque_largeur, 140)
     # yeux et bouche
     fill(0)  # noir
     ellipse(milieu_x - 50, yeux_y, 60, 50) # x, y, largeur, hauteur

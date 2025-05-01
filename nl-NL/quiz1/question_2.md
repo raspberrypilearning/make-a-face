@@ -4,7 +4,7 @@
 legend: Vraag 2 van 3
 ---
 
-In je project heb je code toegevoegd om een gezicht te tekenen met veel functies. De volgorde van je code was erg belangrijk om het gezicht eruit te laten zien als je ontwerp.
+In je project heb je code toegevoegd om een gezicht te tekenen met veel kenmerken. De volgorde van je code was erg belangrijk om het gezicht er precies zo uit te laten zien als je ontwerp.
 
 Hoe zou het gezicht eruit zien als je deze code uitvoert?
 
@@ -16,20 +16,20 @@ language: python
 
 def draw():
 
-  #Gezicht
-  stroke(0) #Zwart
-  fill(255) #Wit
+  # Gezicht
+  stroke(0) # Zwart
+  fill(255) # Wit
   ellipse(200, 200, 200, 190)
   no_stroke()
   
-  #Ogen
-  fill(0, 255, 0) #Groen
+  # Ogen
+  fill(0, 255, 0) # Groen
   ellipse(160, 180, 60, 60)
   ellipse(240, 180, 60, 60)
-  fill(0) #Zwart
+  fill(0) # Zwart
   ellipse(160, 180, 30, 30)
   ellipse(240, 180, 30, 30)
-
+  
 run()
 
 --- /code ---
@@ -42,7 +42,7 @@ run()
 
  --- feedback ---
 
- Niet helemaal, kijk naar de volgorde van de `ellips()` en de `stroke()` functies.
+ Niet helemaal, kijk naar de volgorde van de `ellipse()` en de `stroke()` functies.
 
  --- /feedback ---
 
@@ -72,7 +72,7 @@ run()
 
  --- feedback ---
 
- Niet helemaal, kijk naar de volgorde van de `ellips()` functies.
+ Niet helemaal, kijk naar de volgorde van de `ellipse()` functies.
 
  --- /feedback ---
 

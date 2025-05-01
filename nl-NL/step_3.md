@@ -1,91 +1,123 @@
-## Vorm van het gezicht
+## Cirkels en ovalen
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Teken en kleur een vorm voor je gezicht of masker. Voeg de andere elementen nog niet toe, die komen later.
-</div>
-<div>
-![Afbeelding van een robot met een vierkant gezicht.](images/robot-teeth.png){:width="200px"}
-</div>
-</div>
+Teken en kleur een vorm voor je gezicht of masker.
+
+Een **ellips** is een ovale vorm. Als je dezelfde breedte en hoogte opgeeft, dan teken je een cirkel.
 
 --- task ---
 
-Kies de hoofdvorm van het gezicht voor je masker. Het kan een cirkel, een ellips, een rechthoek of zelfs een driehoek zijn.
+Voeg code toe aan de `draw()` functie om de opvulkleur in te stellen met rode, groene en blauwe waarden, net zoals je voor de achtergrond hebt gedaan.
 
-Voeg code toe aan de `draw()` functie om een gezicht of masker te tekenen.
-
-In dit voorbeeld wordt een zwarte cirkel in het midden getekend, maar je kunt helemaal zelf bepalen welke vorm en kleur je wil gebruiken.
+Teken vervolgens een cirkel in deze kleur.
 
 --- code ---
 ---
 language: python
-filename: main.py - draw()
 line_numbers: true
-line_number_start: 10
-line_highlights: 14, 15
+line_number_start: 12
+line_highlights: 16-22
 ---
 
 def draw():
     # Zet hier code om bij elk frame uit te voeren
-    background(255, 255, 255)  # Verander naar de achtergrondkleur
-    
+    background(255, 255, 255)  
     # Voeg hier code toe om je gezicht te tekenen
-    ellipse(width/2, height/2, 200, 200)  # Cirkel in het midden
-    
-    grid()  # voeg een # toe aan het begin van deze regel om het raster te verbergen
+    fill(255, 255, 0) 
+    ellipse(
+        scherm_grootte/2, 
+        scherm_grootte/2, 
+        200, 
+        200
+    )  
   
 --- /code ---
 
-![Het uitvoergebied met een zwarte cirkel in het midden van het raster.](images/black-circle.png)
+--- /task ---
 
-[[[processing-python-ellipse]]]
+--- task ---
 
-
-[[[processing-python-rect]]]
-
-
-[[[processing-python-triangle]]]
+**Test:** Voer je code uit, je zou een gekleurde cirkel moeten zien.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Voer je code uit en wijzig deze om de grootte en vorm van het gezicht te krijgen die je wilt.
-
---- /task ---
-
---- task ---
-
-Kies een lijnkleur voor de omtrek en een vulkleur voor het hoofdgedeelte van de vorm.
-
-[[[processing-stroke]]]
-
-Als je geen omtrek wilt, gebruik dan `no_stroke()`.
+Wijzig de waarden voor breedte en hoogte om te zien hoe de ellips van vorm verandert.
 
 --- code ---
 ---
 language: python
-filename: main.py - draw()
 line_numbers: true
-line_number_start: 13
-line_highlights: 14
+line_number_start: 10
+line_highlights: 18-19
 ---
 
+def draw():
+    # Zet hier code om bij elk frame uit te voeren
+    background(255, 255, 255)  
     # Voeg hier code toe om je gezicht te tekenen
-    fill(255, 255, 0)  # Fel geel
-    ellipse(width/2, height/2, 200, 200)
+    fill(255, 255, 0) 
+    ellipse(
+        scherm_grootte/2, 
+        scherm_grootte/2, 
+        100, # breedte
+        50   # hoogte
+    )  
   
 --- /code ---
 
-[[[generic-theory-simple-colours]]]
+![Een gele ellips die breder is dan hij hoog is.](images/change_shape.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Voer je code uit en wijzig de kleur totdat je er tevreden mee bent.
+Vóór de code waarin je de ellips tekent, kun je een kleur en dikte instellen.
+
+
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 14
+line_highlights: 15-16
+---
+    fill(255, 255, 0) 
+    stroke(255, 255, 255)  
+    stroke_weight(3)
+    ellipse(
+        scherm_grootte/2, 
+        scherm_grootte/2, 
+        100, 
+        50
+    )  
+    
+--- /code ---
+
+Of, als je dat liever wilt, kun je de lijn verwijderen, zodat er geen omtrek meer overblijft.
+
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 14
+line_highlights: 15
+---
+    fill(255, 255, 0) 
+    no_stroke()
+    ellipse(
+        scherm_grootte/2, 
+        scherm_grootte/2, 
+        100, 
+        50
+    )  
+  
+--- /code ---
 
 --- /task ---
 
---- save ---
+--- task ---
+
+**Test:** Experimenteer met het wijzigen van de kleur en dikte van de lijn of deze te verwijderen, voer vervolgens je code uit om de resultaten te bekijken.
+
+--- /task ---

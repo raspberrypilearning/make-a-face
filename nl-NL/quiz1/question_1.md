@@ -6,8 +6,6 @@ Klik na het beantwoorden van elke vraag op **Controleer mijn antwoord**.
 
 Veel plezier!
 
-Veel plezier!
-
 --- question ---
 
 ---
@@ -24,9 +22,9 @@ language: python
 
 ---
 def draw():
-  fill(0, 0, 0) #Zwart
+  fill(0, 0, 0) # Zwart
   ellipse(160, 200, 150, 150)
-  fill(255, 255, 255) #Wit
+  fill(255, 255, 255) # Wit
   ellipse(160, 150, 150, 150)
 
 --- /code ---
@@ -37,7 +35,7 @@ def draw():
 
   --- feedback ---
 
-  Niet helemaal, om een droevige mond te maken zou de tweede `ellips` een **y-coordinaat** nodig hebben die lager is dan de eerste `ellips`.
+  Niet helemaal, om een droevige mond te maken zou de tweede `ellipse` een **y-coordinaat** nodig hebben die lager is dan de eerste `ellipse`.
 
   --- /feedback ---
 
@@ -45,7 +43,7 @@ def draw():
 
   --- feedback ---
 
-  Dat klopt! De tweede `ellips` wordt getekend met een **y-coordinaat** die hoger is dan de eerste `ellips`.
+  Dat klopt! De tweede `ellipse` wordt getekend met een **y-coordinaat** die hoger is dan de eerste `ellipse`.
 
   --- /feedback ---
 
@@ -61,7 +59,7 @@ def draw():
 
   --- feedback ---
 
-De code tekent geen rechthoeken. De functie `ellips` tekent cirkels.
+De code tekent geen rechthoeken. De functie `ellipse` tekent cirkels.
 
   --- /feedback ---
 

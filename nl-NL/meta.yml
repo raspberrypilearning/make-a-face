@@ -10,13 +10,14 @@ copyedit: true
 last_tested: "2021-10-06"
 steps:
   - title: Wat ga je maken
-  - title: Kies een thema
-  - title: Vorm van het gezicht
+  - title: Kies een achtergrond
     completion:
       - engaged
-  - title: Voeg ogen toe
-  - title: Voeg een mond toe
-  - title: Voeg meer details toe
+  - title: Cirkels en ovalen
+  - title: Rechthoeken
+  - title: Driehoeken
+  - title: Overlappende vormen
+  - title: Maak je gezicht
     completion:
       - internal
   - title: Snelle quiz
@@ -27,6 +28,6 @@ steps:
       passing_score: 3
     completion:
       - external
-  - title: Verbeter je project
-  - title: Deel je project
+  - title: Uitdaging
+    challenge: true
   - title: Wat kun je verder nog doen?

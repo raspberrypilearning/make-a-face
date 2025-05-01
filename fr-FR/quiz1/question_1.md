@@ -6,8 +6,6 @@ Lorsque tu as répondu à chaque question, clique sur **Vérifier ma réponse**.
 
 Amuse-toi bien !
 
-Amuse-toi bien !
-
 --- question ---
 
 ---

@@ -16,17 +16,17 @@ language: python
 
 def draw():
 
-  #Visage
-  stroke(0) #Noir
-  fill(255) #Blanc
+  # Visage
+  stroke(0) # Noir
+  fill(255) # Blanc
   ellipse(200, 200, 200, 190)
   no_stroke()
   
-  #Yeux
-  fill(0, 255, 0) #Vert
+  # Yeux
+  fill(0, 255, 0) # Vert
   ellipse(160, 180, 60, 60)
   ellipse(240, 180, 60, 60)
-  fill(0) #Noir
+  fill(0) # Noir
   ellipse(160, 180, 30, 30)
   ellipse(240, 180, 30, 30)
   

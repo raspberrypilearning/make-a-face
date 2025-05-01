@@ -1,60 +1,36 @@
-400 bij 400 werkt goed voor een rond gezicht
+Een gezicht met ninja-ogen
 
-Probeer andere getallen om de kleur te veranderen
+Een gezicht dat lijkt op Frida Kahlo
 
-Toont raster
+Een gezicht dat lijkt op een robot met tanden
 
-Verberg raster door het te veranderen in een opmerking
+Een gezicht dat lijkt op een stammenmasker
 
-Cirkel in het midden
+Een gezicht met een gezichtsmasker
 
-Je kunt ook no_stroke() gebruiken
+Een gezicht dat op een vampier lijkt
 
-Fel geel
+Zet hier code om bij elk frame uit te voeren
 
-Zwart: Verander naar rood, groen of blauw tot 255
+Voeg hier code toe om je gezicht te tekenen
 
-x, y, breedte, hoogte
+breedte
 
-Een zwarte mond
+hoogte
 
-Een oranje gezicht
+x-coördinaat
 
-Hogere cirkel
+y-coördinaat
 
-Onderste cirkel
+Bruin
 
-Gezichtsmasker
+Gezicht
 
-Linker oorlus
-
-Rechter oorlus
-
-Grote witte rechthoek
-
-Kleinere blauwe rechthoek
+Rood
 
 Mond
 
-Beginhoeveelheid rood
-
-Beginhoeveelheid groen
-
-Beginhoeveelheid blauw
-
-Gebruikt variabelen om de kleurverandering van elke lus te regelen
-
-Beweeg langs de x-coördinaat met de breedte van een tand
-
-Mondlijn
-
-Linker tand
-
-Rechter tand
-
-Highlights
-
-70 is hier de transparantie/doorzichtigheid
+Overlap
 
 Zwart
 
@@ -62,80 +38,4 @@ Wit
 
 Ogen
 
-Gezicht
-
 Groen
-
-Zet de code om eenmalig uit te voeren hier onder
-
-breedte en hoogte
-
-plaats onder draw() om de tekening elk frame te resetten
-
-Zet hier code om bij elk frame uit te voeren
-
-teken het masker
-
-ogen en mond
-
-bedek ogen en mond gedeeltelijk
-
-bedek de bovenkant van het masker
-
-schaduw de helft van het masker
-
-Zet code hier die moet worden uitgevoerd wanneer de muis wordt ingedrukt
-
-Bewaar dit om je code uit te voeren
-
-Definities voor compatibiliteit met de p5py-verwerkingsbibliotheek
-
-Vorm
-
-Lettertypen
-
-Tekst
-
-Kleur
-
-Afbeeldingen
-
-Omgeving
-
-Omzetten
-
-Toetsenbord
-
-Haar en gezicht
-
-steel
-
-Bovenste gezicht achtergrond
-
-Haar van het bovenste gezicht
-
-Bovenste gezicht linkeroog
-
-Bovenste gezicht rechteroog
-
-Bovenste gezicht mond
-
-Achtergrond van het onderste gezicht
-
-Haar van het onderste gezicht
-
-Onderste gezicht linkeroog
-
-Onderste gezicht rechter oog
-
-Onderste gezicht mond
-
-Neus
-
-Gezichtsmarkeringen
-
-Voeg hier code toe om je gezicht te tekenen
-
-Haar
-
-voeg een # toe aan het begin van deze regel om het raster te verbergen

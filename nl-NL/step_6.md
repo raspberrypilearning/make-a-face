@@ -1,54 +1,92 @@
-## Voeg meer details toe
+## Overlappende vormen
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Heeft je gezicht of masker meer details nodig om het interessanter te maken? 
+Een mond is een geweldige manier om emotie te tonen. Zal je gezicht een glimlach, frons of iets anders hebben? 
 </div>
 <div>
-![Voorbeeld afbeelding van een gezicht met een hoofdband.](images/frida.png){:width="200px"}
+![Afbeelding met een robotgezicht als voorbeeld van een gezicht met een mond.](images/mask.png){:width="200px"}
 </div>
 </div>
 
---- task ---
-
-Je kunt meer vormen gebruiken om meer elementen aan je gezicht of masker toe te voegen.
-
-Hoe kun je het gezicht meer persoonlijkheid geven?
-
-Je zou het volgende kunnen toevoegen:
-
-+ Een neus
-+ Wenkbrauwen
-+ Oren
-+ Wangen
-+ Highlights/catchlights
-+ Wat je maar wilt!
-
-Voeg gewoon de extra details toe die voor je tekening zinvol zijn.
-
---- /task ---
+Door vormen te overlappen, kun je vormen maken die je anders niet zou kunnen maken, je kunt bijvoorbeeld twee overlappende cirkels toevoegen om een glimlach te creëren.
 
 --- task ---
 
-Je kunt gedeeltelijk transparante kleuren maken door een vierde getal toe te voegen aan een RGB-kleur om de **doorzichtigheid** te geven.
+Begin met een ellips om het gezicht weer te geven.
 
-Deze code tekent de overlappende highlights in het Kawaii fruit voorbeeld:
 
 --- code ---
 ---
 language: python
-filename: main.py - draw()
+line_numbers: true
+line_number_start: 12
+line_highlights: 17-18
 ---
-
-    # Highlights    
-    fill(255, 255, 255, 70)  # 70 is hier de transparantie/doorzichtigheid
-    ellipse(170, 150, 35, 35)   
-    ellipse(150, 160, 25, 25)    
+def draw():
+    # Zet hier code om bij elk frame uit te voeren
+    background(255, 255, 255)
+    # Voeg hier code toe om je gezicht te tekenen
+    no_stroke()
+    fill(125, 75, 0) # Bruin
+    ellipse(200, 220, 150, 150) # Gezicht
 
 --- /code ---
 
-![Kawaii fruit afbeelding met highlights bij verschillende doorzichtigheden: 30, 70, 150, 255. De lagere waarde, 30, is meer doorzichtig en 255 is minder doorzichtig.](images/opacity.png)
+--- /task ---
+
+--- task ---
+
+Stel de `fill`-kleur in voor je mond en teken vervolgens een `ellipse`.
+
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 12
+line_highlights: 19-22
+---
+def draw():
+    # Zet hier code om bij elk frame uit te voeren
+    background(255, 255, 255)
+    # Voeg hier code toe om je gezicht te tekenen
+    no_stroke()
+    fill(125, 75, 0) # Bruin
+    ellipse(200, 220, 150, 150) # Gezicht
+    fill(255, 0, 0)  # Rood
+    ellipse(200, 240, 40, 40) # Mond
+
+--- /code ---
 
 --- /task ---
 
---- save ---
+--- task ---
+
+Stel de `fill`-kleur in, zodat deze overenkomt met de gezichtskleur, en teken vervolgens een tweede `ellipse`.
+
+Verander de `y` coördinaat van de tweede `ellipse` naar een iets hogere positie voor een glimlach.
+
+
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 18
+line_highlights: 20-21
+---
+    fill(255, 0, 0)  # Rood
+    ellipse(200, 240, 40, 40) # Mond
+    fill(125, 75, 0) # Bruin
+    ellipse(200, 235, 40, 40) # Overlap   
+
+--- /code ---
+
+![Een bruine cirkel met een rode halve maan onderaan, als een glimlach](images/brown-circle-smile.png)
+
+--- /task ---
+
+--- task ---
+
+**Test:** Experimenteer met het wijzigen van de vulkleuren en -groottes van de ellipsen. Voer jouw programma uit om de resultaten te bekijken.
+
+--- /task ---

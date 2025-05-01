@@ -1,5 +1,3 @@
-#!/bin/python3
-
 from p5 import *
 import random
 
@@ -22,8 +20,9 @@ def draw():
     ellipse(155, 185, 120, 130)
     fill(230, 108, 129)
     for i in range(0, 30):
-        fill(random.randint(100, 230), random.randint(
-            90, 110), random.randint(100, 130))
+        fill(
+            random.randint(100, 230), random.randint(90, 110), random.randint(100, 130)
+        )
         ellipse(random.randint(100, 300), random.randint(150, 210), 20, 20)
 
     # Les yeux

@@ -1,176 +1,76 @@
-## Voeg ogen toe
+## Rechthoeken
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Ogen laten een vorm eruit zien als een gezicht.
-</div>
-<div>
-![Het output gebied toont een gezicht met ogen.](images/eyes.png){:width="200px"}
-</div>
-</div>
+Rechthoeken worden op bijna dezelfde manier getekend als ellipsen.
 
 --- task ---
 
-Bedenk wat voor ogen je gezicht nodig heeft. De eenvoudigste ogen zijn slechts twee cirkels.
-
-Je zou verschillende kleuren irissen en pupillen kunnen toevoegen. Je zou lichte highlights/catchlights in een andere kleur kunnen toevoegen.
-
---- /task ---
-
-Experimenteer met `ellipsen` in de functie `draw` om de ogen te maken die je wilt.
-
---- task ---
-
-### Plaats de ogen
-
-Het eerste getal in `ellipse` is het midden van het oog. De ogen moeten op dezelfde afstand van het midden van de tekening worden geplaatst.
-
-In dit voorbeeld liggen `160` en `240` allebei `40` pixels weg van 200, wat werkt voor een tekening met een breedte van 400.
+Wijzig de functie `ellipse` zodat deze de functie `rect` aanroept.
 
 --- code ---
 ---
 language: python
-filename: main.py - draw()
+line_numbers: true
+line_number_start: 12
+line_highlights: 17
 ---
 
-    fill(0, 0, 0) #Zwart: Verander naar rood, groen of blauw tot 255
-      ooggrootte = 50 
-      ellipse(160, 180, ooggrootte, ooggrootte) #x, y, breedte, hoogte 
-      ellipse(240, 180, ooggrootte, ooggrootte)
-
---- /code --- 
-
-**Tip:** Als je ronde ogen wilt, kun je met behulp van een `ooggrootte` variabele gemakkelijker de breedte en hoogte van beide ogen op één plek wijzigen.
-
-[[[processing-python-ellipse]]]
-
---- collapse ---
-
----
-title: Posities berekenen op basis van breedte
----
-
-Het midden van een tekening staat op positie `width / 2` of de helft van de breedte. Je kunt dit gebruiken om de ogen te positioneren door de oogbreedte voor het linkeroog af te trekken en op te tellen voor het rechteroog:
-
---- code ---
----
-language: python
-filename: main.py - draw()
----
-
-    fill(0, 0, 0) #Zwart: Verander naar rood, groen of blauw tot 255
-      ooggrootte = 50 
-      ellipse( (width / 2) - 40, 180, ooggrootte, ooggrootte) #x, y, breedte, hoogte 
-      ellipse( (width / 2) + 40 , 180, ooggrootte, ooggrootte)
-
+def draw():
+    # Zet hier code om bij elk frame uit te voeren
+    background(255, 255, 255)  
+    # Voeg hier code toe om je gezicht te tekenen
+    fill(255, 255, 0) 
+    rect(
+        scherm_grootte/2, 
+        scherm_grootte/2, 
+        100, 
+        50
+    )  
+  
 --- /code ---
 
-Je kunt ook de breedte van de ogen berekenen op basis van de breedte van de tekening.
+--- /task ---
+
+--- task ---
+
+**Test:** Voer je code uit om een rechthoek te zien in plaats van een ellips.
+
+--- /task ---
+
+De eerste twee waarden voor `rect` en `ellipse` zijn de x-, y-coördinaten van het middelpunt van de vorm. Op dit moment zijn ze ingesteld op `scherm_grootte/2` om de vorm in het midden van het scherm te positioneren.
+
+De linkerbovenhoek van het scherm is de coördinaat `0`,`0`. Als je de waarde van `x` verhoogt, wordt de vorm naar rechts verplaatst. Als je de waarde van `y` verhoogt, wordt de vorm naar beneden verplaatst.
+
+
+--- task ---
+
+Wijzig de positiewaarden om te bepalen waar de vorm op het scherm verschijnt.
 
 --- code ---
 ---
 language: python
-filename: main.py - draw()
+line_numbers: true
+line_number_start: 12
+line_highlights: 18-19
 ---
 
-    fill(0, 0, 0) #Zwart: Verander naar rood, groen of blauw tot 255
-      ellipse( (width / 2) - (width / 10) , 180, ooggrootte, ooggrootte) #x, y, breedte, hoogte 
-      ellipse( (width / 2) + (width / 10) , 180, ooggrootte, ooggrootte)
-
+def draw():
+    # Zet hier code om bij elk frame uit te voeren
+    background(255, 255, 255)  
+    # Voeg hier code toe om je gezicht te tekenen
+    fill(255, 255, 0) 
+    rect(
+        80, # x-coördinaat
+        60, # y-coördinaat
+        100, 
+        50
+    )  
+  
 --- /code ---
 
---- /collapse ---
-
-Wijzig het tweede getal in de functieaanroep `ellipse` om de `y` (verticale) positie van de ogen te verplaatsen.
-
 --- /task ---
 
 --- task ---
 
-**Test:** Blijf de vorm en positie van de ogen veranderen totdat je tevreden bent over hoe ze er uitzien.
-
-**Tip:** als je een rand instelt om het gezicht te tekenen en er geen wilt voor de ogen, moet je `no_stroke()` aanroepen voordat je de ogen tekent.
-
-[[[processing-stroke]]]
+**Test:** Experimenteer met het wijzigen van de coördinaten en voer vervolgens jouw code uit om te zien waar de ellips of rechthoek wordt weergegeven.
 
 --- /task ---
-
---- task ---
-
-### Voeg details toe
-
-Je kunt meer cirkels gebruiken voor:
-+ Gekleurde irissen
-+ Zwarte pupillen
-+ Witte catchlights
-+ Of iets anders
-
-Dit oog heeft een gekleurde iris, zwarte pupil en witte lichtinval met gewijzigde doorzichtigheid: ![Het uitvoergebied toont een oog met lichtinval in de pupil en iris.](images/catchlights.png)
-
-[[[generic-theory-simple-colours]]] 
-[[[processing-opacity]]]
-
-Je kunt de ogen ook veranderen door ze te draaien.
-
-[[[processing-rotation]]]
-
---- /task ---
-
---- task ---
-
-**Test:** Verander de ogen totdat je tevreden bent.
-
-Begint je tekening op een gezicht te lijken?
-
---- /task ---
-
---- task ---
-
-**Debug:** Mogelijk vind je enkele fouten in jouw project die je moet oplossen. Hier zijn enkele veel voorkomende bugs.
-
---- collapse ---
----
-title: De ogen zijn niet gecentreerd
----
-
-Je zou `height / 2` kunnen gebruiken om ze in het midden te plaatsen.
-
---- /collapse ---
-
---- collapse ---
----
-title: De ogen zijn niet uitgelijnd met elkaar
----
-
-Als je wilt dat de ogen worden uitgelijnd, zorg er dan voor dat je hetzelfde getal gebruikt voor de coördinaten voor beide ogen. Probeer een variabele te gebruiken zodat de waarden altijd hetzelfde zijn.
-
---- /collapse ---
-
---- collapse ---
-
----
-title: Ik kan de pupil of iris niet zien
----
-
-Eerst moet het oog worden getekend, dan de iris en tenslotte de pupil. De volgorde waarin je dingen tekent is erg belangrijk.
-
-Computerafbeeldingen zijn gemaakt van lagen. In je oog is elke ellips een laag. Objecten op hogere lagen zitten voor objecten op lagere lagen. Stel je voor dat je alle vormen uit papier knipt. Afhankelijk van hoe je dat papier rangschikt en overlapt, kan het eindresultaat er heel anders uitzien.
-
---- /collapse ---
-
---- collapse ---
-
----
-title: Mijn ogen zijn niet rond
----
-
-Het derde en vierde getal in `ellipse` zijn de breedte en hoogte van de ogen.
-
-**Tip:** Als je ze hetzelfde maakt, krijg je ronde ogen.
-
---- /collapse ---
-
-
---- /task ---
-
---- save ---
