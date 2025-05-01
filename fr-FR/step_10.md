@@ -15,7 +15,7 @@ Si tu suis le parcours [Introduction à Python](https://projects.raspberrypi.org
 
 --- /no-print ---
 
-Si tu souhaites t'amuser davantage en explorant Python, tu peux essayer l'un de [ces projets] (https://projects.raspberrypi.org/fr-FR/projects?software%5B%5D=python).
+Si tu souhaites t'amuser davantage en explorant Python, tu peux essayer l'un de [ces projets](https://projects.raspberrypi.org/fr-FR/projects?software%5B%5D=python).
 
 ***
 
