@@ -1,6 +1,6 @@
 ## Wat kun je verder nog doen?
 
-Als je het [Inleiding tot Python](https://projects.raspberrypi.org/nl-NL/raspberrypi/python-intro) pad volgt, kun je doorgaan naar het [Niet botsen](https://projects.raspberrypi.org/nl-NL/projects/dont-collide) project. In dit project maak je een hindernisspel waar je personage een eindpunt moet bereiken zonder in botsing te komen met obstakels.
+Als je het [Inleiding tot Python](https://projects.raspberrypi.org/nl-NL/raspberrypi/python-intro) pad volgt, kun je doorgaan naar het [Niet botsen](https://projects.raspberrypi.org/nl-NL/projects/dont-collide) project. In dit project maak je een scrollend obstakelspel waarin je personage een eindpunt moet bereiken zonder tegen obstakels aan te botsen.
 
 --- print-only ---
 
@@ -13,10 +13,9 @@ Als je het [Inleiding tot Python](https://projects.raspberrypi.org/nl-NL/raspber
 <iframe src="https://editor.raspberrypi.org/nl-NL/embed/viewer/dont-pop-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
 
-
 --- /no-print ---
 
-Als je meer plezier wilt hebben met het verkennen van Python, dan kun je een van [deze projecten](https://projects.raspberrypi.org/nl-NL/projects?software%5B%5D=python) uitproberen.
+Als je nog meer plezier wilt beleven aan het verkennen van Python, kun je een van [deze projecten](https://projects.raspberrypi.org/nl-NL/projects?software%5B%5D=python) uitproberen.
 
 ***
 

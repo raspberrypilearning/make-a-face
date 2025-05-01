@@ -1,11 +1,11 @@
-## Delen
+--- challenge ---
 
-Als je lid bent van een club, waarom zou je je project dan niet delen met vrienden?
+## Uitdaging
 
---- task ---
 
-Inspireer de Raspberry Pi Foundation-gemeenschap met jouw project!
+Kijk eens naar deze [gezichten gemaakt door communityleden](https://wke.lt/w/s/8sVH4f){:target="_blank"}.
 
-Om je project in te dienen bij onze [Make a face - Community](https://wke.lt/w/s/8sVH4f){:target="_blank"} studio, vul je [dit formulier](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"} in.
+[Stuur ons jouw gezicht](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"} om te laten zien.
 
---- /task ---
+
+--- /challenge ---

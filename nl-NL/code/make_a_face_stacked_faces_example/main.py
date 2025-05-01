@@ -27,7 +27,7 @@ def draw():
     fill(paars)
     tussenruimte = 0
     for i in range(0, 5):
-        triangle(100+tussenruimte, 140, 120+tussenruimte, 120, 140+tussenruimte, 140)
+        triangle(100+ tussenruimte, 140, 120+ tussenruimte, 120, 140+ tussenruimte, 140)
         tussenruimte = tussenruimte+40
 
     # Bovenste gezicht linkeroog

@@ -1,20 +1,18 @@
-#!/bin/python3
-
 from p5 import *
-from grid import *
+
+taille_ecran = 400
 
 
 def setup():
     # Mets le code à exécuter une fois ici
-    size(400, 400) # largeur et hauteur
+    size(taille_ecran, taille_ecran)
+    rect_mode(CENTER)
 
 
 def draw():
     # Mets le code à exécuter à chaque image ici
-    background(255, 255, 255)
+    background(0, 0, 0)
     # Ajoute du code pour dessiner ton visage ici
-
-    grid() # ajoute un # au début de cette ligne pour masquer la grille
 
 
 # Garde ceci pour exécuter ton code

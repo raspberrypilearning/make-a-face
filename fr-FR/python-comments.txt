@@ -1,62 +1,36 @@
-400 par 400 fonctionne bien pour un visage rond
+Un visage avec des yeux de ninja
 
-Change la couleur de ton arrière-plan
+Un visage qui ressemble à Frida Kahlo
 
-Essaie différents nombres pour changer la couleur
+Un visage qui ressemble à un robot avec des dents
 
-Affiche la grille
+Un visage qui ressemble à un masque tribal
 
-Cacher la grille en la transformant en commentaire
+Un visage portant un masque de protection
 
-Cercle au milieu
+Un visage qui ressemble à un vampire
 
-Tu peux aussi utiliser no_stroke()
+Mettre le code pour exécuter chaque image ici
 
-Jaune vif
+Ajoute du code pour dessiner ton visage ici
 
-Noir - passe au rouge, au vert ou au bleu jusqu'à 255
+largeur
 
-x, y, largeur, hauteur
+hauteur
 
-Une bouche noire
+coordonnées x
 
-Un visage orange
+coordonnées y
 
-Cercle supérieur
+Brun
 
-Cercle intérieur
+Visage
 
-Masque
-
-Boucle d'oreille gauche
-
-Boucle d'oreille droite
-
-Grand rectangle blanc
-
-Petit rectangle bleu
+Rouge
 
 Bouche
 
-Quantité de départ de rouge
-
-Quantité de départ de vert
-
-Quantité de départ de bleu
-
-Utilise des variables pour contrôler le changement de couleur à chaque boucle
-
-Se déplacer le long de la coordonnée x de la largeur d'une dent
-
-Ligne de bouche
-
-Dent gauche
-
-Dent droite
-
-Zones claires
-
-70 est la transparence/opacité ici
+Superposition
 
 Noir
 
@@ -64,80 +38,4 @@ Blanc
 
 Yeux
 
-Visage
-
 Vert
-
-Mettre le code à exécuter une fois ici
-
-largeur et hauteur
-
-déplacer sous draw() pour réinitialiser le dessin à chaque image
-
-Mettre le code pour exécuter chaque image ici
-
-dessiner un masque
-
-yeux et bouche
-
-couvrir partiellement les yeux et la bouche
-
-couvrir le haut du masque
-
-ombrer la moitié du masque
-
-Mettre le code à exécuter lorsque la souris est pressée ici
-
-Garde ceci pour exécuter ton code
-
-Définitions pour la compatibilité avec la bibliothèque de traitement p5py
-
-Forme
-
-Polices
-
-Texte
-
-Couleur
-
-Images
-
-Environnement
-
-Transformation
-
-Clavier
-
-Cheveux et visage
-
-tige
-
-Fond du visage supérieur
-
-Cheveux du haut du visage
-
-Visage supérieur oeil gauche
-
-Visage supérieur œil droit
-
-Bouche du haut du visage
-
-Fond du visage inférieur
-
-Cheveux du bas du visage
-
-Visage inférieur œil gauche
-
-Visage inférieur œil droit
-
-Bouche du bas du visage
-
-Nez
-
-Marques sur le visage
-
-Ajoute du code pour dessiner ton visage ici
-
-Cheveux
-
-ajouter un # au début de cette ligne pour cacher la grille
