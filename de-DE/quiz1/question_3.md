@@ -25,7 +25,7 @@ Das stimmt zwar, aber das ist nicht der Grund, warum Eli dadurch schneller viele
 
   --- feedback ---
 
-Korrekt! Eli konnte durch Änderung der in den Variablen gespeicherten Zahlen schnell viele leicht unterschiedliche Versionen seines Designs erstellen.
+Korrekt! Eli war in der Lage, schnell viele leicht unterschiedliche Versionen ihres Entwurfs zu erstellen, indem er die in den Variablen gespeicherten Zahlen änderte.
 
   --- /feedback ---
 
