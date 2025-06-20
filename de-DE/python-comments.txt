@@ -1,0 +1,41 @@
+Ein Gesicht mit Ninjaaugen
+
+Ein Gesicht, das wie Frida Kahlo aussieht
+
+Ein Gesicht, das wie ein Roboter mit Zähnen aussieht
+
+Ein Gesicht, das wie eine Stammesmaske aussieht
+
+Ein Gesicht mit einer Maske
+
+Ein Gesicht, das wie ein Vampir aussieht
+
+Füge hier den Code ein, der bei jedem Frame ausgeführt werden soll
+
+Füge hier den Code hinzu, um dein Gesicht zu zeichnen
+
+Breite
+
+Höhe
+
+x-Koordinate
+
+y-Koordinate
+
+Braun
+
+Gesicht
+
+Rot
+
+Mund
+
+Überlappung
+
+Schwarz
+
+Weiß
+
+Augen
+
+Grün
