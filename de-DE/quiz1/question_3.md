@@ -5,7 +5,7 @@
 legend: Frage 3 von 3
 ---
 
-Eli wurde beauftragt, ein Gesicht für ein T-Shirt zu entwerfen. Eli schrieb einen Code mit Variablen für alle verschiedenen Positionen, Größen und Farben in ihrem Entwurf.
+Eli wurde beauftragt, ein Gesicht für ein T-Shirt zu entwerfen. Eli schrieb einen Code mit Variablen für alle verschiedenen Positionen, Größen und Farben in ihrem Design.
 
 Die Firma war begeistert! Sie haben Eli gebeten, noch viele weitere ähnliche Designs zu entwerfen.
 
@@ -25,7 +25,7 @@ Das stimmt zwar, aber das ist nicht der Grund, warum Eli dadurch schneller viele
 
   --- feedback ---
 
-Korrekt! Eli war in der Lage, schnell viele leicht unterschiedliche Versionen ihres Entwurfs zu erstellen, indem er die in den Variablen gespeicherten Zahlen änderte.
+Korrekt! Eli war in der Lage, schnell viele leicht unterschiedliche Versionen ihres Designs zu erstellen, indem sie die in den Variablen gespeicherten Zahlen änderte.
 
   --- /feedback ---
 
