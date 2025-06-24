@@ -25,7 +25,7 @@ def draw(): # Put code to run every frame here background(255, 255, 255)
 
 --- /task ---
 
-Les deux premières valeurs pour `rectangle` et `ellipse` représentent les coordonnées x, y du centre de la forme. Pour le moment, ils sont définis sur `taille_ecran/2` pour positionner la forme au centre de l'écran.
+The first two values for `rect` and `ellipse` represent the x, y coordinates of the centre of the shape. Pour le moment, ils sont définis sur `taille_ecran/2` pour positionner la forme au centre de l'écran.
 
 Le coin supérieur gauche de l'écran a pour coordonnées `0`,`0`. L'augmentation de la valeur `x` déplacera la forme vers la droite. L'augmentation de la valeur `y` déplacera la forme vers le bas.
 
