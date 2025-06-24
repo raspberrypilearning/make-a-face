@@ -25,7 +25,7 @@ def draw(): # Put code to run every frame here background(255, 255, 255)
 
 --- /task ---
 
-Die ersten beiden Werte für `rect` und `ellipse` stellen die x- und y-Koordinaten des Mittelpunkts der Form dar. Momentan sind sie auf `bildschirm_groesse/2` eingestellt, um die Form in der Bildschirmmitte zu positionieren.
+The first two values for `rect` and `ellipse` represent the x, y coordinates of the centre of the shape. Momentan sind sie auf `bildschirm_groesse/2` eingestellt, um die Form in der Bildschirmmitte zu positionieren.
 
 Die obere linke Ecke des Bildschirms hat die Koordinate `0`,`0`. Wenn du den Wert für `x` erhöhst, wird die Form nach rechts verschoben. Wenn Sie den Wert für `y` erhöhst, wird die Form nach unten verschoben.
 
