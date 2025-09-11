@@ -2,6 +2,7 @@
 title: Zeichne ein Gesicht
 hero_image: images/banner.png
 description: Entwerfe und zeichne ein Gesicht oder eine Maske mit geometrischen Formen
+pdf: resources/rpfi-make-a-face.pdf
 meta_title: Python Programmierprojekte für Kinder und Jugendliche | Zeichne ein Gesicht
 meta_description: Lerne Python mit den Programmierprojekten der Raspberry Pi Foundation für Kinder und Jugendliche. Schreibe Code in Python um ein Gesicht oder eine Maske mit geometrischen Formen zu zeichnen.
 version: 4
