@@ -2,6 +2,7 @@
 title: Crie um rosto
 hero_image: images/banner.png
 description: Projete e desenhe um rosto ou máscara usando formas geométricas
+pdf: resources/rpfi-make-a-face.pdf
 meta_title: Projetos de programação Python para crianças e adolescentes | Crie um rosto
 meta_description: Aprenda Python com os projetos de programação da Raspberry Pi Foundation para crianças e adolescentes. Escreva um código Python para desenhar um rosto ou máscara usando formas geométricas.
 version: 4
