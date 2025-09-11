@@ -2,6 +2,7 @@
 title: Намалюй обличчя
 hero_image: images/banner.png
 description: Придумай та намалюй обличчя або маску за допомогою геометричних фігур
+pdf: resources/rpfi-make-a-face.pdf
 meta_title: Проєкти з кодування для дітей і підлітків | Намалюй обличчя
 meta_description: Вивчай Python за допомогою проєктів програмування Raspberry Pi Foundation для дітей і підлітків. За допомогою Python намалюй обличчя або маску, використовуючи геометричні фігури.
 version: 4
