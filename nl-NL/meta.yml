@@ -2,9 +2,9 @@
 title: Maak een gezicht
 hero_image: images/banner.png
 description: Ontwerp en teken een gezicht of masker met behulp van geometrische vormen
-pdf: resources/rpfi-make-a-face.pdf
 meta_title: Python programmeer projecten voor kinderen en tieners | Maak een gezicht
 meta_description: Leer Python met de codeerprojecten van de Raspberry Pi Foundation voor kinderen en tieners. Schrijf Python-code om een gezicht of masker te tekenen met behulp van geometrische vormen.
+0: pdf:resources/rpfi-make-a-face.pdf
 version: 4
 listed: true
 copyedit: true
