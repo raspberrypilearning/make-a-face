@@ -2,9 +2,9 @@
 title: Stwórz twarz
 hero_image: images/banner.png
 description: Zaprojektuj i narysuj twarz lub maskę używając kształtów geometrycznych
-pdf: resources/rpfi-make-a-face.pdf
 meta_title: Projekty programistyczne w Pythonie dla dzieci i młodzieży | Zbuduj twarz
 meta_description: Naucz się języka Python z projektami programistycznymi Fundacji Raspberry Pi dla dzieci i młodzieży. Napisz kod Python, aby narysować twarz lub maskę za pomocą kształtów geometrycznych.
+0: pdf:resources/rpfi-make-a-face.pdf
 version: 4
 listed: true
 copyedit: true
