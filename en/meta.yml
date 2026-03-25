@@ -6,7 +6,7 @@ pdf: resources/rpfi-make-a-face.pdf
 meta_title: Python coding projects for kids and teens | Make a face
 meta_description: Learn Python with the Raspberry Pi Foundation's coding projects for kids and teens. Write Python code to draw a face or mask using geometric shapes.
 version: 4
-listed: true
+listed: false
 copyedit: true
 last_tested: "2021-10-06"
 steps:
