@@ -21,13 +21,6 @@ steps:
   - title: Create your face
     completion:
       - internal
-  - title: Quick quiz
-    knowledge_quiz:
-      path: quiz1
-      version: 1
-      questions: 3
-      passing_score: 3
-    completion:
       - external
-  - title: Challenge
-    challenge: true
+
+
